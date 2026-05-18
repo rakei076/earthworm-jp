@@ -3,6 +3,7 @@ import type { WatchStopHandle } from "vue";
 import { nextTick, reactive, ref, watchEffect } from "vue";
 
 import type { StatementToken } from "~/api/course";
+import * as wanakana from "wanakana";
 
 interface Word {
   text: string;
@@ -61,10 +62,12 @@ export function useInput({
   }
 
   function setInputValue(val: string) {
-    inputValue.value = val;
+    // 罗马字转假名
+    const converted = wanakana.toHiragana(val, { IMEMode: true });
+    inputValue.value = converted;
     resetAllWordUserInput();
     inputSyncUserInputWords();
-    updateActiveWord(val ? val.length : 0);
+    updateActiveWord(converted.length);
   }
 
   function createWord(token: StatementToken, id: number): Word {
