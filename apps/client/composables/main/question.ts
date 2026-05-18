@@ -1,14 +1,17 @@
 import type { WatchStopHandle } from "vue";
 
 import { nextTick, reactive, ref, watchEffect } from "vue";
-
-import type { StatementToken } from "~/api/course";
 import * as wanakana from "wanakana";
 
+import type { StatementToken } from "~/api/course";
+
 interface Word {
+  /** Display surface, e.g. "私" or "学生" or "は". */
   text: string;
+  /** Hiragana reading, e.g. "わたし" or "がくせい" or "は". */
   reading: string;
   isActive: boolean;
+  /** What the block currently displays (partial hiragana, or surface if matched). */
   userInput: string;
   incorrect: boolean;
   end: number;
@@ -30,6 +33,11 @@ enum Mode {
   Fix_Input = "fix-input",
 }
 
+/**
+ * Raw user keystrokes — romaji like "watashihagakuseidesu". The hidden
+ * <input> is v-model bound to this. We DERIVE hiragana for matching and
+ * display, but keep the raw text here so backspace operates naturally.
+ */
 const inputValue = ref("");
 
 export function clearQuestionInput() {
@@ -37,9 +45,16 @@ export function clearQuestionInput() {
 }
 
 export function isWord(content: string) {
-  // ASCII letters/digits OR any Japanese character (hiragana, katakana,
-  // CJK ideographs, full-width forms).
   return /[a-zA-Z0-9぀-ゟ゠-ヿ一-鿿＀-￯]/.test(content);
+}
+
+/**
+ * Convert raw user input → hiragana. We strip wanakana's intermediate
+ * markers (like trailing "n" → "ん" vs literal n) by using IMEMode, which
+ * keeps unresolved romaji chars as-is until they form a kana.
+ */
+export function toHiragana(raw: string) {
+  return wanakana.toHiragana(raw, { IMEMode: true });
 }
 
 const mode = ref<Mode>(Mode.Input);
@@ -58,16 +73,12 @@ export function useInput({
     mode.value = Mode.Input;
     userInputWords.length = 0;
     setupUserInputWords();
-    updateActiveWord(getInputCursorPosition());
+    updateActiveWord();
   }
 
-  function setInputValue(val: string) {
-    // 罗马字转假名
-    const converted = wanakana.toHiragana(val, { IMEMode: true });
-    inputValue.value = converted;
-    resetAllWordUserInput();
-    inputSyncUserInputWords();
-    updateActiveWord(converted.length);
+  function setInputValue(rawInput: string) {
+    inputValue.value = rawInput;
+    syncBlocks(rawInput);
   }
 
   function createWord(token: StatementToken, id: number): Word {
@@ -87,10 +98,8 @@ export function useInput({
   function setupUserInputWords() {
     stopWatchEffect = watchEffect(() => {
       resetUserInputWords();
-
       const tokens = source();
       if (!tokens || tokens.length === 0) return;
-
       tokens.forEach((token, idx) => {
         userInputWords[idx] = createWord(token, idx);
       });
@@ -98,38 +107,40 @@ export function useInput({
     });
   }
 
-  function userInputWordsSyncInput() {
-    inputValue.value = userInputWords.map(({ userInput }) => userInput).join("");
-  }
-
-  function inputSyncUserInputWords() {
+  /**
+   * Distribute the converted hiragana across tokens by reading length.
+   *   - If a token's reading is fully present at its cumulative position,
+   *     the block shows the SURFACE (e.g. "私") so the user sees the kanji.
+   *   - Otherwise the block shows whatever hiragana fragment was typed.
+   *   - Any tail that exceeds the total expected length is appended to the
+   *     first unsatisfied block so over-typing stays visible (not lost).
+   */
+  function syncBlocks(rawInput: string) {
     if (userInputWords.length === 0) return;
+    const hiragana = toHiragana(rawInput);
 
-    const input = inputValue.value;
     let pos = 0;
-
-    // 先按 surface 长度分配已知部分
     userInputWords.forEach((word) => {
-      const len = word.text.length;
-      word.userInput = input.slice(pos, pos + len);
+      const len = word.reading.length;
+      const chunk = hiragana.slice(pos, pos + len);
+      if (chunk === word.reading) {
+        word.userInput = word.text; // matched → show surface
+      } else {
+        word.userInput = chunk; // partial / wrong → show typed hiragana
+      }
       word.start = pos;
-      word.end = pos + word.userInput.length;
+      word.end = pos + chunk.length;
       pos += len;
     });
 
-    // 剩余输入（日语 reading 更长的情况）追加到当前 active block
-    const remaining = input.slice(pos);
-    if (remaining) {
-      let targetIdx = userInputWords.findIndex((w) => w.userInput !== w.text);
-      if (targetIdx === -1) targetIdx = userInputWords.length - 1;
-      userInputWords[targetIdx].userInput += remaining;
+    const tail = hiragana.slice(pos);
+    if (tail) {
+      const idx = userInputWords.findIndex((w) => w.userInput !== w.text);
+      const target = idx === -1 ? userInputWords.length - 1 : idx;
+      userInputWords[target].userInput += tail;
     }
-  }
 
-  function resetAllWordUserInput() {
-    userInputWords.forEach((word) => {
-      word.userInput = "";
-    });
+    updateActiveWord();
   }
 
   function resetAllWordActive() {
@@ -138,11 +149,9 @@ export function useInput({
     });
   }
 
-  function updateActiveWord(_position: number) {
+  function updateActiveWord() {
     resetAllWordActive();
     if (userInputWords.length === 0) return;
-
-    // Find first word that's not yet fully filled correctly.
     for (let i = 0; i < userInputWords.length; i++) {
       const word = userInputWords[i];
       if (word.userInput !== word.text) {
@@ -150,7 +159,6 @@ export function useInput({
         return;
       }
     }
-    // All filled → highlight last as active.
     userInputWords[userInputWords.length - 1].isActive = true;
   }
 
@@ -159,41 +167,36 @@ export function useInput({
   }
 
   function markIncorrectWord() {
+    // After typing, word.userInput is either the surface (matched) OR a
+    // partial/wrong hiragana fragment. So a token is correct iff
+    // userInput === text.
     userInputWords.forEach((word) => {
       word.incorrect = word.userInput !== word.text;
     });
   }
 
-  function lastWordIsActive() {
-    const len = userInputWords.length;
-    return userInputWords[len - 1]?.isActive;
-  }
-
   function findNextIncorrectWordNew() {
     if (!currentEditWord) return;
-    const wordIndex = userInputWords.findIndex((w) => w.id === currentEditWord.id);
-    for (let i = wordIndex + 1; i < userInputWords.length; i++) {
-      if (userInputWords[i].incorrect) return userInputWords[i];
+    const i = userInputWords.findIndex((w) => w.id === currentEditWord.id);
+    for (let j = i + 1; j < userInputWords.length; j++) {
+      if (userInputWords[j].incorrect) return userInputWords[j];
     }
-  }
-
-  function isLastIncorrectWord() {
-    return !findNextIncorrectWordNew();
   }
 
   function getFirstIncorrectWord() {
     return userInputWords.find((w) => w.incorrect);
   }
 
-  async function clearNextIncorrectWord(word: Word) {
-    // Clear this word and everything after it from the input string.
-    const before = inputValue.value.slice(0, word.start);
-    inputValue.value = before;
+  async function resetFromToken(word: Word) {
+    // We can't reliably slice romaji at an arbitrary hiragana boundary
+    // (multi-char romaji like "shi"/"tsu"). Easiest: clear everything from
+    // the wrong token onwards by clearing the whole input. Reasonable for
+    // short demo sentences.
+    inputValue.value = "";
+    syncBlocks("");
     currentEditWord = word;
-    userInputWordsSyncInput();
-
     await nextTick();
-    setInputCursorPosition(word.start);
+    setInputCursorPosition(0);
     word.isActive = true;
   }
 
@@ -201,7 +204,6 @@ export function useInput({
     if (mode.value === Mode.Fix) return;
     resetAllWordActive();
     markIncorrectWord();
-
     if (checkWordCorrect()) {
       mode.value = Mode.Input;
       correctCallback?.();
@@ -216,14 +218,14 @@ export function useInput({
     if (mode.value === Mode.Fix) {
       mode.value = Mode.Fix_Input;
       const first = getFirstIncorrectWord();
-      if (first) await clearNextIncorrectWord(first);
+      if (first) await resetFromToken(first);
     }
   }
 
   async function fixNextIncorrectWord() {
     if (mode.value === Mode.Fix_Input) {
       const next = findNextIncorrectWordNew();
-      if (next) await clearNextIncorrectWord(next);
+      if (next) await resetFromToken(next);
     }
   }
 
@@ -241,9 +243,9 @@ export function useInput({
 
   function findPreviousIncorrectWord() {
     if (!currentEditWord) return;
-    const wordIndex = userInputWords.findIndex((w) => w.id === currentEditWord.id);
-    for (let i = wordIndex - 1; i >= 0; i--) {
-      if (userInputWords[i].incorrect) return userInputWords[i];
+    const i = userInputWords.findIndex((w) => w.id === currentEditWord.id);
+    for (let j = i - 1; j >= 0; j--) {
+      if (userInputWords[j].incorrect) return userInputWords[j];
     }
   }
 
@@ -257,17 +259,6 @@ export function useInput({
     }
   }
 
-  function handleSpaceSubmitAnswer(
-    useSpaceSubmitAnswer: KeyboardInputOptions["useSpaceSubmitAnswer"],
-  ) {
-    if (useSpaceSubmitAnswer?.enable) {
-      submitAnswer(
-        () => useSpaceSubmitAnswer?.rightCallback?.(),
-        () => useSpaceSubmitAnswer?.errorCallback?.(),
-      );
-    }
-  }
-
   interface KeyboardInputOptions {
     useSpaceSubmitAnswer?: {
       enable: boolean;
@@ -276,32 +267,23 @@ export function useInput({
     };
   }
 
-  function handleKeyboardInput(e: KeyboardEvent, options?: KeyboardInputOptions) {
-    // Block arrow keys.
+  function handleKeyboardInput(e: KeyboardEvent, _options?: KeyboardInputOptions) {
     if (["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight"].includes(e.code)) {
       e.preventDefault();
       return;
     }
-
-    // Space-to-submit is disabled for Japanese (space is not natural input).
-    // The Enter key handler in QuestionInput.vue is the primary submit path.
-
-    // Fix mode: any key restarts editing at first incorrect token.
     if (mode.value === Mode.Fix) {
       if (e.code === "Space" || e.code === "Backspace") e.preventDefault();
       fixFirstIncorrectWord();
       inputChangedCallback?.(e);
       return;
     }
-
-    // Backspace at empty edit slot during fix-input → jump to prev wrong token.
     if (mode.value === Mode.Fix_Input && e.code === "Backspace" && isEmptyOfCurrentEditWord()) {
       e.preventDefault();
       activePreviousIncorrectWord();
       inputChangedCallback?.(e);
       return;
     }
-
     inputChangedCallback?.(e);
   }
 

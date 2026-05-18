@@ -30,8 +30,16 @@
           {{ w }}
         </div>
       </template>
+      <!--
+        IME-less by design. Users type romaji on a standard English keyboard;
+        wanakana converts to hiragana inside setInputValue. lang="en" tells
+        macOS/Windows NOT to engage the system Japanese IME on this field.
+      -->
       <input
-        lang="ja"
+        lang="en"
+        inputmode="latin"
+        autocomplete="off"
+        autocapitalize="off"
         ref="inputEl"
         class="absolute h-full w-full opacity-0"
         type="text"
@@ -41,8 +49,6 @@
         @blur="blurInput"
         @dblclick.prevent
         @mousedown="preventCursorMove"
-        @compositionstart="handleCompositionStart"
-        @compositionend="handleCompositionEnd"
         autoFocus
       />
     </div>
@@ -190,35 +196,22 @@ function inputWidth(word: string) {
   return getWordWidth(word);
 }
 
-// // 中文输入会导致先触发 handleKeydown
-// // 但是这时候字符还没有上屏
-// // 就会造成触发 submit answer  导致明明答案正确但是不通过的问题
-// // 通过检测是否为输入法 来避免按下 enter 后直接触发 submit answer
-let isComposing = ref(false);
-function handleCompositionStart() {
-  isComposing.value = true;
-}
-
-function handleCompositionEnd() {
-  isComposing.value = false;
-}
-
 function handleKeydown(e: KeyboardEvent) {
-  // 给 windows 用户添加 ctrl + backspace 删除上一个单词的快捷键
-  // 有些浏览器 input 不支持通过 ctrl + backspace 删除 所以自行扩展下
+  // Windows: Ctrl+Backspace deletes the previous word (some browsers don't
+  // implement this natively for <input>).
   if (e.code === "Backspace" && e.ctrlKey && isWindows()) {
     e.preventDefault();
     deletePreviousWordOnWin();
     return;
   }
 
-  // 避免在某些中文输入法中，按下 Ctrl 键时，输入法会将当前的预输入字符上屏
+  // Generic Ctrl-modifier guard: don't let Ctrl combos leak into the romaji.
   if (e.ctrlKey) {
     e.preventDefault();
     return;
   }
 
-  if (e.code === "Enter" && !isComposing.value) {
+  if (e.code === "Enter") {
     e.stopPropagation();
     submitAnswer();
     return;
