@@ -108,7 +108,11 @@ describe("useInput (romaji-driven, reading-matched)", () => {
 
   it("flags wrong reading: typing 'wo' instead of 'ha'", () => {
     const { setInputValue, submitAnswer, userInputWords } = setup();
-    // 私 + を (wo) + 学生 + です  → を is wrong (expected は)
+    // 私 + を (wo, wrong) + … — once a block doesn't match, the rest of the
+    // input stays locked inside that block. The submit therefore reports
+    // every later block as incorrect (empty), which is the conservative
+    // behaviour: the user can't have "completed" 学生 if they never got
+    // past は in the first place.
     setInputValue("watashiwogakuseidesu");
     let wrong = false;
     submitAnswer(
@@ -119,26 +123,58 @@ describe("useInput (romaji-driven, reading-matched)", () => {
     );
     expect(wrong).toBe(true);
     expect(userInputWords[0].incorrect).toBe(false); // 私 OK
-    expect(userInputWords[1].incorrect).toBe(true); // を ≠ は
-    expect(userInputWords[2].incorrect).toBe(false); // 学生 OK
-    expect(userInputWords[3].incorrect).toBe(false); // です OK
+    expect(userInputWords[1].incorrect).toBe(true); // をがくせいです ≠ は
+    expect(userInputWords[2].incorrect).toBe(true); // empty
+    expect(userInputWords[3].incorrect).toBe(true); // empty
   });
 
   it("handles unresolved trailing romaji during partial typing", () => {
     const { setInputValue, userInputWords } = setup();
-    // "watashik": 私 matched, then "k" alone pending (no kana yet).
+    // "watashik": 私 matched, "k" pending kana — locked inside next block.
     setInputValue("watashik");
     expect(userInputWords[0].userInput).toBe("私");
-    // "k" is the unresolved tail; goes into the next active block (は).
     expect(userInputWords[1].userInput).toBe("k");
+    expect(userInputWords[2].userInput).toBe("");
+    expect(userInputWords[3].userInput).toBe("");
 
-    // After typing "watashiha", "は" matched.
     setInputValue("watashiha");
     expect(userInputWords[1].userInput).toBe("は");
 
-    // "watashihagaku": tokens 私 / は matched, "がく" partial in 学生.
     setInputValue("watashihagaku");
     expect(userInputWords[2].userInput).toBe("がく");
+    expect(userInputWords[3].userInput).toBe("");
+  });
+
+  it("does NOT leak typos into the next block (the bug from the screenshot)", () => {
+    // Use the 田中 statement tokens.
+    const tokens = [
+      { surface: "私", reading: "わたし" },
+      { surface: "は", reading: "は" },
+      { surface: "田中", reading: "たなか" },
+      { surface: "です", reading: "です" },
+    ];
+    const api = useInput({
+      source: () => tokens,
+      setInputCursorPosition: noop,
+      getInputCursorPosition: zero,
+    });
+    api.initialize();
+
+    // User typo'd: tanasu (たなす) then continued kade (かで).
+    // Old code would split "たなす" into block[2] and "かで" into block[3].
+    // New code: block[2] holds the entire "たなすかで" until correctly fixed.
+    api.setInputValue("watashihatanasukade");
+    expect(api.userInputWords[0].userInput).toBe("私");
+    expect(api.userInputWords[1].userInput).toBe("は");
+    expect(api.userInputWords[2].userInput).toBe("たなすかで");
+    expect(api.userInputWords[3].userInput).toBe("");
+    expect(api.userInputWords.findIndex((w) => w.isActive)).toBe(2);
+
+    // After backspacing back to a correct prefix:
+    api.setInputValue("watashihatanaka");
+    expect(api.userInputWords[2].userInput).toBe("田中");
+    expect(api.userInputWords[3].userInput).toBe("");
+    expect(api.userInputWords.findIndex((w) => w.isActive)).toBe(3);
   });
 
   it("handles deletion (shrinking romaji)", () => {

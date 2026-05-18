@@ -108,36 +108,48 @@ export function useInput({
   }
 
   /**
-   * Distribute the converted hiragana across tokens by reading length.
-   *   - If a token's reading is fully present at its cumulative position,
-   *     the block shows the SURFACE (e.g. "私") so the user sees the kanji.
-   *   - Otherwise the block shows whatever hiragana fragment was typed.
-   *   - Any tail that exceeds the total expected length is appended to the
-   *     first unsatisfied block so over-typing stays visible (not lost).
+   * Distribute the converted hiragana across tokens left-to-right.
+   *
+   * Key invariant: the boundary between two blocks only advances after the
+   * left block's reading has been fully and correctly typed. As long as the
+   * current block doesn't match its reading, ALL remaining input chars
+   * stay inside that block. This prevents the "overflow leak" where a typo
+   * in 田中 would spill the extra chars into です and make the user think
+   * the next block was activated.
+   *
+   *   - Block matched (slice equals reading) → show SURFACE (e.g. "私"),
+   *     advance pos, move on to next block.
+   *   - Block not matched yet → display ALL remaining hiragana inside this
+   *     block; clear and pause every later block.
    */
   function syncBlocks(rawInput: string) {
     if (userInputWords.length === 0) return;
     const hiragana = toHiragana(rawInput);
 
     let pos = 0;
-    userInputWords.forEach((word) => {
+    for (let i = 0; i < userInputWords.length; i++) {
+      const word = userInputWords[i];
       const len = word.reading.length;
-      const chunk = hiragana.slice(pos, pos + len);
-      if (chunk === word.reading) {
-        word.userInput = word.text; // matched → show surface
-      } else {
-        word.userInput = chunk; // partial / wrong → show typed hiragana
-      }
-      word.start = pos;
-      word.end = pos + chunk.length;
-      pos += len;
-    });
+      const upcoming = hiragana.slice(pos, pos + len);
 
-    const tail = hiragana.slice(pos);
-    if (tail) {
-      const idx = userInputWords.findIndex((w) => w.userInput !== w.text);
-      const target = idx === -1 ? userInputWords.length - 1 : idx;
-      userInputWords[target].userInput += tail;
+      if (upcoming === word.reading) {
+        word.userInput = word.text;
+        word.start = pos;
+        word.end = pos + len;
+        pos += len;
+      } else {
+        // Block not yet matched — capture everything from here onward
+        // inside this block, clear later blocks, and stop.
+        word.userInput = hiragana.slice(pos);
+        word.start = pos;
+        word.end = hiragana.length;
+        for (let j = i + 1; j < userInputWords.length; j++) {
+          userInputWords[j].userInput = "";
+          userInputWords[j].start = userInputWords[j].end = 0;
+        }
+        updateActiveWord();
+        return;
+      }
     }
 
     updateActiveWord();
