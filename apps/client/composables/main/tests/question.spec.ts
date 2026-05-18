@@ -1,676 +1,186 @@
-import { describe, expect, it, vi } from "vitest";
+import { describe, expect, it } from "vitest";
 
 import { isWord, useInput } from "../question";
 
-describe("question", () => {
-  it("should parse user input correctly", () => {
-    const setInputCursorPosition = () => {};
-    const getInputCursorPosition = () => 0;
+const TOKENS_私は学生です = [
+  { surface: "私", reading: "わたし" },
+  { surface: "は", reading: "は" },
+  { surface: "学生", reading: "がくせい" },
+  { surface: "です", reading: "です" },
+];
 
-    const { userInputWords, setInputValue, initialize } = useInput({
-      source: () => "i eat",
-      setInputCursorPosition,
-      getInputCursorPosition,
-    });
-    initialize();
-    setInputValue("i eat");
+const noop = () => {};
+const zero = () => 0;
 
-    expect(userInputWords).toMatchInlineSnapshot(`
-      [
-        {
-          "end": 1,
-          "id": 0,
-          "incorrect": false,
-          "isActive": true,
-          "position": 0,
-          "start": 0,
-          "text": "i",
-          "userInput": "i",
-        },
-        {
-          "end": 5,
-          "id": 1,
-          "incorrect": false,
-          "isActive": false,
-          "position": 0,
-          "start": 2,
-          "text": "eat",
-          "userInput": "eat",
-        },
-      ]
-    `);
+describe("isWord (Japanese)", () => {
+  it("matches hiragana / katakana / kanji / ASCII", () => {
+    expect(isWord("私")).toBe(true);
+    expect(isWord("は")).toBe(true);
+    expect(isWord("カメラ")).toBe(true);
+    expect(isWord("abc")).toBe(true);
   });
 
-  it("should filter all symbol", () => {
-    const setInputCursorPosition = () => {};
-    const getInputCursorPosition = () => 0;
-    const { userInputWords, initialize } = useInput({
-      source: () => `i " like " the food ?`,
-      setInputCursorPosition,
-      getInputCursorPosition,
-    });
-
-    initialize();
-    expect(userInputWords.length).toBe(4);
-  });
-
-  it("should find word by id", () => {
-    const setInputCursorPosition = () => {};
-    const getInputCursorPosition = () => 0;
-    const { findWordById, initialize } = useInput({
-      source: () => `i " like " the food ?`,
-      setInputCursorPosition,
-      getInputCursorPosition,
-    });
-    initialize();
-
-    expect(findWordById(0)?.text).toBe("i");
-    expect(findWordById(2)?.text).toBe("like");
-    expect(findWordById(4)?.text).toBe("the");
-    expect(findWordById(5)?.text).toBe("food");
-  });
-
-  it("should be correct when checked the answer", async () => {
-    const setInputCursorPosition = () => {};
-    const getInputCursorPosition = () => 0;
-
-    const { setInputValue, submitAnswer, initialize } = useInput({
-      source: () => "i eat",
-      setInputCursorPosition,
-      getInputCursorPosition,
-    });
-    initialize();
-    setInputValue("i eat");
-
-    const correctCallback = vi.fn();
-    const wrongCallback = vi.fn();
-    submitAnswer(correctCallback, wrongCallback);
-
-    expect(correctCallback).toBeCalled();
-    expect(wrongCallback).not.toBeCalled();
-  });
-
-  it("A full stop at the end of a sentence will be ignored without affecting the result", async () => {
-    const setInputCursorPosition = () => {};
-    const getInputCursorPosition = () => 0;
-
-    const { setInputValue, submitAnswer, initialize } = useInput({
-      source: () => "i eat",
-      setInputCursorPosition,
-      getInputCursorPosition,
-    });
-
-    initialize();
-    setInputValue("i eat.");
-
-    const correctCallback = vi.fn();
-    const wrongCallback = vi.fn();
-    submitAnswer(correctCallback, wrongCallback);
-
-    expect(correctCallback).toBeCalled();
-    expect(wrongCallback).not.toBeCalled();
-  });
-
-  it("should be incorrect when checked the answer", async () => {
-    const setInputCursorPosition = () => {};
-    const getInputCursorPosition = () => 0;
-
-    const { userInputWords, setInputValue, submitAnswer, initialize } = useInput({
-      source: () => "i eat",
-      setInputCursorPosition,
-      getInputCursorPosition,
-    });
-
-    initialize();
-    setInputValue("i like");
-
-    const correctCallback = vi.fn();
-    const wrongCallback = vi.fn();
-    submitAnswer(correctCallback, wrongCallback);
-
-    expect(correctCallback).not.toBeCalled();
-    expect(wrongCallback).toBeCalled();
-    expect(userInputWords[1].incorrect).toBe(true);
-  });
-
-  it.each(["i don‘t", "i don’t", "i don“t", `i don"t`, `i don”t`])(
-    "should be correct when input '%s'",
-    async (input) => {
-      const setInputCursorPosition = () => {};
-      const getInputCursorPosition = () => 0;
-
-      const { setInputValue, submitAnswer, initialize } = useInput({
-        source: () => "i don't",
-        setInputCursorPosition,
-        getInputCursorPosition,
-      });
-
-      initialize();
-      setInputValue(input);
-
-      const correctCallback = vi.fn();
-      const wrongCallback = vi.fn();
-      submitAnswer(correctCallback, wrongCallback);
-
-      expect(correctCallback).toBeCalled();
-      expect(wrongCallback).not.toBeCalled();
-    },
-  );
-
-  it("should be the first word should be active", () => {
-    const setInputCursorPosition = () => {};
-    const getInputCursorPosition = () => 0;
-
-    const { userInputWords, initialize } = useInput({
-      source: () => "i eat",
-      setInputCursorPosition,
-      getInputCursorPosition,
-    });
-
-    initialize();
-
-    expect(userInputWords[0].isActive).toBe(true);
-  });
-
-  it("should be the first word should be active", () => {
-    const setInputCursorPosition = () => {};
-    const getInputCursorPosition = () => 0;
-
-    const { userInputWords, initialize } = useInput({
-      source: () => "i eat",
-      setInputCursorPosition,
-      getInputCursorPosition,
-    });
-    initialize();
-
-    expect(userInputWords[0].isActive).toBe(true);
-  });
-
-  it("should be changed the activated word based on the user's input", () => {
-    const setInputCursorPosition = () => {};
-    const getInputCursorPosition = vi.fn();
-
-    const { userInputWords, setInputValue, initialize } = useInput({
-      source: () => "i eat",
-      setInputCursorPosition,
-      getInputCursorPosition,
-    });
-    initialize();
-
-    getInputCursorPosition.mockReturnValue(1);
-    setInputValue("i");
-    expect(userInputWords[0].isActive).toBe(true);
-
-    getInputCursorPosition.mockReturnValue(2);
-    setInputValue("i ");
-    expect(userInputWords[1].isActive).toBe(true);
-
-    getInputCursorPosition.mockReturnValue(3);
-    setInputValue("i e");
-    expect(userInputWords[1].isActive).toBe(true);
-
-    getInputCursorPosition.mockReturnValue(3);
-    setInputValue("iea");
-    expect(userInputWords[0].isActive).toBe(true);
-  });
-
-  it("should be cleared the first incorrect word", async () => {
-    const setInputCursorPosition = () => {};
-    const getInputCursorPosition = () => 0;
-
-    const { setInputValue, userInputWords, submitAnswer, fixIncorrectWord, initialize } = useInput({
-      source: () => "i eat",
-      setInputCursorPosition,
-      getInputCursorPosition,
-    });
-
-    initialize();
-    setInputValue("he eat");
-    submitAnswer();
-    await fixIncorrectWord();
-
-    expect(userInputWords[0].userInput).toBe("");
-    expect(userInputWords[0].isActive).toBe(true);
-  });
-
-  it("should be cleared the first incorrect word when press submit again", async () => {
-    const setInputCursorPosition = () => {};
-    const getInputCursorPosition = () => 0;
-
-    const { setInputValue, userInputWords, submitAnswer, fixIncorrectWord, initialize } = useInput({
-      source: () => "i eat",
-      setInputCursorPosition,
-      getInputCursorPosition,
-    });
-
-    initialize();
-    setInputValue("he eat");
-    submitAnswer();
-    await fixIncorrectWord();
-
-    // to next world by input Space
-    setInputValue(" ");
-    // again submit
-    submitAnswer();
-    await fixIncorrectWord();
-
-    expect(userInputWords[0].isActive).toBe(true);
-  });
-
-  it("should be possible to clear out the wrong words in turn", async () => {
-    const setInputCursorPosition = () => {};
-    const getInputCursorPosition = () => 0;
-
-    const { setInputValue, userInputWords, submitAnswer, fixIncorrectWord, initialize } = useInput({
-      source: () => "i eat apple",
-      setInputCursorPosition,
-      getInputCursorPosition,
-    });
-
-    initialize();
-    setInputValue("he eats a");
-    submitAnswer();
-
-    await fixIncorrectWord();
-
-    expect(userInputWords[0].userInput).toBe("");
-    expect(userInputWords[0].isActive).toBe(true);
-
-    await fixIncorrectWord();
-
-    expect(userInputWords[1].userInput).toBe("");
-    expect(userInputWords[1].isActive).toBe(true);
-
-    await fixIncorrectWord();
-
-    expect(userInputWords[2].userInput).toBe("");
-    expect(userInputWords[2].isActive).toBe(true);
-  });
-
-  it("should prevent move", () => {
-    const setInputCursorPosition = () => {};
-    const getInputCursorPosition = () => 0;
-
-    const { setInputValue, handleKeyboardInput, initialize } = useInput({
-      source: () => "i eat apple",
-      setInputCursorPosition,
-      getInputCursorPosition,
-    });
-
-    initialize();
-    setInputValue("i ea ap");
-
-    // move to left
-    const preventDefaultLeft = vi.fn();
-    handleKeyboardInput({
-      code: "ArrowLeft",
-      preventDefault: preventDefaultLeft,
-    } as any as KeyboardEvent);
-    expect(preventDefaultLeft).toBeCalled();
-
-    // move to right
-    const preventDefaultRight = vi.fn();
-    handleKeyboardInput({
-      code: "ArrowLeft",
-      preventDefault: preventDefaultRight,
-    } as any as KeyboardEvent);
-    expect(preventDefaultRight).toBeCalled();
-  });
-
-  it("should prevent space when fix input", async () => {
-    const setInputCursorPosition = () => {};
-    const getInputCursorPosition = () => 0;
-
-    const { setInputValue, submitAnswer, fixIncorrectWord, handleKeyboardInput, initialize } =
-      useInput({
-        source: () => "i eat apple",
-        setInputCursorPosition,
-        getInputCursorPosition,
-      });
-
-    initialize();
-    setInputValue("i ea ap");
-    submitAnswer();
-    await fixIncorrectWord();
-
-    const preventDefault = vi.fn();
-    handleKeyboardInput({
-      code: "Space",
-      preventDefault,
-    } as any as KeyboardEvent);
-
-    expect(preventDefault).toBeCalled();
-  });
-
-  it("should prevent backspace when fix input", async () => {
-    const setInputCursorPosition = () => {};
-    const getInputCursorPosition = () => 0;
-
-    const { setInputValue, submitAnswer, fixIncorrectWord, handleKeyboardInput, initialize } =
-      useInput({
-        source: () => "i eat apple",
-        setInputCursorPosition,
-        getInputCursorPosition,
-      });
-
-    initialize();
-    setInputValue("i ea apple");
-    submitAnswer();
-    await fixIncorrectWord();
-
-    const preventDefault = vi.fn();
-    handleKeyboardInput({
-      code: "Backspace",
-      preventDefault,
-    } as any as KeyboardEvent);
-
-    expect(preventDefault).toBeCalled();
-  });
-
-  it("should prevent space when focus on last word", async () => {
-    const setInputCursorPosition = () => {};
-    const getInputCursorPosition = vi.fn();
-
-    const { setInputValue, handleKeyboardInput, initialize } = useInput({
-      source: () => "i eat apple",
-      setInputCursorPosition,
-      getInputCursorPosition,
-    });
-
-    initialize();
-    const inputValue = "i eat apple";
-    getInputCursorPosition.mockReturnValue(inputValue.length);
-    setInputValue(inputValue);
-
-    const preventDefault = vi.fn();
-    const stopPropagation = vi.fn();
-    handleKeyboardInput({
-      code: "Space",
-      preventDefault,
-      stopPropagation,
-    } as any as KeyboardEvent);
-
-    expect(preventDefault).toBeCalled();
-    expect(stopPropagation).toBeCalled();
-  });
-
-  it("should back to previous incorrect word", async () => {
-    let getInputCursorPosition = () => 0;
-    let setInputCursorPosition = () => {};
-
-    const {
-      userInputWords,
-      setInputValue,
-      submitAnswer,
-      activePreviousIncorrectWord,
-      fixIncorrectWord,
-      initialize,
-    } = useInput({
-      source: () => "i eat apple",
-      setInputCursorPosition,
-      getInputCursorPosition,
-    });
-
-    initialize();
-    setInputValue("he eat banana");
-    submitAnswer();
-
-    await fixIncorrectWord();
-    setInputValue("a");
-    await fixIncorrectWord();
-
-    await activePreviousIncorrectWord();
-
-    expect(userInputWords[0].isActive).toBe(true);
-    expect(userInputWords[0].userInput).toBe("a");
-  });
-
-  it("should submit answer when enable use space", () => {
-    const setInputCursorPosition = () => {};
-    const getInputCursorPosition = vi.fn();
-
-    const { setInputValue, handleKeyboardInput, initialize } = useInput({
-      source: () => "i eat apple",
-      setInputCursorPosition,
-      getInputCursorPosition,
-    });
-
-    initialize();
-    const inputValue = "i eat apple";
-    getInputCursorPosition.mockReturnValue(inputValue.length);
-    setInputValue(inputValue);
-
-    const submitAnswerCallback = vi.fn();
-
-    handleKeyboardInput(
-      {
-        code: "Space",
-        preventDefault: () => {},
-        stopPropagation: () => {},
-      } as any as KeyboardEvent,
-      {
-        useSpaceSubmitAnswer: {
-          enable: true,
-          rightCallback: submitAnswerCallback,
-        },
-      },
-    );
-
-    expect(submitAnswerCallback).toBeCalled();
-  });
-
-  it("should submit answer when enable use space and fix the last incorrect word", async () => {
-    const setInputCursorPosition = () => {};
-    const getInputCursorPosition = vi.fn();
-
-    const {
-      setInputValue,
-      userInputWords,
-      submitAnswer,
-      fixIncorrectWord,
-      handleKeyboardInput,
-      initialize,
-    } = useInput({
-      source: () => "i eat apple",
-      setInputCursorPosition,
-      getInputCursorPosition,
-    });
-
-    initialize();
-    const inputValue = "i e apple";
-    getInputCursorPosition.mockReturnValue(inputValue.length);
-    setInputValue(inputValue);
-    submitAnswer();
-
-    await fixIncorrectWord();
-
-    expect(userInputWords[1].userInput).toBe("");
-    expect(userInputWords[1].isActive).toBe(true);
-
-    getInputCursorPosition.mockReturnValue(2);
-    userInputWords[1].userInput = "eat";
-
-    const submitAnswerCallback = vi.fn();
-    handleKeyboardInput(
-      {
-        code: "Space",
-        preventDefault: () => {},
-        stopPropagation: () => {},
-      } as any as KeyboardEvent,
-      {
-        useSpaceSubmitAnswer: {
-          enable: true,
-          rightCallback: submitAnswerCallback,
-        },
-      },
-    );
-
-    expect(submitAnswerCallback).toBeCalled();
-  });
-
-  describe("input change call back", () => {
-    it("should trigger when input regular character", () => {
-      const setInputCursorPosition = () => {};
-      const getInputCursorPosition = vi.fn();
-      const inputChangedCallback = vi.fn();
-
-      const { setInputValue, handleKeyboardInput, initialize } = useInput({
-        source: () => "i eat apple",
-        setInputCursorPosition,
-        getInputCursorPosition,
-        inputChangedCallback,
-      });
-
-      initialize();
-      const inputValue = "i eat ap";
-      getInputCursorPosition.mockReturnValue(inputValue.length);
-      setInputValue(inputValue);
-
-      handleKeyboardInput({
-        code: "p",
-      } as any as KeyboardEvent);
-
-      expect(inputChangedCallback).toBeCalledWith({ code: "p" });
-    });
-
-    it("should trigger when press Backspace on fix mode ", () => {
-      const setInputCursorPosition = () => {};
-      const getInputCursorPosition = vi.fn();
-      const inputChangedCallback = vi.fn();
-
-      const { setInputValue, handleKeyboardInput, submitAnswer, initialize } = useInput({
-        source: () => "i eat apple",
-        setInputCursorPosition,
-        getInputCursorPosition,
-        inputChangedCallback,
-      });
-
-      initialize();
-      const inputValue = "i eat ap";
-      getInputCursorPosition.mockReturnValue(inputValue.length);
-      setInputValue(inputValue);
-
-      submitAnswer();
-
-      handleKeyboardInput({
-        code: "Backspace",
-        preventDefault: () => {},
-      } as any as KeyboardEvent);
-
-      expect(inputChangedCallback).toBeCalledWith(expect.objectContaining({ code: "Backspace" }));
-    });
-
-    it.each([
-      { userInput: "j", isPrevent: false },
-      {
-        userInput: "f",
-        isPrevent: false,
-      },
-
-      {
-        userInput: "Backspace",
-        isPrevent: true,
-      },
-
-      {
-        userInput: "Space",
-        isPrevent: true,
-      },
-    ])(
-      "should fix incorrect world when press $userInput on fix mode ",
-      ({ userInput, isPrevent }) => {
-        const setInputCursorPosition = () => {};
-        const getInputCursorPosition = vi.fn();
-        const inputChangedCallback = vi.fn();
-
-        const { setInputValue, handleKeyboardInput, submitAnswer, userInputWords, initialize } =
-          useInput({
-            source: () => "like code",
-            setInputCursorPosition,
-            getInputCursorPosition,
-            inputChangedCallback,
-          });
-
-        initialize();
-        const inputValue = "lik co";
-        getInputCursorPosition.mockReturnValue(inputValue.length);
-        setInputValue(inputValue);
-
-        submitAnswer();
-
-        const preventDefault = vi.fn();
-        handleKeyboardInput({
-          code: userInput,
-          preventDefault,
-        } as any as KeyboardEvent);
-        getInputCursorPosition.mockReturnValue(0);
-        setInputValue(userInput);
-
-        expect(userInputWords[0].isActive).toBe(true);
-        expect(userInputWords[0].userInput).toBe(userInput);
-        // preventDefault 意味着是否直接上屏
-        isPrevent ? expect(preventDefault).toBeCalled() : expect(preventDefault).not.toBeCalled();
-      },
-    );
-
-    it("should trigger when press Backspace on fix input mode ", () => {
-      const setInputCursorPosition = () => {};
-      const getInputCursorPosition = vi.fn();
-      const inputChangedCallback = vi.fn();
-
-      const { setInputValue, handleKeyboardInput, submitAnswer, initialize } = useInput({
-        source: () => "i eat apple",
-        setInputCursorPosition,
-        getInputCursorPosition,
-        inputChangedCallback,
-      });
-      initialize();
-
-      const inputValue = "i eat a";
-      getInputCursorPosition.mockReturnValue(inputValue.length);
-      setInputValue(inputValue);
-
-      submitAnswer();
-
-      handleKeyboardInput({
-        code: "Backspace",
-        preventDefault: () => {},
-      } as any as KeyboardEvent);
-
-      handleKeyboardInput({
-        code: "Backspace",
-        preventDefault: () => {},
-      } as any as KeyboardEvent);
-
-      expect(inputChangedCallback).toBeCalledTimes(2);
-    });
+  it("rejects spaces and pure punctuation", () => {
+    expect(isWord(" ")).toBe(false);
+    expect(isWord("、")).toBe(false);
+    expect(isWord("。")).toBe(false);
   });
 });
 
-describe("isWord", () => {
-  it("should return true for a string containing an English letter", () => {
-    expect(isWord("hello")).toBe(true);
-    expect(isWord("Hello")).toBe(true);
-    expect(isWord("123word")).toBe(true);
-    expect(isWord("18")).toBe(true);
+describe("useInput (Japanese token-based)", () => {
+  function setup(tokens = TOKENS_私は学生です) {
+    const api = useInput({
+      source: () => tokens,
+      setInputCursorPosition: noop,
+      getInputCursorPosition: zero,
+    });
+    api.initialize();
+    return api;
+  }
+
+  it("creates one Word per token, first one active", () => {
+    const { userInputWords } = setup();
+    expect(userInputWords.length).toBe(4);
+    expect(userInputWords.map((w) => w.text)).toEqual(["私", "は", "学生", "です"]);
+    expect(userInputWords.map((w) => w.reading)).toEqual(["わたし", "は", "がくせい", "です"]);
+    expect(userInputWords[0].isActive).toBe(true);
+    expect(userInputWords[1].isActive).toBe(false);
   });
 
-  it("should return false for a string without any English letters", () => {
-    expect(isWord("—")).toBe(false);
-    expect(isWord("！@#$%^&*()")).toBe(false);
-    expect(isWord("こんにちは")).toBe(false); // Japanese characters
+  it("distributes typed chars to tokens by cumulative length", () => {
+    const { userInputWords, setInputValue } = setup();
+
+    setInputValue("私");
+    expect(userInputWords.map((w) => w.userInput)).toEqual(["私", "", "", ""]);
+
+    setInputValue("私は");
+    expect(userInputWords.map((w) => w.userInput)).toEqual(["私", "は", "", ""]);
+
+    setInputValue("私は学生");
+    expect(userInputWords.map((w) => w.userInput)).toEqual(["私", "は", "学生", ""]);
+
+    setInputValue("私は学生です");
+    expect(userInputWords.map((w) => w.userInput)).toEqual(["私", "は", "学生", "です"]);
   });
 
-  it("should return false for an empty string", () => {
-    expect(isWord("")).toBe(false);
+  it("advances active token as user types", () => {
+    const { userInputWords, setInputValue } = setup();
+
+    setInputValue("私");
+    expect(userInputWords.findIndex((w) => w.isActive)).toBe(1); // は
+
+    setInputValue("私は");
+    expect(userInputWords.findIndex((w) => w.isActive)).toBe(2); // 学生
+
+    setInputValue("私は学");
+    // 学生 not yet fully typed (only 1 of 2 chars)
+    expect(userInputWords.findIndex((w) => w.isActive)).toBe(2);
+
+    setInputValue("私は学生");
+    expect(userInputWords.findIndex((w) => w.isActive)).toBe(3); // です
+
+    setInputValue("私は学生です");
+    // All filled → last token stays active.
+    expect(userInputWords.findIndex((w) => w.isActive)).toBe(3);
   });
 
-  it("should correctly identify single English letter", () => {
-    expect(isWord("a")).toBe(true);
-    expect(isWord("A")).toBe(true);
+  it("submitAnswer accepts the correct full sentence", () => {
+    const { setInputValue, submitAnswer, userInputWords } = setup();
+    setInputValue("私は学生です");
+    let correctCalled = false;
+    submitAnswer(
+      () => {
+        correctCalled = true;
+      },
+      () => {
+        throw new Error("wrong path called for correct answer");
+      },
+    );
+    expect(correctCalled).toBe(true);
+    expect(userInputWords.every((w) => !w.incorrect)).toBe(true);
   });
 
-  it("should return false for strings with only non-alphabetic characters", () => {
-    expect(isWord(". ,;:!")).toBe(false);
+  it("submitAnswer flags wrong tokens", () => {
+    const { setInputValue, submitAnswer, userInputWords } = setup();
+    // Typed 私 _ 学生 で  (where _ is wrong)
+    setInputValue("私を学生です");
+    let wrongCalled = false;
+    submitAnswer(
+      () => {
+        throw new Error("correct path called for wrong answer");
+      },
+      () => {
+        wrongCalled = true;
+      },
+    );
+    expect(wrongCalled).toBe(true);
+    expect(userInputWords[0].incorrect).toBe(false); // 私 OK
+    expect(userInputWords[1].incorrect).toBe(true); // を ≠ は
+    expect(userInputWords[2].incorrect).toBe(false); // 学生 OK
+    expect(userInputWords[3].incorrect).toBe(false); // です OK
+  });
+
+  it("partial input does not mark words as correct prematurely", () => {
+    const { setInputValue, submitAnswer, userInputWords } = setup();
+    setInputValue("私は"); // only first two tokens filled
+    submitAnswer(noop, noop);
+    expect(userInputWords[0].incorrect).toBe(false);
+    expect(userInputWords[1].incorrect).toBe(false);
+    expect(userInputWords[2].incorrect).toBe(true); // empty ≠ 学生
+    expect(userInputWords[3].incorrect).toBe(true); // empty ≠ です
+  });
+
+  it("simulates IME composition: incremental commits", () => {
+    // Real IME flow: user commits one composition unit at a time.
+    // Between compositions, inputValue grows.
+    const { setInputValue, userInputWords } = setup();
+    const commits = ["私", "私は", "私は学生", "私は学生です"];
+    for (const v of commits) {
+      setInputValue(v);
+    }
+    expect(userInputWords.map((w) => w.userInput).join("")).toBe("私は学生です");
+  });
+
+  it("handles statement change mid-input (re-initialize)", () => {
+    const tokens1 = TOKENS_私は学生です;
+    const tokens2 = [
+      { surface: "今", reading: "いま" },
+      { surface: "九", reading: "く" },
+      { surface: "時", reading: "じ" },
+      { surface: "です", reading: "です" },
+    ];
+    let active = tokens1;
+    const api = useInput({
+      source: () => active,
+      setInputCursorPosition: noop,
+      getInputCursorPosition: zero,
+    });
+    api.initialize();
+    api.setInputValue("私は");
+    expect(api.userInputWords[0].userInput).toBe("私");
+
+    active = tokens2;
+    api.initialize(); // simulates statement change
+    expect(api.userInputWords.map((w) => w.text)).toEqual(["今", "九", "時", "です"]);
+    expect(api.userInputWords[0].userInput).toBe("");
+  });
+
+  it("handles backspace-style deletion (shrinking input)", () => {
+    const { setInputValue, userInputWords } = setup();
+    setInputValue("私は学生");
+    expect(userInputWords[2].userInput).toBe("学生");
+
+    setInputValue("私は学");
+    expect(userInputWords[2].userInput).toBe("学");
+
+    setInputValue("私は");
+    expect(userInputWords[2].userInput).toBe("");
+
+    setInputValue("私");
+    expect(userInputWords[1].userInput).toBe("");
+
+    setInputValue("");
+    expect(userInputWords[0].userInput).toBe("");
+    expect(userInputWords[0].isActive).toBe(true);
   });
 });

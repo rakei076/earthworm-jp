@@ -21,9 +21,9 @@ export const useCourseStore = defineStore("course", () => {
   });
 
   const words = computed(() => {
-    // Japanese version: each statement is a single block (no space-based tokenization).
-    const japanese = currentStatement.value?.japanese;
-    return japanese ? [japanese] : [];
+    // Each token surface becomes a rendered block. Token order matches the
+    // tokens array, so QuestionInput can map word index → reading.
+    return currentStatement.value?.tokens?.map((t) => t.surface) ?? [];
   });
 
   const visibleStatementsCount = computed(

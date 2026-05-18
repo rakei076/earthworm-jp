@@ -33,7 +33,7 @@ export function useWrapperQuestionInput() {
     isFixMode,
     isFixInputMode,
   } = useInput({
-    source: () => courseStore.currentStatement?.japanese!,
+    source: () => courseStore.currentStatement?.tokens ?? [],
     setInputCursorPosition,
     getInputCursorPosition,
     inputChangedCallback,

@@ -38,7 +38,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted, onUnmounted } from "vue";
+import { onMounted, onUnmounted } from "vue";
 
 import { useCurrentStatementEnglishSound } from "~/composables/main/englishSound";
 import { usePlayWordSound } from "~/composables/main/englishSound/audio";
@@ -54,8 +54,6 @@ const { handlePlayEnglishSound } = usePlayEnglishSound();
 const { showQuestion } = useGameMode();
 const { isAutoPlaySound } = useAutoPronunciation();
 const { goToNextQuestion } = useAnswer();
-
-const words = computed(() => courseStore.currentStatement?.japanese?.split("") ?? []);
 
 registerShortcutKeyForNextQuestion();
 

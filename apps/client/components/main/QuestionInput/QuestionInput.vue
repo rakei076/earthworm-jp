@@ -1,27 +1,37 @@
 <template>
   <div class="text-center">
-    <div class="relative flex flex-wrap justify-center gap-2 transition-all">
+    <div class="relative flex flex-wrap items-end justify-center gap-2 transition-all">
       <template
         v-for="(w, i) in courseStore.words"
         :key="i"
       >
         <div
           v-if="isWord(w)"
-          class="h-[4rem] rounded-[2px] border-b-2 border-solid text-[3em] leading-none transition-all"
-          :class="getWordsClassNames(i)"
-          :style="{ minWidth: `${inputWidth(w)}ch` }"
+          class="flex flex-col items-center"
         >
-          {{ findWordById(i)!.userInput }}
+          <div
+            class="h-5 text-sm leading-none text-gray-400 transition-opacity"
+            :class="{ 'opacity-0': !showFurigana }"
+          >
+            {{ tokenReading(i) }}
+          </div>
+          <div
+            class="h-[4rem] rounded-[2px] border-b-2 border-solid px-1 text-[3em] leading-none transition-all"
+            :class="getWordsClassNames(i)"
+            :style="{ minWidth: `${inputWidth(w)}ch` }"
+          >
+            {{ findWordById(i)!.userInput }}
+          </div>
         </div>
         <div
           v-else
-          class="h-[4rem] rounded-[2px] text-[3em] leading-none transition-all"
+          class="flex h-[4rem] items-end rounded-[2px] text-[3em] leading-none transition-all"
         >
           {{ w }}
         </div>
       </template>
       <input
-        lang="en"
+        lang="ja"
         ref="inputEl"
         class="absolute h-full w-full opacity-0"
         type="text"
@@ -70,6 +80,7 @@ import { courseTimer } from "~/composables/courses/courseTimer";
 import { useAnswerTip } from "~/composables/main/answerTip";
 import { useCurrentStatementEnglishSound } from "~/composables/main/englishSound";
 import { isWord } from "~/composables/main/question";
+import { useShowFurigana } from "~/composables/user/furigana";
 import { useShowWordsWidth } from "~/composables/user/words";
 import { useCourseStore } from "~/store/course";
 import { isWindows } from "~/utils/platform";
@@ -91,6 +102,14 @@ const {
 const { isShowWordsWidth } = useShowWordsWidth();
 const { toggleAnswerTip, isAnswerTip } = useAnswerTip();
 const { resetCloseTip } = useAnswerError();
+const { showFurigana } = useShowFurigana();
+
+function tokenReading(index: number): string {
+  const token = courseStore.currentStatement?.tokens?.[index];
+  if (!token) return "";
+  // Don't show reading if it equals the surface (pure hiragana/katakana token).
+  return token.reading !== token.surface ? token.reading : "";
+}
 initializeQuestionInput();
 focusInputWhenWIndowFocus();
 
