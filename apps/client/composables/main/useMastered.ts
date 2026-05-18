@@ -31,7 +31,7 @@ export function useMastered() {
     const isLastStatement = courseStore.isLastStatement();
     addLoading.value = true;
     const undoMasteredElements = await masteredElements.addElement({
-      english: courseStore.currentStatement?.english!,
+      japanese: courseStore.currentStatement?.japanese!,
     });
 
     handleMasteredToast(undoMasteredElements);

@@ -1,6 +1,9 @@
+import type { FuriganaSegment, StatementToken } from "@earthworm/schema";
+
 export interface Statement {
-  english: string;
-  phonetic: string;
+  japanese: string;
+  tokens: StatementToken[];
+  furigana: FuriganaSegment[];
   chinese: string;
 }
 

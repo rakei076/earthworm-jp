@@ -21,7 +21,9 @@ export const useCourseStore = defineStore("course", () => {
   });
 
   const words = computed(() => {
-    return currentStatement.value?.english.split(" ") || [];
+    // Japanese version: each statement is a single block (no space-based tokenization).
+    const japanese = currentStatement.value?.japanese;
+    return japanese ? [japanese] : [];
   });
 
   const visibleStatementsCount = computed(
@@ -139,7 +141,7 @@ export const useCourseStore = defineStore("course", () => {
 
   function markMasteredElements(statements: Statement[]) {
     return statements.map((statement) => {
-      const isMastered = masteredElementsStore.checkMastered(statement.english);
+      const isMastered = masteredElementsStore.checkMastered(statement.japanese);
 
       return {
         ...statement,

@@ -1,276 +1,43 @@
 <div align="center">
-  <img alt="Earthworm" width="120" height="120" src="./assets/logo/logo-1000.png">
-  <h1>Earthworm</h1>
-  <span>English | <a href="./README.zh-CN.md">中文</a></span>
+  <h1>Earthworm 日本語</h1>
+  <p>通过造句的方式学习日语</p>
 </div>
 
-<div align="center">
-  <br/>
-  <a href="https://hellogithub.com/repository/9433615761f548cf9648434c670cd85b" target="_blank"><img src="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=9433615761f548cf9648434c670cd85b&claim_uid=249cPWvjfNmU7dp" alt="Featured｜HelloGitHub" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-</div>
+## 介绍
 
-## ⚡ Introduction
+Earthworm 日本語版（earthworm-jp）是基于 [cuixueshe/earthworm](https://github.com/cuixueshe/earthworm)（"句乐部"）的中→日造句学习版。原项目用于中国人学英语，本版本针对**中国人学日语**：
 
-By constructing sentences with conjunctions, it helps you learn English better~ 😊
+- 中文提示 → 用日语 IME 输入对应日语句子
+- 自动振假名（ふりがな）标注汉字读音
+- 浏览器原生日语 TTS 朗读
+- 课程内容遵循《大家的日本语》教材体系
 
-## 🚀 How To Start?
+## 关键差异（与原版 Earthworm）
 
-**The mentioned operations below are based on the root directory of the current project, please be attentive to ensure there are no errors!**
+| 维度     | 原版         | 日本語版                              |
+| -------- | ------------ | ------------------------------------- |
+| 学习方向 | 中→英        | 中→日                                 |
+| 分词     | 空格分词     | kuromoji.js 形态素分析（离线烤入 DB） |
+| 答案展示 | IPA 音标     | 振假名（`<ruby>` 标签）               |
+| TTS      | 有道词典 API | Web Speech API（`lang=ja-JP`）        |
+| 课程数据 | 星荣英语课程 | 《大家的日本语》初级                  |
 
-### Requirements
+## 快速启动
 
-- **pnpm version >= 8**
-
-  ```bash
-  corepack enable
-  ```
-
-- **Node.js version >= v20**
-  > Use the version from .node-version. [Supported tools](https://github.com/shadowspawn/node-version-usage#compatibility-testing)
-- **Postgres version >= 14.0.0**
-- **Redis version >= 5.0.0**
-- **Docker**. please make sure it is installed and running successfully on your local machine.
-
-```bash
-docker --version # Docker version 24.0.7, build afdd53b
-
-node --version # v20+
-
-pnpm -v # 8+
-```
-
-### Editor
-
-#### VSCode
-
-- Install the recommended extensions [extensions.json](./.vscode/extensions.json)
-
-### 1. Install Dependencies
+依赖与原项目相同，详见 [上游 README](https://github.com/cuixueshe/earthworm/blob/main/README.zh-CN.md)。
 
 ```bash
 pnpm install
+pnpm db:init          # 初始化 schema
+pnpm db:upload        # 导入日语课程
+pnpm dev:serve &      # 启动 API（端口 3002）
+pnpm dev:client       # 启动 client（端口 3001）
 ```
 
-### 2. Configure the `.env` File
+## 致谢
 
-You can choose to copy the contents of `./apps/api/.env.example` to`./apps/api/.env`. note that the' example' file contains sample configuration. the main storage system's environment variable information, such as database connection address, user name, password, port, key, etc. the back-end service will read the configuration from this file, **of course you can also change it to your own configuration information**.
+本项目 fork 自 [cuixueshe/earthworm](https://github.com/cuixueshe/earthworm)，所有原始设计与代码版权归原作者所有。日本語版仅做了语言层面和数据层面的本地化改造。
 
-Windows users recommend shortcut keys to copy and paste, Linux users can operate through the following command.
+## License
 
-#### Server
-
-```bash
-cp ./apps/api/.env.example ./apps/api/.env
-```
-
-#### Client
-
-```bash
-cp ./apps/client/.env.example ./apps/client/.env
-```
-
-### 3. Restore Data Of Logto
-
-Uncompress `logto_db_init_data.zip` to `.volumes/`
-
-```bash
-unzip logto_db_init_data.zip -d .volumes/
-```
-
-- Admin URL: http://localhost:3011
-- Username: admin
-- Password: WkN7g5-i8ZrJckX
-
-> if you want to [Manual Configuration Logto](https://github.com/cuixueshe/earthworm/wiki/%E8%BF%81%E7%A7%BB-Logto-%E7%94%A8%E6%88%B7%E7%B3%BB%E7%BB%9F%E5%90%8E%E6%9C%AC%E5%9C%B0%E5%90%AF%E5%8A%A8%E9%85%8D%E7%BD%AE%E6%96%B9%E6%A1%88%EF%BC%88%E8%B4%A1%E7%8C%AE%E8%80%85%EF%BC%89)
-
-### 4. Start Docker Compose Service
-
-The backend relies on Postgres and Redis services. Start and stop these services using the commands configured in `package.json` below.
-
-```bash
-# start
-pnpm docker:start
-
-# When needed, execute the following command
-# stop
-pnpm docker:stop
-# delete
-pnpm docker:delete
-# Complete deletion (including Volume data)
-pnpm docker:down
-```
-
-If you prefer manual, you can use the commands below.
-
-```bash
-docker compose up -d
-docker compose stop
-docker compose down
-
-# commands compatible with older versions of Docker
-docker-compose up -d
-```
-
-### 5. Initialize Database Schema
-
-When executing this command, try to keep a little time from the previous command, because the `-d` parameter just used will suspend its service execution in the background. At this time, the docker service may still be running. If an error is found, execute it again.
-
-```bash
-pnpm db:init
-```
-
-### 6. Create and Upload Course Data
-
-**Only Execute This During the Initial Database Initialization**.
-
-```bash
-pnpm db:upload
-```
-
-### 7. Start the Backend Service
-
-```bash
-pnpm dev:serve
-```
-
-### 8. Start the Frontend Service
-
-```bash
-pnpm dev:client
-```
-
-## 🛠️ About testing
-
-**Run the test before submitting the commit, and submit the code after the test passes, so as to avoid multiple commits to solve the test problem**.
-
-### Front-end Testing
-
-The main is the single test of Vitest and the automated test of cypress, execute the following command:
-
-```bash
-# Enter the front-end project directory
-cd apps/client
-
-# vitest
-pnpm test:unit:run
-# cypress
-pnpm test:e2e:run
-
-# monitor vitest, convenient hot update to see test results
-pnpm test:unit:watch
-```
-
-### Backend Testing
-
-Mainly Jest single test and end-to-end test, but need to access the test database, so you need to ensure that:
-
-1. testdb and testRedis services in Docker Compose started normally.
-2. The configuration information in the `.env.test` file is correct. If there is no such file, you can copy the contents of the `apps/api/.env.test.example` file to the `apps/api/.env.test` file. The following command is provided to directly use.
-
-Execute the following command:
-
-```bash
-# Enter Backend Project Directory
-cd apps/api
-
-# If you have an.env.test file, you don't need to run this step
-cp .env.test.example .env.test
-
-# Single test
-pnpm test:unit
-# End-to-end testing
-pnpm test:e2e
-# Single test and end-to-end test run together
-pnpm test
-```
-
-## Docs Project
-
-Project based on Vitepress documentation，execute the following command:
-
-```bash
-# Local Development
-pnpm docs:dev
-```
-
-## ❓ FAQ
-
-### Database connection failed
-
-My Docker and the database inside are running normally, but when I run the `db:init` command, I still report an error, indicating that the database connection failed.
-
-You can check whether the database configuration in the `.env` file is correct, or even whether this file has it! 😠
-
-### How To Correctly Update Course Data?
-
-when you identify incorrect course data and make modifications, you should use the following command to update the course data in the database.
-
-```bash
-pnpm db:update
-```
-
-### pnpm Install Error?
-
-Some dependencies require compilation during installation, necessitating the presence of relevant build environments.
-If these environments are not available, the compilation process may fail. Additionally, different modules may require different build environments, so specific issues need to be analyzed individually.
-Below are specific problems encountered along with their solutions.
-
-First try the following command to update `pnpm`.
-
-```shell
-pnpm i -g
-# or
-pnpm i -g pnpm
-# or
-npx pnpm i -g pnpm@latest
-```
-
-**Error Installing the argon2 Module On Windows**
-
-- Install Visual Studio 2015 or later, specifically the "Desktop development with C++" component. (In practice, any component containing C++ development tools and libraries will suffice.)
-- If you encounter Chinese characters display issues during compilation, execute `chcp 437` in the command prompt, then rerun the install command.
-
-### Docker Permission Denied in Docker?
-
-When using WSL2 as a development environment in Windows, the following error occurs when starting Docker with `docker compose up -d` :
-
-```bash
-permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/json": dial unix /var/run/docker.sock: connect: permission denied
-```
-
-> Solution
-
-Add the current user to the docker group
-
-```bash
-# Add docker user group
-sudo groupadd docker
-# Add the logged-in user to the docker user group
-sudo gpasswd -a $USER docker
-# Update user group
-newgrp docker
-# Test if docker command is working properly
-docker images
-```
-
-## 🤝 Frontend Development Guideline
-
-1. Do not Destructure Pinia store.
-
-   - The readability will be better when using `store`
-   - Destructuring can lead to reactivity loss and using `storeToRefs` is also quite cumbersome
-
-2. Avoid including UI logic in composables.
-
-   - Such as `toast.info()`
-   - We categorize the router as UI logic, and for ease of testing, avoid including routerrelated logic in there
-
-## 🚀 Star History
-
-[![Stargazers over time](https://starchart.cc/cuixueshe/earthworm.svg?variant=adaptive)](https://starchart.cc/cuixueshe/earthworm)
-
-## 🌟 Contributing
-
-Thanks to everyone who has already contributed to Earthworm! 🎉
-
-<a href="https://github.com//cuixueshe/earthworm/graphs/contributors"><img src="https://contributors.nn.ci/api?repo=cuixueshe/earthworm" /></a>
+继承上游 [ISC License](./LICENSE)。

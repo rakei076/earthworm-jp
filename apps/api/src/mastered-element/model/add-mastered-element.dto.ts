@@ -3,7 +3,7 @@ import { IsNotEmpty, IsObject, ValidateNested } from "class-validator";
 
 class ContentDto {
   @IsNotEmpty()
-  english: string;
+  japanese: string;
 }
 
 export class AddMasteredElementDto {

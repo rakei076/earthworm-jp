@@ -1,0 +1,33 @@
+# 《大家的日本语》初级 I 第 1-3 课 demo 句型
+# 字段：chinese（中文提示）、japanese（日语答案）
+# tokens 和 furigana 由 build-japanese.ts 自动生成
+- chinese: 我是学生
+  japanese: 私は学生です
+- chinese: 我是田中
+  japanese: 私は田中です
+- chinese: 那个人是老师
+  japanese: あの人は先生です
+- chinese: 这是书
+  japanese: これは本です
+- chinese: 那是杂志
+  japanese: それは雑誌です
+- chinese: 那个是相机
+  japanese: あれはカメラです
+- chinese: 这是我的伞
+  japanese: これは私の傘です
+- chinese: 这本书是田中的
+  japanese: この本は田中さんのです
+- chinese: 那里是教室
+  japanese: そこは教室です
+- chinese: 洗手间在哪里
+  japanese: トイレはどこですか
+- chinese: 田中在办公室
+  japanese: 田中さんは事務所にいます
+- chinese: 现在是九点
+  japanese: 今九時です
+- chinese: 我七点起床
+  japanese: 私は七時に起きます
+- chinese: 今天不工作
+  japanese: 今日は働きません
+- chinese: 昨天学了日语
+  japanese: 昨日日本語を勉強しました

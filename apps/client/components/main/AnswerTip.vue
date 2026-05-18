@@ -15,7 +15,12 @@
           />
         </div>
 
-        <div class="text-3xl">{{ courseStore.currentStatement?.english }}</div>
+        <div class="text-3xl">
+          <MainFurigana
+            v-if="courseStore.currentStatement?.furigana"
+            :segments="courseStore.currentStatement.furigana"
+          />
+        </div>
       </div>
     </div>
   </div>

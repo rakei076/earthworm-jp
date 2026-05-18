@@ -1,67 +1,24 @@
-import { ref } from "vue";
-
 /**
- * 有道 Web 发音 API 接口
+ * Japanese pronunciation via Web Speech API.
  *
- * 美式发音：https://dict.youdao.com/dictvoice?type=2&audio=word
- * 英式发音：https://dict.youdao.com/dictvoice?type=1&audio=word
+ * The original Earthworm shipped with Youdao Dictionary audio URLs.
+ * For the JP edition we rely on the browser's built-in synthesis with
+ * `lang=ja-JP`. The interface keeps the original signatures so that
+ * callers (englishSound/* modules) need minimal change.
  */
 
-export enum PronunciationType {
-  American = "American",
-  British = "British",
-}
-
-export const pronunciationLabels: { [key in PronunciationType]: string } = {
-  [PronunciationType.American]: "美音",
-  [PronunciationType.British]: "英音",
-};
-
-const PRONUNCIATION_TYPE = "pronunciationType";
-const pronunciation = ref<PronunciationType>(PronunciationType.American); // 默认美音
 export function usePronunciation() {
-  loadCache();
-
-  function loadCache() {
-    const type = getStore() || pronunciation.value;
-    setStore(type);
-  }
-
-  function setStore(value: PronunciationType) {
-    pronunciation.value = value;
-    localStorage.setItem(PRONUNCIATION_TYPE, value);
-  }
-
-  function getStore(): PronunciationType {
-    return localStorage.getItem(PRONUNCIATION_TYPE) as PronunciationType;
-  }
-
-  function getPronunciationType(): number {
-    return pronunciation.value === PronunciationType.American ? 2 : 1;
-  }
-
-  function getPronunciationOptions() {
-    return Object.entries(pronunciationLabels).map(([key, value]) => {
-      return {
-        label: value,
-        value: key,
-      };
-    });
-  }
-
-  function getPronunciationUrl(english: string | undefined): string {
-    return `https://dict.youdao.com/dictvoice?type=${getPronunciationType()}&audio=${english}`;
-  }
-
-  // 切换发音
-  function togglePronunciation(type: PronunciationType) {
-    if (type !== pronunciation.value) setStore(type);
+  /**
+   * In the original codebase this returned an audio URL string that was
+   * loaded into an Audio element. With Web Speech we no longer need a URL —
+   * we just hand back the original text so that callers' cache-by-URL
+   * comparisons still work as a cache-by-text.
+   */
+  function getPronunciationUrl(text: string | undefined): string {
+    return text ?? "";
   }
 
   return {
-    pronunciation,
-    getPronunciationOptions,
     getPronunciationUrl,
-    togglePronunciation,
   };
 }

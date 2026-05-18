@@ -1,0 +1,688 @@
+[
+  {
+    "chinese": "我是学生",
+    "japanese": "私は学生です",
+    "tokens": [
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "学生",
+        "reading": "がくせい"
+      },
+      {
+        "surface": "です",
+        "reading": "です"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "学生",
+        "ruby": "がくせい"
+      },
+      {
+        "base": "です"
+      }
+    ]
+  },
+  {
+    "chinese": "我是田中",
+    "japanese": "私は田中です",
+    "tokens": [
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "田中",
+        "reading": "たなか"
+      },
+      {
+        "surface": "です",
+        "reading": "です"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "田中",
+        "ruby": "たなか"
+      },
+      {
+        "base": "です"
+      }
+    ]
+  },
+  {
+    "chinese": "那个人是老师",
+    "japanese": "あの人は先生です",
+    "tokens": [
+      {
+        "surface": "あの",
+        "reading": "あの"
+      },
+      {
+        "surface": "人",
+        "reading": "ひと"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "先生",
+        "reading": "せんせい"
+      },
+      {
+        "surface": "です",
+        "reading": "です"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "あの"
+      },
+      {
+        "base": "人",
+        "ruby": "ひと"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "先生",
+        "ruby": "せんせい"
+      },
+      {
+        "base": "です"
+      }
+    ]
+  },
+  {
+    "chinese": "这是书",
+    "japanese": "これは本です",
+    "tokens": [
+      {
+        "surface": "これ",
+        "reading": "これ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "本",
+        "reading": "ほん"
+      },
+      {
+        "surface": "です",
+        "reading": "です"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "これ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "本",
+        "ruby": "ほん"
+      },
+      {
+        "base": "です"
+      }
+    ]
+  },
+  {
+    "chinese": "那是杂志",
+    "japanese": "それは雑誌です",
+    "tokens": [
+      {
+        "surface": "それ",
+        "reading": "それ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "雑誌",
+        "reading": "ざっし"
+      },
+      {
+        "surface": "です",
+        "reading": "です"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "それ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "雑誌",
+        "ruby": "ざっし"
+      },
+      {
+        "base": "です"
+      }
+    ]
+  },
+  {
+    "chinese": "那个是相机",
+    "japanese": "あれはカメラです",
+    "tokens": [
+      {
+        "surface": "あれ",
+        "reading": "あれ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "カメラ",
+        "reading": "かめら"
+      },
+      {
+        "surface": "です",
+        "reading": "です"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "あれ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "カメラ"
+      },
+      {
+        "base": "です"
+      }
+    ]
+  },
+  {
+    "chinese": "这是我的伞",
+    "japanese": "これは私の傘です",
+    "tokens": [
+      {
+        "surface": "これ",
+        "reading": "これ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "傘",
+        "reading": "かさ"
+      },
+      {
+        "surface": "です",
+        "reading": "です"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "これ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "傘",
+        "ruby": "かさ"
+      },
+      {
+        "base": "です"
+      }
+    ]
+  },
+  {
+    "chinese": "这本书是田中的",
+    "japanese": "この本は田中さんのです",
+    "tokens": [
+      {
+        "surface": "この",
+        "reading": "この"
+      },
+      {
+        "surface": "本",
+        "reading": "ほん"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "田中",
+        "reading": "たなか"
+      },
+      {
+        "surface": "さん",
+        "reading": "さん"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "です",
+        "reading": "です"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "この"
+      },
+      {
+        "base": "本",
+        "ruby": "ほん"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "田中",
+        "ruby": "たなか"
+      },
+      {
+        "base": "さん"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "です"
+      }
+    ]
+  },
+  {
+    "chinese": "那里是教室",
+    "japanese": "そこは教室です",
+    "tokens": [
+      {
+        "surface": "そこ",
+        "reading": "そこ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "教室",
+        "reading": "きょうしつ"
+      },
+      {
+        "surface": "です",
+        "reading": "です"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "そこ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "教室",
+        "ruby": "きょうしつ"
+      },
+      {
+        "base": "です"
+      }
+    ]
+  },
+  {
+    "chinese": "洗手间在哪里",
+    "japanese": "トイレはどこですか",
+    "tokens": [
+      {
+        "surface": "トイレ",
+        "reading": "といれ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "どこ",
+        "reading": "どこ"
+      },
+      {
+        "surface": "です",
+        "reading": "です"
+      },
+      {
+        "surface": "か",
+        "reading": "か"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "トイレ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "どこ"
+      },
+      {
+        "base": "です"
+      },
+      {
+        "base": "か"
+      }
+    ]
+  },
+  {
+    "chinese": "田中在办公室",
+    "japanese": "田中さんは事務所にいます",
+    "tokens": [
+      {
+        "surface": "田中",
+        "reading": "たなか"
+      },
+      {
+        "surface": "さん",
+        "reading": "さん"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "事務所",
+        "reading": "じむしょ"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "い",
+        "reading": "い"
+      },
+      {
+        "surface": "ます",
+        "reading": "ます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "田中",
+        "ruby": "たなか"
+      },
+      {
+        "base": "さん"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "事務所",
+        "ruby": "じむしょ"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "い"
+      },
+      {
+        "base": "ます"
+      }
+    ]
+  },
+  {
+    "chinese": "现在是九点",
+    "japanese": "今九時です",
+    "tokens": [
+      {
+        "surface": "今",
+        "reading": "いま"
+      },
+      {
+        "surface": "九",
+        "reading": "きゅう"
+      },
+      {
+        "surface": "時",
+        "reading": "じ"
+      },
+      {
+        "surface": "です",
+        "reading": "です"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "今",
+        "ruby": "いま"
+      },
+      {
+        "base": "九",
+        "ruby": "きゅう"
+      },
+      {
+        "base": "時",
+        "ruby": "じ"
+      },
+      {
+        "base": "です"
+      }
+    ]
+  },
+  {
+    "chinese": "我七点起床",
+    "japanese": "私は七時に起きます",
+    "tokens": [
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "七",
+        "reading": "なな"
+      },
+      {
+        "surface": "時",
+        "reading": "じ"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "起き",
+        "reading": "おき"
+      },
+      {
+        "surface": "ます",
+        "reading": "ます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "七",
+        "ruby": "なな"
+      },
+      {
+        "base": "時",
+        "ruby": "じ"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "起き",
+        "ruby": "おき"
+      },
+      {
+        "base": "ます"
+      }
+    ]
+  },
+  {
+    "chinese": "今天不工作",
+    "japanese": "今日は働きません",
+    "tokens": [
+      {
+        "surface": "今日",
+        "reading": "きょう"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "働き",
+        "reading": "はたらき"
+      },
+      {
+        "surface": "ませ",
+        "reading": "ませ"
+      },
+      {
+        "surface": "ん",
+        "reading": "ん"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "今日",
+        "ruby": "きょう"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "働き",
+        "ruby": "はたらき"
+      },
+      {
+        "base": "ませ"
+      },
+      {
+        "base": "ん"
+      }
+    ]
+  },
+  {
+    "chinese": "昨天学了日语",
+    "japanese": "昨日日本語を勉強しました",
+    "tokens": [
+      {
+        "surface": "昨日",
+        "reading": "きのう"
+      },
+      {
+        "surface": "日本語",
+        "reading": "にほんご"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "勉強",
+        "reading": "べんきょう"
+      },
+      {
+        "surface": "し",
+        "reading": "し"
+      },
+      {
+        "surface": "まし",
+        "reading": "まし"
+      },
+      {
+        "surface": "た",
+        "reading": "た"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "昨日",
+        "ruby": "きのう"
+      },
+      {
+        "base": "日本語",
+        "ruby": "にほんご"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "勉強",
+        "ruby": "べんきょう"
+      },
+      {
+        "base": "し"
+      },
+      {
+        "base": "まし"
+      },
+      {
+        "base": "た"
+      }
+    ]
+  }
+]

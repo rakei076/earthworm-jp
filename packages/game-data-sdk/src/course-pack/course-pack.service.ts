@@ -47,11 +47,12 @@ export async function createCoursePack(coursePackInfo: CreateCoursePack) {
       courseIds.push(courseEntity.id.toString());
 
       const createStatementTasks = course.statements.map(
-        ({ chinese, english, phonetic }, sIndex) => {
+        ({ chinese, japanese, tokens, furigana }, sIndex) => {
           return tx.insert(statementSchema).values({
             chinese,
-            english,
-            soundmark: phonetic,
+            japanese,
+            tokens,
+            furigana,
             order: sIndex + 1,
             courseId: courseEntity.id,
           });
@@ -183,11 +184,12 @@ export async function updateCoursePack(coursePackId: string, coursePackInfo: Upd
           courseIds.push(courseEntity.id.toString());
 
           const createStatementTasks = newCourseInfo.statements.map(
-            async ({ chinese, english, phonetic }, sIndex) => {
+            async ({ chinese, japanese, tokens, furigana }, sIndex) => {
               return tx.insert(statementSchema).values({
                 chinese,
-                english,
-                soundmark: phonetic,
+                japanese,
+                tokens,
+                furigana,
                 order: sIndex + 1,
                 courseId: courseEntity.id,
               });
@@ -245,9 +247,10 @@ export async function updateCoursePack(coursePackId: string, coursePackInfo: Upd
         await tx
           .update(statementSchema)
           .set({
-            english: newStatementInfo.english,
+            japanese: newStatementInfo.japanese,
             chinese: newStatementInfo.chinese,
-            soundmark: newStatementInfo.phonetic,
+            tokens: newStatementInfo.tokens,
+            furigana: newStatementInfo.furigana,
           })
           .where(eq(statementSchema.id, oldStatement.id));
 
@@ -259,9 +262,10 @@ export async function updateCoursePack(coursePackId: string, coursePackInfo: Upd
       while (newIndex < newStatements.length) {
         const newStatementInfo = newStatements[newIndex];
         await tx.insert(statementSchema).values({
-          english: newStatementInfo.english,
+          japanese: newStatementInfo.japanese,
           chinese: newStatementInfo.chinese,
-          soundmark: newStatementInfo.phonetic,
+          tokens: newStatementInfo.tokens,
+          furigana: newStatementInfo.furigana,
           order: newIndex + 1,
           courseId,
         });

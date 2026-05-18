@@ -1,21 +1,16 @@
 <template>
   <div class="text-center">
     <div class="ml-8 inline-flex flex-wrap items-center justify-center gap-1 text-5xl">
-      <span
-        v-for="word in words"
-        :key="word"
-        class="cursor-pointer p-1 hover:text-fuchsia-500"
-        @click="handlePlayWordSound(word)"
-        >{{ word }}</span
-      >
+      <MainFurigana
+        v-if="courseStore.currentStatement?.furigana"
+        :segments="courseStore.currentStatement.furigana"
+        @click-segment="handlePlayWordSound"
+      />
       <UIcon
         name="i-ph-speaker-simple-high"
         class="ml-1 inline-block h-7 w-7 cursor-pointer text-gray-500 hover:text-fuchsia-500"
         @click="handlePlayEnglishSound"
       ></UIcon>
-    </div>
-    <div class="my-6 text-xl text-gray-500">
-      {{ courseStore.currentStatement?.soundmark }}
     </div>
     <div class="my-6 text-xl text-gray-500">
       {{ courseStore.currentStatement?.chinese }}
@@ -60,7 +55,7 @@ const { showQuestion } = useGameMode();
 const { isAutoPlaySound } = useAutoPronunciation();
 const { goToNextQuestion } = useAnswer();
 
-const words = computed(() => courseStore.currentStatement?.english.split(" "));
+const words = computed(() => courseStore.currentStatement?.japanese?.split("") ?? []);
 
 registerShortcutKeyForNextQuestion();
 

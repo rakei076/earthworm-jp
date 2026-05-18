@@ -16,7 +16,7 @@ export function useCurrentStatementEnglishSound() {
   const { isDictationMode } = useGamePlayMode();
 
   watchEffect(() => {
-    const word = courseStore.currentStatement?.english;
+    const word = courseStore.currentStatement?.japanese;
     const pronunciationUrl = getPronunciationUrl(word);
     if (lastPronunciationUrl !== pronunciationUrl) {
       updateSource(pronunciationUrl);

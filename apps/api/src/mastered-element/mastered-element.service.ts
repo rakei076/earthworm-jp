@@ -5,7 +5,7 @@ import { masteredElements as masteredElementsSchema } from "@earthworm/schema";
 import { DB, DbType } from "../global/providers/db.provider";
 
 interface ElementContent {
-  english: string;
+  japanese: string;
 }
 
 @Injectable()
@@ -13,8 +13,8 @@ export class MasteredElementService {
   constructor(@Inject(DB) private db: DbType) {}
 
   async addMasteredElement(userId: string, content: ElementContent) {
-    if (!content.english) {
-      throw new BadRequestException("Element english content is required");
+    if (!content.japanese) {
+      throw new BadRequestException("Element japanese content is required");
     }
 
     if (await this.isMastered(userId, content)) {

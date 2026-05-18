@@ -34,9 +34,9 @@ export const useMasteredElementsStore = defineStore("masteredElements", () => {
     });
   }
 
-  function checkMastered(english: string) {
+  function checkMastered(japanese: string) {
     return !!masteredElements.value.find((element) => {
-      return element.content.english.toLowerCase() === english.toLowerCase();
+      return element.content.japanese === japanese;
     });
   }
 

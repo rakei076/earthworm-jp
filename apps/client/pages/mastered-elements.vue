@@ -20,7 +20,7 @@
     >
       <div>
         <div class="text-lg font-bold text-purple-800 dark:text-white">
-          {{ item.content.english }}
+          {{ item.content.japanese }}
         </div>
         <div class="text-purple-600 dark:text-purple-300">
           Added on {{ formatDate(item.masteredAt) }}
@@ -53,7 +53,7 @@ const searchQuery = ref("");
 const fuse = computed(
   () =>
     new Fuse(masteredElementsStore.masteredElements, {
-      keys: ["content.english"],
+      keys: ["content.japanese"],
       threshold: 0.4,
     }),
 );

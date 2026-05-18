@@ -21,8 +21,8 @@ const courses = fs.readdirSync(path.resolve(__dirname, "../data/courses"));
     .insert(coursePack)
     .values({
       order: 1,
-      title: "星荣零基础学英语",
-      description: "最适合零基础入门的课程",
+      title: "零基础日语 · 大家的日本语",
+      description: "通过造句学习《大家的日本语》初级教材",
       creatorId: "1",
       shareLevel: "public",
       isFree: true,
@@ -86,7 +86,22 @@ const courses = fs.readdirSync(path.resolve(__dirname, "../data/courses"));
   process.exit(0);
 })();
 
-function convertToChineseNumber(numStr: string): string {
+function convertToChineseNumber(name: string): string {
+  // Pattern like "jp-minna-1" → "大家的日本语 第一课"
+  const minnaMatch = name.match(/^jp-minna-(\d+)$/);
+  if (minnaMatch) {
+    return `大家的日本语 ${toChineseLessonName(minnaMatch[1])}`;
+  }
+
+  // Original numeric-only filenames
+  if (/^\d+$/.test(name)) {
+    return toChineseLessonName(name);
+  }
+
+  return name;
+}
+
+function toChineseLessonName(numStr: string): string {
   const chineseNumbers = ["零", "一", "二", "三", "四", "五", "六", "七", "八", "九", "十"];
   let chineseStr = "第";
   if (parseInt(numStr) >= 10) {

@@ -1,12 +1,23 @@
 import { type Course } from "~/types";
 import { getHttp } from "./http";
 
+export interface StatementToken {
+  surface: string;
+  reading: string;
+}
+
+export interface FuriganaSegment {
+  base: string;
+  ruby?: string;
+}
+
 export interface StatementApiResponse {
   id: string;
   order: number;
   chinese: string;
-  english: string;
-  soundmark: string;
+  japanese: string;
+  tokens: StatementToken[];
+  furigana: FuriganaSegment[];
   isMastered: boolean;
 }
 

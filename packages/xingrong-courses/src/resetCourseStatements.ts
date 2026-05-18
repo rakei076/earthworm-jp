@@ -33,11 +33,12 @@ export async function deleteCourseAllStatements(courseId: string) {
 }
 
 export async function addCourseStatements(courseId: string, statements: Statement[]) {
-  const createStatementTasks = statements.map(({ chinese, english, soundmark }, sIndex) => {
+  const createStatementTasks = statements.map(({ chinese, japanese, tokens, furigana }, sIndex) => {
     return db.insert(statementSchema).values({
       chinese,
-      english,
-      soundmark,
+      japanese,
+      tokens,
+      furigana,
       order: sIndex + 1,
       courseId: courseId,
     });

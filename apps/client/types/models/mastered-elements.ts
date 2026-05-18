@@ -5,5 +5,5 @@ export interface MasteredElement {
 }
 
 export interface MasteredElementContent {
-  english: string;
+  japanese: string;
 }

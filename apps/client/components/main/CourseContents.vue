@@ -42,17 +42,12 @@
               <div
                 class="truncate text-lg font-bold text-purple-800 group-hover:text-clip group-hover:whitespace-normal dark:text-white"
               >
-                {{ item.english }}
+                {{ item.japanese }}
               </div>
               <div
                 class="truncate text-lg text-purple-600 group-hover:text-clip group-hover:whitespace-normal dark:text-purple-300"
               >
                 {{ item.chinese }}
-              </div>
-              <div
-                class="truncate text-lg text-gray-500 group-hover:text-clip group-hover:whitespace-normal dark:text-gray-400"
-              >
-                {{ item.soundmark }}
               </div>
             </div>
             <div
@@ -63,7 +58,7 @@
                 <UIcon
                   name="i-ph-speaker-simple-high"
                   class="ml-1 inline-block h-7 w-7 cursor-pointer"
-                  @click="handlePlayEnglishSound($event, item.english)"
+                  @click="handlePlayEnglishSound($event, item.japanese)"
                 ></UIcon>
               </UTooltip>
             </div>
@@ -115,9 +110,9 @@ function jumpTo(index: number, item: any) {
   coursesStore.toSpecificStatement(index);
 }
 
-function handlePlayEnglishSound(event: Event, english: string) {
+function handlePlayEnglishSound(event: Event, text: string) {
   event.stopPropagation();
-  playEnglish(english);
+  playEnglish(text);
 }
 
 watch(
