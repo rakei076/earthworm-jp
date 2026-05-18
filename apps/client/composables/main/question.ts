@@ -105,14 +105,22 @@ export function useInput({
     const input = inputValue.value;
     let pos = 0;
 
+    // 先按 surface 长度分配已知部分
     userInputWords.forEach((word) => {
-      const expectedLen = word.text.length;
-      const chunk = input.slice(pos, pos + expectedLen);
-      word.userInput = chunk;
+      const len = word.text.length;
+      word.userInput = input.slice(pos, pos + len);
       word.start = pos;
-      word.end = pos + chunk.length;
-      pos += expectedLen;
+      word.end = pos + word.userInput.length;
+      pos += len;
     });
+
+    // 剩余输入（日语 reading 更长的情况）追加到当前 active block
+    const remaining = input.slice(pos);
+    if (remaining) {
+      let targetIdx = userInputWords.findIndex((w) => w.userInput !== w.text);
+      if (targetIdx === -1) targetIdx = userInputWords.length - 1;
+      userInputWords[targetIdx].userInput += remaining;
+    }
   }
 
   function resetAllWordUserInput() {
@@ -134,7 +142,7 @@ export function useInput({
     // Find first word that's not yet fully filled correctly.
     for (let i = 0; i < userInputWords.length; i++) {
       const word = userInputWords[i];
-      if (word.userInput.length < word.text.length) {
+      if (word.userInput !== word.text) {
         word.isActive = true;
         return;
       }
