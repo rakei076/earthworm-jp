@@ -28,7 +28,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: "Earthworm 日本語",
+      title: "句楽部 KuRakuBu · 中→日造句训练",
       link: [{ rel: "icon", href: "/favicon.ico" }],
       script: appScripts,
     },

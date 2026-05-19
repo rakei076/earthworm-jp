@@ -22,19 +22,19 @@
 const props = defineProps({
   main_title: {
     type: String,
-    default: "Earthworm is now available! 🎉",
+    default: "句楽部 已开放！🎉",
   },
   sub_title: {
     type: String,
-    default: "Start your English learning journey now!",
+    default: "现在就开始你的日语造句训练之旅",
   },
   link: {
     type: String,
-    default: "https://github.com/cuixueshe/earthworm",
+    default: "https://github.com/rakei076/earthworm-jp",
   },
   btn_text: {
     type: String,
-    default: "Learn More",
+    default: "了解更多",
   },
 });
 

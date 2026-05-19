@@ -20,7 +20,11 @@
                 alt="earth-worm-logo"
               />
               <h1 class="text-wrap text-2xl font-extrabold leading-normal dark:text-white">
-                Earthworm 日本語
+                <span
+                  class="bg-gradient-to-br from-purple-600 to-rose-400 bg-clip-text text-transparent"
+                  >句楽部</span
+                >
+                <span class="ml-2 text-sm font-medium text-gray-400">KuRakuBu</span>
               </h1>
             </div>
           </NuxtLink>

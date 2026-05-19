@@ -4,8 +4,11 @@
     id="faq"
   >
     <CommonTitle
-      title="常见问题解答"
-      :description="[`如果您找不到所需的内容，请加入 Telegram 群组`, `我们会尽快回复您！`]"
+      title="常见问题"
+      :description="[
+        `句楽部 是基于 Earthworm 改造的中→日学习版`,
+        `如果有问题或建议，欢迎在 GitHub 提 issue`,
+      ]"
     />
     <div class="divide-y divide-gray-100 py-16 dark:divide-gray-800">
       <template
@@ -48,29 +51,50 @@
 <script setup lang="ts">
 const QUESTIONS = [
   {
-    title: "如何向开发团队提出更多的功能需求？",
+    title: "我需要装日语输入法吗？",
     content: [
-      "可以加入我们官方 Telegram 群组, 详细的描述您想要的功能以及告知这个功能想要解决的问题是什么",
-      "也可以去 github/issues 来提交您想要的功能需求",
+      "不需要。直接在英文键盘上敲罗马字，wanakana 会实时转成假名，匹配上读音后自动显示对应汉字。",
+      "如果你已经习惯日语 IME，也可以照常用 —— 输入的假名/汉字会通过同样的匹配逻辑处理。",
     ],
   },
   {
-    title: "如何向开发团队报告我在应用中遇到的错误或漏洞？",
+    title: "课程内容从哪来？版权没问题吗？",
     content: [
-      "如果您在应用中发现了错误或漏洞，可以加入我们官方 Telegram 群组，提供详细的描述和重现问题的步骤，当然最好提供一个小视频 🤪",
+      "句子来自 Tatoeba（https://tatoeba.org），CC-BY 2.0 协议的开放语料库，每条都是社区贡献的真实日语句子。",
+      "词表用的是 jamsinclair/open-anki-jlpt-decks，MIT 协议的 JLPT N5 词表。",
+      "TTS 朗读由 Microsoft Edge Neural TTS 离线生成 MP3 文件（ja-JP-NanamiNeural），免费、无限制。",
     ],
   },
   {
-    title: "如何为 Earthworm 贡献代码？",
+    title: "为什么不直接用浏览器的日语 TTS？",
     content: [
-      "我们提供了完整的贡献代码指南，可以先读一读(页脚处有链接)",
-      "去 github/issues 逛一逛， 也可以基于你在使用中遇到的问题提一个 issue 并且自己尝试修复",
+      "Web Speech API 在不同系统上不稳定，macOS 上的 Siri 风格 voice 必须显式下载才有声音。",
+      "句楽部 在构建时用 Edge Neural TTS 把每条句子预生成 MP3，直接当静态文件播放，任何浏览器都能听。",
     ],
   },
   {
-    title: "Earthworm 项目是完全免费的吗？",
+    title: "「句楽部」这名字什么意思？",
     content: [
-      "不完全免费，因为想要长久发展收费是必然的。未来会采用订阅模式，为会员提供更多的学习内容和功能",
+      "致敬上游开源项目「句乐部」（cuixueshe/earthworm），日语写法是「句楽部」(KuRakuBu)，意思是「造句俱乐部」。",
+      "「楽」在日语里同时有「音乐」「快乐」「轻松」的意思，正好对应这个学习工具的定位。",
+    ],
+  },
+  {
+    title: "和原版 Earthworm 有什么区别？",
+    content: [
+      "学习方向: 原版 中→英，句楽部 中→日",
+      "分词逻辑: 原版按空格切单词，句楽部 用 kuromoji.js 离线把日语句子切成 token",
+      "校验逻辑: 原版按英文单词大小写匹配，句楽部 按 token 读音匹配（reading），匹配上才显示汉字",
+      "答案展示: 原版只有 IPA 音标，句楽部 给每个汉字加振假名 + 一键开关",
+      "语音: 原版用有道词典 URL，句楽部 用预生成的 Edge Neural TTS MP3",
+    ],
+  },
+  {
+    title: "怎么贡献课程内容 / 报 bug？",
+    content: [
+      "GitHub: https://github.com/rakei076/earthworm-jp",
+      "课程内容是脚本生成的，改 packages/xingrong-courses/scripts/build-jlpt-packs.ts 的过滤规则就能换内容池。",
+      "想加 N4 / N3 课程包：换词表 CSV + 调长度桶，重跑 build:jlpt 即可。",
     ],
   },
 ];
@@ -91,6 +115,6 @@ details[open] .icon {
 }
 
 details[open] .transition-max-height {
-  max-height: 500px;
+  max-height: 800px;
 }
 </style>
