@@ -12,20 +12,8 @@
         "reading": "を"
       },
       {
-        "surface": "閉め",
-        "reading": "しめ"
-      },
-      {
-        "surface": "て",
-        "reading": "て"
-      },
-      {
-        "surface": "下さい",
-        "reading": "ください"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "閉めて下さい",
+        "reading": "しめてください"
       }
     ],
     "furigana": [
@@ -36,18 +24,11 @@
         "base": "を"
       },
       {
-        "base": "閉め",
-        "ruby": "しめ"
+        "base": "閉めて下",
+        "ruby": "しめてくだ"
       },
       {
-        "base": "て"
-      },
-      {
-        "base": "下さい",
-        "ruby": "ください"
-      },
-      {
-        "base": "。"
+        "base": "さい"
       }
     ],
     "audioPath": "/audio/8716b60d64dc04c6.mp3"
@@ -65,20 +46,8 @@
         "reading": "は"
       },
       {
-        "surface": "高く",
-        "reading": "たかく"
-      },
-      {
-        "surface": "ない",
-        "reading": "ない"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "高くないです",
+        "reading": "たかくないです"
       }
     ],
     "furigana": [
@@ -89,17 +58,11 @@
         "base": "は"
       },
       {
-        "base": "高く",
-        "ruby": "たかく"
+        "base": "高",
+        "ruby": "たか"
       },
       {
-        "base": "ない"
-      },
-      {
-        "base": "です"
-      },
-      {
-        "base": "。"
+        "base": "くないです"
       }
     ],
     "audioPath": "/audio/ce91975c8615872b.mp3"
@@ -131,10 +94,6 @@
       {
         "surface": "低い",
         "reading": "ひくい"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -156,11 +115,11 @@
         "base": "が"
       },
       {
-        "base": "低い",
-        "ruby": "ひくい"
+        "base": "低",
+        "ruby": "ひく"
       },
       {
-        "base": "。"
+        "base": "い"
       }
     ],
     "audioPath": "/audio/6a7589a6effb0946.mp3"
@@ -178,16 +137,8 @@
         "reading": "を"
       },
       {
-        "surface": "浴びよ",
-        "reading": "あびよ"
-      },
-      {
-        "surface": "う",
-        "reading": "う"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "浴びよう",
+        "reading": "あびよう"
       }
     ],
     "furigana": [
@@ -198,14 +149,11 @@
         "base": "を"
       },
       {
-        "base": "浴びよ",
-        "ruby": "あびよ"
+        "base": "浴",
+        "ruby": "あ"
       },
       {
-        "base": "う"
-      },
-      {
-        "base": "。"
+        "base": "びよう"
       }
     ],
     "audioPath": "/audio/d8f87c73ce9cf152.mp3"
@@ -223,20 +171,8 @@
         "reading": "でも"
       },
       {
-        "surface": "来",
-        "reading": "き"
-      },
-      {
-        "surface": "て",
-        "reading": "て"
-      },
-      {
-        "surface": "下さい",
-        "reading": "ください"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "来て下さい",
+        "reading": "きてください"
       }
     ],
     "furigana": [
@@ -247,18 +183,11 @@
         "base": "でも"
       },
       {
-        "base": "来",
-        "ruby": "き"
+        "base": "来て下",
+        "ruby": "きてくだ"
       },
       {
-        "base": "て"
-      },
-      {
-        "base": "下さい",
-        "ruby": "ください"
-      },
-      {
-        "base": "。"
+        "base": "さい"
       }
     ],
     "audioPath": "/audio/449e746574597f5d.mp3"
@@ -276,20 +205,8 @@
         "reading": "に"
       },
       {
-        "surface": "行っ",
-        "reading": "いっ"
-      },
-      {
-        "surface": "て",
-        "reading": "て"
-      },
-      {
-        "surface": "下さい",
-        "reading": "ください"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "行って下さい",
+        "reading": "いってください"
       }
     ],
     "furigana": [
@@ -301,18 +218,11 @@
         "base": "に"
       },
       {
-        "base": "行っ",
-        "ruby": "いっ"
+        "base": "行って下",
+        "ruby": "いってくだ"
       },
       {
-        "base": "て"
-      },
-      {
-        "base": "下さい",
-        "ruby": "ください"
-      },
-      {
-        "base": "。"
+        "base": "さい"
       }
     ],
     "audioPath": "/audio/b73a09a07a39c1e8.mp3"
@@ -330,20 +240,8 @@
         "reading": "を"
       },
       {
-        "surface": "呼ん",
-        "reading": "よん"
-      },
-      {
-        "surface": "で",
-        "reading": "で"
-      },
-      {
-        "surface": "下さい",
-        "reading": "ください"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "呼んで下さい",
+        "reading": "よんでください"
       }
     ],
     "furigana": [
@@ -355,18 +253,11 @@
         "base": "を"
       },
       {
-        "base": "呼ん",
-        "ruby": "よん"
+        "base": "呼んで下",
+        "ruby": "よんでくだ"
       },
       {
-        "base": "で"
-      },
-      {
-        "base": "下さい",
-        "ruby": "ください"
-      },
-      {
-        "base": "。"
+        "base": "さい"
       }
     ],
     "audioPath": "/audio/4f88e036c4542e0e.mp3"
@@ -392,20 +283,8 @@
         "reading": "を"
       },
       {
-        "surface": "飲み",
-        "reading": "のみ"
-      },
-      {
-        "surface": "まし",
-        "reading": "まし"
-      },
-      {
-        "surface": "た",
-        "reading": "た"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "飲みました",
+        "reading": "のみました"
       }
     ],
     "furigana": [
@@ -424,17 +303,11 @@
         "base": "を"
       },
       {
-        "base": "飲み",
-        "ruby": "のみ"
+        "base": "飲",
+        "ruby": "の"
       },
       {
-        "base": "まし"
-      },
-      {
-        "base": "た"
-      },
-      {
-        "base": "。"
+        "base": "みました"
       }
     ],
     "audioPath": "/audio/e2ccd064c4662f50.mp3"
@@ -452,20 +325,8 @@
         "reading": "に"
       },
       {
-        "surface": "乗り",
-        "reading": "のり"
-      },
-      {
-        "surface": "ましょ",
-        "reading": "ましょ"
-      },
-      {
-        "surface": "う",
-        "reading": "う"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "乗りましょう",
+        "reading": "のりましょう"
       }
     ],
     "furigana": [
@@ -476,17 +337,11 @@
         "base": "に"
       },
       {
-        "base": "乗り",
-        "ruby": "のり"
+        "base": "乗",
+        "ruby": "の"
       },
       {
-        "base": "ましょ"
-      },
-      {
-        "base": "う"
-      },
-      {
-        "base": "。"
+        "base": "りましょう"
       }
     ],
     "audioPath": "/audio/0be4c8e166530a17.mp3"
@@ -512,16 +367,8 @@
         "reading": "が"
       },
       {
-        "surface": "大好き",
-        "reading": "だいすき"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "大好きです",
+        "reading": "だいすきです"
       }
     ],
     "furigana": [
@@ -540,14 +387,11 @@
         "base": "が"
       },
       {
-        "base": "大好き",
-        "ruby": "だいすき"
+        "base": "大好",
+        "ruby": "だいす"
       },
       {
-        "base": "です"
-      },
-      {
-        "base": "。"
+        "base": "きです"
       }
     ],
     "audioPath": "/audio/002487f2e9451f73.mp3"
@@ -569,20 +413,12 @@
         "reading": "は"
       },
       {
-        "surface": "長い",
-        "reading": "ながい"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
+        "surface": "長いです",
+        "reading": "ながいです"
       },
       {
         "surface": "か",
         "reading": "か"
-      },
-      {
-        "surface": "？",
-        "reading": "？"
       }
     ],
     "furigana": [
@@ -597,17 +433,14 @@
         "base": "は"
       },
       {
-        "base": "長い",
-        "ruby": "ながい"
+        "base": "長",
+        "ruby": "なが"
       },
       {
-        "base": "です"
+        "base": "いです"
       },
       {
         "base": "か"
-      },
-      {
-        "base": "？"
       }
     ],
     "audioPath": "/audio/8784841defff5bcd.mp3"
@@ -637,16 +470,8 @@
         "reading": "べんきょう"
       },
       {
-        "surface": "し",
-        "reading": "し"
-      },
-      {
-        "surface": "ます",
-        "reading": "ます"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "します",
+        "reading": "します"
       }
     ],
     "furigana": [
@@ -669,13 +494,7 @@
         "ruby": "べんきょう"
       },
       {
-        "base": "し"
-      },
-      {
-        "base": "ます"
-      },
-      {
-        "base": "。"
+        "base": "します"
       }
     ],
     "audioPath": "/audio/540d292eaf995dab.mp3"
@@ -701,16 +520,8 @@
         "reading": "が"
       },
       {
-        "surface": "好き",
-        "reading": "すき"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "好きです",
+        "reading": "すきです"
       }
     ],
     "furigana": [
@@ -729,14 +540,11 @@
         "base": "が"
       },
       {
-        "base": "好き",
-        "ruby": "すき"
+        "base": "好",
+        "ruby": "す"
       },
       {
-        "base": "です"
-      },
-      {
-        "base": "。"
+        "base": "きです"
       }
     ],
     "audioPath": "/audio/181f688a81d1343f.mp3"
@@ -762,16 +570,8 @@
         "reading": "へ"
       },
       {
-        "surface": "行き",
-        "reading": "いき"
-      },
-      {
-        "surface": "たい",
-        "reading": "たい"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "行きたい",
+        "reading": "いきたい"
       }
     ],
     "furigana": [
@@ -790,14 +590,11 @@
         "base": "へ"
       },
       {
-        "base": "行き",
-        "ruby": "いき"
+        "base": "行",
+        "ruby": "い"
       },
       {
-        "base": "たい"
-      },
-      {
-        "base": "。"
+        "base": "きたい"
       }
     ],
     "audioPath": "/audio/d05ad3aa61989770.mp3"
@@ -821,10 +618,6 @@
       {
         "surface": "暖かい",
         "reading": "あたたかい"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -838,11 +631,11 @@
         "base": "は"
       },
       {
-        "base": "暖かい",
-        "ruby": "あたたかい"
+        "base": "暖",
+        "ruby": "あたた"
       },
       {
-        "base": "。"
+        "base": "かい"
       }
     ],
     "audioPath": "/audio/41a815ab526c73cc.mp3"
@@ -864,20 +657,8 @@
         "reading": "を"
       },
       {
-        "surface": "食べ",
-        "reading": "たべ"
-      },
-      {
-        "surface": "まし",
-        "reading": "まし"
-      },
-      {
-        "surface": "た",
-        "reading": "た"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "食べました",
+        "reading": "たべました"
       }
     ],
     "furigana": [
@@ -893,17 +674,11 @@
         "base": "を"
       },
       {
-        "base": "食べ",
-        "ruby": "たべ"
+        "base": "食",
+        "ruby": "た"
       },
       {
-        "base": "まし"
-      },
-      {
-        "base": "た"
-      },
-      {
-        "base": "。"
+        "base": "べました"
       }
     ],
     "audioPath": "/audio/239b8f013a583fbb.mp3"
@@ -917,10 +692,6 @@
         "reading": "さあ"
       },
       {
-        "surface": "、",
-        "reading": "、"
-      },
-      {
         "surface": "一緒",
         "reading": "いっしょ"
       },
@@ -929,24 +700,13 @@
         "reading": "に"
       },
       {
-        "surface": "遊ぼ",
-        "reading": "あそぼ"
-      },
-      {
-        "surface": "う",
-        "reading": "う"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "遊ぼう",
+        "reading": "あそぼう"
       }
     ],
     "furigana": [
       {
         "base": "さあ"
-      },
-      {
-        "base": "、"
       },
       {
         "base": "一緒",
@@ -956,14 +716,11 @@
         "base": "に"
       },
       {
-        "base": "遊ぼ",
-        "ruby": "あそぼ"
+        "base": "遊",
+        "ruby": "あそ"
       },
       {
-        "base": "う"
-      },
-      {
-        "base": "。"
+        "base": "ぼう"
       }
     ],
     "audioPath": "/audio/14671074a17c50be.mp3"
@@ -977,24 +734,12 @@
         "reading": "かばん"
       },
       {
-        "surface": "開い",
-        "reading": "ひらい"
-      },
-      {
-        "surface": "て",
-        "reading": "て"
-      },
-      {
-        "surface": "ます",
-        "reading": "ます"
+        "surface": "開いてます",
+        "reading": "ひらいてます"
       },
       {
         "surface": "よ",
         "reading": "よ"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -1002,20 +747,14 @@
         "base": "かばん"
       },
       {
-        "base": "開い",
-        "ruby": "ひらい"
+        "base": "開",
+        "ruby": "ひら"
       },
       {
-        "base": "て"
-      },
-      {
-        "base": "ます"
+        "base": "いてます"
       },
       {
         "base": "よ"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/9505a16619b6f6af.mp3"
@@ -1041,20 +780,12 @@
         "reading": "を"
       },
       {
-        "surface": "書い",
-        "reading": "かい"
-      },
-      {
-        "surface": "た",
-        "reading": "た"
+        "surface": "書いた",
+        "reading": "かいた"
       },
       {
         "surface": "の",
         "reading": "の"
-      },
-      {
-        "surface": "？",
-        "reading": "？"
       }
     ],
     "furigana": [
@@ -1072,17 +803,14 @@
         "base": "を"
       },
       {
-        "base": "書い",
-        "ruby": "かい"
+        "base": "書",
+        "ruby": "か"
       },
       {
-        "base": "た"
+        "base": "いた"
       },
       {
         "base": "の"
-      },
-      {
-        "base": "？"
       }
     ],
     "audioPath": "/audio/f4b5325954f43b5e.mp3"
@@ -1100,20 +828,12 @@
         "reading": "に"
       },
       {
-        "surface": "乗ろ",
-        "reading": "のろ"
-      },
-      {
-        "surface": "う",
-        "reading": "う"
+        "surface": "乗ろう",
+        "reading": "のろう"
       },
       {
         "surface": "よ",
         "reading": "よ"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -1124,17 +844,14 @@
         "base": "に"
       },
       {
-        "base": "乗ろ",
-        "ruby": "のろ"
+        "base": "乗",
+        "ruby": "の"
       },
       {
-        "base": "う"
+        "base": "ろう"
       },
       {
         "base": "よ"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/e6b5d268c978c0c4.mp3"
@@ -1160,16 +877,8 @@
         "reading": "を"
       },
       {
-        "surface": "引い",
-        "reading": "ひい"
-      },
-      {
-        "surface": "た",
-        "reading": "た"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "引いた",
+        "reading": "ひいた"
       }
     ],
     "furigana": [
@@ -1188,14 +897,11 @@
         "base": "を"
       },
       {
-        "base": "引い",
-        "ruby": "ひい"
+        "base": "引",
+        "ruby": "ひ"
       },
       {
-        "base": "た"
-      },
-      {
-        "base": "。"
+        "base": "いた"
       }
     ],
     "audioPath": "/audio/7705f5f21a9c8dbf.mp3"
@@ -1213,20 +919,12 @@
         "reading": "は"
       },
       {
-        "surface": "どこ",
-        "reading": "どこ"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
+        "surface": "どこです",
+        "reading": "どこです"
       },
       {
         "surface": "か",
         "reading": "か"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -1237,16 +935,10 @@
         "base": "は"
       },
       {
-        "base": "どこ"
-      },
-      {
-        "base": "です"
+        "base": "どこです"
       },
       {
         "base": "か"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/5e036ce4b07f7d05.mp3"
@@ -1272,16 +964,8 @@
         "reading": "に"
       },
       {
-        "surface": "なり",
-        "reading": "なり"
-      },
-      {
-        "surface": "たい",
-        "reading": "たい"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "なりたい",
+        "reading": "なりたい"
       }
     ],
     "furigana": [
@@ -1300,13 +984,7 @@
         "base": "に"
       },
       {
-        "base": "なり"
-      },
-      {
-        "base": "たい"
-      },
-      {
-        "base": "。"
+        "base": "なりたい"
       }
     ],
     "audioPath": "/audio/8c7c6da516534fec.mp3"
@@ -1324,20 +1002,12 @@
         "reading": "は"
       },
       {
-        "surface": "どこ",
-        "reading": "どこ"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
+        "surface": "どこです",
+        "reading": "どこです"
       },
       {
         "surface": "か",
         "reading": "か"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -1348,16 +1018,10 @@
         "base": "は"
       },
       {
-        "base": "どこ"
-      },
-      {
-        "base": "です"
+        "base": "どこです"
       },
       {
         "base": "か"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/ce81e0378c279ea4.mp3"
@@ -1383,16 +1047,8 @@
         "reading": "が"
       },
       {
-        "surface": "好き",
-        "reading": "すき"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "好きです",
+        "reading": "すきです"
       }
     ],
     "furigana": [
@@ -1411,14 +1067,11 @@
         "base": "が"
       },
       {
-        "base": "好き",
-        "ruby": "すき"
+        "base": "好",
+        "ruby": "す"
       },
       {
-        "base": "です"
-      },
-      {
-        "base": "。"
+        "base": "きです"
       }
     ],
     "audioPath": "/audio/466415b77ffa28d4.mp3"
@@ -1432,20 +1085,12 @@
         "reading": "こうひい"
       },
       {
-        "surface": "飲み",
-        "reading": "のみ"
-      },
-      {
-        "surface": "ます",
-        "reading": "ます"
+        "surface": "飲みます",
+        "reading": "のみます"
       },
       {
         "surface": "か",
         "reading": "か"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -1453,17 +1098,14 @@
         "base": "コーヒー"
       },
       {
-        "base": "飲み",
-        "ruby": "のみ"
+        "base": "飲",
+        "ruby": "の"
       },
       {
-        "base": "ます"
+        "base": "みます"
       },
       {
         "base": "か"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/acd14f4e4e808b5c.mp3"
@@ -1475,10 +1117,6 @@
       {
         "surface": "薬",
         "reading": "くすり"
-      },
-      {
-        "surface": "、",
-        "reading": "、"
       },
       {
         "surface": "飲み",
@@ -1495,10 +1133,6 @@
       {
         "surface": "よ",
         "reading": "よ"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -1507,24 +1141,24 @@
         "ruby": "くすり"
       },
       {
-        "base": "、"
+        "base": "飲",
+        "ruby": "の"
       },
       {
-        "base": "飲み",
-        "ruby": "のみ"
+        "base": "み"
       },
       {
-        "base": "忘れる",
-        "ruby": "わすれる"
+        "base": "忘",
+        "ruby": "わす"
+      },
+      {
+        "base": "れる"
       },
       {
         "base": "な"
       },
       {
         "base": "よ"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/4c69eb987969227f.mp3"
@@ -1558,16 +1192,8 @@
         "reading": "を"
       },
       {
-        "surface": "見",
-        "reading": "み"
-      },
-      {
-        "surface": "た",
-        "reading": "た"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "見た",
+        "reading": "みた"
       }
     ],
     "furigana": [
@@ -1598,9 +1224,6 @@
       },
       {
         "base": "た"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/9231a127741a8151.mp3"
@@ -1614,20 +1237,8 @@
         "reading": "ぷうる"
       },
       {
-        "surface": "行き",
-        "reading": "いき"
-      },
-      {
-        "surface": "たく",
-        "reading": "たく"
-      },
-      {
-        "surface": "ない",
-        "reading": "ない"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "行きたくない",
+        "reading": "いきたくない"
       }
     ],
     "furigana": [
@@ -1635,17 +1246,11 @@
         "base": "プール"
       },
       {
-        "base": "行き",
-        "ruby": "いき"
+        "base": "行",
+        "ruby": "い"
       },
       {
-        "base": "たく"
-      },
-      {
-        "base": "ない"
-      },
-      {
-        "base": "。"
+        "base": "きたくない"
       }
     ],
     "audioPath": "/audio/e888c9c94bcec4de.mp3"
@@ -1675,20 +1280,12 @@
         "reading": "は"
       },
       {
-        "surface": "誰",
-        "reading": "だれ"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
+        "surface": "誰です",
+        "reading": "だれです"
       },
       {
         "surface": "か",
         "reading": "か"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -1718,9 +1315,6 @@
       },
       {
         "base": "か"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/cbdca8f0283e22ce.mp3"
@@ -1746,20 +1340,8 @@
         "reading": "に"
       },
       {
-        "surface": "なる",
-        "reading": "なる"
-      },
-      {
-        "surface": "だろ",
-        "reading": "だろ"
-      },
-      {
-        "surface": "う",
-        "reading": "う"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "なるだろう",
+        "reading": "なるだろう"
       }
     ],
     "furigana": [
@@ -1778,16 +1360,7 @@
         "base": "に"
       },
       {
-        "base": "なる"
-      },
-      {
-        "base": "だろ"
-      },
-      {
-        "base": "う"
-      },
-      {
-        "base": "。"
+        "base": "なるだろう"
       }
     ],
     "audioPath": "/audio/7e086c2ab4c856f1.mp3"
@@ -1813,20 +1386,8 @@
         "reading": "を"
       },
       {
-        "surface": "飲み",
-        "reading": "のみ"
-      },
-      {
-        "surface": "まし",
-        "reading": "まし"
-      },
-      {
-        "surface": "た",
-        "reading": "た"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "飲みました",
+        "reading": "のみました"
       }
     ],
     "furigana": [
@@ -1845,17 +1406,11 @@
         "base": "を"
       },
       {
-        "base": "飲み",
-        "ruby": "のみ"
+        "base": "飲",
+        "ruby": "の"
       },
       {
-        "base": "まし"
-      },
-      {
-        "base": "た"
-      },
-      {
-        "base": "。"
+        "base": "みました"
       }
     ],
     "audioPath": "/audio/48ae26bbe3f71387.mp3"
@@ -1881,16 +1436,8 @@
         "reading": "の"
       },
       {
-        "surface": "自動車",
-        "reading": "じどうしゃ"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "自動車です",
+        "reading": "じどうしゃです"
       }
     ],
     "furigana": [
@@ -1913,9 +1460,6 @@
       },
       {
         "base": "です"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/8856fa123d217420.mp3"
@@ -1945,16 +1489,8 @@
         "reading": "べんきょう"
       },
       {
-        "surface": "し",
-        "reading": "し"
-      },
-      {
-        "surface": "たい",
-        "reading": "たい"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "したい",
+        "reading": "したい"
       }
     ],
     "furigana": [
@@ -1977,13 +1513,7 @@
         "ruby": "べんきょう"
       },
       {
-        "base": "し"
-      },
-      {
-        "base": "たい"
-      },
-      {
-        "base": "。"
+        "base": "したい"
       }
     ],
     "audioPath": "/audio/2a588650ea400803.mp3"
@@ -2001,20 +1531,12 @@
         "reading": "は"
       },
       {
-        "surface": "どこ",
-        "reading": "どこ"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
+        "surface": "どこです",
+        "reading": "どこです"
       },
       {
         "surface": "か",
         "reading": "か"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -2025,16 +1547,10 @@
         "base": "は"
       },
       {
-        "base": "どこ"
-      },
-      {
-        "base": "です"
+        "base": "どこです"
       },
       {
         "base": "か"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/baa6596b08e9b9c2.mp3"
@@ -2058,16 +1574,18 @@
       {
         "surface": "くらい",
         "reading": "くらい"
-      },
-      {
-        "surface": "？",
-        "reading": "？"
       }
     ],
     "furigana": [
       {
-        "base": "お母さん",
-        "ruby": "おかあさん"
+        "base": "お"
+      },
+      {
+        "base": "母",
+        "ruby": "かあ"
+      },
+      {
+        "base": "さん"
       },
       {
         "base": "は"
@@ -2077,9 +1595,6 @@
       },
       {
         "base": "くらい"
-      },
-      {
-        "base": "？"
       }
     ],
     "audioPath": "/audio/1da787ad726333df.mp3"
@@ -2105,16 +1620,8 @@
         "reading": "が"
       },
       {
-        "surface": "好き",
-        "reading": "すき"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "好きです",
+        "reading": "すきです"
       }
     ],
     "furigana": [
@@ -2133,14 +1640,11 @@
         "base": "が"
       },
       {
-        "base": "好き",
-        "ruby": "すき"
+        "base": "好",
+        "ruby": "す"
       },
       {
-        "base": "です"
-      },
-      {
-        "base": "。"
+        "base": "きです"
       }
     ],
     "audioPath": "/audio/e881a8f3cbb4fd99.mp3"
@@ -2166,20 +1670,12 @@
         "reading": "の"
       },
       {
-        "surface": "傘",
-        "reading": "かさ"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
+        "surface": "傘です",
+        "reading": "かさです"
       },
       {
         "surface": "か",
         "reading": "か"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -2205,9 +1701,6 @@
       },
       {
         "base": "か"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/093bc90b7357a98d.mp3"
@@ -2229,16 +1722,8 @@
         "reading": "は"
       },
       {
-        "surface": "大きい",
-        "reading": "おおきい"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "大きいです",
+        "reading": "おおきいです"
       }
     ],
     "furigana": [
@@ -2253,14 +1738,11 @@
         "base": "は"
       },
       {
-        "base": "大きい",
-        "ruby": "おおきい"
+        "base": "大",
+        "ruby": "おお"
       },
       {
-        "base": "です"
-      },
-      {
-        "base": "。"
+        "base": "きいです"
       }
     ],
     "audioPath": "/audio/0c6932a37b46d79a.mp3"
@@ -2278,20 +1760,12 @@
         "reading": "は"
       },
       {
-        "surface": "いくら",
-        "reading": "いくら"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
+        "surface": "いくらです",
+        "reading": "いくらです"
       },
       {
         "surface": "か",
         "reading": "か"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -2302,16 +1776,10 @@
         "base": "は"
       },
       {
-        "base": "いくら"
-      },
-      {
-        "base": "です"
+        "base": "いくらです"
       },
       {
         "base": "か"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/05f43c1e3708c118.mp3"
@@ -2339,10 +1807,6 @@
       {
         "surface": "厚い",
         "reading": "あつい"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -2360,11 +1824,11 @@
         "base": "とても"
       },
       {
-        "base": "厚い",
-        "ruby": "あつい"
+        "base": "厚",
+        "ruby": "あつ"
       },
       {
-        "base": "。"
+        "base": "い"
       }
     ],
     "audioPath": "/audio/d24c554657e173f3.mp3"
@@ -2382,20 +1846,8 @@
         "reading": "を"
       },
       {
-        "surface": "閉め",
-        "reading": "しめ"
-      },
-      {
-        "surface": "たい",
-        "reading": "たい"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "閉めたいです",
+        "reading": "しめたいです"
       }
     ],
     "furigana": [
@@ -2406,17 +1858,11 @@
         "base": "を"
       },
       {
-        "base": "閉め",
-        "ruby": "しめ"
+        "base": "閉",
+        "ruby": "し"
       },
       {
-        "base": "たい"
-      },
-      {
-        "base": "です"
-      },
-      {
-        "base": "。"
+        "base": "めたいです"
       }
     ],
     "audioPath": "/audio/8dafb809662977c1.mp3"
@@ -2442,16 +1888,8 @@
         "reading": "の"
       },
       {
-        "surface": "妹",
-        "reading": "いもうと"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "妹です",
+        "reading": "いもうとです"
       }
     ],
     "furigana": [
@@ -2474,9 +1912,6 @@
       },
       {
         "base": "です"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/e53c994eaf144c59.mp3"
@@ -2494,20 +1929,12 @@
         "reading": "かさ"
       },
       {
-        "surface": "いくら",
-        "reading": "いくら"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
+        "surface": "いくらです",
+        "reading": "いくらです"
       },
       {
         "surface": "か",
         "reading": "か"
-      },
-      {
-        "surface": "？",
-        "reading": "？"
       }
     ],
     "furigana": [
@@ -2519,16 +1946,10 @@
         "ruby": "かさ"
       },
       {
-        "base": "いくら"
-      },
-      {
-        "base": "です"
+        "base": "いくらです"
       },
       {
         "base": "か"
-      },
-      {
-        "base": "？"
       }
     ],
     "audioPath": "/audio/3d1084ce4acc2a62.mp3"
@@ -2546,20 +1967,12 @@
         "reading": "で"
       },
       {
-        "surface": "行こ",
-        "reading": "いこ"
-      },
-      {
-        "surface": "う",
-        "reading": "う"
+        "surface": "行こう",
+        "reading": "いこう"
       },
       {
         "surface": "よ",
         "reading": "よ"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -2570,17 +1983,14 @@
         "base": "で"
       },
       {
-        "base": "行こ",
-        "ruby": "いこ"
+        "base": "行",
+        "ruby": "い"
       },
       {
-        "base": "う"
+        "base": "こう"
       },
       {
         "base": "よ"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/c8b32ce190d9fc3f.mp3"
@@ -2606,16 +2016,8 @@
         "reading": "の"
       },
       {
-        "surface": "父",
-        "reading": "ちち"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "父です",
+        "reading": "ちちです"
       }
     ],
     "furigana": [
@@ -2638,9 +2040,6 @@
       },
       {
         "base": "です"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/e3df0e5b134c3b8b.mp3"
@@ -2666,20 +2065,8 @@
         "reading": "が"
       },
       {
-        "surface": "一番",
-        "reading": "いちばん"
-      },
-      {
-        "surface": "好き",
-        "reading": "すき"
-      },
-      {
-        "surface": "だ",
-        "reading": "だ"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "一番好きだ",
+        "reading": "いちばんすきだ"
       }
     ],
     "furigana": [
@@ -2698,18 +2085,11 @@
         "base": "が"
       },
       {
-        "base": "一番",
-        "ruby": "いちばん"
+        "base": "一番好",
+        "ruby": "いちばんす"
       },
       {
-        "base": "好き",
-        "ruby": "すき"
-      },
-      {
-        "base": "だ"
-      },
-      {
-        "base": "。"
+        "base": "きだ"
       }
     ],
     "audioPath": "/audio/63cd2ddc3a1e7922.mp3"
@@ -2731,16 +2111,8 @@
         "reading": "は"
       },
       {
-        "surface": "開か",
-        "reading": "ひらか"
-      },
-      {
-        "surface": "ない",
-        "reading": "ない"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "開かない",
+        "reading": "ひらかない"
       }
     ],
     "furigana": [
@@ -2754,14 +2126,11 @@
         "base": "は"
       },
       {
-        "base": "開か",
-        "ruby": "ひらか"
+        "base": "開",
+        "ruby": "ひら"
       },
       {
-        "base": "ない"
-      },
-      {
-        "base": "。"
+        "base": "かない"
       }
     ],
     "audioPath": "/audio/8c5fc055dd5d8b3c.mp3"
@@ -2779,20 +2148,8 @@
         "reading": "を"
       },
       {
-        "surface": "食べ",
-        "reading": "たべ"
-      },
-      {
-        "surface": "たく",
-        "reading": "たく"
-      },
-      {
-        "surface": "ない",
-        "reading": "ない"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "食べたくない",
+        "reading": "たべたくない"
       }
     ],
     "furigana": [
@@ -2803,17 +2160,11 @@
         "base": "を"
       },
       {
-        "base": "食べ",
-        "ruby": "たべ"
+        "base": "食",
+        "ruby": "た"
       },
       {
-        "base": "たく"
-      },
-      {
-        "base": "ない"
-      },
-      {
-        "base": "。"
+        "base": "べたくない"
       }
     ],
     "audioPath": "/audio/31b63b4c2c85bc9c.mp3"
@@ -2835,20 +2186,8 @@
         "reading": "でんわ"
       },
       {
-        "surface": "し",
-        "reading": "し"
-      },
-      {
-        "surface": "て",
-        "reading": "て"
-      },
-      {
-        "surface": "下さい",
-        "reading": "ください"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "して下さい",
+        "reading": "してください"
       }
     ],
     "furigana": [
@@ -2864,17 +2203,14 @@
         "ruby": "でんわ"
       },
       {
-        "base": "し"
+        "base": "して"
       },
       {
-        "base": "て"
+        "base": "下",
+        "ruby": "くだ"
       },
       {
-        "base": "下さい",
-        "ruby": "ください"
-      },
-      {
-        "base": "。"
+        "base": "さい"
       }
     ],
     "audioPath": "/audio/c176b307edc87365.mp3"
@@ -2896,20 +2232,12 @@
         "reading": "が"
       },
       {
-        "surface": "降り",
-        "reading": "おり"
-      },
-      {
-        "surface": "ます",
-        "reading": "ます"
+        "surface": "降ります",
+        "reading": "おります"
       },
       {
         "surface": "か",
         "reading": "か"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -2925,17 +2253,14 @@
         "base": "が"
       },
       {
-        "base": "降り",
-        "ruby": "おり"
+        "base": "降",
+        "ruby": "お"
       },
       {
-        "base": "ます"
+        "base": "ります"
       },
       {
         "base": "か"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/a41ffd106018e801.mp3"
@@ -2957,16 +2282,8 @@
         "reading": "を"
       },
       {
-        "surface": "食べ",
-        "reading": "たべ"
-      },
-      {
-        "surface": "た",
-        "reading": "た"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "食べた",
+        "reading": "たべた"
       }
     ],
     "furigana": [
@@ -2981,14 +2298,11 @@
         "base": "を"
       },
       {
-        "base": "食べ",
-        "ruby": "たべ"
+        "base": "食",
+        "ruby": "た"
       },
       {
-        "base": "た"
-      },
-      {
-        "base": "。"
+        "base": "べた"
       }
     ],
     "audioPath": "/audio/fcd9c9eeb879dd28.mp3"
@@ -3014,16 +2328,8 @@
         "reading": "も"
       },
       {
-        "surface": "欲しく",
-        "reading": "ほしく"
-      },
-      {
-        "surface": "ない",
-        "reading": "ない"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "欲しくない",
+        "reading": "ほしくない"
       }
     ],
     "furigana": [
@@ -3042,14 +2348,11 @@
         "base": "も"
       },
       {
-        "base": "欲しく",
-        "ruby": "ほしく"
+        "base": "欲",
+        "ruby": "ほ"
       },
       {
-        "base": "ない"
-      },
-      {
-        "base": "。"
+        "base": "しくない"
       }
     ],
     "audioPath": "/audio/db3df812563386e8.mp3"
@@ -3063,24 +2366,12 @@
         "reading": "いつ"
       },
       {
-        "surface": "生まれ",
-        "reading": "うまれ"
-      },
-      {
-        "surface": "まし",
-        "reading": "まし"
-      },
-      {
-        "surface": "た",
-        "reading": "た"
+        "surface": "生まれました",
+        "reading": "うまれました"
       },
       {
         "surface": "か",
         "reading": "か"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -3088,20 +2379,14 @@
         "base": "いつ"
       },
       {
-        "base": "生まれ",
-        "ruby": "うまれ"
+        "base": "生",
+        "ruby": "う"
       },
       {
-        "base": "まし"
-      },
-      {
-        "base": "た"
+        "base": "まれました"
       },
       {
         "base": "か"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/daee6d39915e5fb8.mp3"
@@ -3135,16 +2420,8 @@
         "reading": "を"
       },
       {
-        "surface": "取っ",
-        "reading": "とっ"
-      },
-      {
-        "surface": "た",
-        "reading": "た"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "取った",
+        "reading": "とった"
       }
     ],
     "furigana": [
@@ -3170,14 +2447,11 @@
         "base": "を"
       },
       {
-        "base": "取っ",
-        "ruby": "とっ"
+        "base": "取",
+        "ruby": "と"
       },
       {
-        "base": "た"
-      },
-      {
-        "base": "。"
+        "base": "った"
       }
     ],
     "audioPath": "/audio/e077a9b5a5790443.mp3"
@@ -3195,20 +2469,8 @@
         "reading": "は"
       },
       {
-        "surface": "木曜日",
-        "reading": "もくようび"
-      },
-      {
-        "surface": "だっ",
-        "reading": "だっ"
-      },
-      {
-        "surface": "た",
-        "reading": "た"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "木曜日だった",
+        "reading": "もくようびだった"
       }
     ],
     "furigana": [
@@ -3224,13 +2486,7 @@
         "ruby": "もくようび"
       },
       {
-        "base": "だっ"
-      },
-      {
-        "base": "た"
-      },
-      {
-        "base": "。"
+        "base": "だった"
       }
     ],
     "audioPath": "/audio/79e35e31d2f378aa.mp3"
@@ -3256,16 +2512,8 @@
         "reading": "は"
       },
       {
-        "surface": "寒い",
-        "reading": "さむい"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "寒いです",
+        "reading": "さむいです"
       }
     ],
     "furigana": [
@@ -3284,14 +2532,11 @@
         "base": "は"
       },
       {
-        "base": "寒い",
-        "ruby": "さむい"
+        "base": "寒",
+        "ruby": "さむ"
       },
       {
-        "base": "です"
-      },
-      {
-        "base": "。"
+        "base": "いです"
       }
     ],
     "audioPath": "/audio/de3476442956c2ec.mp3"
@@ -3309,20 +2554,8 @@
         "reading": "は"
       },
       {
-        "surface": "日曜日",
-        "reading": "にちようび"
-      },
-      {
-        "surface": "でし",
-        "reading": "でし"
-      },
-      {
-        "surface": "た",
-        "reading": "た"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "日曜日でした",
+        "reading": "にちようびでした"
       }
     ],
     "furigana": [
@@ -3338,13 +2571,7 @@
         "ruby": "にちようび"
       },
       {
-        "base": "でし"
-      },
-      {
-        "base": "た"
-      },
-      {
-        "base": "。"
+        "base": "でした"
       }
     ],
     "audioPath": "/audio/8ce064aa3cf67777.mp3"
@@ -3362,20 +2589,12 @@
         "reading": "は"
       },
       {
-        "surface": "どう",
-        "reading": "どう"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
+        "surface": "どうです",
+        "reading": "どうです"
       },
       {
         "surface": "か",
         "reading": "か"
-      },
-      {
-        "surface": "？",
-        "reading": "？"
       }
     ],
     "furigana": [
@@ -3387,16 +2606,10 @@
         "base": "は"
       },
       {
-        "base": "どう"
-      },
-      {
-        "base": "です"
+        "base": "どうです"
       },
       {
         "base": "か"
-      },
-      {
-        "base": "？"
       }
     ],
     "audioPath": "/audio/a038ce206921bc36.mp3"
@@ -3422,16 +2635,8 @@
         "reading": "の"
       },
       {
-        "surface": "鉛筆",
-        "reading": "えんぴつ"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "鉛筆です",
+        "reading": "えんぴつです"
       }
     ],
     "furigana": [
@@ -3454,9 +2659,6 @@
       },
       {
         "base": "です"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/e1b9713352597573.mp3"
@@ -3474,24 +2676,12 @@
         "reading": "は"
       },
       {
-        "surface": "寒かっ",
-        "reading": "さむかっ"
-      },
-      {
-        "surface": "た",
-        "reading": "た"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
+        "surface": "寒かったです",
+        "reading": "さむかったです"
       },
       {
         "surface": "か",
         "reading": "か"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -3503,20 +2693,14 @@
         "base": "は"
       },
       {
-        "base": "寒かっ",
-        "ruby": "さむかっ"
+        "base": "寒",
+        "ruby": "さむ"
       },
       {
-        "base": "た"
-      },
-      {
-        "base": "です"
+        "base": "かったです"
       },
       {
         "base": "か"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/c0a4d815b04c0728.mp3"
@@ -3542,16 +2726,8 @@
         "reading": "という"
       },
       {
-        "surface": "動物",
-        "reading": "どうぶつ"
-      },
-      {
-        "surface": "だ",
-        "reading": "だ"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "動物だ",
+        "reading": "どうぶつだ"
       }
     ],
     "furigana": [
@@ -3574,9 +2750,6 @@
       },
       {
         "base": "だ"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/9435898d21d9d9f2.mp3"
@@ -3606,20 +2779,12 @@
         "reading": "は"
       },
       {
-        "surface": "誰",
-        "reading": "だれ"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
+        "surface": "誰です",
+        "reading": "だれです"
       },
       {
         "surface": "か",
         "reading": "か"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -3649,9 +2814,6 @@
       },
       {
         "base": "か"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/f5e613265dd64775.mp3"
@@ -3677,16 +2839,8 @@
         "reading": "が"
       },
       {
-        "surface": "好き",
-        "reading": "すき"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "好きです",
+        "reading": "すきです"
       }
     ],
     "furigana": [
@@ -3704,14 +2858,11 @@
         "base": "が"
       },
       {
-        "base": "好き",
-        "ruby": "すき"
+        "base": "好",
+        "ruby": "す"
       },
       {
-        "base": "です"
-      },
-      {
-        "base": "。"
+        "base": "きです"
       }
     ],
     "audioPath": "/audio/890903198d633fbc.mp3"
@@ -3729,20 +2880,12 @@
         "reading": "とけい"
       },
       {
-        "surface": "いくら",
-        "reading": "いくら"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
+        "surface": "いくらです",
+        "reading": "いくらです"
       },
       {
         "surface": "か",
         "reading": "か"
-      },
-      {
-        "surface": "？",
-        "reading": "？"
       }
     ],
     "furigana": [
@@ -3754,16 +2897,10 @@
         "ruby": "とけい"
       },
       {
-        "base": "いくら"
-      },
-      {
-        "base": "です"
+        "base": "いくらです"
       },
       {
         "base": "か"
-      },
-      {
-        "base": "？"
       }
     ],
     "audioPath": "/audio/648624d9e999ac5e.mp3"
@@ -3781,20 +2918,8 @@
         "reading": "を"
       },
       {
-        "surface": "貸し",
-        "reading": "かし"
-      },
-      {
-        "surface": "て",
-        "reading": "て"
-      },
-      {
-        "surface": "下さい",
-        "reading": "ください"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "貸して下さい",
+        "reading": "かしてください"
       }
     ],
     "furigana": [
@@ -3805,18 +2930,11 @@
         "base": "を"
       },
       {
-        "base": "貸し",
-        "ruby": "かし"
+        "base": "貸して下",
+        "ruby": "かしてくだ"
       },
       {
-        "base": "て"
-      },
-      {
-        "base": "下さい",
-        "ruby": "ください"
-      },
-      {
-        "base": "。"
+        "base": "さい"
       }
     ],
     "audioPath": "/audio/fed1b3b3f8e9e2ac.mp3"
@@ -3834,20 +2952,8 @@
         "reading": "を"
       },
       {
-        "surface": "消し",
-        "reading": "けし"
-      },
-      {
-        "surface": "て",
-        "reading": "て"
-      },
-      {
-        "surface": "下さい",
-        "reading": "ください"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "消して下さい",
+        "reading": "けしてください"
       }
     ],
     "furigana": [
@@ -3858,18 +2964,11 @@
         "base": "を"
       },
       {
-        "base": "消し",
-        "ruby": "けし"
+        "base": "消して下",
+        "ruby": "けしてくだ"
       },
       {
-        "base": "て"
-      },
-      {
-        "base": "下さい",
-        "ruby": "ください"
-      },
-      {
-        "base": "。"
+        "base": "さい"
       }
     ],
     "audioPath": "/audio/53a427dee2353a40.mp3"
@@ -3891,20 +2990,12 @@
         "reading": "すき"
       },
       {
-        "surface": "じゃ",
-        "reading": "じゃ"
-      },
-      {
-        "surface": "ない",
-        "reading": "ない"
+        "surface": "じゃない",
+        "reading": "じゃない"
       },
       {
         "surface": "な",
         "reading": "な"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -3915,20 +3006,17 @@
         "base": "は"
       },
       {
-        "base": "好き",
-        "ruby": "すき"
+        "base": "好",
+        "ruby": "す"
       },
       {
-        "base": "じゃ"
+        "base": "き"
       },
       {
-        "base": "ない"
+        "base": "じゃない"
       },
       {
         "base": "な"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/4025487f0e4d7ced.mp3"
@@ -3954,16 +3042,8 @@
         "reading": "は"
       },
       {
-        "surface": "暇",
-        "reading": "ひま"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "暇です",
+        "reading": "ひまです"
       }
     ],
     "furigana": [
@@ -3987,9 +3067,6 @@
       },
       {
         "base": "です"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/6e837bf10a4d1a4b.mp3"
@@ -4007,24 +3084,12 @@
         "reading": "を"
       },
       {
-        "surface": "押し",
-        "reading": "おし"
-      },
-      {
-        "surface": "まし",
-        "reading": "まし"
-      },
-      {
-        "surface": "た",
-        "reading": "た"
+        "surface": "押しました",
+        "reading": "おしました"
       },
       {
         "surface": "か",
         "reading": "か"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -4035,20 +3100,14 @@
         "base": "を"
       },
       {
-        "base": "押し",
-        "ruby": "おし"
+        "base": "押",
+        "ruby": "お"
       },
       {
-        "base": "まし"
-      },
-      {
-        "base": "た"
+        "base": "しました"
       },
       {
         "base": "か"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/1bf8c8ff7f8b621b.mp3"
@@ -4074,16 +3133,8 @@
         "reading": "も"
       },
       {
-        "surface": "学生",
-        "reading": "がくせい"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "学生です",
+        "reading": "がくせいです"
       }
     ],
     "furigana": [
@@ -4106,9 +3157,6 @@
       },
       {
         "base": "です"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/5a14aa17f1896039.mp3"
@@ -4122,41 +3170,32 @@
         "reading": "あたらしく"
       },
       {
-        "surface": "入っ",
-        "reading": "はいっ"
+        "surface": "入った",
+        "reading": "はいった"
       },
       {
-        "surface": "た",
-        "reading": "た"
-      },
-      {
-        "surface": "人",
-        "reading": "ひと"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
+        "surface": "人です",
+        "reading": "ひとです"
       },
       {
         "surface": "か",
         "reading": "か"
-      },
-      {
-        "surface": "？",
-        "reading": "？"
       }
     ],
     "furigana": [
       {
-        "base": "新しく",
-        "ruby": "あたらしく"
+        "base": "新",
+        "ruby": "あたら"
       },
       {
-        "base": "入っ",
-        "ruby": "はいっ"
+        "base": "しく"
       },
       {
-        "base": "た"
+        "base": "入",
+        "ruby": "はい"
+      },
+      {
+        "base": "った"
       },
       {
         "base": "人",
@@ -4167,9 +3206,6 @@
       },
       {
         "base": "か"
-      },
-      {
-        "base": "？"
       }
     ],
     "audioPath": "/audio/8c98a25d3af0139b.mp3"
@@ -4191,30 +3227,21 @@
         "reading": "も"
       },
       {
-        "surface": "飲み",
-        "reading": "のみ"
-      },
-      {
-        "surface": "ませ",
-        "reading": "ませ"
-      },
-      {
-        "surface": "ん",
-        "reading": "ん"
+        "surface": "飲みません",
+        "reading": "のみません"
       },
       {
         "surface": "か",
         "reading": "か"
-      },
-      {
-        "surface": "？",
-        "reading": "？"
       }
     ],
     "furigana": [
       {
-        "base": "お茶",
-        "ruby": "おちゃ"
+        "base": "お"
+      },
+      {
+        "base": "茶",
+        "ruby": "ちゃ"
       },
       {
         "base": "で"
@@ -4223,20 +3250,14 @@
         "base": "も"
       },
       {
-        "base": "飲み",
-        "ruby": "のみ"
+        "base": "飲",
+        "ruby": "の"
       },
       {
-        "base": "ませ"
-      },
-      {
-        "base": "ん"
+        "base": "みません"
       },
       {
         "base": "か"
-      },
-      {
-        "base": "？"
       }
     ],
     "audioPath": "/audio/226c56d9e5c01344.mp3"
@@ -4258,16 +3279,8 @@
         "reading": "でも"
       },
       {
-        "surface": "結構",
-        "reading": "けっこう"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "結構です",
+        "reading": "けっこうです"
       }
     ],
     "furigana": [
@@ -4287,9 +3300,6 @@
       },
       {
         "base": "です"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/a405522bba4eff7f.mp3"
@@ -4315,16 +3325,8 @@
         "reading": "が"
       },
       {
-        "surface": "悪かっ",
-        "reading": "わるかっ"
-      },
-      {
-        "surface": "た",
-        "reading": "た"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "悪かった",
+        "reading": "わるかった"
       }
     ],
     "furigana": [
@@ -4343,14 +3345,11 @@
         "base": "が"
       },
       {
-        "base": "悪かっ",
-        "ruby": "わるかっ"
+        "base": "悪",
+        "ruby": "わる"
       },
       {
-        "base": "た"
-      },
-      {
-        "base": "。"
+        "base": "かった"
       }
     ],
     "audioPath": "/audio/0e022fdc20080653.mp3"
@@ -4376,20 +3375,8 @@
         "reading": "べんきょう"
       },
       {
-        "surface": "し",
-        "reading": "し"
-      },
-      {
-        "surface": "まし",
-        "reading": "まし"
-      },
-      {
-        "surface": "た",
-        "reading": "た"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "しました",
+        "reading": "しました"
       }
     ],
     "furigana": [
@@ -4409,16 +3396,7 @@
         "ruby": "べんきょう"
       },
       {
-        "base": "し"
-      },
-      {
-        "base": "まし"
-      },
-      {
-        "base": "た"
-      },
-      {
-        "base": "。"
+        "base": "しました"
       }
     ],
     "audioPath": "/audio/d270b45653bf79dc.mp3"
@@ -4440,20 +3418,12 @@
         "reading": "は"
       },
       {
-        "surface": "いくら",
-        "reading": "いくら"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
+        "surface": "いくらです",
+        "reading": "いくらです"
       },
       {
         "surface": "か",
         "reading": "か"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -4468,16 +3438,10 @@
         "base": "は"
       },
       {
-        "base": "いくら"
-      },
-      {
-        "base": "です"
+        "base": "いくらです"
       },
       {
         "base": "か"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/574f62d3251916ec.mp3"
@@ -4513,10 +3477,6 @@
       {
         "surface": "よ",
         "reading": "よ"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -4527,8 +3487,11 @@
         "base": "で"
       },
       {
-        "base": "行く",
-        "ruby": "いく"
+        "base": "行",
+        "ruby": "い"
+      },
+      {
+        "base": "く"
       },
       {
         "base": "方",
@@ -4538,14 +3501,14 @@
         "base": "が"
       },
       {
-        "base": "安い",
-        "ruby": "やすい"
+        "base": "安",
+        "ruby": "やす"
+      },
+      {
+        "base": "い"
       },
       {
         "base": "よ"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/09ea69ab7d670b42.mp3"
@@ -4563,49 +3526,34 @@
         "reading": "やすく"
       },
       {
-        "surface": "なり",
-        "reading": "なり"
-      },
-      {
-        "surface": "ませ",
-        "reading": "ませ"
-      },
-      {
-        "surface": "ん",
-        "reading": "ん"
+        "surface": "なりません",
+        "reading": "なりません"
       },
       {
         "surface": "か",
         "reading": "か"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
       {
-        "base": "少し",
-        "ruby": "すこし"
+        "base": "少",
+        "ruby": "すこ"
       },
       {
-        "base": "安く",
-        "ruby": "やすく"
+        "base": "し"
       },
       {
-        "base": "なり"
+        "base": "安",
+        "ruby": "やす"
       },
       {
-        "base": "ませ"
+        "base": "く"
       },
       {
-        "base": "ん"
+        "base": "なりません"
       },
       {
         "base": "か"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/5b032ae34b47f6f9.mp3"
@@ -4631,16 +3579,8 @@
         "reading": "を"
       },
       {
-        "surface": "借り",
-        "reading": "かり"
-      },
-      {
-        "surface": "ます",
-        "reading": "ます"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "借ります",
+        "reading": "かります"
       }
     ],
     "furigana": [
@@ -4652,21 +3592,21 @@
         "base": "で"
       },
       {
-        "base": "お金",
-        "ruby": "おかね"
+        "base": "お"
+      },
+      {
+        "base": "金",
+        "ruby": "かね"
       },
       {
         "base": "を"
       },
       {
-        "base": "借り",
-        "ruby": "かり"
+        "base": "借",
+        "ruby": "か"
       },
       {
-        "base": "ます"
-      },
-      {
-        "base": "。"
+        "base": "ります"
       }
     ],
     "audioPath": "/audio/e7fa940d34ac7169.mp3"
@@ -4684,20 +3624,8 @@
         "reading": "を"
       },
       {
-        "surface": "消し",
-        "reading": "けし"
-      },
-      {
-        "surface": "ましょ",
-        "reading": "ましょ"
-      },
-      {
-        "surface": "う",
-        "reading": "う"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "消しましょう",
+        "reading": "けしましょう"
       }
     ],
     "furigana": [
@@ -4708,17 +3636,11 @@
         "base": "を"
       },
       {
-        "base": "消し",
-        "ruby": "けし"
+        "base": "消",
+        "ruby": "け"
       },
       {
-        "base": "ましょ"
-      },
-      {
-        "base": "う"
-      },
-      {
-        "base": "。"
+        "base": "しましょう"
       }
     ],
     "audioPath": "/audio/85d2815d147963cb.mp3"
@@ -4736,20 +3658,8 @@
         "reading": "に"
       },
       {
-        "surface": "会い",
-        "reading": "あい"
-      },
-      {
-        "surface": "ましょ",
-        "reading": "ましょ"
-      },
-      {
-        "surface": "う",
-        "reading": "う"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "会いましょう",
+        "reading": "あいましょう"
       }
     ],
     "furigana": [
@@ -4761,17 +3671,11 @@
         "base": "に"
       },
       {
-        "base": "会い",
-        "ruby": "あい"
+        "base": "会",
+        "ruby": "あ"
       },
       {
-        "base": "ましょ"
-      },
-      {
-        "base": "う"
-      },
-      {
-        "base": "。"
+        "base": "いましょう"
       }
     ],
     "audioPath": "/audio/b7386430a5a32991.mp3"
@@ -4789,24 +3693,12 @@
         "reading": "に"
       },
       {
-        "surface": "帰り",
-        "reading": "かえり"
-      },
-      {
-        "surface": "ましょ",
-        "reading": "ましょ"
-      },
-      {
-        "surface": "う",
-        "reading": "う"
+        "surface": "帰りましょう",
+        "reading": "かえりましょう"
       },
       {
         "surface": "か",
         "reading": "か"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -4818,20 +3710,14 @@
         "base": "に"
       },
       {
-        "base": "帰り",
-        "ruby": "かえり"
+        "base": "帰",
+        "ruby": "かえ"
       },
       {
-        "base": "ましょ"
-      },
-      {
-        "base": "う"
+        "base": "りましょう"
       },
       {
         "base": "か"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/8d61ebc398098039.mp3"
@@ -4859,10 +3745,6 @@
       {
         "surface": "出る",
         "reading": "でる"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -4881,11 +3763,11 @@
         "ruby": "まいつき"
       },
       {
-        "base": "出る",
-        "ruby": "でる"
+        "base": "出",
+        "ruby": "で"
       },
       {
-        "base": "。"
+        "base": "る"
       }
     ],
     "audioPath": "/audio/361da53f9fd20b53.mp3"
@@ -4903,16 +3785,8 @@
         "reading": "あたたかく"
       },
       {
-        "surface": "なっ",
-        "reading": "なっ"
-      },
-      {
-        "surface": "た",
-        "reading": "た"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "なった",
+        "reading": "なった"
       }
     ],
     "furigana": [
@@ -4920,17 +3794,14 @@
         "base": "うんと"
       },
       {
-        "base": "暖かく",
-        "ruby": "あたたかく"
+        "base": "暖",
+        "ruby": "あたた"
       },
       {
-        "base": "なっ"
+        "base": "かく"
       },
       {
-        "base": "た"
-      },
-      {
-        "base": "。"
+        "base": "なった"
       }
     ],
     "audioPath": "/audio/4b4dc66c79af79c3.mp3"
@@ -4940,58 +3811,32 @@
     "japanese": "一人で行きたくない。",
     "tokens": [
       {
-        "surface": "一",
-        "reading": "いち"
-      },
-      {
-        "surface": "人",
-        "reading": "にん"
+        "surface": "一人",
+        "reading": "いちにん"
       },
       {
         "surface": "で",
         "reading": "で"
       },
       {
-        "surface": "行き",
-        "reading": "いき"
-      },
-      {
-        "surface": "たく",
-        "reading": "たく"
-      },
-      {
-        "surface": "ない",
-        "reading": "ない"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "行きたくない",
+        "reading": "いきたくない"
       }
     ],
     "furigana": [
       {
-        "base": "一",
-        "ruby": "いち"
-      },
-      {
-        "base": "人",
-        "ruby": "にん"
+        "base": "一人",
+        "ruby": "いちにん"
       },
       {
         "base": "で"
       },
       {
-        "base": "行き",
-        "ruby": "いき"
+        "base": "行",
+        "ruby": "い"
       },
       {
-        "base": "たく"
-      },
-      {
-        "base": "ない"
-      },
-      {
-        "base": "。"
+        "base": "きたくない"
       }
     ],
     "audioPath": "/audio/3b48fa6b88895500.mp3"
@@ -5013,16 +3858,8 @@
         "reading": "を"
       },
       {
-        "surface": "し",
-        "reading": "し"
-      },
-      {
-        "surface": "ます",
-        "reading": "ます"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "します",
+        "reading": "します"
       }
     ],
     "furigana": [
@@ -5038,13 +3875,7 @@
         "base": "を"
       },
       {
-        "base": "し"
-      },
-      {
-        "base": "ます"
-      },
-      {
-        "base": "。"
+        "base": "します"
       }
     ],
     "audioPath": "/audio/118895ad57e63280.mp3"
@@ -5062,20 +3893,8 @@
         "reading": "は"
       },
       {
-        "surface": "どう",
-        "reading": "どう"
-      },
-      {
-        "surface": "だっ",
-        "reading": "だっ"
-      },
-      {
-        "surface": "た",
-        "reading": "た"
-      },
-      {
-        "surface": "？",
-        "reading": "？"
+        "surface": "どうだった",
+        "reading": "どうだった"
       }
     ],
     "furigana": [
@@ -5086,16 +3905,7 @@
         "base": "は"
       },
       {
-        "base": "どう"
-      },
-      {
-        "base": "だっ"
-      },
-      {
-        "base": "た"
-      },
-      {
-        "base": "？"
+        "base": "どうだった"
       }
     ],
     "audioPath": "/audio/91a03cfa0fc47ae7.mp3"
@@ -5113,16 +3923,8 @@
         "reading": "が"
       },
       {
-        "surface": "欲しい",
-        "reading": "ほしい"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "欲しいです",
+        "reading": "ほしいです"
       }
     ],
     "furigana": [
@@ -5133,14 +3935,11 @@
         "base": "が"
       },
       {
-        "base": "欲しい",
-        "ruby": "ほしい"
+        "base": "欲",
+        "ruby": "ほ"
       },
       {
-        "base": "です"
-      },
-      {
-        "base": "。"
+        "base": "しいです"
       }
     ],
     "audioPath": "/audio/52cf6f00065fd89b.mp3"
@@ -5166,20 +3965,8 @@
         "reading": "も"
       },
       {
-        "surface": "知り",
-        "reading": "しり"
-      },
-      {
-        "surface": "ませ",
-        "reading": "ませ"
-      },
-      {
-        "surface": "ん",
-        "reading": "ん"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "知りません",
+        "reading": "しりません"
       }
     ],
     "furigana": [
@@ -5198,17 +3985,11 @@
         "base": "も"
       },
       {
-        "base": "知り",
-        "ruby": "しり"
+        "base": "知",
+        "ruby": "し"
       },
       {
-        "base": "ませ"
-      },
-      {
-        "base": "ん"
-      },
-      {
-        "base": "。"
+        "base": "りません"
       }
     ],
     "audioPath": "/audio/f799b974882ea10a.mp3"
@@ -5232,16 +4013,15 @@
       {
         "surface": "どう",
         "reading": "どう"
-      },
-      {
-        "surface": "？",
-        "reading": "？"
       }
     ],
     "furigana": [
       {
-        "base": "新しい",
-        "ruby": "あたらしい"
+        "base": "新",
+        "ruby": "あたら"
+      },
+      {
+        "base": "しい"
       },
       {
         "base": "クラス"
@@ -5251,9 +4031,6 @@
       },
       {
         "base": "どう"
-      },
-      {
-        "base": "？"
       }
     ],
     "audioPath": "/audio/6397350dba84f1b0.mp3"
@@ -5263,57 +4040,39 @@
     "japanese": "着いたら電話してね。",
     "tokens": [
       {
-        "surface": "着い",
-        "reading": "つい"
-      },
-      {
-        "surface": "たら",
-        "reading": "たら"
+        "surface": "着いたら",
+        "reading": "ついたら"
       },
       {
         "surface": "電話",
         "reading": "でんわ"
       },
       {
-        "surface": "し",
-        "reading": "し"
-      },
-      {
-        "surface": "て",
-        "reading": "て"
+        "surface": "して",
+        "reading": "して"
       },
       {
         "surface": "ね",
         "reading": "ね"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
       {
-        "base": "着い",
-        "ruby": "つい"
+        "base": "着",
+        "ruby": "つ"
       },
       {
-        "base": "たら"
+        "base": "いたら"
       },
       {
         "base": "電話",
         "ruby": "でんわ"
       },
       {
-        "base": "し"
-      },
-      {
-        "base": "て"
+        "base": "して"
       },
       {
         "base": "ね"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/7414ebd31d5c71f2.mp3"
@@ -5339,20 +4098,8 @@
         "reading": "に"
       },
       {
-        "surface": "立た",
-        "reading": "たた"
-      },
-      {
-        "surface": "ない",
-        "reading": "ない"
-      },
-      {
-        "surface": "で",
-        "reading": "で"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "立たないで",
+        "reading": "たたないで"
       }
     ],
     "furigana": [
@@ -5371,17 +4118,11 @@
         "base": "に"
       },
       {
-        "base": "立た",
-        "ruby": "たた"
+        "base": "立",
+        "ruby": "た"
       },
       {
-        "base": "ない"
-      },
-      {
-        "base": "で"
-      },
-      {
-        "base": "。"
+        "base": "たないで"
       }
     ],
     "audioPath": "/audio/7dc378a3b7ddaf25.mp3"
@@ -5405,10 +4146,6 @@
       {
         "surface": "甘い",
         "reading": "あまい"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -5422,11 +4159,11 @@
         "base": "は"
       },
       {
-        "base": "甘い",
-        "ruby": "あまい"
+        "base": "甘",
+        "ruby": "あま"
       },
       {
-        "base": "。"
+        "base": "い"
       }
     ],
     "audioPath": "/audio/7d40ef5551f5c096.mp3"
@@ -5440,24 +4177,12 @@
         "reading": "あした"
       },
       {
-        "surface": "働き",
-        "reading": "はたらき"
-      },
-      {
-        "surface": "たく",
-        "reading": "たく"
-      },
-      {
-        "surface": "ない",
-        "reading": "ない"
+        "surface": "働きたくない",
+        "reading": "はたらきたくない"
       },
       {
         "surface": "な",
         "reading": "な"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -5466,20 +4191,14 @@
         "ruby": "あした"
       },
       {
-        "base": "働き",
-        "ruby": "はたらき"
+        "base": "働",
+        "ruby": "はたら"
       },
       {
-        "base": "たく"
-      },
-      {
-        "base": "ない"
+        "base": "きたくない"
       },
       {
         "base": "な"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/89b988a986eff0dc.mp3"
@@ -5493,10 +4212,6 @@
         "reading": "かいもの"
       },
       {
-        "surface": "、",
-        "reading": "、"
-      },
-      {
         "surface": "いつ",
         "reading": "いつ"
       },
@@ -5507,10 +4222,6 @@
       {
         "surface": "の",
         "reading": "の"
-      },
-      {
-        "surface": "？",
-        "reading": "？"
       }
     ],
     "furigana": [
@@ -5519,20 +4230,17 @@
         "ruby": "かいもの"
       },
       {
-        "base": "、"
-      },
-      {
         "base": "いつ"
       },
       {
-        "base": "行く",
-        "ruby": "いく"
+        "base": "行",
+        "ruby": "い"
+      },
+      {
+        "base": "く"
       },
       {
         "base": "の"
-      },
-      {
-        "base": "？"
       }
     ],
     "audioPath": "/audio/fe6a0e76deaba2ad.mp3"
@@ -5558,20 +4266,12 @@
         "reading": "の"
       },
       {
-        "surface": "部屋",
-        "reading": "へや"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
+        "surface": "部屋です",
+        "reading": "へやです"
       },
       {
         "surface": "か",
         "reading": "か"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -5597,9 +4297,6 @@
       },
       {
         "base": "か"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/0df3995912d79df3.mp3"
@@ -5625,20 +4322,12 @@
         "reading": "の"
       },
       {
-        "surface": "辞書",
-        "reading": "じしょ"
-      },
-      {
-        "surface": "です",
-        "reading": "です"
+        "surface": "辞書です",
+        "reading": "じしょです"
       },
       {
         "surface": "か",
         "reading": "か"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
       }
     ],
     "furigana": [
@@ -5664,9 +4353,6 @@
       },
       {
         "base": "か"
-      },
-      {
-        "base": "。"
       }
     ],
     "audioPath": "/audio/fbbf80809ca610d1.mp3"
@@ -5688,20 +4374,12 @@
         "reading": "を"
       },
       {
-        "surface": "読み",
-        "reading": "よみ"
-      },
-      {
-        "surface": "たい",
-        "reading": "たい"
+        "surface": "読みたい",
+        "reading": "よみたい"
       },
       {
         "surface": "の",
         "reading": "の"
-      },
-      {
-        "surface": "？",
-        "reading": "？"
       }
     ],
     "furigana": [
@@ -5716,17 +4394,14 @@
         "base": "を"
       },
       {
-        "base": "読み",
-        "ruby": "よみ"
+        "base": "読",
+        "ruby": "よ"
       },
       {
-        "base": "たい"
+        "base": "みたい"
       },
       {
         "base": "の"
-      },
-      {
-        "base": "？"
       }
     ],
     "audioPath": "/audio/deb91ee42773c67b.mp3"
@@ -5748,20 +4423,8 @@
         "reading": "は"
       },
       {
-        "surface": "誰",
-        "reading": "だれ"
-      },
-      {
-        "surface": "だろ",
-        "reading": "だろ"
-      },
-      {
-        "surface": "う",
-        "reading": "う"
-      },
-      {
-        "surface": "。",
-        "reading": "。"
+        "surface": "誰だろう",
+        "reading": "だれだろう"
       }
     ],
     "furigana": [
@@ -5780,13 +4443,7 @@
         "ruby": "だれ"
       },
       {
-        "base": "だろ"
-      },
-      {
-        "base": "う"
-      },
-      {
-        "base": "。"
+        "base": "だろう"
       }
     ],
     "audioPath": "/audio/c40ab2a9ad947d8e.mp3"

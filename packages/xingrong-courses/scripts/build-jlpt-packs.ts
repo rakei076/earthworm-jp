@@ -31,7 +31,8 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 import kuromoji from "kuromoji";
-import { toHiragana } from "wanakana";
+
+import { processSentence } from "./jp-tokenize";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -181,15 +182,7 @@ function buildStatement(
   japanese: string,
   rawTokens: kuromoji.IpadicFeatures[],
 ): Statement {
-  const tokens = rawTokens.map((t) => {
-    const reading = t.reading && t.reading !== "*" ? toHiragana(t.reading) : t.surface_form;
-    return { surface: t.surface_form, reading };
-  });
-  const furigana = tokens.map((t) =>
-    hasKanji(t.surface) && t.reading !== t.surface
-      ? { base: t.surface, ruby: t.reading }
-      : { base: t.surface },
-  );
+  const { tokens, furigana } = processSentence(rawTokens);
   return { chinese, japanese, tokens, furigana };
 }
 

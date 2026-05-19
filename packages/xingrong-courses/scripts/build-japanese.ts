@@ -4,7 +4,9 @@ import { fileURLToPath } from "node:url";
 
 import yaml from "js-yaml";
 import kuromoji from "kuromoji";
-import { toHiragana } from "wanakana";
+
+import type { FuriganaSegment, Token } from "./jp-tokenize";
+import { processSentence } from "./jp-tokenize";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -13,8 +15,6 @@ const OUTPUT_FILE = path.resolve(__dirname, "../data/courses/jp-minna-1.json");
 const DICT_PATH = path.resolve(__dirname, "../node_modules/kuromoji/dict");
 
 type SourceEntry = { chinese: string; japanese: string };
-type Token = { surface: string; reading: string };
-type FuriganaSegment = { base: string; ruby?: string };
 
 type Statement = {
   chinese: string;
@@ -22,10 +22,6 @@ type Statement = {
   tokens: Token[];
   furigana: FuriganaSegment[];
 };
-
-function hasKanji(text: string): boolean {
-  return /[一-鿿㐀-䶿]/.test(text);
-}
 
 function buildTokenizer(): Promise<kuromoji.Tokenizer<kuromoji.IpadicFeatures>> {
   return new Promise((resolve, reject) => {
@@ -40,19 +36,8 @@ function buildStatement(
   entry: SourceEntry,
   tokenizer: kuromoji.Tokenizer<kuromoji.IpadicFeatures>,
 ): Statement {
-  const rawTokens = tokenizer.tokenize(entry.japanese);
-
-  const tokens: Token[] = rawTokens.map((t) => {
-    const reading = t.reading && t.reading !== "*" ? toHiragana(t.reading) : t.surface_form;
-    return { surface: t.surface_form, reading };
-  });
-
-  const furigana: FuriganaSegment[] = tokens.map((t) =>
-    hasKanji(t.surface) && t.reading !== t.surface
-      ? { base: t.surface, ruby: t.reading }
-      : { base: t.surface },
-  );
-
+  const raw = tokenizer.tokenize(entry.japanese);
+  const { tokens, furigana } = processSentence(raw);
   return {
     chinese: entry.chinese,
     japanese: entry.japanese,
