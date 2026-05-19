@@ -14,6 +14,7 @@
     </div>
   </div>
   <UserMenu />
+  <TTSDebug />
 </template>
 
 <script setup lang="ts"></script>
