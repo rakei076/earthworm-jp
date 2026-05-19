@@ -14,54 +14,63 @@ type PackMeta = {
   title: string;
   description: string;
   order: number;
+  /** Sentences per lesson within the pack. Defaults to LESSON_SIZE. */
+  lessonSize?: number;
 };
 
 /**
  * Pack-level metadata indexed by data file basename (without .json).
  *
- * Each course-data JSON file becomes ONE course pack containing ONE course
- * which holds all the statements. The Chinese learner's journey then is:
- *   1. pick a pack (e.g. "JLPT N5 · 入门短句")
- *   2. enter its lesson (just "全部" for now)
- *   3. type through every sentence one by one
- *
- * If you add a new JSON, drop a matching entry below or it will be skipped.
+ * Each JSON file → one course pack. Statements in the file are sliced
+ * into lessons of `lessonSize` (default 20). The Chinese learner picks
+ * a pack from the home page, then drills lesson 1 → lesson N.
  */
 const PACK_METADATA: Record<string, PackMeta> = {
   "jp-minna-1": {
     title: "大家的日本语 · 第一课",
     description: "通过造句学习《大家的日本语》初级教材",
     order: 1,
+    lessonSize: 15, // small pack — keep it as a single 15-sentence lesson
   },
   "jlpt-n5-01": {
     title: "JLPT N5 · 入门短句",
-    description: "短而完整的陈述/疑问句（6-8 字）",
+    description: "短而完整的陈述/疑问句（6-7 字）",
     order: 10,
   },
   "jlpt-n5-02": {
     title: "JLPT N5 · 日常基础",
-    description: "日常对话场景的入门句（9-10 字）",
+    description: "日常对话场景的入门句（8-9 字）",
     order: 11,
   },
   "jlpt-n5-03": {
     title: "JLPT N5 · 简单造句",
-    description: "增加助词和动词变化（11-13 字）",
+    description: "增加助词和动词变化（10-11 字）",
     order: 12,
   },
   "jlpt-n5-04": {
     title: "JLPT N5 · 复合句型",
-    description: "包含从句、并列结构（14-16 字）",
+    description: "包含从句、并列结构（12-14 字）",
     order: 13,
   },
   "jlpt-n5-05": {
     title: "JLPT N5 · 进阶练习",
-    description: "N5 范围内的较长句子（17+ 字）",
+    description: "N5 范围内的较长句子（15+ 字）",
     order: 14,
   },
 };
 
+const LESSON_SIZE_DEFAULT = 20;
+
 const COVER_DEFAULT =
   "https://earthworm-prod-1312884695.cos.ap-beijing.myqcloud.com/course-packs/xingrong.jpg";
+
+function toChineseLessonName(n: number): string {
+  const digits = ["零", "一", "二", "三", "四", "五", "六", "七", "八", "九", "十"];
+  if (n <= 10) return `第${digits[n]}课`;
+  if (n < 20) return `第十${digits[n - 10]}课`;
+  if (n === 20) return `第二十课`;
+  return `第${n}课`;
+}
 
 (async function () {
   // Reset everything — keeps the run idempotent.
@@ -72,7 +81,6 @@ const COVER_DEFAULT =
   const coursesDir = path.resolve(__dirname, "../data/courses");
   const files = fs.readdirSync(coursesDir).filter((f) => f.endsWith(".json") && !f.startsWith("_"));
 
-  // Order packs by their declared `order`; unknown files alphabetical.
   const sorted = files.slice().sort((a, b) => {
     const ka = path.parse(a).name;
     const kb = path.parse(b).name;
@@ -85,9 +93,13 @@ const COVER_DEFAULT =
     const key = path.parse(file).name;
     const meta = PACK_METADATA[key];
     if (!meta) {
-      console.log(`skip ${file} — no metadata declared in PACK_METADATA`);
+      console.log(`skip ${file} — no metadata in PACK_METADATA`);
       continue;
     }
+
+    const allStatements = JSON.parse(
+      fs.readFileSync(path.join(coursesDir, file), "utf-8"),
+    ) as Statement[];
 
     const [packEntity] = await db
       .insert(coursePack)
@@ -102,31 +114,34 @@ const COVER_DEFAULT =
       })
       .returning();
 
-    const [courseEntity] = await db
-      .insert(courseSchema)
-      .values({
-        coursePackId: packEntity.id,
-        order: 1,
-        title: "全部",
-      })
-      .returning({ id: courseSchema.id, title: courseSchema.title });
+    const lessonSize = meta.lessonSize ?? LESSON_SIZE_DEFAULT;
+    const lessonCount = Math.ceil(allStatements.length / lessonSize);
 
-    const statements = JSON.parse(
-      fs.readFileSync(path.join(coursesDir, file), "utf-8"),
-    ) as Statement[];
+    for (let li = 0; li < lessonCount; li++) {
+      const slice = allStatements.slice(li * lessonSize, (li + 1) * lessonSize);
 
-    let order = 1;
-    await Promise.all(
-      statements.map((s) =>
-        db.insert(statementSchema).values({
-          ...s,
-          order: order++,
-          courseId: courseEntity.id,
-        }),
-      ),
-    );
+      const [courseEntity] = await db
+        .insert(courseSchema)
+        .values({
+          coursePackId: packEntity.id,
+          order: li + 1,
+          title: toChineseLessonName(li + 1),
+        })
+        .returning({ id: courseSchema.id, title: courseSchema.title });
 
-    console.log(`✓ ${meta.title} — ${statements.length} sentences`);
+      let order = 1;
+      await Promise.all(
+        slice.map((s) =>
+          db.insert(statementSchema).values({
+            ...s,
+            order: order++,
+            courseId: courseEntity.id,
+          }),
+        ),
+      );
+    }
+
+    console.log(`✓ ${meta.title} — ${allStatements.length} sentences in ${lessonCount} lesson(s)`);
   }
 
   console.log("全部创建完成");

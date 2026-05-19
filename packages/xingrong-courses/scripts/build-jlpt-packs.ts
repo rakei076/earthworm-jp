@@ -43,17 +43,18 @@ const DICT_PATH = path.resolve(__dirname, "../node_modules/kuromoji/dict");
 
 // Tuning knobs
 const PACK_COUNT = 5;
-const SENTENCES_PER_PACK = 15;
+const SENTENCES_PER_PACK = 100;
 
 // Buckets of (min, max) sentence-length characters — controls difficulty curve.
-// Skip the < 6 char range: those are mostly single-word imperatives like
-// 「行け！」which need verb-form grammar we haven't taught yet.
+// Buckets are sized against the actual N5 candidate histogram (see
+// scripts/check-buckets.ts), so each bucket has 60-150 sentences available
+// even before we apply the per-pack cap.
 const LENGTH_BUCKETS: Array<[number, number]> = [
-  [6, 8],
-  [9, 10],
-  [11, 13],
-  [14, 16],
-  [17, 25],
+  [6, 7],
+  [8, 9],
+  [10, 11],
+  [12, 14],
+  [15, 30],
 ];
 
 const PACK_TITLES = [
