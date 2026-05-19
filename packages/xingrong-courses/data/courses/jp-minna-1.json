@@ -35,7 +35,8 @@
       {
         "base": "です"
       }
-    ]
+    ],
+    "audioPath": "/audio/9ff3b943b65072db.mp3"
   },
   {
     "chinese": "我是田中",
@@ -73,7 +74,8 @@
       {
         "base": "です"
       }
-    ]
+    ],
+    "audioPath": "/audio/8fd1b520e81eee2e.mp3"
   },
   {
     "chinese": "那个人是老师",
@@ -118,7 +120,8 @@
       {
         "base": "です"
       }
-    ]
+    ],
+    "audioPath": "/audio/b400c7a9e7fe91e3.mp3"
   },
   {
     "chinese": "这是书",
@@ -155,7 +158,8 @@
       {
         "base": "です"
       }
-    ]
+    ],
+    "audioPath": "/audio/5a6c5776a968754f.mp3"
   },
   {
     "chinese": "那是杂志",
@@ -192,7 +196,8 @@
       {
         "base": "です"
       }
-    ]
+    ],
+    "audioPath": "/audio/1149a61d8da93426.mp3"
   },
   {
     "chinese": "那个是相机",
@@ -228,7 +233,8 @@
       {
         "base": "です"
       }
-    ]
+    ],
+    "audioPath": "/audio/bf3751951e9ab2ef.mp3"
   },
   {
     "chinese": "这是我的伞",
@@ -280,7 +286,8 @@
       {
         "base": "です"
       }
-    ]
+    ],
+    "audioPath": "/audio/e0741e1182825419.mp3"
   },
   {
     "chinese": "这本书是田中的",
@@ -339,7 +346,8 @@
       {
         "base": "です"
       }
-    ]
+    ],
+    "audioPath": "/audio/eda5bcc56ca1058a.mp3"
   },
   {
     "chinese": "那里是教室",
@@ -376,7 +384,8 @@
       {
         "base": "です"
       }
-    ]
+    ],
+    "audioPath": "/audio/b388692744b2d827.mp3"
   },
   {
     "chinese": "洗手间在哪里",
@@ -419,7 +428,8 @@
       {
         "base": "か"
       }
-    ]
+    ],
+    "audioPath": "/audio/b2d287c294879ed4.mp3"
   },
   {
     "chinese": "田中在办公室",
@@ -478,7 +488,8 @@
       {
         "base": "ます"
       }
-    ]
+    ],
+    "audioPath": "/audio/6712c0dcd2d190af.mp3"
   },
   {
     "chinese": "现在是九点",
@@ -517,7 +528,8 @@
       {
         "base": "です"
       }
-    ]
+    ],
+    "audioPath": "/audio/e00763d9a51156c3.mp3"
   },
   {
     "chinese": "我七点起床",
@@ -578,7 +590,8 @@
       {
         "base": "ます"
       }
-    ]
+    ],
+    "audioPath": "/audio/764a312543b0311f.mp3"
   },
   {
     "chinese": "今天不工作",
@@ -623,7 +636,8 @@
       {
         "base": "ん"
       }
-    ]
+    ],
+    "audioPath": "/audio/2d5cf113f606386f.mp3"
   },
   {
     "chinese": "昨天学了日语",
@@ -683,6 +697,7 @@
       {
         "base": "た"
       }
-    ]
+    ],
+    "audioPath": "/audio/12e11a07d8b6e802.mp3"
   }
 ]

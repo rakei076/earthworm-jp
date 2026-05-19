@@ -33,7 +33,8 @@
       {
         "base": "？"
       }
-    ]
+    ],
+    "audioPath": "/audio/f1bfad6b05750391.mp3"
   },
   {
     "chinese": "這裡疼。",
@@ -77,7 +78,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/e7bac22f409de37c.mp3"
   },
   {
     "chinese": "天氣冷。",
@@ -122,7 +124,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/a353d10a7db1f91f.mp3"
   },
   {
     "chinese": "这很难。",
@@ -166,7 +169,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/e01274ce6598ef4c.mp3"
   },
   {
     "chinese": "秋天到了。",
@@ -217,7 +221,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/af350d193810d538.mp3"
   },
   {
     "chinese": "昨天很冷。",
@@ -262,7 +267,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/fa0ab52afb3d3eb2.mp3"
   },
   {
     "chinese": "那是什么？",
@@ -313,7 +319,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/be25e312197dccf5.mp3"
   },
   {
     "chinese": "这是医院。",
@@ -357,7 +364,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/3181fed556fa50b3.mp3"
   },
   {
     "chinese": "这本书小。",
@@ -402,7 +410,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/5b3595e5e2f8afe8.mp3"
   },
   {
     "chinese": "海非常宽。",
@@ -447,7 +456,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/fb1422ad86f1539b.mp3"
   },
   {
     "chinese": "肥皂没了。",
@@ -491,7 +501,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/46d6ab74e8323270.mp3"
   },
   {
     "chinese": "明天休息。",
@@ -536,7 +547,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/200f25dd89b11bee.mp3"
   },
   {
     "chinese": "夜晚很冷。",
@@ -588,7 +600,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/a55fbf01b70d42c4.mp3"
   },
   {
     "chinese": "把門鎖上。",
@@ -639,7 +652,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/987fcebcf957b768.mp3"
   },
   {
     "chinese": "猫讨厌水。",
@@ -699,7 +713,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/acef0c3a5dc6ac3c.mp3"
   },
   {
     "chinese": "这不是盐。",
@@ -757,7 +772,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/ff501d0a48703631.mp3"
   },
   {
     "chinese": "为什么呢？",
@@ -793,7 +809,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/bd4e2ad16f9d1d42.mp3"
   },
   {
     "chinese": "它是食物。",
@@ -837,7 +854,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/5baca8d45007a8bc.mp3"
   },
   {
     "chinese": "非常有趣。",
@@ -874,7 +892,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/7eb22f87c2e86493.mp3"
   },
   {
     "chinese": "你有票嗎？",
@@ -926,7 +945,8 @@
       {
         "base": "？"
       }
-    ]
+    ],
+    "audioPath": "/audio/e2b3f7a01ab20edb.mp3"
   },
   {
     "chinese": "哪裡生的？",
@@ -977,7 +997,8 @@
       {
         "base": "？"
       }
-    ]
+    ],
+    "audioPath": "/audio/021269e442e36282.mp3"
   },
   {
     "chinese": "你不知道吗？",
@@ -1021,7 +1042,8 @@
       {
         "base": "？"
       }
-    ]
+    ],
+    "audioPath": "/audio/25a2de364c0fa7d7.mp3"
   },
   {
     "chinese": "這是什麼啊？",
@@ -1072,7 +1094,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/ed653e5bdda572bb.mp3"
   },
   {
     "chinese": "我讨厌学习。",
@@ -1117,7 +1140,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/4a3dc269c195bf82.mp3"
   },
   {
     "chinese": "今天风很大。",
@@ -1170,7 +1194,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/77d5699be7bd7d2b.mp3"
   },
   {
     "chinese": "我喜欢水果。",
@@ -1215,7 +1240,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/3d0647563b809e42.mp3"
   },
   {
     "chinese": "别忘了带伞。",
@@ -1267,7 +1293,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/5c1115bab371f6a2.mp3"
   },
   {
     "chinese": "已经没事了。",
@@ -1304,7 +1331,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/f9b41023dbf0b1a9.mp3"
   },
   {
     "chinese": "我好喜欢雪。",
@@ -1349,7 +1377,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/ea0057deda9a3dff.mp3"
   },
   {
     "chinese": "我明天再做。",
@@ -1393,7 +1422,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/7081d3fab65df85f.mp3"
   },
   {
     "chinese": "我去学校了。",
@@ -1438,7 +1468,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/cbbf12a7e60b07a0.mp3"
   },
   {
     "chinese": "我爸爸很忙。",
@@ -1491,7 +1522,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/a98ad1c8a65a9253.mp3"
   },
   {
     "chinese": "把電視關了。",
@@ -1535,7 +1567,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/469c075afe565455.mp3"
   },
   {
     "chinese": "今天超級冷。",
@@ -1581,7 +1614,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/25ae989c511176fc.mp3"
   },
   {
     "chinese": "你看電視嗎？",
@@ -1618,7 +1652,8 @@
       {
         "base": "？"
       }
-    ]
+    ],
+    "audioPath": "/audio/5db03a77ae6443f2.mp3"
   },
   {
     "chinese": "他昨天病了。",
@@ -1663,7 +1698,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/7acef362cac82632.mp3"
   },
   {
     "chinese": "这是我的狗。",
@@ -1722,7 +1758,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/34f178c798fe7df2.mp3"
   },
   {
     "chinese": "是，我喜歡。",
@@ -1766,7 +1803,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/173a60be312d9d6a.mp3"
   },
   {
     "chinese": "我有点累了。",
@@ -1803,7 +1841,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/de16eaf95570d28e.mp3"
   },
   {
     "chinese": "你媽媽在哪？",
@@ -1840,7 +1879,8 @@
       {
         "base": "？"
       }
-    ]
+    ],
+    "audioPath": "/audio/6957ca9c7126e3fd.mp3"
   },
   {
     "chinese": "音樂我喜歡。",
@@ -1885,7 +1925,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/05093a00036288b6.mp3"
   },
   {
     "chinese": "沒人會聽的。",
@@ -1937,7 +1978,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/c9fe24883f5dc1d0.mp3"
   },
   {
     "chinese": "請洗耳恭聽。",
@@ -1990,7 +2032,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/2bb1f0ab230c80e4.mp3"
   },
   {
     "chinese": "我每天跑步。",
@@ -2043,7 +2086,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/3fd8e8a495a14466.mp3"
   },
   {
     "chinese": "昨天下雨了。",
@@ -2103,7 +2147,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/db8cd43ba2a0596a.mp3"
   },
   {
     "chinese": "已经到了吗？",
@@ -2154,7 +2199,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/884396d50baa7e35.mp3"
   },
   {
     "chinese": "零在一前面。",
@@ -2213,7 +2259,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/1484e4d8056fa3ac.mp3"
   },
   {
     "chinese": "我自己做的。",
@@ -2265,7 +2312,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/e6ef092bdac5b4b8.mp3"
   },
   {
     "chinese": "明晚怎么样？",
@@ -2317,7 +2365,8 @@
       {
         "base": "？"
       }
-    ]
+    ],
+    "audioPath": "/audio/4afd62f141c3a55b.mp3"
   },
   {
     "chinese": "别跟着来啊。",
@@ -2376,7 +2425,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/99f3864a2e90b709.mp3"
   },
   {
     "chinese": "一箱多少钱？",
@@ -2428,7 +2478,8 @@
       {
         "base": "？"
       }
-    ]
+    ],
+    "audioPath": "/audio/cd4595aa3acdb4d1.mp3"
   },
   {
     "chinese": "学校怎么样？",
@@ -2479,7 +2530,8 @@
       {
         "base": "？"
       }
-    ]
+    ],
+    "audioPath": "/audio/f08e60007cf1c922.mp3"
   },
   {
     "chinese": "工作怎么样？",
@@ -2530,7 +2582,8 @@
       {
         "base": "？"
       }
-    ]
+    ],
+    "audioPath": "/audio/afd47e66321079b8.mp3"
   },
   {
     "chinese": "我总是有事。",
@@ -2575,7 +2628,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/d32ed8bac45f7e6d.mp3"
   },
   {
     "chinese": "我该回家了。",
@@ -2627,7 +2681,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/0ec14a62025a0880.mp3"
   },
   {
     "chinese": "别让狗进来。",
@@ -2687,7 +2742,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/02581fbe49d24717.mp3"
   },
   {
     "chinese": "爸爸去哪了?",
@@ -2746,7 +2802,8 @@
       {
         "base": "？"
       }
-    ]
+    ],
+    "audioPath": "/audio/cc5ecd43e9986fb2.mp3"
   },
   {
     "chinese": "天气怎么样？",
@@ -2797,7 +2854,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/27561b7a10882924.mp3"
   },
   {
     "chinese": "我需要出去。",
@@ -2834,7 +2892,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/7bdce826b9cf5865.mp3"
   },
   {
     "chinese": "周一可以吗？",
@@ -2879,7 +2938,8 @@
       {
         "base": "？"
       }
-    ]
+    ],
+    "audioPath": "/audio/1ae1a6f890a1a025.mp3"
   },
   {
     "chinese": "你加鹽了嗎？",
@@ -2938,7 +2998,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/73cc44bc5fa6dbc4.mp3"
   },
   {
     "chinese": "请稍等一下。",
@@ -2984,7 +3045,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/facb4ddfb212c022.mp3"
   },
   {
     "chinese": "昨天是多雲。",
@@ -3036,7 +3098,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/824b10c9c4ad8ecd.mp3"
   },
   {
     "chinese": "你们去哪里？",
@@ -3087,7 +3150,8 @@
       {
         "base": "？"
       }
-    ]
+    ],
+    "audioPath": "/audio/7b0c340b25fd79a6.mp3"
   },
   {
     "chinese": "那个人是谁？",
@@ -3146,7 +3210,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/7672397f6421ac45.mp3"
   },
   {
     "chinese": "巴士還沒來。",
@@ -3197,7 +3262,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/14e2135af839d803.mp3"
   },
   {
     "chinese": "這座山很低。",
@@ -3249,7 +3315,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/eb9e270dfb6a5755.mp3"
   },
   {
     "chinese": "這是我的狗。",
@@ -3308,7 +3375,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/36d0ff814204a6bb.mp3"
   },
   {
     "chinese": "我的妹妹有名。",
@@ -3368,7 +3436,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/f00305fe9353ae47.mp3"
   },
   {
     "chinese": "火车站在哪里?",
@@ -3419,7 +3488,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/ce4ca053973b0ffc.mp3"
   },
   {
     "chinese": "这本书是新的。",
@@ -3464,7 +3534,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/aa38372dab35fa78.mp3"
   },
   {
     "chinese": "他是英语老师。",
@@ -3509,7 +3580,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/2e62292903e3350f.mp3"
   },
   {
     "chinese": "这是谁的杯子？",
@@ -3553,7 +3625,8 @@
       {
         "base": "？"
       }
-    ]
+    ],
+    "audioPath": "/audio/d2835aead64e1f5b.mp3"
   },
   {
     "chinese": "我明天会很忙。",
@@ -3599,7 +3672,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/304e03433124c255.mp3"
   },
   {
     "chinese": "明天图书馆见。",
@@ -3644,7 +3718,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/993e3d4b54fcb55a.mp3"
   },
   {
     "chinese": "酒后别开车 。",
@@ -3689,7 +3764,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/b676e931d44dd8e4.mp3"
   },
   {
     "chinese": "睡觉时间到了。",
@@ -3734,7 +3810,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/184b896f42eadc89.mp3"
   },
   {
     "chinese": "那是一支铅笔。",
@@ -3778,7 +3855,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/47636a2980df5b76.mp3"
   },
   {
     "chinese": "这把椅子很轻。",
@@ -3823,7 +3901,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/303bdfd711f764a2.mp3"
   },
   {
     "chinese": "我想买套房子。",
@@ -3875,7 +3954,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/2457d775abfcb536.mp3"
   },
   {
     "chinese": "他把衬衫脱了。",
@@ -3919,7 +3999,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/dcc93f7ac99201d6.mp3"
   },
   {
     "chinese": "不要坐在上面。",
@@ -3971,7 +4052,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/e25d9ddd4f7cd154.mp3"
   },
   {
     "chinese": "要不要一起去？",
@@ -4016,7 +4098,8 @@
       {
         "base": "？"
       }
-    ]
+    ],
+    "audioPath": "/audio/4d80eeeeb4d0fd06.mp3"
   },
   {
     "chinese": "我們搭電車來。",
@@ -4068,7 +4151,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/c2cfd5139cfa724a.mp3"
   },
   {
     "chinese": "今天是星期日。",
@@ -4113,7 +4197,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/042f0b523fb784b8.mp3"
   },
   {
     "chinese": "明天是星期天。",
@@ -4158,7 +4243,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/ecc13ffdd09075ee.mp3"
   },
   {
     "chinese": "你喜欢音乐吗？",
@@ -4210,7 +4296,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/8ff42c8c7cbdb6e3.mp3"
   },
   {
     "chinese": "这是我的妈妈。",
@@ -4269,7 +4356,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/2367843bce28a140.mp3"
   },
   {
     "chinese": "你喜欢学校吗?",
@@ -4321,7 +4409,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/9617d6621755b4c3.mp3"
   },
   {
     "chinese": "这是陈年旧信。",
@@ -4373,7 +4462,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/b989c2ba36d0cdae.mp3"
   },
   {
     "chinese": "出口在哪儿呢？",
@@ -4424,7 +4514,8 @@
       {
         "base": "？"
       }
-    ]
+    ],
+    "audioPath": "/audio/e71d51842f0d4613.mp3"
   },
   {
     "chinese": "一个人多少钱？",
@@ -4476,7 +4567,8 @@
       {
         "base": "？"
       }
-    ]
+    ],
+    "audioPath": "/audio/f12b6f33535f3596.mp3"
   },
   {
     "chinese": "今天是星期四。",
@@ -4521,7 +4613,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/785cdfdd0b07d0c5.mp3"
   },
   {
     "chinese": "我唱歌很好听。",
@@ -4581,7 +4674,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/0f874ef9f992eaa7.mp3"
   },
   {
     "chinese": "我不喜欢夏天。",
@@ -4641,7 +4735,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/684cf4a3c0b657e5.mp3"
   },
   {
     "chinese": "让我们回家吧。",
@@ -4693,7 +4788,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/a7a3203a2a3eff60.mp3"
   },
   {
     "chinese": "我不再爱你了。",
@@ -4737,7 +4833,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/61f79ea56a2cbceb.mp3"
   },
   {
     "chinese": "我在花园里玩。",
@@ -4797,7 +4894,8 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/67783be5ce7338bc.mp3"
   },
   {
     "chinese": "你现在很忙吧？",
@@ -4849,7 +4947,8 @@
       {
         "base": "？"
       }
-    ]
+    ],
+    "audioPath": "/audio/1ce83a1adfc40559.mp3"
   },
   {
     "chinese": "我想买一只狗。",
@@ -4901,6 +5000,7 @@
       {
         "base": "。"
       }
-    ]
+    ],
+    "audioPath": "/audio/725746a282f4d9ee.mp3"
   }
 ]

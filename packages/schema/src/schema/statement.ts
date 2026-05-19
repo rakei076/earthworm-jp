@@ -23,6 +23,8 @@ export const statement = pgTable("statements", {
   japanese: text("japanese").notNull(),
   tokens: jsonb("tokens").$type<StatementToken[]>().notNull(),
   furigana: jsonb("furigana").$type<FuriganaSegment[]>().notNull(),
+  /** URL path to a pre-generated MP3 (Edge TTS, ja-JP-NanamiNeural). */
+  audioPath: text("audio_path"),
   courseId: text("course_id")
     .notNull()
     .references(() => course.id),

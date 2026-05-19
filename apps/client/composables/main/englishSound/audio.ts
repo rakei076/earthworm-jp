@@ -1,81 +1,48 @@
 /**
- * Japanese TTS playback via Web Speech API.
+ * Audio playback for Japanese sentences.
  *
- * Pitfalls we deal with:
- *   1. Chrome lazy-loads voices → handle `voiceschanged`.
- *   2. macOS lists Siri-style voices (Eddy / Flo / Grandma / Grandpa) in
- *      getVoices() even when they haven't been downloaded — using them
- *      produces NO audio. We explicitly prefer Kyoko / Otoya, the legacy
- *      voices that ship with every macOS install, and fall back to any
- *      other ja voice only if those aren't present.
- *   3. Some chrome builds silently drop a speak() that fires too early,
- *      with no error event. We surface onstart / onend / onerror through
- *      console.debug so we can confirm playback in DevTools.
+ * Each statement carries an `audioPath` pointing at a pre-generated MP3
+ * synthesized at build time by Microsoft Edge TTS (ja-JP-NanamiNeural,
+ * see packages/xingrong-courses/scripts/generate-audio.py). At runtime
+ * the client just plays the MP3 with a plain HTMLAudioElement — works
+ * in every browser, no Web Speech API, no system voice install needed.
+ *
+ * If a statement has no audioPath (e.g. legacy data, generation failed),
+ * we silently fall back to Web Speech API so the play button still does
+ * something visible. The fallback uses the always-installed macOS
+ * "Kyoko" / "Otoya" voices when available.
  */
 
-const LANG = "ja-JP";
-const RELIABLE_VOICE_NAMES = ["Kyoko", "Otoya"];
+const WEBSPEECH_LANG = "ja-JP";
+const WEBSPEECH_PREFERRED_VOICES = ["Kyoko", "Otoya"];
 
-let jaVoice: SpeechSynthesisVoice | null = null;
-let voiceWarned = false;
-
-function refreshVoice() {
-  if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
-  const voices = window.speechSynthesis.getVoices();
-  const ja = voices.filter((v) => v.lang.startsWith("ja"));
-
-  // 1) Try the always-installed legacy macOS voices first — they actually
-  //    produce sound out of the box. Siri-style voices may be undownloaded.
-  jaVoice =
-    RELIABLE_VOICE_NAMES.map((n) => ja.find((v) => v.name === n)).find(Boolean) ?? ja[0] ?? null;
-
-  if (!jaVoice && voices.length > 0 && !voiceWarned) {
-    voiceWarned = true;
-    // eslint-disable-next-line no-console
-    console.warn(
-      "[earthworm-jp TTS] No Japanese voice installed. " +
-        "macOS: System Settings → Accessibility → Spoken Content → System Voice → 管理声音 → 下载 Kyoko or Otoya.",
-    );
-  }
-}
-
-if (typeof window !== "undefined" && "speechSynthesis" in window) {
-  refreshVoice();
-  window.speechSynthesis.onvoiceschanged = refreshVoice;
-}
-
-function speakOnce(text: string, rate: number): SpeechSynthesisUtterance | null {
-  if (!text) return null;
-  if (typeof window === "undefined" || !("speechSynthesis" in window)) return null;
-  if (!jaVoice) refreshVoice();
-
-  const utt = new SpeechSynthesisUtterance(text);
-  utt.lang = LANG;
-  if (jaVoice) utt.voice = jaVoice;
-  utt.rate = rate;
-
-  // Lightweight observability. Visible in DevTools console.
-  utt.onstart = () =>
-    console.debug(
-      `[earthworm-jp TTS] onstart "${text.slice(0, 20)}" voice=${jaVoice?.name ?? "(default)"}`,
-    );
-  utt.onend = () => console.debug(`[earthworm-jp TTS] onend "${text.slice(0, 20)}"`);
-  utt.onerror = (e) => console.warn(`[earthworm-jp TTS] onerror "${text.slice(0, 20)}"`, e.error);
-
-  window.speechSynthesis.cancel();
-  window.speechSynthesis.speak(utt);
-  return utt;
-}
-
-function cancelAll() {
-  if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
-  window.speechSynthesis.cancel();
-}
-
+let audioEl: HTMLAudioElement | null = null;
 let currentText = "";
+let currentAudioPath: string | null = null;
 
-export function updateSource(src: string) {
-  currentText = src;
+function getAudio(): HTMLAudioElement {
+  if (typeof window === "undefined") {
+    // SSR guard — return a stub.
+    return {} as HTMLAudioElement;
+  }
+  if (!audioEl) {
+    audioEl = new Audio();
+    audioEl.preload = "auto";
+  }
+  return audioEl;
+}
+
+export function updateSource(text: string, audioPath?: string | null) {
+  currentText = text;
+  currentAudioPath = audioPath ?? null;
+  if (typeof window === "undefined") return;
+  if (currentAudioPath) {
+    const a = getAudio();
+    if (a.src !== window.location.origin + currentAudioPath) {
+      a.src = currentAudioPath;
+      a.load();
+    }
+  }
 }
 
 export interface PlayOptions {
@@ -90,9 +57,42 @@ const DefaultPlayOptions: Required<PlayOptions> = {
   interval: 500,
 };
 
+let webSpeechVoice: SpeechSynthesisVoice | null = null;
+function pickWebSpeechVoice() {
+  if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
+  const vs = window.speechSynthesis.getVoices().filter((v) => v.lang.startsWith("ja"));
+  webSpeechVoice =
+    WEBSPEECH_PREFERRED_VOICES.map((n) => vs.find((v) => v.name === n)).find(Boolean) ??
+    vs[0] ??
+    null;
+}
+if (typeof window !== "undefined" && "speechSynthesis" in window) {
+  pickWebSpeechVoice();
+  window.speechSynthesis.onvoiceschanged = pickWebSpeechVoice;
+}
+
+function webSpeechFallback(text: string, rate: number): SpeechSynthesisUtterance | null {
+  if (!text || typeof window === "undefined" || !("speechSynthesis" in window)) return null;
+  if (!webSpeechVoice) pickWebSpeechVoice();
+  const utt = new SpeechSynthesisUtterance(text);
+  utt.lang = WEBSPEECH_LANG;
+  if (webSpeechVoice) utt.voice = webSpeechVoice;
+  utt.rate = rate;
+  window.speechSynthesis.cancel();
+  window.speechSynthesis.speak(utt);
+  return utt;
+}
+
+/**
+ * Play the current source. Returns a stop function.
+ *
+ * The path is:
+ *   1. If an MP3 audioPath is set → play HTMLAudio.
+ *   2. Else → fall back to Web Speech API.
+ */
 export function play(playOptions?: PlayOptions) {
   const { times, rate, interval } = { ...DefaultPlayOptions, ...playOptions };
-  if (!currentText) return () => {};
+  if (!currentText && !currentAudioPath) return () => {};
 
   let count = 0;
   let timeoutId: ReturnType<typeof setTimeout> | undefined;
@@ -100,14 +100,33 @@ export function play(playOptions?: PlayOptions) {
 
   const step = () => {
     if (cancelled) return;
-    const utt = speakOnce(currentText, rate);
     count++;
-    if (!utt) return;
-    if (count < times) {
-      utt.onend = () => {
-        if (cancelled) return;
-        timeoutId = setTimeout(step, interval);
-      };
+
+    if (currentAudioPath) {
+      const a = getAudio();
+      a.playbackRate = rate;
+      a.currentTime = 0;
+      const playPromise = a.play();
+      if (playPromise && typeof playPromise.catch === "function") {
+        playPromise.catch((err) => {
+          console.warn(`[audio] play() failed for ${currentAudioPath}:`, err);
+        });
+      }
+      if (count < times) {
+        a.onended = () => {
+          if (cancelled) return;
+          timeoutId = setTimeout(step, interval);
+        };
+      }
+    } else {
+      // Fallback: Web Speech
+      const utt = webSpeechFallback(currentText, rate);
+      if (utt && count < times) {
+        utt.onend = () => {
+          if (cancelled) return;
+          timeoutId = setTimeout(step, interval);
+        };
+      }
     }
   };
 
@@ -116,10 +135,18 @@ export function play(playOptions?: PlayOptions) {
   return () => {
     cancelled = true;
     if (timeoutId) clearTimeout(timeoutId);
-    cancelAll();
+    if (currentAudioPath && audioEl) {
+      audioEl.pause();
+      audioEl.currentTime = 0;
+    }
+    if (typeof window !== "undefined" && "speechSynthesis" in window) {
+      window.speechSynthesis.cancel();
+    }
   };
 }
 
+/** Click-a-word handler on the Answer screen. Plays a per-word utterance.
+ *  Falls back to Web Speech since individual word audio isn't pre-generated. */
 export function usePlayWordSound() {
   let lastWord = "";
   let isPlaying = false;
@@ -128,13 +155,11 @@ export function usePlayWordSound() {
     if (isPlaying && lastWord === word) return;
     lastWord = word;
     isPlaying = true;
-    const utt = speakOnce(word, 1);
+    const utt = webSpeechFallback(word, 1);
     if (utt) {
       utt.onend = () => {
         isPlaying = false;
       };
-    } else {
-      isPlaying = false;
     }
     setTimeout(
       () => {
@@ -147,26 +172,18 @@ export function usePlayWordSound() {
   return { handlePlayWordSound };
 }
 
-/**
- * Exposed for the in-page TTS diagnostic. Returns enough state to render
- * "is the voice loaded? is the engine speaking? did the last utterance
- * actually start?" in the UI without each caller poking at
- * window.speechSynthesis themselves.
- */
 export function diagnosticState() {
-  if (typeof window === "undefined" || !("speechSynthesis" in window)) {
+  if (typeof window === "undefined") {
     return {
-      supported: false,
-      voiceCount: 0,
-      jaVoices: [] as string[],
-      pickedVoice: null as string | null,
+      mode: "ssr" as const,
+      audioPath: null as string | null,
+      mp3Ready: false,
     };
   }
-  const voices = window.speechSynthesis.getVoices();
   return {
-    supported: true,
-    voiceCount: voices.length,
-    jaVoices: voices.filter((v) => v.lang.startsWith("ja")).map((v) => v.name),
-    pickedVoice: jaVoice?.name ?? null,
+    mode: currentAudioPath ? ("mp3" as const) : ("webspeech" as const),
+    audioPath: currentAudioPath,
+    mp3Ready: !!audioEl && audioEl.readyState >= 2,
+    webSpeechVoice: webSpeechVoice?.name ?? null,
   };
 }

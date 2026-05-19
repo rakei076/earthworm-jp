@@ -18,6 +18,8 @@ export interface StatementApiResponse {
   japanese: string;
   tokens: StatementToken[];
   furigana: FuriganaSegment[];
+  /** Relative URL of a pre-generated MP3 served from /public. */
+  audioPath: string | null;
   isMastered: boolean;
 }
 
