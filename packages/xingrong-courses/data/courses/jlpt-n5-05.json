@@ -1,0 +1,1342 @@
+[
+  {
+    "chinese": "感冒请服此药。",
+    "japanese": "風邪を引いたら、この薬を飲んで下さい。",
+    "tokens": [
+      {
+        "surface": "風邪",
+        "reading": "かぜ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "引い",
+        "reading": "ひい"
+      },
+      {
+        "surface": "たら",
+        "reading": "たら"
+      },
+      {
+        "surface": "、",
+        "reading": "、"
+      },
+      {
+        "surface": "この",
+        "reading": "この"
+      },
+      {
+        "surface": "薬",
+        "reading": "くすり"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "飲ん",
+        "reading": "のん"
+      },
+      {
+        "surface": "で",
+        "reading": "で"
+      },
+      {
+        "surface": "下さい",
+        "reading": "ください"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "風邪",
+        "ruby": "かぜ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "引い",
+        "ruby": "ひい"
+      },
+      {
+        "base": "たら"
+      },
+      {
+        "base": "、"
+      },
+      {
+        "base": "この"
+      },
+      {
+        "base": "薬",
+        "ruby": "くすり"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "飲ん",
+        "ruby": "のん"
+      },
+      {
+        "base": "で"
+      },
+      {
+        "base": "下さい",
+        "ruby": "ください"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "你该早一点来的。",
+    "japanese": "もうちょっと早く来るべきだったね。",
+    "tokens": [
+      {
+        "surface": "もう",
+        "reading": "もう"
+      },
+      {
+        "surface": "ちょっと",
+        "reading": "ちょっと"
+      },
+      {
+        "surface": "早く",
+        "reading": "はやく"
+      },
+      {
+        "surface": "来る",
+        "reading": "きたる"
+      },
+      {
+        "surface": "べき",
+        "reading": "べき"
+      },
+      {
+        "surface": "だっ",
+        "reading": "だっ"
+      },
+      {
+        "surface": "た",
+        "reading": "た"
+      },
+      {
+        "surface": "ね",
+        "reading": "ね"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "もう"
+      },
+      {
+        "base": "ちょっと"
+      },
+      {
+        "base": "早く",
+        "ruby": "はやく"
+      },
+      {
+        "base": "来る",
+        "ruby": "きたる"
+      },
+      {
+        "base": "べき"
+      },
+      {
+        "base": "だっ"
+      },
+      {
+        "base": "た"
+      },
+      {
+        "base": "ね"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "你應該多吃點水果。",
+    "japanese": "あなたはもっと果物を食べるべきです。",
+    "tokens": [
+      {
+        "surface": "あなた",
+        "reading": "あなた"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "もっと",
+        "reading": "もっと"
+      },
+      {
+        "surface": "果物",
+        "reading": "くだもの"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "食べる",
+        "reading": "たべる"
+      },
+      {
+        "surface": "べき",
+        "reading": "べき"
+      },
+      {
+        "surface": "です",
+        "reading": "です"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "あなた"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "もっと"
+      },
+      {
+        "base": "果物",
+        "ruby": "くだもの"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "食べる",
+        "ruby": "たべる"
+      },
+      {
+        "base": "べき"
+      },
+      {
+        "base": "です"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "让我们边喝咖啡边谈。",
+    "japanese": "コーヒーを飲みながら話しましょう。",
+    "tokens": [
+      {
+        "surface": "コーヒー",
+        "reading": "こうひい"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "飲み",
+        "reading": "のみ"
+      },
+      {
+        "surface": "ながら",
+        "reading": "ながら"
+      },
+      {
+        "surface": "話し",
+        "reading": "はなし"
+      },
+      {
+        "surface": "ましょ",
+        "reading": "ましょ"
+      },
+      {
+        "surface": "う",
+        "reading": "う"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "コーヒー"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "飲み",
+        "ruby": "のみ"
+      },
+      {
+        "base": "ながら"
+      },
+      {
+        "base": "話し",
+        "ruby": "はなし"
+      },
+      {
+        "base": "ましょ"
+      },
+      {
+        "base": "う"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "我昨天沒時間看電視。",
+    "japanese": "昨日はテレビを見る時間がなかった。",
+    "tokens": [
+      {
+        "surface": "昨日",
+        "reading": "きのう"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "テレビ",
+        "reading": "てれび"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "見る",
+        "reading": "みる"
+      },
+      {
+        "surface": "時間",
+        "reading": "じかん"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "なかっ",
+        "reading": "なかっ"
+      },
+      {
+        "surface": "た",
+        "reading": "た"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "昨日",
+        "ruby": "きのう"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "テレビ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "見る",
+        "ruby": "みる"
+      },
+      {
+        "base": "時間",
+        "ruby": "じかん"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "なかっ"
+      },
+      {
+        "base": "た"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "我弟弟没我两年前高。",
+    "japanese": "弟は二年前の私ほどには背が高くない。",
+    "tokens": [
+      {
+        "surface": "弟",
+        "reading": "おとうと"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "二",
+        "reading": "に"
+      },
+      {
+        "surface": "年",
+        "reading": "ねん"
+      },
+      {
+        "surface": "前",
+        "reading": "まえ"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "ほど",
+        "reading": "ほど"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "背",
+        "reading": "せ"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "高く",
+        "reading": "たかく"
+      },
+      {
+        "surface": "ない",
+        "reading": "ない"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "弟",
+        "ruby": "おとうと"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "二",
+        "ruby": "に"
+      },
+      {
+        "base": "年",
+        "ruby": "ねん"
+      },
+      {
+        "base": "前",
+        "ruby": "まえ"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "ほど"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "背",
+        "ruby": "せ"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "高く",
+        "ruby": "たかく"
+      },
+      {
+        "base": "ない"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "这本挂历挂哪儿好呢？",
+    "japanese": "このカレンダーはどこにかけましょうか。",
+    "tokens": [
+      {
+        "surface": "この",
+        "reading": "この"
+      },
+      {
+        "surface": "カレンダー",
+        "reading": "かれんだあ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "どこ",
+        "reading": "どこ"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "かけ",
+        "reading": "かけ"
+      },
+      {
+        "surface": "ましょ",
+        "reading": "ましょ"
+      },
+      {
+        "surface": "う",
+        "reading": "う"
+      },
+      {
+        "surface": "か",
+        "reading": "か"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "この"
+      },
+      {
+        "base": "カレンダー"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "どこ"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "かけ"
+      },
+      {
+        "base": "ましょ"
+      },
+      {
+        "base": "う"
+      },
+      {
+        "base": "か"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "你就算不想走也要走。",
+    "japanese": "行きたくなくても行かなければなりません。",
+    "tokens": [
+      {
+        "surface": "行き",
+        "reading": "いき"
+      },
+      {
+        "surface": "たく",
+        "reading": "たく"
+      },
+      {
+        "surface": "なく",
+        "reading": "なく"
+      },
+      {
+        "surface": "て",
+        "reading": "て"
+      },
+      {
+        "surface": "も",
+        "reading": "も"
+      },
+      {
+        "surface": "行か",
+        "reading": "いか"
+      },
+      {
+        "surface": "なけれ",
+        "reading": "なけれ"
+      },
+      {
+        "surface": "ば",
+        "reading": "ば"
+      },
+      {
+        "surface": "なり",
+        "reading": "なり"
+      },
+      {
+        "surface": "ませ",
+        "reading": "ませ"
+      },
+      {
+        "surface": "ん",
+        "reading": "ん"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "行き",
+        "ruby": "いき"
+      },
+      {
+        "base": "たく"
+      },
+      {
+        "base": "なく"
+      },
+      {
+        "base": "て"
+      },
+      {
+        "base": "も"
+      },
+      {
+        "base": "行か",
+        "ruby": "いか"
+      },
+      {
+        "base": "なけれ"
+      },
+      {
+        "base": "ば"
+      },
+      {
+        "base": "なり"
+      },
+      {
+        "base": "ませ"
+      },
+      {
+        "base": "ん"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "你最喜歡的電影是哪部？",
+    "japanese": "あなたの一番好きな映画は何ですか。",
+    "tokens": [
+      {
+        "surface": "あなた",
+        "reading": "あなた"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "一番",
+        "reading": "いちばん"
+      },
+      {
+        "surface": "好き",
+        "reading": "すき"
+      },
+      {
+        "surface": "な",
+        "reading": "な"
+      },
+      {
+        "surface": "映画",
+        "reading": "えいが"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "何",
+        "reading": "なに"
+      },
+      {
+        "surface": "です",
+        "reading": "です"
+      },
+      {
+        "surface": "か",
+        "reading": "か"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "あなた"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "一番",
+        "ruby": "いちばん"
+      },
+      {
+        "base": "好き",
+        "ruby": "すき"
+      },
+      {
+        "base": "な"
+      },
+      {
+        "base": "映画",
+        "ruby": "えいが"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "何",
+        "ruby": "なに"
+      },
+      {
+        "base": "です"
+      },
+      {
+        "base": "か"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "我不知道這是不是真的。",
+    "japanese": "それが本当であるかどうかは分からない。",
+    "tokens": [
+      {
+        "surface": "それ",
+        "reading": "それ"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "本当",
+        "reading": "ほんとう"
+      },
+      {
+        "surface": "で",
+        "reading": "で"
+      },
+      {
+        "surface": "ある",
+        "reading": "ある"
+      },
+      {
+        "surface": "か",
+        "reading": "か"
+      },
+      {
+        "surface": "どう",
+        "reading": "どう"
+      },
+      {
+        "surface": "か",
+        "reading": "か"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "分から",
+        "reading": "わから"
+      },
+      {
+        "surface": "ない",
+        "reading": "ない"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "それ"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "本当",
+        "ruby": "ほんとう"
+      },
+      {
+        "base": "で"
+      },
+      {
+        "base": "ある"
+      },
+      {
+        "base": "か"
+      },
+      {
+        "base": "どう"
+      },
+      {
+        "base": "か"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "分から",
+        "ruby": "わから"
+      },
+      {
+        "base": "ない"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "別忘了把書還給圖書館。",
+    "japanese": "忘れずにその本を図書館に返して下さい。",
+    "tokens": [
+      {
+        "surface": "忘れ",
+        "reading": "わすれ"
+      },
+      {
+        "surface": "ず",
+        "reading": "ず"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "その",
+        "reading": "その"
+      },
+      {
+        "surface": "本",
+        "reading": "ほん"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "図書館",
+        "reading": "としょかん"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "返し",
+        "reading": "かえし"
+      },
+      {
+        "surface": "て",
+        "reading": "て"
+      },
+      {
+        "surface": "下さい",
+        "reading": "ください"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "忘れ",
+        "ruby": "わすれ"
+      },
+      {
+        "base": "ず"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "その"
+      },
+      {
+        "base": "本",
+        "ruby": "ほん"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "図書館",
+        "ruby": "としょかん"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "返し",
+        "ruby": "かえし"
+      },
+      {
+        "base": "て"
+      },
+      {
+        "base": "下さい",
+        "ruby": "ください"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "我父親總是說話很大聲。",
+    "japanese": "私の父はいつもとても大きな声で話します。",
+    "tokens": [
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "父",
+        "reading": "ちち"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "いつも",
+        "reading": "いつも"
+      },
+      {
+        "surface": "とても",
+        "reading": "とても"
+      },
+      {
+        "surface": "大きな",
+        "reading": "おおきな"
+      },
+      {
+        "surface": "声",
+        "reading": "こえ"
+      },
+      {
+        "surface": "で",
+        "reading": "で"
+      },
+      {
+        "surface": "話し",
+        "reading": "はなし"
+      },
+      {
+        "surface": "ます",
+        "reading": "ます"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "父",
+        "ruby": "ちち"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "いつも"
+      },
+      {
+        "base": "とても"
+      },
+      {
+        "base": "大きな",
+        "ruby": "おおきな"
+      },
+      {
+        "base": "声",
+        "ruby": "こえ"
+      },
+      {
+        "base": "で"
+      },
+      {
+        "base": "話し",
+        "ruby": "はなし"
+      },
+      {
+        "base": "ます"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "今天是周六，明天是周日。",
+    "japanese": "今日は土曜日で、明日は日曜日です。",
+    "tokens": [
+      {
+        "surface": "今日",
+        "reading": "きょう"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "土曜日",
+        "reading": "どようび"
+      },
+      {
+        "surface": "で",
+        "reading": "で"
+      },
+      {
+        "surface": "、",
+        "reading": "、"
+      },
+      {
+        "surface": "明日",
+        "reading": "あした"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "日曜日",
+        "reading": "にちようび"
+      },
+      {
+        "surface": "です",
+        "reading": "です"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "今日",
+        "ruby": "きょう"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "土曜日",
+        "ruby": "どようび"
+      },
+      {
+        "base": "で"
+      },
+      {
+        "base": "、"
+      },
+      {
+        "base": "明日",
+        "ruby": "あした"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "日曜日",
+        "ruby": "にちようび"
+      },
+      {
+        "base": "です"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "盒子上面不要放任何東西。",
+    "japanese": "その箱の上に、何も置かないで下さい。",
+    "tokens": [
+      {
+        "surface": "その",
+        "reading": "その"
+      },
+      {
+        "surface": "箱",
+        "reading": "はこ"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "上",
+        "reading": "うえ"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "、",
+        "reading": "、"
+      },
+      {
+        "surface": "何",
+        "reading": "なに"
+      },
+      {
+        "surface": "も",
+        "reading": "も"
+      },
+      {
+        "surface": "置か",
+        "reading": "おか"
+      },
+      {
+        "surface": "ない",
+        "reading": "ない"
+      },
+      {
+        "surface": "で",
+        "reading": "で"
+      },
+      {
+        "surface": "下さい",
+        "reading": "ください"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "その"
+      },
+      {
+        "base": "箱",
+        "ruby": "はこ"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "上",
+        "ruby": "うえ"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "、"
+      },
+      {
+        "base": "何",
+        "ruby": "なに"
+      },
+      {
+        "base": "も"
+      },
+      {
+        "base": "置か",
+        "ruby": "おか"
+      },
+      {
+        "base": "ない"
+      },
+      {
+        "base": "で"
+      },
+      {
+        "base": "下さい",
+        "ruby": "ください"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "从家到公司要花多长时间？",
+    "japanese": "家から会社までどれくらい時間がかかりますか。",
+    "tokens": [
+      {
+        "surface": "家",
+        "reading": "いえ"
+      },
+      {
+        "surface": "から",
+        "reading": "から"
+      },
+      {
+        "surface": "会社",
+        "reading": "かいしゃ"
+      },
+      {
+        "surface": "まで",
+        "reading": "まで"
+      },
+      {
+        "surface": "どれ",
+        "reading": "どれ"
+      },
+      {
+        "surface": "くらい",
+        "reading": "くらい"
+      },
+      {
+        "surface": "時間",
+        "reading": "じかん"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "かかり",
+        "reading": "かかり"
+      },
+      {
+        "surface": "ます",
+        "reading": "ます"
+      },
+      {
+        "surface": "か",
+        "reading": "か"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "家",
+        "ruby": "いえ"
+      },
+      {
+        "base": "から"
+      },
+      {
+        "base": "会社",
+        "ruby": "かいしゃ"
+      },
+      {
+        "base": "まで"
+      },
+      {
+        "base": "どれ"
+      },
+      {
+        "base": "くらい"
+      },
+      {
+        "base": "時間",
+        "ruby": "じかん"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "かかり"
+      },
+      {
+        "base": "ます"
+      },
+      {
+        "base": "か"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  }
+]

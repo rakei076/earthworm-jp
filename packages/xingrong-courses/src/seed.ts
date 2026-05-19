@@ -10,112 +10,125 @@ import {
 
 type Statement = typeof statementSchema.$inferInsert;
 
-const courses = fs.readdirSync(path.resolve(__dirname, "../data/courses"));
+type PackMeta = {
+  title: string;
+  description: string;
+  order: number;
+};
+
+/**
+ * Pack-level metadata indexed by data file basename (without .json).
+ *
+ * Each course-data JSON file becomes ONE course pack containing ONE course
+ * which holds all the statements. The Chinese learner's journey then is:
+ *   1. pick a pack (e.g. "JLPT N5 · 入门短句")
+ *   2. enter its lesson (just "全部" for now)
+ *   3. type through every sentence one by one
+ *
+ * If you add a new JSON, drop a matching entry below or it will be skipped.
+ */
+const PACK_METADATA: Record<string, PackMeta> = {
+  "jp-minna-1": {
+    title: "大家的日本语 · 第一课",
+    description: "通过造句学习《大家的日本语》初级教材",
+    order: 1,
+  },
+  "jlpt-n5-01": {
+    title: "JLPT N5 · 入门短句",
+    description: "短而完整的陈述/疑问句（6-8 字）",
+    order: 10,
+  },
+  "jlpt-n5-02": {
+    title: "JLPT N5 · 日常基础",
+    description: "日常对话场景的入门句（9-10 字）",
+    order: 11,
+  },
+  "jlpt-n5-03": {
+    title: "JLPT N5 · 简单造句",
+    description: "增加助词和动词变化（11-13 字）",
+    order: 12,
+  },
+  "jlpt-n5-04": {
+    title: "JLPT N5 · 复合句型",
+    description: "包含从句、并列结构（14-16 字）",
+    order: 13,
+  },
+  "jlpt-n5-05": {
+    title: "JLPT N5 · 进阶练习",
+    description: "N5 范围内的较长句子（17+ 字）",
+    order: 14,
+  },
+};
+
+const COVER_DEFAULT =
+  "https://earthworm-prod-1312884695.cos.ap-beijing.myqcloud.com/course-packs/xingrong.jpg";
 
 (async function () {
-  await db.delete(coursePack);
+  // Reset everything — keeps the run idempotent.
   await db.delete(statementSchema);
   await db.delete(courseSchema);
+  await db.delete(coursePack);
 
-  const [coursePackEntity] = await db
-    .insert(coursePack)
-    .values({
-      order: 1,
-      title: "零基础日语 · 大家的日本语",
-      description: "通过造句学习《大家的日本语》初级教材",
-      creatorId: "1",
-      shareLevel: "public",
-      isFree: true,
-      cover:
-        "https://earthworm-prod-1312884695.cos.ap-beijing.myqcloud.com/course-packs/xingrong.jpg",
-    })
-    .returning();
+  const coursesDir = path.resolve(__dirname, "../data/courses");
+  const files = fs.readdirSync(coursesDir).filter((f) => f.endsWith(".json") && !f.startsWith("_"));
 
-  const courseList = await Promise.all(
-    courses.map(async (courseFileName, index) => {
-      const courseName = path.parse(courseFileName).name;
-      const [course] = await db
-        .insert(courseSchema)
-        .values({
-          coursePackId: coursePackEntity.id,
-          // Index starts from 0
-          order: index + 1,
-          title: convertToChineseNumber(courseName),
-        })
-        .returning({ id: courseSchema.id, order: courseSchema.order, title: courseSchema.title });
+  // Order packs by their declared `order`; unknown files alphabetical.
+  const sorted = files.slice().sort((a, b) => {
+    const ka = path.parse(a).name;
+    const kb = path.parse(b).name;
+    const oa = PACK_METADATA[ka]?.order ?? 9999;
+    const ob = PACK_METADATA[kb]?.order ?? 9999;
+    return oa - ob || a.localeCompare(b);
+  });
 
-      console.log(`创建: id-${course.id} order-${course.order} title-${course.title}`);
+  for (const file of sorted) {
+    const key = path.parse(file).name;
+    const meta = PACK_METADATA[key];
+    if (!meta) {
+      console.log(`skip ${file} — no metadata declared in PACK_METADATA`);
+      continue;
+    }
 
-      return {
-        ...course,
-        meta: {
-          courseFileName,
-          courseName,
-        },
-      };
-    }),
-  );
+    const [packEntity] = await db
+      .insert(coursePack)
+      .values({
+        order: meta.order,
+        title: meta.title,
+        description: meta.description,
+        creatorId: "1",
+        shareLevel: "public",
+        isFree: true,
+        cover: COVER_DEFAULT,
+      })
+      .returning();
 
-  await Promise.all(
-    courseList.map(async (course) => {
-      const { id: courseId, meta } = course;
+    const [courseEntity] = await db
+      .insert(courseSchema)
+      .values({
+        coursePackId: packEntity.id,
+        order: 1,
+        title: "全部",
+      })
+      .returning({ id: courseSchema.id, title: courseSchema.title });
 
-      const courseDataJsonText = fs.readFileSync(
-        path.resolve(__dirname, `../data/courses/${meta.courseFileName}`),
-        "utf-8",
-      );
+    const statements = JSON.parse(
+      fs.readFileSync(path.join(coursesDir, file), "utf-8"),
+    ) as Statement[];
 
-      const statementList = JSON.parse(courseDataJsonText) as Statement[];
-
-      let order = 1;
-      const statementInsertTask = statementList.map(async (statement) => {
-        return await db.insert(statementSchema).values({
-          ...statement,
+    let order = 1;
+    await Promise.all(
+      statements.map((s) =>
+        db.insert(statementSchema).values({
+          ...s,
           order: order++,
-          courseId,
-        });
-      });
+          courseId: courseEntity.id,
+        }),
+      ),
+    );
 
-      console.log(`courseName: ${meta.courseFileName} 开始上传`);
-      await Promise.all(statementInsertTask);
-      console.log(`courseName: ${meta.courseFileName} 全部上传成功`);
-    }),
-  );
+    console.log(`✓ ${meta.title} — ${statements.length} sentences`);
+  }
 
   console.log("全部创建完成");
   process.exit(0);
 })();
-
-function convertToChineseNumber(name: string): string {
-  // Pattern like "jp-minna-1" → "大家的日本语 第一课"
-  const minnaMatch = name.match(/^jp-minna-(\d+)$/);
-  if (minnaMatch) {
-    return `大家的日本语 ${toChineseLessonName(minnaMatch[1])}`;
-  }
-
-  // Original numeric-only filenames
-  if (/^\d+$/.test(name)) {
-    return toChineseLessonName(name);
-  }
-
-  return name;
-}
-
-function toChineseLessonName(numStr: string): string {
-  const chineseNumbers = ["零", "一", "二", "三", "四", "五", "六", "七", "八", "九", "十"];
-  let chineseStr = "第";
-  if (parseInt(numStr) >= 10) {
-    const [tens, ones] = numStr.split("");
-    if (tens !== "1") {
-      chineseStr += chineseNumbers[parseInt(tens, 10)];
-    }
-    chineseStr += "十";
-    if (ones !== "0") {
-      chineseStr += chineseNumbers[parseInt(ones, 10)];
-    }
-  } else {
-    chineseStr += chineseNumbers[parseInt(numStr, 10)];
-  }
-  chineseStr += "课";
-  return chineseStr;
-}

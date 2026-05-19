@@ -1,0 +1,564 @@
+[
+  {
+    "chinese": "关门。",
+    "japanese": "戸を閉めろ。",
+    "tokens": [
+      {
+        "surface": "戸",
+        "reading": "と"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "閉めろ",
+        "reading": "しめろ"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "戸",
+        "ruby": "と"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "閉めろ",
+        "ruby": "しめろ"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "不懂。",
+    "japanese": "分からない。",
+    "tokens": [
+      {
+        "surface": "分から",
+        "reading": "わから"
+      },
+      {
+        "surface": "ない",
+        "reading": "ない"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "分から",
+        "ruby": "わから"
+      },
+      {
+        "base": "ない"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "請坐。",
+    "japanese": "座って下さい。",
+    "tokens": [
+      {
+        "surface": "座っ",
+        "reading": "すわっ"
+      },
+      {
+        "surface": "て",
+        "reading": "て"
+      },
+      {
+        "surface": "下さい",
+        "reading": "ください"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "座っ",
+        "ruby": "すわっ"
+      },
+      {
+        "base": "て"
+      },
+      {
+        "base": "下さい",
+        "ruby": "ください"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "走吧。",
+    "japanese": "行きましょう。",
+    "tokens": [
+      {
+        "surface": "行き",
+        "reading": "いき"
+      },
+      {
+        "surface": "ましょ",
+        "reading": "ましょ"
+      },
+      {
+        "surface": "う",
+        "reading": "う"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "行き",
+        "ruby": "いき"
+      },
+      {
+        "base": "ましょ"
+      },
+      {
+        "base": "う"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "說吧。",
+    "japanese": "話しましょう。",
+    "tokens": [
+      {
+        "surface": "話し",
+        "reading": "はなし"
+      },
+      {
+        "surface": "ましょ",
+        "reading": "ましょ"
+      },
+      {
+        "surface": "う",
+        "reading": "う"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "話し",
+        "ruby": "はなし"
+      },
+      {
+        "base": "ましょ"
+      },
+      {
+        "base": "う"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "我很累。",
+    "japanese": "疲れました。",
+    "tokens": [
+      {
+        "surface": "疲れ",
+        "reading": "つかれ"
+      },
+      {
+        "surface": "まし",
+        "reading": "まし"
+      },
+      {
+        "surface": "た",
+        "reading": "た"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "疲れ",
+        "ruby": "つかれ"
+      },
+      {
+        "base": "まし"
+      },
+      {
+        "base": "た"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "我很忙。",
+    "japanese": "私は忙しい。",
+    "tokens": [
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "忙しい",
+        "reading": "いそがしい"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "忙しい",
+        "ruby": "いそがしい"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "不要死！",
+    "japanese": "死なないで。",
+    "tokens": [
+      {
+        "surface": "死な",
+        "reading": "しな"
+      },
+      {
+        "surface": "ない",
+        "reading": "ない"
+      },
+      {
+        "surface": "で",
+        "reading": "で"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "死な",
+        "ruby": "しな"
+      },
+      {
+        "base": "ない"
+      },
+      {
+        "base": "で"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "變大了。",
+    "japanese": "大きくなる。",
+    "tokens": [
+      {
+        "surface": "大きく",
+        "reading": "おおきく"
+      },
+      {
+        "surface": "なる",
+        "reading": "なる"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "大きく",
+        "ruby": "おおきく"
+      },
+      {
+        "base": "なる"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "我头痛。",
+    "japanese": "頭が痛いな。",
+    "tokens": [
+      {
+        "surface": "頭",
+        "reading": "あたま"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "痛い",
+        "reading": "いたい"
+      },
+      {
+        "surface": "な",
+        "reading": "な"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "頭",
+        "ruby": "あたま"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "痛い",
+        "ruby": "いたい"
+      },
+      {
+        "base": "な"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "请来吧。",
+    "japanese": "来て下さい。",
+    "tokens": [
+      {
+        "surface": "来",
+        "reading": "き"
+      },
+      {
+        "surface": "て",
+        "reading": "て"
+      },
+      {
+        "surface": "下さい",
+        "reading": "ください"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "来",
+        "ruby": "き"
+      },
+      {
+        "base": "て"
+      },
+      {
+        "base": "下さい",
+        "ruby": "ください"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "我是猫。",
+    "japanese": "私は猫です。",
+    "tokens": [
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "猫",
+        "reading": "ねこ"
+      },
+      {
+        "surface": "です",
+        "reading": "です"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "猫",
+        "ruby": "ねこ"
+      },
+      {
+        "base": "です"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "好冷啊。",
+    "japanese": "冷たいなあ。",
+    "tokens": [
+      {
+        "surface": "冷たい",
+        "reading": "つめたい"
+      },
+      {
+        "surface": "なあ",
+        "reading": "なあ"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "冷たい",
+        "ruby": "つめたい"
+      },
+      {
+        "base": "なあ"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "我忘了。",
+    "japanese": "忘れました。",
+    "tokens": [
+      {
+        "surface": "忘れ",
+        "reading": "わすれ"
+      },
+      {
+        "surface": "まし",
+        "reading": "まし"
+      },
+      {
+        "surface": "た",
+        "reading": "た"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "忘れ",
+        "ruby": "わすれ"
+      },
+      {
+        "base": "まし"
+      },
+      {
+        "base": "た"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "多少人？",
+    "japanese": "何人ですか。",
+    "tokens": [
+      {
+        "surface": "何",
+        "reading": "なん"
+      },
+      {
+        "surface": "人",
+        "reading": "にん"
+      },
+      {
+        "surface": "です",
+        "reading": "です"
+      },
+      {
+        "surface": "か",
+        "reading": "か"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "何",
+        "ruby": "なん"
+      },
+      {
+        "base": "人",
+        "ruby": "にん"
+      },
+      {
+        "base": "です"
+      },
+      {
+        "base": "か"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  }
+]

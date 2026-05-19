@@ -9,6 +9,7 @@
     "course:reset": "tsx src/resetCourseStatements.ts",
     "pdf:parse": "tsx src/parsePDF/index.ts",
     "build:japanese": "tsx scripts/build-japanese.ts",
+    "build:jlpt": "tsx scripts/build-jlpt-packs.ts",
     "test": "vitest"
   },
   "dependencies": {

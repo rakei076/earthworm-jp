@@ -138,3 +138,7 @@ dist
 .volumes
 cache
 course-db
+
+# Bulk reference data caches (regenerable via scripts)
+packages/xingrong-courses/data/tatoeba-cache/
+packages/xingrong-courses/data/jlpt-cache/

@@ -1,0 +1,749 @@
+[
+  {
+    "chinese": "这很难。",
+    "japanese": "これは難しいです。",
+    "tokens": [
+      {
+        "surface": "これ",
+        "reading": "これ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "難しい",
+        "reading": "むずかしい"
+      },
+      {
+        "surface": "です",
+        "reading": "です"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "これ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "難しい",
+        "ruby": "むずかしい"
+      },
+      {
+        "base": "です"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "請關門。",
+    "japanese": "ドアを閉めて下さい。",
+    "tokens": [
+      {
+        "surface": "ドア",
+        "reading": "どあ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "閉め",
+        "reading": "しめ"
+      },
+      {
+        "surface": "て",
+        "reading": "て"
+      },
+      {
+        "surface": "下さい",
+        "reading": "ください"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "ドア"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "閉め",
+        "ruby": "しめ"
+      },
+      {
+        "base": "て"
+      },
+      {
+        "base": "下さい",
+        "ruby": "ください"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "猫讨厌水。",
+    "japanese": "猫は水が嫌いです。",
+    "tokens": [
+      {
+        "surface": "猫",
+        "reading": "ねこ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "水",
+        "reading": "みず"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "嫌い",
+        "reading": "きらい"
+      },
+      {
+        "surface": "です",
+        "reading": "です"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "猫",
+        "ruby": "ねこ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "水",
+        "ruby": "みず"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "嫌い",
+        "ruby": "きらい"
+      },
+      {
+        "base": "です"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "这不是盐。",
+    "japanese": "これは塩ではない。",
+    "tokens": [
+      {
+        "surface": "これ",
+        "reading": "これ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "塩",
+        "reading": "しお"
+      },
+      {
+        "surface": "で",
+        "reading": "で"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "ない",
+        "reading": "ない"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "これ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "塩",
+        "ruby": "しお"
+      },
+      {
+        "base": "で"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "ない"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "为什么呢？",
+    "japanese": "どうしてでしょう。",
+    "tokens": [
+      {
+        "surface": "どうして",
+        "reading": "どうして"
+      },
+      {
+        "surface": "でしょ",
+        "reading": "でしょ"
+      },
+      {
+        "surface": "う",
+        "reading": "う"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "どうして"
+      },
+      {
+        "base": "でしょ"
+      },
+      {
+        "base": "う"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "它是食物。",
+    "japanese": "これは食べ物です。",
+    "tokens": [
+      {
+        "surface": "これ",
+        "reading": "これ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "食べ物",
+        "reading": "たべもの"
+      },
+      {
+        "surface": "です",
+        "reading": "です"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "これ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "食べ物",
+        "ruby": "たべもの"
+      },
+      {
+        "base": "です"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "非常有趣。",
+    "japanese": "とても面白いです。",
+    "tokens": [
+      {
+        "surface": "とても",
+        "reading": "とても"
+      },
+      {
+        "surface": "面白い",
+        "reading": "おもしろい"
+      },
+      {
+        "surface": "です",
+        "reading": "です"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "とても"
+      },
+      {
+        "base": "面白い",
+        "ruby": "おもしろい"
+      },
+      {
+        "base": "です"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "你有票嗎？",
+    "japanese": "切符持ってますか？",
+    "tokens": [
+      {
+        "surface": "切符",
+        "reading": "きっぷ"
+      },
+      {
+        "surface": "持っ",
+        "reading": "もっ"
+      },
+      {
+        "surface": "て",
+        "reading": "て"
+      },
+      {
+        "surface": "ます",
+        "reading": "ます"
+      },
+      {
+        "surface": "か",
+        "reading": "か"
+      },
+      {
+        "surface": "？",
+        "reading": "？"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "切符",
+        "ruby": "きっぷ"
+      },
+      {
+        "base": "持っ",
+        "ruby": "もっ"
+      },
+      {
+        "base": "て"
+      },
+      {
+        "base": "ます"
+      },
+      {
+        "base": "か"
+      },
+      {
+        "base": "？"
+      }
+    ]
+  },
+  {
+    "chinese": "哪裡生的？",
+    "japanese": "どこで生まれたの？",
+    "tokens": [
+      {
+        "surface": "どこ",
+        "reading": "どこ"
+      },
+      {
+        "surface": "で",
+        "reading": "で"
+      },
+      {
+        "surface": "生まれ",
+        "reading": "うまれ"
+      },
+      {
+        "surface": "た",
+        "reading": "た"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "？",
+        "reading": "？"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "どこ"
+      },
+      {
+        "base": "で"
+      },
+      {
+        "base": "生まれ",
+        "ruby": "うまれ"
+      },
+      {
+        "base": "た"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "？"
+      }
+    ]
+  },
+  {
+    "chinese": "这个不贵。",
+    "japanese": "これは高くないです。",
+    "tokens": [
+      {
+        "surface": "これ",
+        "reading": "これ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "高く",
+        "reading": "たかく"
+      },
+      {
+        "surface": "ない",
+        "reading": "ない"
+      },
+      {
+        "surface": "です",
+        "reading": "です"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "これ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "高く",
+        "ruby": "たかく"
+      },
+      {
+        "base": "ない"
+      },
+      {
+        "base": "です"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "我太矮了。",
+    "japanese": "私はとても背が低い。",
+    "tokens": [
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "とても",
+        "reading": "とても"
+      },
+      {
+        "surface": "背",
+        "reading": "せ"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "低い",
+        "reading": "ひくい"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "とても"
+      },
+      {
+        "base": "背",
+        "ruby": "せ"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "低い",
+        "ruby": "ひくい"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "去洗澡吧。",
+    "japanese": "シャワーを浴びよう。",
+    "tokens": [
+      {
+        "surface": "シャワー",
+        "reading": "しゃわあ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "浴びよ",
+        "reading": "あびよ"
+      },
+      {
+        "surface": "う",
+        "reading": "う"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "シャワー"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "浴びよ",
+        "ruby": "あびよ"
+      },
+      {
+        "base": "う"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "想来就来！",
+    "japanese": "いつでも来て下さい。",
+    "tokens": [
+      {
+        "surface": "いつ",
+        "reading": "いつ"
+      },
+      {
+        "surface": "でも",
+        "reading": "でも"
+      },
+      {
+        "surface": "来",
+        "reading": "き"
+      },
+      {
+        "surface": "て",
+        "reading": "て"
+      },
+      {
+        "surface": "下さい",
+        "reading": "ください"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "いつ"
+      },
+      {
+        "base": "でも"
+      },
+      {
+        "base": "来",
+        "ruby": "き"
+      },
+      {
+        "base": "て"
+      },
+      {
+        "base": "下さい",
+        "ruby": "ください"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "請去銀行。",
+    "japanese": "銀行に行って下さい。",
+    "tokens": [
+      {
+        "surface": "銀行",
+        "reading": "ぎんこう"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "行っ",
+        "reading": "いっ"
+      },
+      {
+        "surface": "て",
+        "reading": "て"
+      },
+      {
+        "surface": "下さい",
+        "reading": "ください"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "銀行",
+        "ruby": "ぎんこう"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "行っ",
+        "ruby": "いっ"
+      },
+      {
+        "base": "て"
+      },
+      {
+        "base": "下さい",
+        "ruby": "ください"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  },
+  {
+    "chinese": "请叫医生。",
+    "japanese": "医者を呼んで下さい。",
+    "tokens": [
+      {
+        "surface": "医者",
+        "reading": "いしゃ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "呼ん",
+        "reading": "よん"
+      },
+      {
+        "surface": "で",
+        "reading": "で"
+      },
+      {
+        "surface": "下さい",
+        "reading": "ください"
+      },
+      {
+        "surface": "。",
+        "reading": "。"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "医者",
+        "ruby": "いしゃ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "呼ん",
+        "ruby": "よん"
+      },
+      {
+        "base": "で"
+      },
+      {
+        "base": "下さい",
+        "ruby": "ください"
+      },
+      {
+        "base": "。"
+      }
+    ]
+  }
+]
