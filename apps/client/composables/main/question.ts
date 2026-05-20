@@ -213,7 +213,6 @@ export function useInput({
   }
 
   function submitAnswer(correctCallback?: () => void, wrongCallback?: () => void) {
-    if (mode.value === Mode.Fix) return;
     resetAllWordActive();
     markIncorrectWord();
     if (checkWordCorrect()) {
@@ -221,7 +220,15 @@ export function useInput({
       correctCallback?.();
       inputValue.value = "";
     } else {
-      mode.value = Mode.Fix;
+      // Stay in Input mode — the user can just keep typing or press
+      // Backspace to fix what's wrong. The legacy Fix / Fix_Input flow
+      // from upstream Earthworm assumed English space-separated words
+      // and doesn't fit the romaji-driven Japanese editor.
+      mode.value = Mode.Input;
+      // Re-highlight the first wrong block so the user can see where to
+      // resume.
+      const firstWrong = userInputWords.find((w) => w.incorrect);
+      if (firstWrong) firstWrong.isActive = true;
       wrongCallback?.();
     }
   }
@@ -284,18 +291,8 @@ export function useInput({
       e.preventDefault();
       return;
     }
-    if (mode.value === Mode.Fix) {
-      if (e.code === "Space" || e.code === "Backspace") e.preventDefault();
-      fixFirstIncorrectWord();
-      inputChangedCallback?.(e);
-      return;
-    }
-    if (mode.value === Mode.Fix_Input && e.code === "Backspace" && isEmptyOfCurrentEditWord()) {
-      e.preventDefault();
-      activePreviousIncorrectWord();
-      inputChangedCallback?.(e);
-      return;
-    }
+    // No Fix-mode intercept — Backspace always reaches the <input> so v-model
+    // shrinks `inputValue` naturally and syncBlocks reflows.
     inputChangedCallback?.(e);
   }
 
