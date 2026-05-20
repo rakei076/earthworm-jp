@@ -1,0 +1,966 @@
+[
+  {
+    "chinese": "我必须去学校",
+    "japanese": "学校に行かなければなりません",
+    "tokens": [
+      {
+        "surface": "学校",
+        "reading": "がっこう"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "行かなければなりません",
+        "reading": "いかなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "学校",
+        "ruby": "がっこう"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "行",
+        "ruby": "い"
+      },
+      {
+        "base": "かなければなりません"
+      }
+    ],
+    "audioPath": "/audio/e364b6de68f0b522.mp3"
+  },
+  {
+    "chinese": "必须吃药",
+    "japanese": "薬を飲まなければなりません",
+    "tokens": [
+      {
+        "surface": "薬",
+        "reading": "くすり"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "飲まなければなりません",
+        "reading": "のまなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "薬",
+        "ruby": "くすり"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "飲",
+        "ruby": "の"
+      },
+      {
+        "base": "まなければなりません"
+      }
+    ],
+    "audioPath": "/audio/555ac80ff8fb693e.mp3"
+  },
+  {
+    "chinese": "我必须工作",
+    "japanese": "働かなければなりません",
+    "tokens": [
+      {
+        "surface": "働かなければなりません",
+        "reading": "はたらかなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "働",
+        "ruby": "はたら"
+      },
+      {
+        "base": "かなければなりません"
+      }
+    ],
+    "audioPath": "/audio/becc37dcce931145.mp3"
+  },
+  {
+    "chinese": "必须早起",
+    "japanese": "早く起きなければなりません",
+    "tokens": [
+      {
+        "surface": "早く",
+        "reading": "はやく"
+      },
+      {
+        "surface": "起きなければなりません",
+        "reading": "おきなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "早",
+        "ruby": "はや"
+      },
+      {
+        "base": "く"
+      },
+      {
+        "base": "起",
+        "ruby": "お"
+      },
+      {
+        "base": "きなければなりません"
+      }
+    ],
+    "audioPath": "/audio/507f451af2c15bec.mp3"
+  },
+  {
+    "chinese": "必须打扫房间",
+    "japanese": "部屋を掃除しなければなりません",
+    "tokens": [
+      {
+        "surface": "部屋",
+        "reading": "へや"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "掃除",
+        "reading": "そうじ"
+      },
+      {
+        "surface": "しなければなりません",
+        "reading": "しなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "部屋",
+        "ruby": "へや"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "掃除",
+        "ruby": "そうじ"
+      },
+      {
+        "base": "しなければなりません"
+      }
+    ],
+    "audioPath": "/audio/4cae02d82e082067.mp3"
+  },
+  {
+    "chinese": "必须洗衣服",
+    "japanese": "洗濯しなければなりません",
+    "tokens": [
+      {
+        "surface": "洗濯",
+        "reading": "せんたく"
+      },
+      {
+        "surface": "しなければなりません",
+        "reading": "しなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "洗濯",
+        "ruby": "せんたく"
+      },
+      {
+        "base": "しなければなりません"
+      }
+    ],
+    "audioPath": "/audio/b4611d9fe27d5769.mp3"
+  },
+  {
+    "chinese": "我必须吃饭",
+    "japanese": "ご飯を食べなければなりません",
+    "tokens": [
+      {
+        "surface": "ご飯",
+        "reading": "ごはん"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "食べなければなりません",
+        "reading": "たべなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "ご"
+      },
+      {
+        "base": "飯",
+        "ruby": "はん"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "食",
+        "ruby": "た"
+      },
+      {
+        "base": "べなければなりません"
+      }
+    ],
+    "audioPath": "/audio/2442db48a8393b0f.mp3"
+  },
+  {
+    "chinese": "必须学日语",
+    "japanese": "日本語を勉強しなければなりません",
+    "tokens": [
+      {
+        "surface": "日本語",
+        "reading": "にほんご"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "勉強",
+        "reading": "べんきょう"
+      },
+      {
+        "surface": "しなければなりません",
+        "reading": "しなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "日本語",
+        "ruby": "にほんご"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "勉強",
+        "ruby": "べんきょう"
+      },
+      {
+        "base": "しなければなりません"
+      }
+    ],
+    "audioPath": "/audio/9c66b8004e295fd8.mp3"
+  },
+  {
+    "chinese": "必须念书",
+    "japanese": "本を読まなければなりません",
+    "tokens": [
+      {
+        "surface": "本",
+        "reading": "ほん"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "読まなければなりません",
+        "reading": "よまなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "本",
+        "ruby": "ほん"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "読",
+        "ruby": "よ"
+      },
+      {
+        "base": "まなければなりません"
+      }
+    ],
+    "audioPath": "/audio/b40925e6b0ff95a2.mp3"
+  },
+  {
+    "chinese": "我必须回家",
+    "japanese": "家に帰らなければなりません",
+    "tokens": [
+      {
+        "surface": "家",
+        "reading": "いえ"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "帰らなければなりません",
+        "reading": "かえらなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "家",
+        "ruby": "いえ"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "帰",
+        "ruby": "かえ"
+      },
+      {
+        "base": "らなければなりません"
+      }
+    ],
+    "audioPath": "/audio/1f92a9da06a41f23.mp3"
+  },
+  {
+    "chinese": "必须早睡",
+    "japanese": "早く寝なければなりません",
+    "tokens": [
+      {
+        "surface": "早く",
+        "reading": "はやく"
+      },
+      {
+        "surface": "寝なければなりません",
+        "reading": "ねなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "早",
+        "ruby": "はや"
+      },
+      {
+        "base": "く"
+      },
+      {
+        "base": "寝",
+        "ruby": "ね"
+      },
+      {
+        "base": "なければなりません"
+      }
+    ],
+    "audioPath": "/audio/1a7b300375fd1db3.mp3"
+  },
+  {
+    "chinese": "必须写信",
+    "japanese": "手紙を書かなければなりません",
+    "tokens": [
+      {
+        "surface": "手紙",
+        "reading": "てがみ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "書かなければなりません",
+        "reading": "かかなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "手紙",
+        "ruby": "てがみ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "書",
+        "ruby": "か"
+      },
+      {
+        "base": "かなければなりません"
+      }
+    ],
+    "audioPath": "/audio/c1ed93a066d1f5e5.mp3"
+  },
+  {
+    "chinese": "必须做作业",
+    "japanese": "宿題をしなければなりません",
+    "tokens": [
+      {
+        "surface": "宿題",
+        "reading": "しゅくだい"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "しなければなりません",
+        "reading": "しなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "宿題",
+        "ruby": "しゅくだい"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "しなければなりません"
+      }
+    ],
+    "audioPath": "/audio/4f6d48147eb2bd96.mp3"
+  },
+  {
+    "chinese": "必须洗手",
+    "japanese": "手を洗わなければなりません",
+    "tokens": [
+      {
+        "surface": "手",
+        "reading": "て"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "洗わなければなりません",
+        "reading": "あらわなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "手",
+        "ruby": "て"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "洗",
+        "ruby": "あら"
+      },
+      {
+        "base": "わなければなりません"
+      }
+    ],
+    "audioPath": "/audio/f9a679ad647f602d.mp3"
+  },
+  {
+    "chinese": "必须做饭",
+    "japanese": "料理を作らなければなりません",
+    "tokens": [
+      {
+        "surface": "料理",
+        "reading": "りょうり"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "作らなければなりません",
+        "reading": "つくらなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "料理",
+        "ruby": "りょうり"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "作",
+        "ruby": "つく"
+      },
+      {
+        "base": "らなければなりません"
+      }
+    ],
+    "audioPath": "/audio/df848a5f1fbdf27d.mp3"
+  },
+  {
+    "chinese": "必须打电话",
+    "japanese": "電話をかけなければなりません",
+    "tokens": [
+      {
+        "surface": "電話",
+        "reading": "でんわ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "かけなければなりません",
+        "reading": "かけなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "電話",
+        "ruby": "でんわ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "かけなければなりません"
+      }
+    ],
+    "audioPath": "/audio/87da130a8168af1d.mp3"
+  },
+  {
+    "chinese": "必须等他",
+    "japanese": "彼を待たなければなりません",
+    "tokens": [
+      {
+        "surface": "彼",
+        "reading": "かれ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "待たなければなりません",
+        "reading": "またなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼",
+        "ruby": "かれ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "待",
+        "ruby": "ま"
+      },
+      {
+        "base": "たなければなりません"
+      }
+    ],
+    "audioPath": "/audio/111ef36c0a112945.mp3"
+  },
+  {
+    "chinese": "必须出门",
+    "japanese": "出かけなければなりません",
+    "tokens": [
+      {
+        "surface": "出かけなければなりません",
+        "reading": "でかけなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "出",
+        "ruby": "で"
+      },
+      {
+        "base": "かけなければなりません"
+      }
+    ],
+    "audioPath": "/audio/b9be9656bc923285.mp3"
+  },
+  {
+    "chinese": "必须见老师",
+    "japanese": "先生に会わなければなりません",
+    "tokens": [
+      {
+        "surface": "先生",
+        "reading": "せんせい"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "会わなければなりません",
+        "reading": "あわなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "先生",
+        "ruby": "せんせい"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "会",
+        "ruby": "あ"
+      },
+      {
+        "base": "わなければなりません"
+      }
+    ],
+    "audioPath": "/audio/af76742c9292cfa4.mp3"
+  },
+  {
+    "chinese": "必须问妈妈",
+    "japanese": "母に聞かなければなりません",
+    "tokens": [
+      {
+        "surface": "母",
+        "reading": "はは"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "聞かなければなりません",
+        "reading": "きかなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "母",
+        "ruby": "はは"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "聞",
+        "ruby": "き"
+      },
+      {
+        "base": "かなければなりません"
+      }
+    ],
+    "audioPath": "/audio/d8757729ff8d5d85.mp3"
+  },
+  {
+    "chinese": "必须明天来",
+    "japanese": "明日来なければなりません",
+    "tokens": [
+      {
+        "surface": "明日",
+        "reading": "あした"
+      },
+      {
+        "surface": "来なければなりません",
+        "reading": "こなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "明日",
+        "ruby": "あした"
+      },
+      {
+        "base": "来",
+        "ruby": "こ"
+      },
+      {
+        "base": "なければなりません"
+      }
+    ],
+    "audioPath": "/audio/cd898d29e034c2ba.mp3"
+  },
+  {
+    "chinese": "必须坐公车",
+    "japanese": "バスに乗らなければなりません",
+    "tokens": [
+      {
+        "surface": "バス",
+        "reading": "ばす"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "乗らなければなりません",
+        "reading": "のらなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "バス"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "乗",
+        "ruby": "の"
+      },
+      {
+        "base": "らなければなりません"
+      }
+    ],
+    "audioPath": "/audio/6f8d08b6bcbb379f.mp3"
+  },
+  {
+    "chinese": "必须休息",
+    "japanese": "休まなければなりません",
+    "tokens": [
+      {
+        "surface": "休まなければなりません",
+        "reading": "やすまなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "休",
+        "ruby": "やす"
+      },
+      {
+        "base": "まなければなりません"
+      }
+    ],
+    "audioPath": "/audio/89283b2027f03b49.mp3"
+  },
+  {
+    "chinese": "必须开门",
+    "japanese": "ドアを開けなければなりません",
+    "tokens": [
+      {
+        "surface": "ドア",
+        "reading": "どあ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "開けなければなりません",
+        "reading": "あけなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "ドア"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "開",
+        "ruby": "あ"
+      },
+      {
+        "base": "けなければなりません"
+      }
+    ],
+    "audioPath": "/audio/d9fe36ac169587fc.mp3"
+  },
+  {
+    "chinese": "必须关窗户",
+    "japanese": "窓を閉めなければなりません",
+    "tokens": [
+      {
+        "surface": "窓",
+        "reading": "まど"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "閉めなければなりません",
+        "reading": "しめなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "窓",
+        "ruby": "まど"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "閉",
+        "ruby": "し"
+      },
+      {
+        "base": "めなければなりません"
+      }
+    ],
+    "audioPath": "/audio/c3eeaaeef502b340.mp3"
+  },
+  {
+    "chinese": "必须练习",
+    "japanese": "練習しなければなりません",
+    "tokens": [
+      {
+        "surface": "練習",
+        "reading": "れんしゅう"
+      },
+      {
+        "surface": "しなければなりません",
+        "reading": "しなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "練習",
+        "ruby": "れんしゅう"
+      },
+      {
+        "base": "しなければなりません"
+      }
+    ],
+    "audioPath": "/audio/65b88ee990007cd3.mp3"
+  },
+  {
+    "chinese": "必须努力",
+    "japanese": "頑張らなければなりません",
+    "tokens": [
+      {
+        "surface": "頑張らなければなりません",
+        "reading": "がんばらなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "頑張",
+        "ruby": "がんば"
+      },
+      {
+        "base": "らなければなりません"
+      }
+    ],
+    "audioPath": "/audio/a30f510bbcca4f7f.mp3"
+  },
+  {
+    "chinese": "必须付钱",
+    "japanese": "お金を払わなければなりません",
+    "tokens": [
+      {
+        "surface": "お金",
+        "reading": "おかね"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "払わなければなりません",
+        "reading": "はらわなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "お"
+      },
+      {
+        "base": "金",
+        "ruby": "かね"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "払",
+        "ruby": "はら"
+      },
+      {
+        "base": "わなければなりません"
+      }
+    ],
+    "audioPath": "/audio/af03c1e3ad622d83.mp3"
+  },
+  {
+    "chinese": "必须读这本书",
+    "japanese": "この本を読まなければなりません",
+    "tokens": [
+      {
+        "surface": "この",
+        "reading": "この"
+      },
+      {
+        "surface": "本",
+        "reading": "ほん"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "読まなければなりません",
+        "reading": "よまなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "この"
+      },
+      {
+        "base": "本",
+        "ruby": "ほん"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "読",
+        "ruby": "よ"
+      },
+      {
+        "base": "まなければなりません"
+      }
+    ],
+    "audioPath": "/audio/649457e7c1d1a0a0.mp3"
+  },
+  {
+    "chinese": "必须背单词",
+    "japanese": "単語を覚えなければなりません",
+    "tokens": [
+      {
+        "surface": "単語",
+        "reading": "たんご"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "覚えなければなりません",
+        "reading": "おぼえなければなりません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "単語",
+        "ruby": "たんご"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "覚",
+        "ruby": "おぼ"
+      },
+      {
+        "base": "えなければなりません"
+      }
+    ],
+    "audioPath": "/audio/4993a6401e052052.mp3"
+  }
+]

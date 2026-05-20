@@ -1,0 +1,1493 @@
+[
+  {
+    "chinese": "因为冷所以穿外套",
+    "japanese": "寒いからコートを着ます",
+    "tokens": [
+      {
+        "surface": "寒い",
+        "reading": "さむい"
+      },
+      {
+        "surface": "から",
+        "reading": "から"
+      },
+      {
+        "surface": "コート",
+        "reading": "こうと"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "着ます",
+        "reading": "きます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "寒",
+        "ruby": "さむ"
+      },
+      {
+        "base": "い"
+      },
+      {
+        "base": "から"
+      },
+      {
+        "base": "コート"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "着",
+        "ruby": "き"
+      },
+      {
+        "base": "ます"
+      }
+    ],
+    "audioPath": "/audio/7d9aeb33419e870b.mp3"
+  },
+  {
+    "chinese": "因为热所以开空调",
+    "japanese": "暑いからエアコンをつけます",
+    "tokens": [
+      {
+        "surface": "暑い",
+        "reading": "あつい"
+      },
+      {
+        "surface": "から",
+        "reading": "から"
+      },
+      {
+        "surface": "エアコン",
+        "reading": "えあこん"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "つけます",
+        "reading": "つけます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "暑",
+        "ruby": "あつ"
+      },
+      {
+        "base": "い"
+      },
+      {
+        "base": "から"
+      },
+      {
+        "base": "エアコン"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "つけます"
+      }
+    ],
+    "audioPath": "/audio/05864c0d57b7d20b.mp3"
+  },
+  {
+    "chinese": "因为下雨所以不出去",
+    "japanese": "雨が降っているから出かけません",
+    "tokens": [
+      {
+        "surface": "雨",
+        "reading": "あめ"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "降っている",
+        "reading": "ふっている"
+      },
+      {
+        "surface": "から",
+        "reading": "から"
+      },
+      {
+        "surface": "出かけません",
+        "reading": "でかけません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "雨",
+        "ruby": "あめ"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "降",
+        "ruby": "ふ"
+      },
+      {
+        "base": "っている"
+      },
+      {
+        "base": "から"
+      },
+      {
+        "base": "出",
+        "ruby": "で"
+      },
+      {
+        "base": "かけません"
+      }
+    ],
+    "audioPath": "/audio/c6b55c79d9a1e3b9.mp3"
+  },
+  {
+    "chinese": "因为忙所以不去",
+    "japanese": "忙しいから行きません",
+    "tokens": [
+      {
+        "surface": "忙しい",
+        "reading": "いそがしい"
+      },
+      {
+        "surface": "から",
+        "reading": "から"
+      },
+      {
+        "surface": "行きません",
+        "reading": "いきません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "忙",
+        "ruby": "いそが"
+      },
+      {
+        "base": "しい"
+      },
+      {
+        "base": "から"
+      },
+      {
+        "base": "行",
+        "ruby": "い"
+      },
+      {
+        "base": "きません"
+      }
+    ],
+    "audioPath": "/audio/13bf71844f818396.mp3"
+  },
+  {
+    "chinese": "因为累所以休息",
+    "japanese": "疲れたから休みます",
+    "tokens": [
+      {
+        "surface": "疲れた",
+        "reading": "つかれた"
+      },
+      {
+        "surface": "から",
+        "reading": "から"
+      },
+      {
+        "surface": "休みます",
+        "reading": "やすみます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "疲",
+        "ruby": "つか"
+      },
+      {
+        "base": "れた"
+      },
+      {
+        "base": "から"
+      },
+      {
+        "base": "休",
+        "ruby": "やす"
+      },
+      {
+        "base": "みます"
+      }
+    ],
+    "audioPath": "/audio/938ff840dca4213a.mp3"
+  },
+  {
+    "chinese": "因为饿所以吃饭",
+    "japanese": "お腹がすいたからご飯を食べます",
+    "tokens": [
+      {
+        "surface": "お腹",
+        "reading": "おなか"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "すいた",
+        "reading": "すいた"
+      },
+      {
+        "surface": "から",
+        "reading": "から"
+      },
+      {
+        "surface": "ご飯",
+        "reading": "ごはん"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "食べます",
+        "reading": "たべます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "お"
+      },
+      {
+        "base": "腹",
+        "ruby": "なか"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "すいた"
+      },
+      {
+        "base": "から"
+      },
+      {
+        "base": "ご"
+      },
+      {
+        "base": "飯",
+        "ruby": "はん"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "食",
+        "ruby": "た"
+      },
+      {
+        "base": "べます"
+      }
+    ],
+    "audioPath": "/audio/7bfc078d96e26ef4.mp3"
+  },
+  {
+    "chinese": "因为困所以睡觉",
+    "japanese": "眠いから寝ます",
+    "tokens": [
+      {
+        "surface": "眠い",
+        "reading": "ねむい"
+      },
+      {
+        "surface": "から",
+        "reading": "から"
+      },
+      {
+        "surface": "寝ます",
+        "reading": "ねます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "眠",
+        "ruby": "ねむ"
+      },
+      {
+        "base": "い"
+      },
+      {
+        "base": "から"
+      },
+      {
+        "base": "寝",
+        "ruby": "ね"
+      },
+      {
+        "base": "ます"
+      }
+    ],
+    "audioPath": "/audio/9e599672b11000b1.mp3"
+  },
+  {
+    "chinese": "因为有事所以早退",
+    "japanese": "用事があるから早く帰ります",
+    "tokens": [
+      {
+        "surface": "用事",
+        "reading": "ようじ"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "ある",
+        "reading": "ある"
+      },
+      {
+        "surface": "から",
+        "reading": "から"
+      },
+      {
+        "surface": "早く",
+        "reading": "はやく"
+      },
+      {
+        "surface": "帰ります",
+        "reading": "かえります"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "用事",
+        "ruby": "ようじ"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "ある"
+      },
+      {
+        "base": "から"
+      },
+      {
+        "base": "早",
+        "ruby": "はや"
+      },
+      {
+        "base": "く"
+      },
+      {
+        "base": "帰",
+        "ruby": "かえ"
+      },
+      {
+        "base": "ります"
+      }
+    ],
+    "audioPath": "/audio/a2edc7accbf9e067.mp3"
+  },
+  {
+    "chinese": "因为没钱所以不买",
+    "japanese": "お金がないから買いません",
+    "tokens": [
+      {
+        "surface": "お金",
+        "reading": "おかね"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "ない",
+        "reading": "ない"
+      },
+      {
+        "surface": "から",
+        "reading": "から"
+      },
+      {
+        "surface": "買いません",
+        "reading": "かいません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "お"
+      },
+      {
+        "base": "金",
+        "ruby": "かね"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "ない"
+      },
+      {
+        "base": "から"
+      },
+      {
+        "base": "買",
+        "ruby": "か"
+      },
+      {
+        "base": "いません"
+      }
+    ],
+    "audioPath": "/audio/2a3f0464eb9476d8.mp3"
+  },
+  {
+    "chinese": "因为头疼所以休息",
+    "japanese": "頭が痛いので休みます",
+    "tokens": [
+      {
+        "surface": "頭",
+        "reading": "あたま"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "痛い",
+        "reading": "いたい"
+      },
+      {
+        "surface": "ので",
+        "reading": "ので"
+      },
+      {
+        "surface": "休みます",
+        "reading": "やすみます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "頭",
+        "ruby": "あたま"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "痛",
+        "ruby": "いた"
+      },
+      {
+        "base": "い"
+      },
+      {
+        "base": "ので"
+      },
+      {
+        "base": "休",
+        "ruby": "やす"
+      },
+      {
+        "base": "みます"
+      }
+    ],
+    "audioPath": "/audio/a99f246ade2e7e9a.mp3"
+  },
+  {
+    "chinese": "因为下雨所以待在家",
+    "japanese": "雨が降っているので家にいます",
+    "tokens": [
+      {
+        "surface": "雨",
+        "reading": "あめ"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "降っている",
+        "reading": "ふっている"
+      },
+      {
+        "surface": "ので",
+        "reading": "ので"
+      },
+      {
+        "surface": "家",
+        "reading": "いえ"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "います",
+        "reading": "います"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "雨",
+        "ruby": "あめ"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "降",
+        "ruby": "ふ"
+      },
+      {
+        "base": "っている"
+      },
+      {
+        "base": "ので"
+      },
+      {
+        "base": "家",
+        "ruby": "いえ"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "います"
+      }
+    ],
+    "audioPath": "/audio/60fd59c47fd7d6c4.mp3"
+  },
+  {
+    "chinese": "因为感冒所以吃药",
+    "japanese": "風邪を引いたので薬を飲みます",
+    "tokens": [
+      {
+        "surface": "風邪",
+        "reading": "かぜ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "引いた",
+        "reading": "ひいた"
+      },
+      {
+        "surface": "ので",
+        "reading": "ので"
+      },
+      {
+        "surface": "薬",
+        "reading": "くすり"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "飲みます",
+        "reading": "のみます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "風邪",
+        "ruby": "かぜ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "引",
+        "ruby": "ひ"
+      },
+      {
+        "base": "いた"
+      },
+      {
+        "base": "ので"
+      },
+      {
+        "base": "薬",
+        "ruby": "くすり"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "飲",
+        "ruby": "の"
+      },
+      {
+        "base": "みます"
+      }
+    ],
+    "audioPath": "/audio/b04b89ce246eea63.mp3"
+  },
+  {
+    "chinese": "因为很冷所以关窗",
+    "japanese": "寒いので窓を閉めます",
+    "tokens": [
+      {
+        "surface": "寒い",
+        "reading": "さむい"
+      },
+      {
+        "surface": "ので",
+        "reading": "ので"
+      },
+      {
+        "surface": "窓",
+        "reading": "まど"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "閉めます",
+        "reading": "しめます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "寒",
+        "ruby": "さむ"
+      },
+      {
+        "base": "い"
+      },
+      {
+        "base": "ので"
+      },
+      {
+        "base": "窓",
+        "ruby": "まど"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "閉",
+        "ruby": "し"
+      },
+      {
+        "base": "めます"
+      }
+    ],
+    "audioPath": "/audio/4dd8dff68e77c6ef.mp3"
+  },
+  {
+    "chinese": "因为不懂所以问老师",
+    "japanese": "分からないので先生に聞きます",
+    "tokens": [
+      {
+        "surface": "分からない",
+        "reading": "わからない"
+      },
+      {
+        "surface": "ので",
+        "reading": "ので"
+      },
+      {
+        "surface": "先生",
+        "reading": "せんせい"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "聞きます",
+        "reading": "ききます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "分",
+        "ruby": "わ"
+      },
+      {
+        "base": "からない"
+      },
+      {
+        "base": "ので"
+      },
+      {
+        "base": "先生",
+        "ruby": "せんせい"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "聞",
+        "ruby": "き"
+      },
+      {
+        "base": "きます"
+      }
+    ],
+    "audioPath": "/audio/f944aba275d5b6d4.mp3"
+  },
+  {
+    "chinese": "因为没时间所以快点",
+    "japanese": "時間がないので急ぎます",
+    "tokens": [
+      {
+        "surface": "時間",
+        "reading": "じかん"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "ない",
+        "reading": "ない"
+      },
+      {
+        "surface": "ので",
+        "reading": "ので"
+      },
+      {
+        "surface": "急ぎます",
+        "reading": "いそぎます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "時間",
+        "ruby": "じかん"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "ない"
+      },
+      {
+        "base": "ので"
+      },
+      {
+        "base": "急",
+        "ruby": "いそ"
+      },
+      {
+        "base": "ぎます"
+      }
+    ],
+    "audioPath": "/audio/46033ae9a4846942.mp3"
+  },
+  {
+    "chinese": "因为太晚所以坐出租",
+    "japanese": "遅いのでタクシーに乗ります",
+    "tokens": [
+      {
+        "surface": "遅い",
+        "reading": "おそい"
+      },
+      {
+        "surface": "ので",
+        "reading": "ので"
+      },
+      {
+        "surface": "タクシー",
+        "reading": "たくしい"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "乗ります",
+        "reading": "のります"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "遅",
+        "ruby": "おそ"
+      },
+      {
+        "base": "い"
+      },
+      {
+        "base": "ので"
+      },
+      {
+        "base": "タクシー"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "乗",
+        "ruby": "の"
+      },
+      {
+        "base": "ります"
+      }
+    ],
+    "audioPath": "/audio/5770048c4047bee9.mp3"
+  },
+  {
+    "chinese": "因为好吃所以再吃一份",
+    "japanese": "美味しいからもう一つ食べます",
+    "tokens": [
+      {
+        "surface": "美味しい",
+        "reading": "おいしい"
+      },
+      {
+        "surface": "から",
+        "reading": "から"
+      },
+      {
+        "surface": "もう",
+        "reading": "もう"
+      },
+      {
+        "surface": "一つ",
+        "reading": "ひとつ"
+      },
+      {
+        "surface": "食べます",
+        "reading": "たべます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "美味",
+        "ruby": "おい"
+      },
+      {
+        "base": "しい"
+      },
+      {
+        "base": "から"
+      },
+      {
+        "base": "もう"
+      },
+      {
+        "base": "一",
+        "ruby": "ひと"
+      },
+      {
+        "base": "つ"
+      },
+      {
+        "base": "食",
+        "ruby": "た"
+      },
+      {
+        "base": "べます"
+      }
+    ],
+    "audioPath": "/audio/26b495cee2bc4259.mp3"
+  },
+  {
+    "chinese": "因为太贵所以不买",
+    "japanese": "高いから買いません",
+    "tokens": [
+      {
+        "surface": "高い",
+        "reading": "たかい"
+      },
+      {
+        "surface": "から",
+        "reading": "から"
+      },
+      {
+        "surface": "買いません",
+        "reading": "かいません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "高",
+        "ruby": "たか"
+      },
+      {
+        "base": "い"
+      },
+      {
+        "base": "から"
+      },
+      {
+        "base": "買",
+        "ruby": "か"
+      },
+      {
+        "base": "いません"
+      }
+    ],
+    "audioPath": "/audio/5c9792c02c0e4505.mp3"
+  },
+  {
+    "chinese": "因为难所以放弃",
+    "japanese": "難しいからやめます",
+    "tokens": [
+      {
+        "surface": "難しい",
+        "reading": "むずかしい"
+      },
+      {
+        "surface": "から",
+        "reading": "から"
+      },
+      {
+        "surface": "やめます",
+        "reading": "やめます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "難",
+        "ruby": "むずか"
+      },
+      {
+        "base": "しい"
+      },
+      {
+        "base": "から"
+      },
+      {
+        "base": "やめます"
+      }
+    ],
+    "audioPath": "/audio/68ef81ef0f03aa23.mp3"
+  },
+  {
+    "chinese": "因为有空所以学日语",
+    "japanese": "暇だから日本語を勉強します",
+    "tokens": [
+      {
+        "surface": "暇だ",
+        "reading": "ひまだ"
+      },
+      {
+        "surface": "から",
+        "reading": "から"
+      },
+      {
+        "surface": "日本語",
+        "reading": "にほんご"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "勉強",
+        "reading": "べんきょう"
+      },
+      {
+        "surface": "します",
+        "reading": "します"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "暇",
+        "ruby": "ひま"
+      },
+      {
+        "base": "だ"
+      },
+      {
+        "base": "から"
+      },
+      {
+        "base": "日本語",
+        "ruby": "にほんご"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "勉強",
+        "ruby": "べんきょう"
+      },
+      {
+        "base": "します"
+      }
+    ],
+    "audioPath": "/audio/c38b95f2d9050e84.mp3"
+  },
+  {
+    "chinese": "因为想见你所以来了",
+    "japanese": "あなたに会いたいから来ました",
+    "tokens": [
+      {
+        "surface": "あなた",
+        "reading": "あなた"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "会いたい",
+        "reading": "あいたい"
+      },
+      {
+        "surface": "から",
+        "reading": "から"
+      },
+      {
+        "surface": "来ました",
+        "reading": "きました"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "あなた"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "会",
+        "ruby": "あ"
+      },
+      {
+        "base": "いたい"
+      },
+      {
+        "base": "から"
+      },
+      {
+        "base": "来",
+        "ruby": "き"
+      },
+      {
+        "base": "ました"
+      }
+    ],
+    "audioPath": "/audio/490fe2690306887f.mp3"
+  },
+  {
+    "chinese": "因为不喜欢所以不吃",
+    "japanese": "嫌いだから食べません",
+    "tokens": [
+      {
+        "surface": "嫌いだ",
+        "reading": "きらいだ"
+      },
+      {
+        "surface": "から",
+        "reading": "から"
+      },
+      {
+        "surface": "食べません",
+        "reading": "たべません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "嫌",
+        "ruby": "きら"
+      },
+      {
+        "base": "いだ"
+      },
+      {
+        "base": "から"
+      },
+      {
+        "base": "食",
+        "ruby": "た"
+      },
+      {
+        "base": "べません"
+      }
+    ],
+    "audioPath": "/audio/203593639321c8f5.mp3"
+  },
+  {
+    "chinese": "因为危险所以小心",
+    "japanese": "危ないから気をつけてください",
+    "tokens": [
+      {
+        "surface": "危ない",
+        "reading": "あぶない"
+      },
+      {
+        "surface": "から",
+        "reading": "から"
+      },
+      {
+        "surface": "気",
+        "reading": "き"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "つけてください",
+        "reading": "つけてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "危",
+        "ruby": "あぶ"
+      },
+      {
+        "base": "ない"
+      },
+      {
+        "base": "から"
+      },
+      {
+        "base": "気",
+        "ruby": "き"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "つけてください"
+      }
+    ],
+    "audioPath": "/audio/1c00ed1e1735a981.mp3"
+  },
+  {
+    "chinese": "因为还早所以再睡",
+    "japanese": "まだ早いからもう少し寝ます",
+    "tokens": [
+      {
+        "surface": "まだ",
+        "reading": "まだ"
+      },
+      {
+        "surface": "早い",
+        "reading": "はやい"
+      },
+      {
+        "surface": "から",
+        "reading": "から"
+      },
+      {
+        "surface": "もう少し",
+        "reading": "もうすこし"
+      },
+      {
+        "surface": "寝ます",
+        "reading": "ねます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "まだ"
+      },
+      {
+        "base": "早",
+        "ruby": "はや"
+      },
+      {
+        "base": "い"
+      },
+      {
+        "base": "から"
+      },
+      {
+        "base": "もう"
+      },
+      {
+        "base": "少",
+        "ruby": "すこ"
+      },
+      {
+        "base": "し"
+      },
+      {
+        "base": "寝",
+        "ruby": "ね"
+      },
+      {
+        "base": "ます"
+      }
+    ],
+    "audioPath": "/audio/351502c7652e141e.mp3"
+  },
+  {
+    "chinese": "因为吵所以睡不着",
+    "japanese": "うるさいので寝られません",
+    "tokens": [
+      {
+        "surface": "うるさい",
+        "reading": "うるさい"
+      },
+      {
+        "surface": "ので",
+        "reading": "ので"
+      },
+      {
+        "surface": "寝られません",
+        "reading": "ねられません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "うるさい"
+      },
+      {
+        "base": "ので"
+      },
+      {
+        "base": "寝",
+        "ruby": "ね"
+      },
+      {
+        "base": "られません"
+      }
+    ],
+    "audioPath": "/audio/e236579283911799.mp3"
+  },
+  {
+    "chinese": "因为有钱所以买了",
+    "japanese": "お金があるから買いました",
+    "tokens": [
+      {
+        "surface": "お金",
+        "reading": "おかね"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "ある",
+        "reading": "ある"
+      },
+      {
+        "surface": "から",
+        "reading": "から"
+      },
+      {
+        "surface": "買いました",
+        "reading": "かいました"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "お"
+      },
+      {
+        "base": "金",
+        "ruby": "かね"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "ある"
+      },
+      {
+        "base": "から"
+      },
+      {
+        "base": "買",
+        "ruby": "か"
+      },
+      {
+        "base": "いました"
+      }
+    ],
+    "audioPath": "/audio/21c62346c38ffc22.mp3"
+  },
+  {
+    "chinese": "因为没人所以安静",
+    "japanese": "誰もいないので静かです",
+    "tokens": [
+      {
+        "surface": "誰",
+        "reading": "だれ"
+      },
+      {
+        "surface": "も",
+        "reading": "も"
+      },
+      {
+        "surface": "いない",
+        "reading": "いない"
+      },
+      {
+        "surface": "ので",
+        "reading": "ので"
+      },
+      {
+        "surface": "静かです",
+        "reading": "しずかです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "誰",
+        "ruby": "だれ"
+      },
+      {
+        "base": "も"
+      },
+      {
+        "base": "いない"
+      },
+      {
+        "base": "ので"
+      },
+      {
+        "base": "静",
+        "ruby": "しず"
+      },
+      {
+        "base": "かです"
+      }
+    ],
+    "audioPath": "/audio/3e2fd751d518f685.mp3"
+  },
+  {
+    "chinese": "因为想喝所以去买",
+    "japanese": "飲みたいから買いに行きます",
+    "tokens": [
+      {
+        "surface": "飲みたい",
+        "reading": "のみたい"
+      },
+      {
+        "surface": "から",
+        "reading": "から"
+      },
+      {
+        "surface": "買い",
+        "reading": "かい"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "行きます",
+        "reading": "いきます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "飲",
+        "ruby": "の"
+      },
+      {
+        "base": "みたい"
+      },
+      {
+        "base": "から"
+      },
+      {
+        "base": "買",
+        "ruby": "か"
+      },
+      {
+        "base": "い"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "行",
+        "ruby": "い"
+      },
+      {
+        "base": "きます"
+      }
+    ],
+    "audioPath": "/audio/9f35c1e79ccf9d8c.mp3"
+  },
+  {
+    "chinese": "因为新所以漂亮",
+    "japanese": "新しいから綺麗です",
+    "tokens": [
+      {
+        "surface": "新しい",
+        "reading": "あたらしい"
+      },
+      {
+        "surface": "から",
+        "reading": "から"
+      },
+      {
+        "surface": "綺麗です",
+        "reading": "きれいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "新",
+        "ruby": "あたら"
+      },
+      {
+        "base": "しい"
+      },
+      {
+        "base": "から"
+      },
+      {
+        "base": "綺麗",
+        "ruby": "きれい"
+      },
+      {
+        "base": "です"
+      }
+    ],
+    "audioPath": "/audio/28c708ffd0904f99.mp3"
+  },
+  {
+    "chinese": "因为是星期天所以休息",
+    "japanese": "日曜日だから休みます",
+    "tokens": [
+      {
+        "surface": "日曜日だ",
+        "reading": "にちようびだ"
+      },
+      {
+        "surface": "から",
+        "reading": "から"
+      },
+      {
+        "surface": "休みます",
+        "reading": "やすみます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "日曜日",
+        "ruby": "にちようび"
+      },
+      {
+        "base": "だ"
+      },
+      {
+        "base": "から"
+      },
+      {
+        "base": "休",
+        "ruby": "やす"
+      },
+      {
+        "base": "みます"
+      }
+    ],
+    "audioPath": "/audio/2a124a64773872b2.mp3"
+  }
+]

@@ -77,6 +77,42 @@ const PACK_METADATA: Record<string, PackMeta> = {
     description: "N4 范围内的较长句子（17+ 字）",
     order: 23,
   },
+  // ── LLM-generated N4 grammar packs ─────────────────────────
+  "llm-te-form-request": {
+    title: "N4 语法 · 请求 〜てください",
+    description: "礼貌请求他人做某事的常用句型",
+    order: 30,
+  },
+  "llm-te-form-progressive": {
+    title: "N4 语法 · 进行/状态 〜ています",
+    description: "动作正在进行或状态持续",
+    order: 31,
+  },
+  "llm-must-do": {
+    title: "N4 语法 · 必须 〜なければなりません",
+    description: "表达「必须做」的义务句型",
+    order: 32,
+  },
+  "llm-want-to": {
+    title: "N4 语法 · 愿望 〜たい",
+    description: "表达自己想做某事",
+    order: 33,
+  },
+  "llm-can-do": {
+    title: "N4 语法 · 能力 〜ことができる",
+    description: "表达「会/能」的可能形",
+    order: 34,
+  },
+  "llm-comparison": {
+    title: "N4 语法 · 比较 〜より",
+    description: "「Aより Bのほうが〜」比较句",
+    order: 35,
+  },
+  "llm-because": {
+    title: "N4 语法 · 原因 〜から / 〜ので",
+    description: "表达原因和理由",
+    order: 36,
+  },
 };
 
 const LESSON_SIZE_DEFAULT = 20;

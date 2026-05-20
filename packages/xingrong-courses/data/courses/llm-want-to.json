@@ -1,0 +1,930 @@
+[
+  {
+    "chinese": "我想喝水",
+    "japanese": "水が飲みたい",
+    "tokens": [
+      {
+        "surface": "水",
+        "reading": "みず"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "飲みたい",
+        "reading": "のみたい"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "水",
+        "ruby": "みず"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "飲",
+        "ruby": "の"
+      },
+      {
+        "base": "みたい"
+      }
+    ],
+    "audioPath": "/audio/b15ba3d725edf095.mp3"
+  },
+  {
+    "chinese": "我想吃饭",
+    "japanese": "ご飯が食べたい",
+    "tokens": [
+      {
+        "surface": "ご飯",
+        "reading": "ごはん"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "食べたい",
+        "reading": "たべたい"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "ご"
+      },
+      {
+        "base": "飯",
+        "ruby": "はん"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "食",
+        "ruby": "た"
+      },
+      {
+        "base": "べたい"
+      }
+    ],
+    "audioPath": "/audio/792eced79c88a06c.mp3"
+  },
+  {
+    "chinese": "我想去日本",
+    "japanese": "日本に行きたいです",
+    "tokens": [
+      {
+        "surface": "日本",
+        "reading": "にっぽん"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "行きたいです",
+        "reading": "いきたいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "日本",
+        "ruby": "にっぽん"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "行",
+        "ruby": "い"
+      },
+      {
+        "base": "きたいです"
+      }
+    ],
+    "audioPath": "/audio/c816361865d65562.mp3"
+  },
+  {
+    "chinese": "我想睡觉",
+    "japanese": "寝たいです",
+    "tokens": [
+      {
+        "surface": "寝たいです",
+        "reading": "ねたいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "寝",
+        "ruby": "ね"
+      },
+      {
+        "base": "たいです"
+      }
+    ],
+    "audioPath": "/audio/a9a1a1507231fcca.mp3"
+  },
+  {
+    "chinese": "我想休息",
+    "japanese": "休みたいです",
+    "tokens": [
+      {
+        "surface": "休みたいです",
+        "reading": "やすみたいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "休",
+        "ruby": "やす"
+      },
+      {
+        "base": "みたいです"
+      }
+    ],
+    "audioPath": "/audio/f6913b627085ab77.mp3"
+  },
+  {
+    "chinese": "我想回家",
+    "japanese": "家に帰りたいです",
+    "tokens": [
+      {
+        "surface": "家",
+        "reading": "いえ"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "帰りたいです",
+        "reading": "かえりたいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "家",
+        "ruby": "いえ"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "帰",
+        "ruby": "かえ"
+      },
+      {
+        "base": "りたいです"
+      }
+    ],
+    "audioPath": "/audio/2565da20858063e9.mp3"
+  },
+  {
+    "chinese": "我想喝咖啡",
+    "japanese": "コーヒーが飲みたいです",
+    "tokens": [
+      {
+        "surface": "コーヒー",
+        "reading": "こうひい"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "飲みたいです",
+        "reading": "のみたいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "コーヒー"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "飲",
+        "ruby": "の"
+      },
+      {
+        "base": "みたいです"
+      }
+    ],
+    "audioPath": "/audio/5235a3f296ff3b97.mp3"
+  },
+  {
+    "chinese": "我想吃寿司",
+    "japanese": "寿司が食べたいです",
+    "tokens": [
+      {
+        "surface": "寿司",
+        "reading": "すし"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "食べたいです",
+        "reading": "たべたいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "寿司",
+        "ruby": "すし"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "食",
+        "ruby": "た"
+      },
+      {
+        "base": "べたいです"
+      }
+    ],
+    "audioPath": "/audio/77148f91706315e7.mp3"
+  },
+  {
+    "chinese": "我想买衣服",
+    "japanese": "服が買いたいです",
+    "tokens": [
+      {
+        "surface": "服",
+        "reading": "ふく"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "買いたいです",
+        "reading": "かいたいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "服",
+        "ruby": "ふく"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "買",
+        "ruby": "か"
+      },
+      {
+        "base": "いたいです"
+      }
+    ],
+    "audioPath": "/audio/e34390467b8ed54e.mp3"
+  },
+  {
+    "chinese": "我想看电影",
+    "japanese": "映画が見たいです",
+    "tokens": [
+      {
+        "surface": "映画",
+        "reading": "えいが"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "見たいです",
+        "reading": "みたいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "映画",
+        "ruby": "えいが"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "見",
+        "ruby": "み"
+      },
+      {
+        "base": "たいです"
+      }
+    ],
+    "audioPath": "/audio/2406ff5a62fddad1.mp3"
+  },
+  {
+    "chinese": "我想听音乐",
+    "japanese": "音楽が聞きたいです",
+    "tokens": [
+      {
+        "surface": "音楽",
+        "reading": "おんがく"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "聞きたいです",
+        "reading": "ききたいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "音楽",
+        "ruby": "おんがく"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "聞",
+        "ruby": "き"
+      },
+      {
+        "base": "きたいです"
+      }
+    ],
+    "audioPath": "/audio/bfb5fdfd9fb724d5.mp3"
+  },
+  {
+    "chinese": "我想学日语",
+    "japanese": "日本語を勉強したいです",
+    "tokens": [
+      {
+        "surface": "日本語",
+        "reading": "にほんご"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "勉強",
+        "reading": "べんきょう"
+      },
+      {
+        "surface": "したいです",
+        "reading": "したいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "日本語",
+        "ruby": "にほんご"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "勉強",
+        "ruby": "べんきょう"
+      },
+      {
+        "base": "したいです"
+      }
+    ],
+    "audioPath": "/audio/cf58479a3928bd15.mp3"
+  },
+  {
+    "chinese": "我想念书",
+    "japanese": "本が読みたいです",
+    "tokens": [
+      {
+        "surface": "本",
+        "reading": "ほん"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "読みたいです",
+        "reading": "よみたいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "本",
+        "ruby": "ほん"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "読",
+        "ruby": "よ"
+      },
+      {
+        "base": "みたいです"
+      }
+    ],
+    "audioPath": "/audio/4c65a8890b2a11b5.mp3"
+  },
+  {
+    "chinese": "我想出去",
+    "japanese": "出かけたいです",
+    "tokens": [
+      {
+        "surface": "出かけたいです",
+        "reading": "でかけたいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "出",
+        "ruby": "で"
+      },
+      {
+        "base": "かけたいです"
+      }
+    ],
+    "audioPath": "/audio/c9b8a98fde813b00.mp3"
+  },
+  {
+    "chinese": "我想散步",
+    "japanese": "散歩したいです",
+    "tokens": [
+      {
+        "surface": "散歩",
+        "reading": "さんぽ"
+      },
+      {
+        "surface": "したいです",
+        "reading": "したいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "散歩",
+        "ruby": "さんぽ"
+      },
+      {
+        "base": "したいです"
+      }
+    ],
+    "audioPath": "/audio/e0c178318f01c846.mp3"
+  },
+  {
+    "chinese": "我想见你",
+    "japanese": "あなたに会いたいです",
+    "tokens": [
+      {
+        "surface": "あなた",
+        "reading": "あなた"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "会いたいです",
+        "reading": "あいたいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "あなた"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "会",
+        "ruby": "あ"
+      },
+      {
+        "base": "いたいです"
+      }
+    ],
+    "audioPath": "/audio/e67da2ba5d68088c.mp3"
+  },
+  {
+    "chinese": "我想问问题",
+    "japanese": "質問したいです",
+    "tokens": [
+      {
+        "surface": "質問",
+        "reading": "しつもん"
+      },
+      {
+        "surface": "したいです",
+        "reading": "したいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "質問",
+        "ruby": "しつもん"
+      },
+      {
+        "base": "したいです"
+      }
+    ],
+    "audioPath": "/audio/b31e618aed6bc701.mp3"
+  },
+  {
+    "chinese": "我想去厕所",
+    "japanese": "トイレに行きたいです",
+    "tokens": [
+      {
+        "surface": "トイレ",
+        "reading": "といれ"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "行きたいです",
+        "reading": "いきたいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "トイレ"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "行",
+        "ruby": "い"
+      },
+      {
+        "base": "きたいです"
+      }
+    ],
+    "audioPath": "/audio/83774d66f602a5dc.mp3"
+  },
+  {
+    "chinese": "我想洗澡",
+    "japanese": "シャワーを浴びたいです",
+    "tokens": [
+      {
+        "surface": "シャワー",
+        "reading": "しゃわあ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "浴びたいです",
+        "reading": "あびたいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "シャワー"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "浴",
+        "ruby": "あ"
+      },
+      {
+        "base": "びたいです"
+      }
+    ],
+    "audioPath": "/audio/5f3218eecc8189c5.mp3"
+  },
+  {
+    "chinese": "我想交朋友",
+    "japanese": "友達を作りたいです",
+    "tokens": [
+      {
+        "surface": "友達",
+        "reading": "ともだち"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "作りたいです",
+        "reading": "つくりたいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "友達",
+        "ruby": "ともだち"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "作",
+        "ruby": "つく"
+      },
+      {
+        "base": "りたいです"
+      }
+    ],
+    "audioPath": "/audio/aea0cf1b59f0a2c6.mp3"
+  },
+  {
+    "chinese": "我想旅行",
+    "japanese": "旅行したいです",
+    "tokens": [
+      {
+        "surface": "旅行",
+        "reading": "りょこう"
+      },
+      {
+        "surface": "したいです",
+        "reading": "したいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "旅行",
+        "ruby": "りょこう"
+      },
+      {
+        "base": "したいです"
+      }
+    ],
+    "audioPath": "/audio/bee04c17acd539b9.mp3"
+  },
+  {
+    "chinese": "我想游泳",
+    "japanese": "泳ぎたいです",
+    "tokens": [
+      {
+        "surface": "泳ぎたいです",
+        "reading": "およぎたいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "泳",
+        "ruby": "およ"
+      },
+      {
+        "base": "ぎたいです"
+      }
+    ],
+    "audioPath": "/audio/ea82e6e0741e3636.mp3"
+  },
+  {
+    "chinese": "我想唱歌",
+    "japanese": "歌いたいです",
+    "tokens": [
+      {
+        "surface": "歌いたいです",
+        "reading": "うたいたいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "歌",
+        "ruby": "うた"
+      },
+      {
+        "base": "いたいです"
+      }
+    ],
+    "audioPath": "/audio/f35cbe17200aba23.mp3"
+  },
+  {
+    "chinese": "我想说日语",
+    "japanese": "日本語が話したいです",
+    "tokens": [
+      {
+        "surface": "日本語",
+        "reading": "にほんご"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "話したいです",
+        "reading": "はなしたいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "日本語",
+        "ruby": "にほんご"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "話",
+        "ruby": "はな"
+      },
+      {
+        "base": "したいです"
+      }
+    ],
+    "audioPath": "/audio/b79dff1fac12ef34.mp3"
+  },
+  {
+    "chinese": "我想去公园",
+    "japanese": "公園に行きたいです",
+    "tokens": [
+      {
+        "surface": "公園",
+        "reading": "こうえん"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "行きたいです",
+        "reading": "いきたいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "公園",
+        "ruby": "こうえん"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "行",
+        "ruby": "い"
+      },
+      {
+        "base": "きたいです"
+      }
+    ],
+    "audioPath": "/audio/e463ee06bdb880ca.mp3"
+  },
+  {
+    "chinese": "我想吃面",
+    "japanese": "ラーメンが食べたいです",
+    "tokens": [
+      {
+        "surface": "ラーメン",
+        "reading": "らあめん"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "食べたいです",
+        "reading": "たべたいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "ラーメン"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "食",
+        "ruby": "た"
+      },
+      {
+        "base": "べたいです"
+      }
+    ],
+    "audioPath": "/audio/29f840b8f2ea9a14.mp3"
+  },
+  {
+    "chinese": "我想坐电车",
+    "japanese": "電車に乗りたいです",
+    "tokens": [
+      {
+        "surface": "電車",
+        "reading": "でんしゃ"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "乗りたいです",
+        "reading": "のりたいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "電車",
+        "ruby": "でんしゃ"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "乗",
+        "ruby": "の"
+      },
+      {
+        "base": "りたいです"
+      }
+    ],
+    "audioPath": "/audio/0bfb45c8ef5a07bc.mp3"
+  },
+  {
+    "chinese": "我想看新闻",
+    "japanese": "ニュースが見たいです",
+    "tokens": [
+      {
+        "surface": "ニュース",
+        "reading": "にゅうす"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "見たいです",
+        "reading": "みたいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "ニュース"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "見",
+        "ruby": "み"
+      },
+      {
+        "base": "たいです"
+      }
+    ],
+    "audioPath": "/audio/d349af0f2d6c2b6d.mp3"
+  },
+  {
+    "chinese": "我不想去学校",
+    "japanese": "学校に行きたくないです",
+    "tokens": [
+      {
+        "surface": "学校",
+        "reading": "がっこう"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "行きたくないです",
+        "reading": "いきたくないです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "学校",
+        "ruby": "がっこう"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "行",
+        "ruby": "い"
+      },
+      {
+        "base": "きたくないです"
+      }
+    ],
+    "audioPath": "/audio/f4a33dabd8bcad26.mp3"
+  },
+  {
+    "chinese": "我不想工作",
+    "japanese": "働きたくないです",
+    "tokens": [
+      {
+        "surface": "働きたくないです",
+        "reading": "はたらきたくないです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "働",
+        "ruby": "はたら"
+      },
+      {
+        "base": "きたくないです"
+      }
+    ],
+    "audioPath": "/audio/955af930e7d4a076.mp3"
+  }
+]

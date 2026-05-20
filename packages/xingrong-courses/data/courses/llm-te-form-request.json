@@ -1,0 +1,1283 @@
+[
+  {
+    "chinese": "请关门",
+    "japanese": "ドアを閉めてください",
+    "tokens": [
+      {
+        "surface": "ドア",
+        "reading": "どあ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "閉めてください",
+        "reading": "しめてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "ドア"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "閉",
+        "ruby": "し"
+      },
+      {
+        "base": "めてください"
+      }
+    ],
+    "audioPath": "/audio/38792b1ec4f8e94c.mp3"
+  },
+  {
+    "chinese": "请打开窗户",
+    "japanese": "窓を開けてください",
+    "tokens": [
+      {
+        "surface": "窓",
+        "reading": "まど"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "開けてください",
+        "reading": "あけてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "窓",
+        "ruby": "まど"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "開",
+        "ruby": "あ"
+      },
+      {
+        "base": "けてください"
+      }
+    ],
+    "audioPath": "/audio/4e164a21dfec7b40.mp3"
+  },
+  {
+    "chinese": "请帮我",
+    "japanese": "手伝ってください",
+    "tokens": [
+      {
+        "surface": "手伝ってください",
+        "reading": "てつだってください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "手伝",
+        "ruby": "てつだ"
+      },
+      {
+        "base": "ってください"
+      }
+    ],
+    "audioPath": "/audio/6bfa2f2c7759badb.mp3"
+  },
+  {
+    "chinese": "请稍等",
+    "japanese": "少し待ってください",
+    "tokens": [
+      {
+        "surface": "少し",
+        "reading": "すこし"
+      },
+      {
+        "surface": "待ってください",
+        "reading": "まってください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "少",
+        "ruby": "すこ"
+      },
+      {
+        "base": "し"
+      },
+      {
+        "base": "待",
+        "ruby": "ま"
+      },
+      {
+        "base": "ってください"
+      }
+    ],
+    "audioPath": "/audio/9d112285a7867e4a.mp3"
+  },
+  {
+    "chinese": "请说慢一点",
+    "japanese": "ゆっくり話してください",
+    "tokens": [
+      {
+        "surface": "ゆっくり",
+        "reading": "ゆっくり"
+      },
+      {
+        "surface": "話してください",
+        "reading": "はなしてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "ゆっくり"
+      },
+      {
+        "base": "話",
+        "ruby": "はな"
+      },
+      {
+        "base": "してください"
+      }
+    ],
+    "audioPath": "/audio/846fa0820ed5b03b.mp3"
+  },
+  {
+    "chinese": "请大声说",
+    "japanese": "大きな声で話してください",
+    "tokens": [
+      {
+        "surface": "大きな",
+        "reading": "おおきな"
+      },
+      {
+        "surface": "声",
+        "reading": "こえ"
+      },
+      {
+        "surface": "で",
+        "reading": "で"
+      },
+      {
+        "surface": "話してください",
+        "reading": "はなしてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "大",
+        "ruby": "おお"
+      },
+      {
+        "base": "きな"
+      },
+      {
+        "base": "声",
+        "ruby": "こえ"
+      },
+      {
+        "base": "で"
+      },
+      {
+        "base": "話",
+        "ruby": "はな"
+      },
+      {
+        "base": "してください"
+      }
+    ],
+    "audioPath": "/audio/d4e51d0a3ff98d1f.mp3"
+  },
+  {
+    "chinese": "请坐下",
+    "japanese": "ここに座ってください",
+    "tokens": [
+      {
+        "surface": "ここ",
+        "reading": "ここ"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "座ってください",
+        "reading": "すわってください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "ここ"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "座",
+        "ruby": "すわ"
+      },
+      {
+        "base": "ってください"
+      }
+    ],
+    "audioPath": "/audio/49a7ade55a20a515.mp3"
+  },
+  {
+    "chinese": "请进来",
+    "japanese": "中に入ってください",
+    "tokens": [
+      {
+        "surface": "中",
+        "reading": "なか"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "入ってください",
+        "reading": "はいってください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "中",
+        "ruby": "なか"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "入",
+        "ruby": "はい"
+      },
+      {
+        "base": "ってください"
+      }
+    ],
+    "audioPath": "/audio/3f8c4c602cdcde5f.mp3"
+  },
+  {
+    "chinese": "请看这里",
+    "japanese": "ここを見てください",
+    "tokens": [
+      {
+        "surface": "ここ",
+        "reading": "ここ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "見てください",
+        "reading": "みてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "ここ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "見",
+        "ruby": "み"
+      },
+      {
+        "base": "てください"
+      }
+    ],
+    "audioPath": "/audio/1cae644bcf8f5cf0.mp3"
+  },
+  {
+    "chinese": "请到这里来",
+    "japanese": "ここに来てください",
+    "tokens": [
+      {
+        "surface": "ここ",
+        "reading": "ここ"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "来てください",
+        "reading": "きてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "ここ"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "来",
+        "ruby": "き"
+      },
+      {
+        "base": "てください"
+      }
+    ],
+    "audioPath": "/audio/51fcedebfe889243.mp3"
+  },
+  {
+    "chinese": "请喝水",
+    "japanese": "水を飲んでください",
+    "tokens": [
+      {
+        "surface": "水",
+        "reading": "みず"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "飲んでください",
+        "reading": "のんでください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "水",
+        "ruby": "みず"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "飲",
+        "ruby": "の"
+      },
+      {
+        "base": "んでください"
+      }
+    ],
+    "audioPath": "/audio/d555c2b2ca53a1e0.mp3"
+  },
+  {
+    "chinese": "请用筷子",
+    "japanese": "箸を使ってください",
+    "tokens": [
+      {
+        "surface": "箸",
+        "reading": "はし"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "使ってください",
+        "reading": "つかってください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "箸",
+        "ruby": "はし"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "使",
+        "ruby": "つか"
+      },
+      {
+        "base": "ってください"
+      }
+    ],
+    "audioPath": "/audio/0327db97d13ae44d.mp3"
+  },
+  {
+    "chinese": "请打开灯",
+    "japanese": "電気をつけてください",
+    "tokens": [
+      {
+        "surface": "電気",
+        "reading": "でんき"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "つけてください",
+        "reading": "つけてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "電気",
+        "ruby": "でんき"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "つけてください"
+      }
+    ],
+    "audioPath": "/audio/5c21e773be0de38f.mp3"
+  },
+  {
+    "chinese": "请关灯",
+    "japanese": "電気を消してください",
+    "tokens": [
+      {
+        "surface": "電気",
+        "reading": "でんき"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "消してください",
+        "reading": "けしてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "電気",
+        "ruby": "でんき"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "消",
+        "ruby": "け"
+      },
+      {
+        "base": "してください"
+      }
+    ],
+    "audioPath": "/audio/e906822ff8dd07be.mp3"
+  },
+  {
+    "chinese": "请把窗户关上",
+    "japanese": "窓を閉めてください",
+    "tokens": [
+      {
+        "surface": "窓",
+        "reading": "まど"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "閉めてください",
+        "reading": "しめてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "窓",
+        "ruby": "まど"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "閉",
+        "ruby": "し"
+      },
+      {
+        "base": "めてください"
+      }
+    ],
+    "audioPath": "/audio/257057945484a672.mp3"
+  },
+  {
+    "chinese": "请教我",
+    "japanese": "教えてください",
+    "tokens": [
+      {
+        "surface": "教えてください",
+        "reading": "おしえてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "教",
+        "ruby": "おし"
+      },
+      {
+        "base": "えてください"
+      }
+    ],
+    "audioPath": "/audio/61b867287ad1d2d9.mp3"
+  },
+  {
+    "chinese": "请念这个",
+    "japanese": "これを読んでください",
+    "tokens": [
+      {
+        "surface": "これ",
+        "reading": "これ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "読んでください",
+        "reading": "よんでください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "これ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "読",
+        "ruby": "よ"
+      },
+      {
+        "base": "んでください"
+      }
+    ],
+    "audioPath": "/audio/e3f5f3a648454946.mp3"
+  },
+  {
+    "chinese": "请把名字写在这里",
+    "japanese": "ここに名前を書いてください",
+    "tokens": [
+      {
+        "surface": "ここ",
+        "reading": "ここ"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "名前",
+        "reading": "なまえ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "書いてください",
+        "reading": "かいてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "ここ"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "名前",
+        "ruby": "なまえ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "書",
+        "ruby": "か"
+      },
+      {
+        "base": "いてください"
+      }
+    ],
+    "audioPath": "/audio/113aafc763b43546.mp3"
+  },
+  {
+    "chinese": "请再来一次",
+    "japanese": "もう一度来てください",
+    "tokens": [
+      {
+        "surface": "もう一度",
+        "reading": "もういちど"
+      },
+      {
+        "surface": "来てください",
+        "reading": "きてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "もう"
+      },
+      {
+        "base": "一度",
+        "ruby": "いちど"
+      },
+      {
+        "base": "来",
+        "ruby": "き"
+      },
+      {
+        "base": "てください"
+      }
+    ],
+    "audioPath": "/audio/7a1d1685fc866d50.mp3"
+  },
+  {
+    "chinese": "请打电话给我",
+    "japanese": "電話してください",
+    "tokens": [
+      {
+        "surface": "電話",
+        "reading": "でんわ"
+      },
+      {
+        "surface": "してください",
+        "reading": "してください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "電話",
+        "ruby": "でんわ"
+      },
+      {
+        "base": "してください"
+      }
+    ],
+    "audioPath": "/audio/69139c8848c25251.mp3"
+  },
+  {
+    "chinese": "请回家",
+    "japanese": "家に帰ってください",
+    "tokens": [
+      {
+        "surface": "家",
+        "reading": "いえ"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "帰ってください",
+        "reading": "かえってください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "家",
+        "ruby": "いえ"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "帰",
+        "ruby": "かえ"
+      },
+      {
+        "base": "ってください"
+      }
+    ],
+    "audioPath": "/audio/52d12b5da2b8e039.mp3"
+  },
+  {
+    "chinese": "请快点回来",
+    "japanese": "早く帰ってきてください",
+    "tokens": [
+      {
+        "surface": "早く",
+        "reading": "はやく"
+      },
+      {
+        "surface": "帰ってきてください",
+        "reading": "かえってきてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "早",
+        "ruby": "はや"
+      },
+      {
+        "base": "く"
+      },
+      {
+        "base": "帰",
+        "ruby": "かえ"
+      },
+      {
+        "base": "ってきてください"
+      }
+    ],
+    "audioPath": "/audio/6729eb7839402f46.mp3"
+  },
+  {
+    "chinese": "请把这个拿给我",
+    "japanese": "これを持ってきてください",
+    "tokens": [
+      {
+        "surface": "これ",
+        "reading": "これ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "持ってきてください",
+        "reading": "もってきてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "これ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "持",
+        "ruby": "も"
+      },
+      {
+        "base": "ってきてください"
+      }
+    ],
+    "audioPath": "/audio/60f49cfdb1654758.mp3"
+  },
+  {
+    "chinese": "请买一个",
+    "japanese": "一つ買ってください",
+    "tokens": [
+      {
+        "surface": "一つ",
+        "reading": "ひとつ"
+      },
+      {
+        "surface": "買ってください",
+        "reading": "かってください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "一",
+        "ruby": "ひと"
+      },
+      {
+        "base": "つ"
+      },
+      {
+        "base": "買",
+        "ruby": "か"
+      },
+      {
+        "base": "ってください"
+      }
+    ],
+    "audioPath": "/audio/f3e4db239af6ec01.mp3"
+  },
+  {
+    "chinese": "请用日语说",
+    "japanese": "日本語で話してください",
+    "tokens": [
+      {
+        "surface": "日本語",
+        "reading": "にほんご"
+      },
+      {
+        "surface": "で",
+        "reading": "で"
+      },
+      {
+        "surface": "話してください",
+        "reading": "はなしてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "日本語",
+        "ruby": "にほんご"
+      },
+      {
+        "base": "で"
+      },
+      {
+        "base": "話",
+        "ruby": "はな"
+      },
+      {
+        "base": "してください"
+      }
+    ],
+    "audioPath": "/audio/d5fd7f1bbdb74c15.mp3"
+  },
+  {
+    "chinese": "请休息一下",
+    "japanese": "少し休んでください",
+    "tokens": [
+      {
+        "surface": "少し",
+        "reading": "すこし"
+      },
+      {
+        "surface": "休んでください",
+        "reading": "やすんでください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "少",
+        "ruby": "すこ"
+      },
+      {
+        "base": "し"
+      },
+      {
+        "base": "休",
+        "ruby": "やす"
+      },
+      {
+        "base": "んでください"
+      }
+    ],
+    "audioPath": "/audio/e4141b0f6b5aaee3.mp3"
+  },
+  {
+    "chinese": "请站起来",
+    "japanese": "立ってください",
+    "tokens": [
+      {
+        "surface": "立ってください",
+        "reading": "たってください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "立",
+        "ruby": "た"
+      },
+      {
+        "base": "ってください"
+      }
+    ],
+    "audioPath": "/audio/75f563d3c671abac.mp3"
+  },
+  {
+    "chinese": "请安静",
+    "japanese": "静かにしてください",
+    "tokens": [
+      {
+        "surface": "静か",
+        "reading": "しずか"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "してください",
+        "reading": "してください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "静",
+        "ruby": "しず"
+      },
+      {
+        "base": "か"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "してください"
+      }
+    ],
+    "audioPath": "/audio/b8c1147dcb5c938c.mp3"
+  },
+  {
+    "chinese": "请快点",
+    "japanese": "急いでください",
+    "tokens": [
+      {
+        "surface": "急いでください",
+        "reading": "いそいでください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "急",
+        "ruby": "いそ"
+      },
+      {
+        "base": "いでください"
+      }
+    ],
+    "audioPath": "/audio/3afd0b6cdb730041.mp3"
+  },
+  {
+    "chinese": "请看黑板",
+    "japanese": "黒板を見てください",
+    "tokens": [
+      {
+        "surface": "黒板",
+        "reading": "こくばん"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "見てください",
+        "reading": "みてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "黒板",
+        "ruby": "こくばん"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "見",
+        "ruby": "み"
+      },
+      {
+        "base": "てください"
+      }
+    ],
+    "audioPath": "/audio/17fbe839ea9b23cc.mp3"
+  },
+  {
+    "chinese": "请打开书",
+    "japanese": "本を開いてください",
+    "tokens": [
+      {
+        "surface": "本",
+        "reading": "ほん"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "開いてください",
+        "reading": "ひらいてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "本",
+        "ruby": "ほん"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "開",
+        "ruby": "ひら"
+      },
+      {
+        "base": "いてください"
+      }
+    ],
+    "audioPath": "/audio/2b5d06d16386c1a3.mp3"
+  },
+  {
+    "chinese": "请合上书",
+    "japanese": "本を閉じてください",
+    "tokens": [
+      {
+        "surface": "本",
+        "reading": "ほん"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "閉じてください",
+        "reading": "とじてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "本",
+        "ruby": "ほん"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "閉",
+        "ruby": "と"
+      },
+      {
+        "base": "じてください"
+      }
+    ],
+    "audioPath": "/audio/66ae6f758ef42a94.mp3"
+  },
+  {
+    "chinese": "请明天再来",
+    "japanese": "明日また来てください",
+    "tokens": [
+      {
+        "surface": "明日",
+        "reading": "あした"
+      },
+      {
+        "surface": "また",
+        "reading": "また"
+      },
+      {
+        "surface": "来てください",
+        "reading": "きてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "明日",
+        "ruby": "あした"
+      },
+      {
+        "base": "また"
+      },
+      {
+        "base": "来",
+        "ruby": "き"
+      },
+      {
+        "base": "てください"
+      }
+    ],
+    "audioPath": "/audio/878ebcfbb05ce898.mp3"
+  },
+  {
+    "chinese": "请用左手",
+    "japanese": "左手を使ってください",
+    "tokens": [
+      {
+        "surface": "左手",
+        "reading": "ひだりて"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "使ってください",
+        "reading": "つかってください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "左手",
+        "ruby": "ひだりて"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "使",
+        "ruby": "つか"
+      },
+      {
+        "base": "ってください"
+      }
+    ],
+    "audioPath": "/audio/c0e94d2a5a89eb1a.mp3"
+  },
+  {
+    "chinese": "请把名字告诉我",
+    "japanese": "名前を教えてください",
+    "tokens": [
+      {
+        "surface": "名前",
+        "reading": "なまえ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "教えてください",
+        "reading": "おしえてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "名前",
+        "ruby": "なまえ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "教",
+        "ruby": "おし"
+      },
+      {
+        "base": "えてください"
+      }
+    ],
+    "audioPath": "/audio/6c8b98a1ad637520.mp3"
+  },
+  {
+    "chinese": "请加油",
+    "japanese": "頑張ってください",
+    "tokens": [
+      {
+        "surface": "頑張ってください",
+        "reading": "がんばってください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "頑張",
+        "ruby": "がんば"
+      },
+      {
+        "base": "ってください"
+      }
+    ],
+    "audioPath": "/audio/910e638c296c054b.mp3"
+  },
+  {
+    "chinese": "请小心",
+    "japanese": "気をつけてください",
+    "tokens": [
+      {
+        "surface": "気",
+        "reading": "き"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "つけてください",
+        "reading": "つけてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "気",
+        "ruby": "き"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "つけてください"
+      }
+    ],
+    "audioPath": "/audio/70f17e9281db32f5.mp3"
+  },
+  {
+    "chinese": "请送我回家",
+    "japanese": "家まで送ってください",
+    "tokens": [
+      {
+        "surface": "家",
+        "reading": "いえ"
+      },
+      {
+        "surface": "まで",
+        "reading": "まで"
+      },
+      {
+        "surface": "送ってください",
+        "reading": "おくってください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "家",
+        "ruby": "いえ"
+      },
+      {
+        "base": "まで"
+      },
+      {
+        "base": "送",
+        "ruby": "おく"
+      },
+      {
+        "base": "ってください"
+      }
+    ],
+    "audioPath": "/audio/4cf46e07da9ca9e3.mp3"
+  },
+  {
+    "chinese": "请等到明天",
+    "japanese": "明日まで待ってください",
+    "tokens": [
+      {
+        "surface": "明日",
+        "reading": "あした"
+      },
+      {
+        "surface": "まで",
+        "reading": "まで"
+      },
+      {
+        "surface": "待ってください",
+        "reading": "まってください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "明日",
+        "ruby": "あした"
+      },
+      {
+        "base": "まで"
+      },
+      {
+        "base": "待",
+        "ruby": "ま"
+      },
+      {
+        "base": "ってください"
+      }
+    ],
+    "audioPath": "/audio/8d2fd38e6ec66562.mp3"
+  },
+  {
+    "chinese": "请帮我写",
+    "japanese": "書いてください",
+    "tokens": [
+      {
+        "surface": "書いてください",
+        "reading": "かいてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "書",
+        "ruby": "か"
+      },
+      {
+        "base": "いてください"
+      }
+    ],
+    "audioPath": "/audio/9037e0a2ef1f1479.mp3"
+  }
+]

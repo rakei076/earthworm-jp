@@ -1,0 +1,1369 @@
+[
+  {
+    "chinese": "我在学日语",
+    "japanese": "日本語を勉強しています",
+    "tokens": [
+      {
+        "surface": "日本語",
+        "reading": "にほんご"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "勉強",
+        "reading": "べんきょう"
+      },
+      {
+        "surface": "しています",
+        "reading": "しています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "日本語",
+        "ruby": "にほんご"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "勉強",
+        "ruby": "べんきょう"
+      },
+      {
+        "base": "しています"
+      }
+    ],
+    "audioPath": "/audio/c705500c98a60eb1.mp3"
+  },
+  {
+    "chinese": "我在看书",
+    "japanese": "本を読んでいます",
+    "tokens": [
+      {
+        "surface": "本",
+        "reading": "ほん"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "読んでいます",
+        "reading": "よんでいます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "本",
+        "ruby": "ほん"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "読",
+        "ruby": "よ"
+      },
+      {
+        "base": "んでいます"
+      }
+    ],
+    "audioPath": "/audio/e98b91aba8ae0f50.mp3"
+  },
+  {
+    "chinese": "我在吃饭",
+    "japanese": "ご飯を食べています",
+    "tokens": [
+      {
+        "surface": "ご飯",
+        "reading": "ごはん"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "食べています",
+        "reading": "たべています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "ご"
+      },
+      {
+        "base": "飯",
+        "ruby": "はん"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "食",
+        "ruby": "た"
+      },
+      {
+        "base": "べています"
+      }
+    ],
+    "audioPath": "/audio/4d451f735a46838d.mp3"
+  },
+  {
+    "chinese": "我在喝咖啡",
+    "japanese": "コーヒーを飲んでいます",
+    "tokens": [
+      {
+        "surface": "コーヒー",
+        "reading": "こうひい"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "飲んでいます",
+        "reading": "のんでいます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "コーヒー"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "飲",
+        "ruby": "の"
+      },
+      {
+        "base": "んでいます"
+      }
+    ],
+    "audioPath": "/audio/c3a777132195e22e.mp3"
+  },
+  {
+    "chinese": "他在睡觉",
+    "japanese": "彼は寝ています",
+    "tokens": [
+      {
+        "surface": "彼",
+        "reading": "かれ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "寝ています",
+        "reading": "ねています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼",
+        "ruby": "かれ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "寝",
+        "ruby": "ね"
+      },
+      {
+        "base": "ています"
+      }
+    ],
+    "audioPath": "/audio/a5556234cf4bf2a7.mp3"
+  },
+  {
+    "chinese": "妈妈在做饭",
+    "japanese": "母は料理をしています",
+    "tokens": [
+      {
+        "surface": "母",
+        "reading": "はは"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "料理",
+        "reading": "りょうり"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "しています",
+        "reading": "しています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "母",
+        "ruby": "はは"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "料理",
+        "ruby": "りょうり"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "しています"
+      }
+    ],
+    "audioPath": "/audio/091eb060df473eb3.mp3"
+  },
+  {
+    "chinese": "爸爸在工作",
+    "japanese": "父は働いています",
+    "tokens": [
+      {
+        "surface": "父",
+        "reading": "ちち"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "働いています",
+        "reading": "はたらいています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "父",
+        "ruby": "ちち"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "働",
+        "ruby": "はたら"
+      },
+      {
+        "base": "いています"
+      }
+    ],
+    "audioPath": "/audio/cf1899291f14c240.mp3"
+  },
+  {
+    "chinese": "我在等公车",
+    "japanese": "バスを待っています",
+    "tokens": [
+      {
+        "surface": "バス",
+        "reading": "ばす"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "待っています",
+        "reading": "まっています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "バス"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "待",
+        "ruby": "ま"
+      },
+      {
+        "base": "っています"
+      }
+    ],
+    "audioPath": "/audio/ba4fde452e3aaebf.mp3"
+  },
+  {
+    "chinese": "我在听音乐",
+    "japanese": "音楽を聞いています",
+    "tokens": [
+      {
+        "surface": "音楽",
+        "reading": "おんがく"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "聞いています",
+        "reading": "きいています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "音楽",
+        "ruby": "おんがく"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "聞",
+        "ruby": "き"
+      },
+      {
+        "base": "いています"
+      }
+    ],
+    "audioPath": "/audio/abecfa1218e043ca.mp3"
+  },
+  {
+    "chinese": "学生在写字",
+    "japanese": "学生は字を書いています",
+    "tokens": [
+      {
+        "surface": "学生",
+        "reading": "がくせい"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "字",
+        "reading": "じ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "書いています",
+        "reading": "かいています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "学生",
+        "ruby": "がくせい"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "字",
+        "ruby": "じ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "書",
+        "ruby": "か"
+      },
+      {
+        "base": "いています"
+      }
+    ],
+    "audioPath": "/audio/f63ca9a17e717694.mp3"
+  },
+  {
+    "chinese": "老师在说话",
+    "japanese": "先生は話しています",
+    "tokens": [
+      {
+        "surface": "先生",
+        "reading": "せんせい"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "話しています",
+        "reading": "はなしています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "先生",
+        "ruby": "せんせい"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "話",
+        "ruby": "はな"
+      },
+      {
+        "base": "しています"
+      }
+    ],
+    "audioPath": "/audio/138c7bb486f699ab.mp3"
+  },
+  {
+    "chinese": "孩子在哭",
+    "japanese": "子どもが泣いています",
+    "tokens": [
+      {
+        "surface": "子ども",
+        "reading": "こども"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "泣いています",
+        "reading": "ないています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "子",
+        "ruby": "こ"
+      },
+      {
+        "base": "ども"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "泣",
+        "ruby": "な"
+      },
+      {
+        "base": "いています"
+      }
+    ],
+    "audioPath": "/audio/2a36e0671148e6ec.mp3"
+  },
+  {
+    "chinese": "雨在下",
+    "japanese": "雨が降っています",
+    "tokens": [
+      {
+        "surface": "雨",
+        "reading": "あめ"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "降っています",
+        "reading": "ふっています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "雨",
+        "ruby": "あめ"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "降",
+        "ruby": "ふ"
+      },
+      {
+        "base": "っています"
+      }
+    ],
+    "audioPath": "/audio/4e2731ca967a2fed.mp3"
+  },
+  {
+    "chinese": "雪在下",
+    "japanese": "雪が降っています",
+    "tokens": [
+      {
+        "surface": "雪",
+        "reading": "ゆき"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "降っています",
+        "reading": "ふっています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "雪",
+        "ruby": "ゆき"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "降",
+        "ruby": "ふ"
+      },
+      {
+        "base": "っています"
+      }
+    ],
+    "audioPath": "/audio/1bf22f9b75753fe5.mp3"
+  },
+  {
+    "chinese": "风在吹",
+    "japanese": "風が吹いています",
+    "tokens": [
+      {
+        "surface": "風",
+        "reading": "かぜ"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "吹いています",
+        "reading": "ふいています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "風",
+        "ruby": "かぜ"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "吹",
+        "ruby": "ふ"
+      },
+      {
+        "base": "いています"
+      }
+    ],
+    "audioPath": "/audio/3e2aadcdf7c88ffe.mp3"
+  },
+  {
+    "chinese": "我在散步",
+    "japanese": "散歩しています",
+    "tokens": [
+      {
+        "surface": "散歩",
+        "reading": "さんぽ"
+      },
+      {
+        "surface": "しています",
+        "reading": "しています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "散歩",
+        "ruby": "さんぽ"
+      },
+      {
+        "base": "しています"
+      }
+    ],
+    "audioPath": "/audio/9da3d6fbd657296f.mp3"
+  },
+  {
+    "chinese": "我住在东京",
+    "japanese": "東京に住んでいます",
+    "tokens": [
+      {
+        "surface": "東京",
+        "reading": "とうきょう"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "住んでいます",
+        "reading": "すんでいます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "東京",
+        "ruby": "とうきょう"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "住",
+        "ruby": "す"
+      },
+      {
+        "base": "んでいます"
+      }
+    ],
+    "audioPath": "/audio/fbed9c967269da1b.mp3"
+  },
+  {
+    "chinese": "我认识他",
+    "japanese": "彼を知っています",
+    "tokens": [
+      {
+        "surface": "彼",
+        "reading": "かれ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "知っています",
+        "reading": "しっています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼",
+        "ruby": "かれ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "知",
+        "ruby": "し"
+      },
+      {
+        "base": "っています"
+      }
+    ],
+    "audioPath": "/audio/ecf13d038f50ef4c.mp3"
+  },
+  {
+    "chinese": "我已经结婚了",
+    "japanese": "結婚しています",
+    "tokens": [
+      {
+        "surface": "結婚",
+        "reading": "けっこん"
+      },
+      {
+        "surface": "しています",
+        "reading": "しています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "結婚",
+        "ruby": "けっこん"
+      },
+      {
+        "base": "しています"
+      }
+    ],
+    "audioPath": "/audio/6d91c7593e218bda.mp3"
+  },
+  {
+    "chinese": "我在打电话",
+    "japanese": "電話しています",
+    "tokens": [
+      {
+        "surface": "電話",
+        "reading": "でんわ"
+      },
+      {
+        "surface": "しています",
+        "reading": "しています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "電話",
+        "ruby": "でんわ"
+      },
+      {
+        "base": "しています"
+      }
+    ],
+    "audioPath": "/audio/9b212994ad7f155e.mp3"
+  },
+  {
+    "chinese": "我在看电视",
+    "japanese": "テレビを見ています",
+    "tokens": [
+      {
+        "surface": "テレビ",
+        "reading": "てれび"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "見ています",
+        "reading": "みています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "テレビ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "見",
+        "ruby": "み"
+      },
+      {
+        "base": "ています"
+      }
+    ],
+    "audioPath": "/audio/c8222ff2a3f09018.mp3"
+  },
+  {
+    "chinese": "我在洗澡",
+    "japanese": "シャワーを浴びています",
+    "tokens": [
+      {
+        "surface": "シャワー",
+        "reading": "しゃわあ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "浴びています",
+        "reading": "あびています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "シャワー"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "浴",
+        "ruby": "あ"
+      },
+      {
+        "base": "びています"
+      }
+    ],
+    "audioPath": "/audio/035ea2799302c19c.mp3"
+  },
+  {
+    "chinese": "我在洗衣服",
+    "japanese": "洗濯しています",
+    "tokens": [
+      {
+        "surface": "洗濯",
+        "reading": "せんたく"
+      },
+      {
+        "surface": "しています",
+        "reading": "しています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "洗濯",
+        "ruby": "せんたく"
+      },
+      {
+        "base": "しています"
+      }
+    ],
+    "audioPath": "/audio/a21b474545977ce1.mp3"
+  },
+  {
+    "chinese": "我在写信",
+    "japanese": "手紙を書いています",
+    "tokens": [
+      {
+        "surface": "手紙",
+        "reading": "てがみ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "書いています",
+        "reading": "かいています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "手紙",
+        "ruby": "てがみ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "書",
+        "ruby": "か"
+      },
+      {
+        "base": "いています"
+      }
+    ],
+    "audioPath": "/audio/7b68507998294746.mp3"
+  },
+  {
+    "chinese": "他在跑步",
+    "japanese": "走っています",
+    "tokens": [
+      {
+        "surface": "走っています",
+        "reading": "はしっています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "走",
+        "ruby": "はし"
+      },
+      {
+        "base": "っています"
+      }
+    ],
+    "audioPath": "/audio/bb94daef44355948.mp3"
+  },
+  {
+    "chinese": "妹妹在玩",
+    "japanese": "妹は遊んでいます",
+    "tokens": [
+      {
+        "surface": "妹",
+        "reading": "いもうと"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "遊んでいます",
+        "reading": "あそんでいます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "妹",
+        "ruby": "いもうと"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "遊",
+        "ruby": "あそ"
+      },
+      {
+        "base": "んでいます"
+      }
+    ],
+    "audioPath": "/audio/7c37b0bc07b38116.mp3"
+  },
+  {
+    "chinese": "哥哥在画画",
+    "japanese": "兄は絵を描いています",
+    "tokens": [
+      {
+        "surface": "兄",
+        "reading": "あに"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "絵",
+        "reading": "え"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "描いています",
+        "reading": "えがいています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "兄",
+        "ruby": "あに"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "絵",
+        "ruby": "え"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "描",
+        "ruby": "えが"
+      },
+      {
+        "base": "いています"
+      }
+    ],
+    "audioPath": "/audio/73dbd6bed9fa66ac.mp3"
+  },
+  {
+    "chinese": "朋友在唱歌",
+    "japanese": "友達が歌っています",
+    "tokens": [
+      {
+        "surface": "友達",
+        "reading": "ともだち"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "歌っています",
+        "reading": "うたっています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "友達",
+        "ruby": "ともだち"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "歌",
+        "ruby": "うた"
+      },
+      {
+        "base": "っています"
+      }
+    ],
+    "audioPath": "/audio/6dc1cbcbd64cd13d.mp3"
+  },
+  {
+    "chinese": "猫在睡觉",
+    "japanese": "猫は寝ています",
+    "tokens": [
+      {
+        "surface": "猫",
+        "reading": "ねこ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "寝ています",
+        "reading": "ねています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "猫",
+        "ruby": "ねこ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "寝",
+        "ruby": "ね"
+      },
+      {
+        "base": "ています"
+      }
+    ],
+    "audioPath": "/audio/a81484ee0a361b39.mp3"
+  },
+  {
+    "chinese": "狗在跑",
+    "japanese": "犬が走っています",
+    "tokens": [
+      {
+        "surface": "犬",
+        "reading": "いぬ"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "走っています",
+        "reading": "はしっています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "犬",
+        "ruby": "いぬ"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "走",
+        "ruby": "はし"
+      },
+      {
+        "base": "っています"
+      }
+    ],
+    "audioPath": "/audio/5fed38f6f5a3485a.mp3"
+  },
+  {
+    "chinese": "时间过得快",
+    "japanese": "時間がすぎています",
+    "tokens": [
+      {
+        "surface": "時間",
+        "reading": "じかん"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "すぎています",
+        "reading": "すぎています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "時間",
+        "ruby": "じかん"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "すぎています"
+      }
+    ],
+    "audioPath": "/audio/c49055fb7a11b021.mp3"
+  },
+  {
+    "chinese": "电梯在动",
+    "japanese": "エレベーターが動いています",
+    "tokens": [
+      {
+        "surface": "エレベーター",
+        "reading": "えれべえたあ"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "動いています",
+        "reading": "うごいています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "エレベーター"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "動",
+        "ruby": "うご"
+      },
+      {
+        "base": "いています"
+      }
+    ],
+    "audioPath": "/audio/4f3eefae3fbf66d9.mp3"
+  },
+  {
+    "chinese": "公车来了",
+    "japanese": "バスが来ています",
+    "tokens": [
+      {
+        "surface": "バス",
+        "reading": "ばす"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "来ています",
+        "reading": "きています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "バス"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "来",
+        "ruby": "き"
+      },
+      {
+        "base": "ています"
+      }
+    ],
+    "audioPath": "/audio/e4167885bbd71588.mp3"
+  },
+  {
+    "chinese": "我现在很忙",
+    "japanese": "今忙しくしています",
+    "tokens": [
+      {
+        "surface": "今",
+        "reading": "いま"
+      },
+      {
+        "surface": "忙しく",
+        "reading": "いそがしく"
+      },
+      {
+        "surface": "しています",
+        "reading": "しています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "今",
+        "ruby": "いま"
+      },
+      {
+        "base": "忙",
+        "ruby": "いそが"
+      },
+      {
+        "base": "しく"
+      },
+      {
+        "base": "しています"
+      }
+    ],
+    "audioPath": "/audio/46d52fad06d7a592.mp3"
+  },
+  {
+    "chinese": "我在做作业",
+    "japanese": "宿題をしています",
+    "tokens": [
+      {
+        "surface": "宿題",
+        "reading": "しゅくだい"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "しています",
+        "reading": "しています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "宿題",
+        "ruby": "しゅくだい"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "しています"
+      }
+    ],
+    "audioPath": "/audio/045ad188f0758716.mp3"
+  },
+  {
+    "chinese": "我在准备晚饭",
+    "japanese": "夕飯を作っています",
+    "tokens": [
+      {
+        "surface": "夕飯",
+        "reading": "ゆうはん"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "作っています",
+        "reading": "つくっています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "夕飯",
+        "ruby": "ゆうはん"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "作",
+        "ruby": "つく"
+      },
+      {
+        "base": "っています"
+      }
+    ],
+    "audioPath": "/audio/4e6f8f8b1115b18d.mp3"
+  },
+  {
+    "chinese": "我在等朋友",
+    "japanese": "友達を待っています",
+    "tokens": [
+      {
+        "surface": "友達",
+        "reading": "ともだち"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "待っています",
+        "reading": "まっています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "友達",
+        "ruby": "ともだち"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "待",
+        "ruby": "ま"
+      },
+      {
+        "base": "っています"
+      }
+    ],
+    "audioPath": "/audio/20fa2e62989df7b7.mp3"
+  },
+  {
+    "chinese": "他在游泳",
+    "japanese": "泳いでいます",
+    "tokens": [
+      {
+        "surface": "泳いでいます",
+        "reading": "およいでいます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "泳",
+        "ruby": "およ"
+      },
+      {
+        "base": "いでいます"
+      }
+    ],
+    "audioPath": "/audio/2e6732fa9a6fb2a9.mp3"
+  },
+  {
+    "chinese": "他们在吵架",
+    "japanese": "喧嘩しています",
+    "tokens": [
+      {
+        "surface": "喧嘩",
+        "reading": "けんか"
+      },
+      {
+        "surface": "しています",
+        "reading": "しています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "喧嘩",
+        "ruby": "けんか"
+      },
+      {
+        "base": "しています"
+      }
+    ],
+    "audioPath": "/audio/d2a2e972c801eb09.mp3"
+  },
+  {
+    "chinese": "我在房间里看书",
+    "japanese": "部屋で本を読んでいます",
+    "tokens": [
+      {
+        "surface": "部屋",
+        "reading": "へや"
+      },
+      {
+        "surface": "で",
+        "reading": "で"
+      },
+      {
+        "surface": "本",
+        "reading": "ほん"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "読んでいます",
+        "reading": "よんでいます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "部屋",
+        "ruby": "へや"
+      },
+      {
+        "base": "で"
+      },
+      {
+        "base": "本",
+        "ruby": "ほん"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "読",
+        "ruby": "よ"
+      },
+      {
+        "base": "んでいます"
+      }
+    ],
+    "audioPath": "/audio/1166e61e406fcd0d.mp3"
+  }
+]

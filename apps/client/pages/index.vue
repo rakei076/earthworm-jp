@@ -44,6 +44,13 @@ const palette = [
 ];
 
 function glyphFor(title: string): string {
+  if (title.includes("〜てください")) return "願";
+  if (title.includes("〜ています")) return "進";
+  if (title.includes("〜なければなりません")) return "必";
+  if (title.includes("〜たい")) return "欲";
+  if (title.includes("〜ことができる")) return "能";
+  if (title.includes("〜より")) return "比";
+  if (title.includes("〜から")) return "因";
   if (title.includes("入门短句")) return "あ";
   if (title.includes("日常基础")) return "話";
   if (title.includes("简单造句")) return "は";

@@ -1,0 +1,1745 @@
+[
+  {
+    "chinese": "我会说日语",
+    "japanese": "日本語を話すことができます",
+    "tokens": [
+      {
+        "surface": "日本語",
+        "reading": "にほんご"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "話す",
+        "reading": "はなす"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "日本語",
+        "ruby": "にほんご"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "話",
+        "ruby": "はな"
+      },
+      {
+        "base": "す"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できます"
+      }
+    ],
+    "audioPath": "/audio/faef3ab6dab6be4e.mp3"
+  },
+  {
+    "chinese": "我会开车",
+    "japanese": "車を運転することができます",
+    "tokens": [
+      {
+        "surface": "車",
+        "reading": "くるま"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "運転",
+        "reading": "うんてん"
+      },
+      {
+        "surface": "する",
+        "reading": "する"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "車",
+        "ruby": "くるま"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "運転",
+        "ruby": "うんてん"
+      },
+      {
+        "base": "する"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できます"
+      }
+    ],
+    "audioPath": "/audio/c382c8a6534f6eda.mp3"
+  },
+  {
+    "chinese": "我会做饭",
+    "japanese": "料理を作ることができます",
+    "tokens": [
+      {
+        "surface": "料理",
+        "reading": "りょうり"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "作る",
+        "reading": "つくる"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "料理",
+        "ruby": "りょうり"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "作",
+        "ruby": "つく"
+      },
+      {
+        "base": "る"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できます"
+      }
+    ],
+    "audioPath": "/audio/85b23b841cc0d005.mp3"
+  },
+  {
+    "chinese": "我会游泳",
+    "japanese": "泳ぐことができます",
+    "tokens": [
+      {
+        "surface": "泳ぐ",
+        "reading": "およぐ"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "泳",
+        "ruby": "およ"
+      },
+      {
+        "base": "ぐ"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できます"
+      }
+    ],
+    "audioPath": "/audio/678fd771d3fcc07b.mp3"
+  },
+  {
+    "chinese": "我会弹钢琴",
+    "japanese": "ピアノを弾くことができます",
+    "tokens": [
+      {
+        "surface": "ピアノ",
+        "reading": "ぴあの"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "弾く",
+        "reading": "ひく"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "ピアノ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "弾",
+        "ruby": "ひ"
+      },
+      {
+        "base": "く"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できます"
+      }
+    ],
+    "audioPath": "/audio/ec3dbea2a4f2ef9a.mp3"
+  },
+  {
+    "chinese": "我能吃辛辣的",
+    "japanese": "辛いものを食べることができます",
+    "tokens": [
+      {
+        "surface": "辛い",
+        "reading": "つらい"
+      },
+      {
+        "surface": "もの",
+        "reading": "もの"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "食べる",
+        "reading": "たべる"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "辛",
+        "ruby": "つら"
+      },
+      {
+        "base": "い"
+      },
+      {
+        "base": "もの"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "食",
+        "ruby": "た"
+      },
+      {
+        "base": "べる"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できます"
+      }
+    ],
+    "audioPath": "/audio/b59a96dd22562119.mp3"
+  },
+  {
+    "chinese": "我会唱歌",
+    "japanese": "歌を歌うことができます",
+    "tokens": [
+      {
+        "surface": "歌",
+        "reading": "うた"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "歌う",
+        "reading": "うたう"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "歌",
+        "ruby": "うた"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "歌",
+        "ruby": "うた"
+      },
+      {
+        "base": "う"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できます"
+      }
+    ],
+    "audioPath": "/audio/74a7252be392c33e.mp3"
+  },
+  {
+    "chinese": "我会跳舞",
+    "japanese": "踊ることができます",
+    "tokens": [
+      {
+        "surface": "踊る",
+        "reading": "おどる"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "踊",
+        "ruby": "おど"
+      },
+      {
+        "base": "る"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できます"
+      }
+    ],
+    "audioPath": "/audio/446f0c4a11696ac3.mp3"
+  },
+  {
+    "chinese": "我会用筷子",
+    "japanese": "箸を使うことができます",
+    "tokens": [
+      {
+        "surface": "箸",
+        "reading": "はし"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "使う",
+        "reading": "つかう"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "箸",
+        "ruby": "はし"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "使",
+        "ruby": "つか"
+      },
+      {
+        "base": "う"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できます"
+      }
+    ],
+    "audioPath": "/audio/7967825fdc442bee.mp3"
+  },
+  {
+    "chinese": "我会读汉字",
+    "japanese": "漢字を読むことができます",
+    "tokens": [
+      {
+        "surface": "漢字",
+        "reading": "かんじ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "読む",
+        "reading": "よむ"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "漢字",
+        "ruby": "かんじ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "読",
+        "ruby": "よ"
+      },
+      {
+        "base": "む"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できます"
+      }
+    ],
+    "audioPath": "/audio/f850158f0649b3cb.mp3"
+  },
+  {
+    "chinese": "我能早起",
+    "japanese": "早く起きることができます",
+    "tokens": [
+      {
+        "surface": "早く",
+        "reading": "はやく"
+      },
+      {
+        "surface": "起きる",
+        "reading": "おきる"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "早",
+        "ruby": "はや"
+      },
+      {
+        "base": "く"
+      },
+      {
+        "base": "起",
+        "ruby": "お"
+      },
+      {
+        "base": "きる"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できます"
+      }
+    ],
+    "audioPath": "/audio/834e62b6aa1ccf4d.mp3"
+  },
+  {
+    "chinese": "我会写日语",
+    "japanese": "日本語を書くことができます",
+    "tokens": [
+      {
+        "surface": "日本語",
+        "reading": "にほんご"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "書く",
+        "reading": "かく"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "日本語",
+        "ruby": "にほんご"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "書",
+        "ruby": "か"
+      },
+      {
+        "base": "く"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できます"
+      }
+    ],
+    "audioPath": "/audio/0d28da6e61b66ac8.mp3"
+  },
+  {
+    "chinese": "这里可以照相",
+    "japanese": "ここで写真を撮ることができます",
+    "tokens": [
+      {
+        "surface": "ここ",
+        "reading": "ここ"
+      },
+      {
+        "surface": "で",
+        "reading": "で"
+      },
+      {
+        "surface": "写真",
+        "reading": "しゃしん"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "撮る",
+        "reading": "とる"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "ここ"
+      },
+      {
+        "base": "で"
+      },
+      {
+        "base": "写真",
+        "ruby": "しゃしん"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "撮",
+        "ruby": "と"
+      },
+      {
+        "base": "る"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できます"
+      }
+    ],
+    "audioPath": "/audio/5619e1d8c4fa991c.mp3"
+  },
+  {
+    "chinese": "这里可以吸烟",
+    "japanese": "ここでタバコを吸うことができます",
+    "tokens": [
+      {
+        "surface": "ここ",
+        "reading": "ここ"
+      },
+      {
+        "surface": "で",
+        "reading": "で"
+      },
+      {
+        "surface": "タバコ",
+        "reading": "たばこ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "吸う",
+        "reading": "すう"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "ここ"
+      },
+      {
+        "base": "で"
+      },
+      {
+        "base": "タバコ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "吸",
+        "ruby": "す"
+      },
+      {
+        "base": "う"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できます"
+      }
+    ],
+    "audioPath": "/audio/57bd2c11301dcac3.mp3"
+  },
+  {
+    "chinese": "这里可以停车",
+    "japanese": "ここに車を止めることができます",
+    "tokens": [
+      {
+        "surface": "ここ",
+        "reading": "ここ"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "車",
+        "reading": "くるま"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "止める",
+        "reading": "とめる"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "ここ"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "車",
+        "ruby": "くるま"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "止",
+        "ruby": "と"
+      },
+      {
+        "base": "める"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できます"
+      }
+    ],
+    "audioPath": "/audio/093d0d5d5b625ffc.mp3"
+  },
+  {
+    "chinese": "我会画画",
+    "japanese": "絵を描くことができます",
+    "tokens": [
+      {
+        "surface": "絵",
+        "reading": "え"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "描く",
+        "reading": "えがく"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "絵",
+        "ruby": "え"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "描",
+        "ruby": "えが"
+      },
+      {
+        "base": "く"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できます"
+      }
+    ],
+    "audioPath": "/audio/df893699816211b4.mp3"
+  },
+  {
+    "chinese": "我不会说英语",
+    "japanese": "英語を話すことができません",
+    "tokens": [
+      {
+        "surface": "英語",
+        "reading": "えいご"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "話す",
+        "reading": "はなす"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できません",
+        "reading": "できません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "英語",
+        "ruby": "えいご"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "話",
+        "ruby": "はな"
+      },
+      {
+        "base": "す"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できません"
+      }
+    ],
+    "audioPath": "/audio/b3aa915b631120cd.mp3"
+  },
+  {
+    "chinese": "我不会做料理",
+    "japanese": "料理を作ることができません",
+    "tokens": [
+      {
+        "surface": "料理",
+        "reading": "りょうり"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "作る",
+        "reading": "つくる"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できません",
+        "reading": "できません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "料理",
+        "ruby": "りょうり"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "作",
+        "ruby": "つく"
+      },
+      {
+        "base": "る"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できません"
+      }
+    ],
+    "audioPath": "/audio/f3816e8dd17b5092.mp3"
+  },
+  {
+    "chinese": "我不会开车",
+    "japanese": "車を運転することができません",
+    "tokens": [
+      {
+        "surface": "車",
+        "reading": "くるま"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "運転",
+        "reading": "うんてん"
+      },
+      {
+        "surface": "する",
+        "reading": "する"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できません",
+        "reading": "できません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "車",
+        "ruby": "くるま"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "運転",
+        "ruby": "うんてん"
+      },
+      {
+        "base": "する"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できません"
+      }
+    ],
+    "audioPath": "/audio/8c9f69f2638b7919.mp3"
+  },
+  {
+    "chinese": "我不会游泳",
+    "japanese": "泳ぐことができません",
+    "tokens": [
+      {
+        "surface": "泳ぐ",
+        "reading": "およぐ"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できません",
+        "reading": "できません"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "泳",
+        "ruby": "およ"
+      },
+      {
+        "base": "ぐ"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できません"
+      }
+    ],
+    "audioPath": "/audio/c59fa2e09f55ddec.mp3"
+  },
+  {
+    "chinese": "他会说三种语言",
+    "japanese": "三つの言葉を話すことができます",
+    "tokens": [
+      {
+        "surface": "三つ",
+        "reading": "みっつ"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "言葉",
+        "reading": "ことば"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "話す",
+        "reading": "はなす"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "三",
+        "ruby": "みっ"
+      },
+      {
+        "base": "つ"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "言葉",
+        "ruby": "ことば"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "話",
+        "ruby": "はな"
+      },
+      {
+        "base": "す"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できます"
+      }
+    ],
+    "audioPath": "/audio/aafee6c8426cc513.mp3"
+  },
+  {
+    "chinese": "你会用电脑吗",
+    "japanese": "パソコンを使うことができますか",
+    "tokens": [
+      {
+        "surface": "パソコン",
+        "reading": "ぱそこん"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "使う",
+        "reading": "つかう"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      },
+      {
+        "surface": "か",
+        "reading": "か"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "パソコン"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "使",
+        "ruby": "つか"
+      },
+      {
+        "base": "う"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できます"
+      },
+      {
+        "base": "か"
+      }
+    ],
+    "audioPath": "/audio/2b90795bbb58d483.mp3"
+  },
+  {
+    "chinese": "我能跑很快",
+    "japanese": "速く走ることができます",
+    "tokens": [
+      {
+        "surface": "速く",
+        "reading": "はやく"
+      },
+      {
+        "surface": "走る",
+        "reading": "はしる"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "速",
+        "ruby": "はや"
+      },
+      {
+        "base": "く"
+      },
+      {
+        "base": "走",
+        "ruby": "はし"
+      },
+      {
+        "base": "る"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できます"
+      }
+    ],
+    "audioPath": "/audio/58b75805569020f6.mp3"
+  },
+  {
+    "chinese": "我能听懂日语",
+    "japanese": "日本語が分かることができます",
+    "tokens": [
+      {
+        "surface": "日本語",
+        "reading": "にほんご"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "分かる",
+        "reading": "わかる"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "日本語",
+        "ruby": "にほんご"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "分",
+        "ruby": "わ"
+      },
+      {
+        "base": "かる"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できます"
+      }
+    ],
+    "audioPath": "/audio/c1d95dd0ea2e5882.mp3"
+  },
+  {
+    "chinese": "这本书可以借",
+    "japanese": "この本を借りることができます",
+    "tokens": [
+      {
+        "surface": "この",
+        "reading": "この"
+      },
+      {
+        "surface": "本",
+        "reading": "ほん"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "借りる",
+        "reading": "かりる"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "この"
+      },
+      {
+        "base": "本",
+        "ruby": "ほん"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "借",
+        "ruby": "か"
+      },
+      {
+        "base": "りる"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できます"
+      }
+    ],
+    "audioPath": "/audio/08557faf3aeca0fb.mp3"
+  },
+  {
+    "chinese": "谁会读这个字",
+    "japanese": "誰がこの字を読むことができますか",
+    "tokens": [
+      {
+        "surface": "誰",
+        "reading": "だれ"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "この",
+        "reading": "この"
+      },
+      {
+        "surface": "字",
+        "reading": "じ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "読む",
+        "reading": "よむ"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      },
+      {
+        "surface": "か",
+        "reading": "か"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "誰",
+        "ruby": "だれ"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "この"
+      },
+      {
+        "base": "字",
+        "ruby": "じ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "読",
+        "ruby": "よ"
+      },
+      {
+        "base": "む"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できます"
+      },
+      {
+        "base": "か"
+      }
+    ],
+    "audioPath": "/audio/51593134c26d3ce9.mp3"
+  },
+  {
+    "chinese": "这里可以游泳",
+    "japanese": "ここで泳ぐことができます",
+    "tokens": [
+      {
+        "surface": "ここ",
+        "reading": "ここ"
+      },
+      {
+        "surface": "で",
+        "reading": "で"
+      },
+      {
+        "surface": "泳ぐ",
+        "reading": "およぐ"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "ここ"
+      },
+      {
+        "base": "で"
+      },
+      {
+        "base": "泳",
+        "ruby": "およ"
+      },
+      {
+        "base": "ぐ"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できます"
+      }
+    ],
+    "audioPath": "/audio/395a5a26a44db996.mp3"
+  },
+  {
+    "chinese": "我能看到富士山",
+    "japanese": "富士山を見ることができます",
+    "tokens": [
+      {
+        "surface": "富士山",
+        "reading": "ふじさん"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "見る",
+        "reading": "みる"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "富士山",
+        "ruby": "ふじさん"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "見",
+        "ruby": "み"
+      },
+      {
+        "base": "る"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できます"
+      }
+    ],
+    "audioPath": "/audio/df453d010d2cb7ff.mp3"
+  },
+  {
+    "chinese": "我能记住名字",
+    "japanese": "名前を覚えることができます",
+    "tokens": [
+      {
+        "surface": "名前",
+        "reading": "なまえ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "覚える",
+        "reading": "おぼえる"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "名前",
+        "ruby": "なまえ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "覚",
+        "ruby": "おぼ"
+      },
+      {
+        "base": "える"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できます"
+      }
+    ],
+    "audioPath": "/audio/867b227a8aee281d.mp3"
+  },
+  {
+    "chinese": "我会修这个",
+    "japanese": "これを直すことができます",
+    "tokens": [
+      {
+        "surface": "これ",
+        "reading": "これ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "直す",
+        "reading": "なおす"
+      },
+      {
+        "surface": "こと",
+        "reading": "こと"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "これ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "直",
+        "ruby": "なお"
+      },
+      {
+        "base": "す"
+      },
+      {
+        "base": "こと"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できます"
+      }
+    ],
+    "audioPath": "/audio/cbf8900325c1886a.mp3"
+  }
+]

@@ -1,0 +1,1779 @@
+[
+  {
+    "chinese": "今天比昨天冷",
+    "japanese": "今日は昨日より寒いです",
+    "tokens": [
+      {
+        "surface": "今日",
+        "reading": "きょう"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "昨日",
+        "reading": "きのう"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "寒いです",
+        "reading": "さむいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "今日",
+        "ruby": "きょう"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "昨日",
+        "ruby": "きのう"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "寒",
+        "ruby": "さむ"
+      },
+      {
+        "base": "いです"
+      }
+    ],
+    "audioPath": "/audio/e07557e7a9d65f59.mp3"
+  },
+  {
+    "chinese": "今天比昨天热",
+    "japanese": "今日は昨日より暑いです",
+    "tokens": [
+      {
+        "surface": "今日",
+        "reading": "きょう"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "昨日",
+        "reading": "きのう"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "暑いです",
+        "reading": "あついです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "今日",
+        "ruby": "きょう"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "昨日",
+        "ruby": "きのう"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "暑",
+        "ruby": "あつ"
+      },
+      {
+        "base": "いです"
+      }
+    ],
+    "audioPath": "/audio/94f421c584b08d92.mp3"
+  },
+  {
+    "chinese": "我比他高",
+    "japanese": "私は彼より背が高いです",
+    "tokens": [
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "彼",
+        "reading": "かれ"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "背",
+        "reading": "せ"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "高いです",
+        "reading": "たかいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "彼",
+        "ruby": "かれ"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "背",
+        "ruby": "せ"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "高",
+        "ruby": "たか"
+      },
+      {
+        "base": "いです"
+      }
+    ],
+    "audioPath": "/audio/0f97b581c4b05793.mp3"
+  },
+  {
+    "chinese": "我比她大",
+    "japanese": "私は彼女より大きいです",
+    "tokens": [
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "彼女",
+        "reading": "かのじょ"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "大きいです",
+        "reading": "おおきいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "彼女",
+        "ruby": "かのじょ"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "大",
+        "ruby": "おお"
+      },
+      {
+        "base": "きいです"
+      }
+    ],
+    "audioPath": "/audio/f52be303eeb7e5c5.mp3"
+  },
+  {
+    "chinese": "哥哥比我高",
+    "japanese": "兄は私より背が高いです",
+    "tokens": [
+      {
+        "surface": "兄",
+        "reading": "あに"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "背",
+        "reading": "せ"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "高いです",
+        "reading": "たかいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "兄",
+        "ruby": "あに"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "背",
+        "ruby": "せ"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "高",
+        "ruby": "たか"
+      },
+      {
+        "base": "いです"
+      }
+    ],
+    "audioPath": "/audio/dc5a0b3c9feda05a.mp3"
+  },
+  {
+    "chinese": "弟弟比我小",
+    "japanese": "弟は私より小さいです",
+    "tokens": [
+      {
+        "surface": "弟",
+        "reading": "おとうと"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "小さいです",
+        "reading": "ちいさいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "弟",
+        "ruby": "おとうと"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "小",
+        "ruby": "ちい"
+      },
+      {
+        "base": "さいです"
+      }
+    ],
+    "audioPath": "/audio/a12b47ab480932e1.mp3"
+  },
+  {
+    "chinese": "这本书比那本贵",
+    "japanese": "この本はあの本より高いです",
+    "tokens": [
+      {
+        "surface": "この",
+        "reading": "この"
+      },
+      {
+        "surface": "本",
+        "reading": "ほん"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "あの",
+        "reading": "あの"
+      },
+      {
+        "surface": "本",
+        "reading": "ほん"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "高いです",
+        "reading": "たかいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "この"
+      },
+      {
+        "base": "本",
+        "ruby": "ほん"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "あの"
+      },
+      {
+        "base": "本",
+        "ruby": "ほん"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "高",
+        "ruby": "たか"
+      },
+      {
+        "base": "いです"
+      }
+    ],
+    "audioPath": "/audio/69fdaab34f1a80fc.mp3"
+  },
+  {
+    "chinese": "这个比那个便宜",
+    "japanese": "これはあれより安いです",
+    "tokens": [
+      {
+        "surface": "これ",
+        "reading": "これ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "あれ",
+        "reading": "あれ"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "安いです",
+        "reading": "やすいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "これ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "あれ"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "安",
+        "ruby": "やす"
+      },
+      {
+        "base": "いです"
+      }
+    ],
+    "audioPath": "/audio/bbcc6d3deb88c4e5.mp3"
+  },
+  {
+    "chinese": "日语比英语难",
+    "japanese": "日本語は英語より難しいです",
+    "tokens": [
+      {
+        "surface": "日本語",
+        "reading": "にほんご"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "英語",
+        "reading": "えいご"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "難しいです",
+        "reading": "むずかしいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "日本語",
+        "ruby": "にほんご"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "英語",
+        "ruby": "えいご"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "難",
+        "ruby": "むずか"
+      },
+      {
+        "base": "しいです"
+      }
+    ],
+    "audioPath": "/audio/dbf45020f18d7ae1.mp3"
+  },
+  {
+    "chinese": "英语比数学简单",
+    "japanese": "英語は数学より易しいです",
+    "tokens": [
+      {
+        "surface": "英語",
+        "reading": "えいご"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "数学",
+        "reading": "すうがく"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "易しいです",
+        "reading": "やさしいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "英語",
+        "ruby": "えいご"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "数学",
+        "ruby": "すうがく"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "易",
+        "ruby": "やさ"
+      },
+      {
+        "base": "しいです"
+      }
+    ],
+    "audioPath": "/audio/01c828738d9d4136.mp3"
+  },
+  {
+    "chinese": "飞机比电车快",
+    "japanese": "飛行機は電車より速いです",
+    "tokens": [
+      {
+        "surface": "飛行機",
+        "reading": "ひこうき"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "電車",
+        "reading": "でんしゃ"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "速いです",
+        "reading": "はやいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "飛行機",
+        "ruby": "ひこうき"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "電車",
+        "ruby": "でんしゃ"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "速",
+        "ruby": "はや"
+      },
+      {
+        "base": "いです"
+      }
+    ],
+    "audioPath": "/audio/557936fdc76e67ba.mp3"
+  },
+  {
+    "chinese": "东京比大阪大",
+    "japanese": "東京は大阪より大きいです",
+    "tokens": [
+      {
+        "surface": "東京",
+        "reading": "とうきょう"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "大阪",
+        "reading": "おおさか"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "大きいです",
+        "reading": "おおきいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "東京",
+        "ruby": "とうきょう"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "大阪",
+        "ruby": "おおさか"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "大",
+        "ruby": "おお"
+      },
+      {
+        "base": "きいです"
+      }
+    ],
+    "audioPath": "/audio/60211a41b56a5be3.mp3"
+  },
+  {
+    "chinese": "我的房间比他的小",
+    "japanese": "私の部屋は彼の部屋より小さいです",
+    "tokens": [
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "部屋",
+        "reading": "へや"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "彼",
+        "reading": "かれ"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "部屋",
+        "reading": "へや"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "小さいです",
+        "reading": "ちいさいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "部屋",
+        "ruby": "へや"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "彼",
+        "ruby": "かれ"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "部屋",
+        "ruby": "へや"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "小",
+        "ruby": "ちい"
+      },
+      {
+        "base": "さいです"
+      }
+    ],
+    "audioPath": "/audio/9be414eeb717daa5.mp3"
+  },
+  {
+    "chinese": "苹果比西瓜便宜",
+    "japanese": "りんごはすいかより安いです",
+    "tokens": [
+      {
+        "surface": "りんご",
+        "reading": "りんご"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "すいか",
+        "reading": "すいか"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "安いです",
+        "reading": "やすいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "りんご"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "すいか"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "安",
+        "ruby": "やす"
+      },
+      {
+        "base": "いです"
+      }
+    ],
+    "audioPath": "/audio/79eebcc7cabb8bf1.mp3"
+  },
+  {
+    "chinese": "今年比去年忙",
+    "japanese": "今年は去年より忙しいです",
+    "tokens": [
+      {
+        "surface": "今年",
+        "reading": "ことし"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "去年",
+        "reading": "きょねん"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "忙しいです",
+        "reading": "いそがしいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "今年",
+        "ruby": "ことし"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "去年",
+        "ruby": "きょねん"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "忙",
+        "ruby": "いそが"
+      },
+      {
+        "base": "しいです"
+      }
+    ],
+    "audioPath": "/audio/6c77f5d4b5629c11.mp3"
+  },
+  {
+    "chinese": "猫比狗安静",
+    "japanese": "犬より猫のほうが静かです",
+    "tokens": [
+      {
+        "surface": "犬",
+        "reading": "いぬ"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "猫",
+        "reading": "ねこ"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "ほう",
+        "reading": "ほう"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "静かです",
+        "reading": "しずかです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "犬",
+        "ruby": "いぬ"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "猫",
+        "ruby": "ねこ"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "ほう"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "静",
+        "ruby": "しず"
+      },
+      {
+        "base": "かです"
+      }
+    ],
+    "audioPath": "/audio/e1e3f763583ecd1a.mp3"
+  },
+  {
+    "chinese": "红茶比咖啡好",
+    "japanese": "コーヒーより紅茶のほうがいいです",
+    "tokens": [
+      {
+        "surface": "コーヒー",
+        "reading": "こうひい"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "紅茶",
+        "reading": "こうちゃ"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "ほう",
+        "reading": "ほう"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "いいです",
+        "reading": "いいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "コーヒー"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "紅茶",
+        "ruby": "こうちゃ"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "ほう"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "いいです"
+      }
+    ],
+    "audioPath": "/audio/04e19397a8af1b23.mp3"
+  },
+  {
+    "chinese": "鱼比肉好吃",
+    "japanese": "肉より魚のほうが美味しいです",
+    "tokens": [
+      {
+        "surface": "肉",
+        "reading": "にく"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "魚",
+        "reading": "さかな"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "ほう",
+        "reading": "ほう"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "美味しいです",
+        "reading": "おいしいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "肉",
+        "ruby": "にく"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "魚",
+        "ruby": "さかな"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "ほう"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "美味",
+        "ruby": "おい"
+      },
+      {
+        "base": "しいです"
+      }
+    ],
+    "audioPath": "/audio/83028bf1bc7c3d14.mp3"
+  },
+  {
+    "chinese": "春天比夏天舒服",
+    "japanese": "夏より春のほうが気持ちいいです",
+    "tokens": [
+      {
+        "surface": "夏",
+        "reading": "なつ"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "春",
+        "reading": "はる"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "ほう",
+        "reading": "ほう"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "気持ちいいです",
+        "reading": "きもちいいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "夏",
+        "ruby": "なつ"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "春",
+        "ruby": "はる"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "ほう"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "気持",
+        "ruby": "きも"
+      },
+      {
+        "base": "ちいいです"
+      }
+    ],
+    "audioPath": "/audio/d1aa6f34a1a6724a.mp3"
+  },
+  {
+    "chinese": "公车比电车便宜",
+    "japanese": "電車よりバスのほうが安いです",
+    "tokens": [
+      {
+        "surface": "電車",
+        "reading": "でんしゃ"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "バス",
+        "reading": "ばす"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "ほう",
+        "reading": "ほう"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "安いです",
+        "reading": "やすいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "電車",
+        "ruby": "でんしゃ"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "バス"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "ほう"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "安",
+        "ruby": "やす"
+      },
+      {
+        "base": "いです"
+      }
+    ],
+    "audioPath": "/audio/61ed50c1dd4aa8dd.mp3"
+  },
+  {
+    "chinese": "走路比开车慢",
+    "japanese": "車より歩くほうが遅いです",
+    "tokens": [
+      {
+        "surface": "車",
+        "reading": "くるま"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "歩く",
+        "reading": "あるく"
+      },
+      {
+        "surface": "ほう",
+        "reading": "ほう"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "遅いです",
+        "reading": "おそいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "車",
+        "ruby": "くるま"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "歩",
+        "ruby": "ある"
+      },
+      {
+        "base": "く"
+      },
+      {
+        "base": "ほう"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "遅",
+        "ruby": "おそ"
+      },
+      {
+        "base": "いです"
+      }
+    ],
+    "audioPath": "/audio/fcae70704a35de37.mp3"
+  },
+  {
+    "chinese": "自己做比买便宜",
+    "japanese": "買うより作るほうが安いです",
+    "tokens": [
+      {
+        "surface": "買う",
+        "reading": "かう"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "作る",
+        "reading": "つくる"
+      },
+      {
+        "surface": "ほう",
+        "reading": "ほう"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "安いです",
+        "reading": "やすいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "買",
+        "ruby": "か"
+      },
+      {
+        "base": "う"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "作",
+        "ruby": "つく"
+      },
+      {
+        "base": "る"
+      },
+      {
+        "base": "ほう"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "安",
+        "ruby": "やす"
+      },
+      {
+        "base": "いです"
+      }
+    ],
+    "audioPath": "/audio/48feab751a1bd0d1.mp3"
+  },
+  {
+    "chinese": "看书比看电视有趣",
+    "japanese": "テレビより本のほうが面白いです",
+    "tokens": [
+      {
+        "surface": "テレビ",
+        "reading": "てれび"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "本",
+        "reading": "ほん"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "ほう",
+        "reading": "ほう"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "面白いです",
+        "reading": "おもしろいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "テレビ"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "本",
+        "ruby": "ほん"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "ほう"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "面白",
+        "ruby": "おもしろ"
+      },
+      {
+        "base": "いです"
+      }
+    ],
+    "audioPath": "/audio/d1b8db4cfa79fa2b.mp3"
+  },
+  {
+    "chinese": "我哥哥比我大三岁",
+    "japanese": "兄は私より三歳上です",
+    "tokens": [
+      {
+        "surface": "兄",
+        "reading": "あに"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "三歳上です",
+        "reading": "さんさいじょうです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "兄",
+        "ruby": "あに"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "三歳上",
+        "ruby": "さんさいじょう"
+      },
+      {
+        "base": "です"
+      }
+    ],
+    "audioPath": "/audio/462f160d15017b7f.mp3"
+  },
+  {
+    "chinese": "这家店比那家好吃",
+    "japanese": "あの店よりこの店のほうが美味しいです",
+    "tokens": [
+      {
+        "surface": "あの",
+        "reading": "あの"
+      },
+      {
+        "surface": "店",
+        "reading": "みせ"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "この",
+        "reading": "この"
+      },
+      {
+        "surface": "店",
+        "reading": "みせ"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "ほう",
+        "reading": "ほう"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "美味しいです",
+        "reading": "おいしいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "あの"
+      },
+      {
+        "base": "店",
+        "ruby": "みせ"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "この"
+      },
+      {
+        "base": "店",
+        "ruby": "みせ"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "ほう"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "美味",
+        "ruby": "おい"
+      },
+      {
+        "base": "しいです"
+      }
+    ],
+    "audioPath": "/audio/eeed0b8d7c27f8a2.mp3"
+  },
+  {
+    "chinese": "早上比晚上凉快",
+    "japanese": "夜より朝のほうが涼しいです",
+    "tokens": [
+      {
+        "surface": "夜",
+        "reading": "よる"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "朝",
+        "reading": "あさ"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "ほう",
+        "reading": "ほう"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "涼しいです",
+        "reading": "すずしいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "夜",
+        "ruby": "よる"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "朝",
+        "ruby": "あさ"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "ほう"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "涼",
+        "ruby": "すず"
+      },
+      {
+        "base": "しいです"
+      }
+    ],
+    "audioPath": "/audio/72cfd71649b18687.mp3"
+  },
+  {
+    "chinese": "周末比平日忙",
+    "japanese": "平日より週末のほうが忙しいです",
+    "tokens": [
+      {
+        "surface": "平日",
+        "reading": "へいじつ"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "週末",
+        "reading": "しゅうまつ"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "ほう",
+        "reading": "ほう"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "忙しいです",
+        "reading": "いそがしいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "平日",
+        "ruby": "へいじつ"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "週末",
+        "ruby": "しゅうまつ"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "ほう"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "忙",
+        "ruby": "いそが"
+      },
+      {
+        "base": "しいです"
+      }
+    ],
+    "audioPath": "/audio/9b8c467a59a6a34e.mp3"
+  },
+  {
+    "chinese": "这个比那个新",
+    "japanese": "あれよりこれのほうが新しいです",
+    "tokens": [
+      {
+        "surface": "あれ",
+        "reading": "あれ"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "これ",
+        "reading": "これ"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "ほう",
+        "reading": "ほう"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "新しいです",
+        "reading": "あたらしいです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "あれ"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "これ"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "ほう"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "新",
+        "ruby": "あたら"
+      },
+      {
+        "base": "しいです"
+      }
+    ],
+    "audioPath": "/audio/dc8a364df2932438.mp3"
+  },
+  {
+    "chinese": "京都比东京安静",
+    "japanese": "東京より京都のほうが静かです",
+    "tokens": [
+      {
+        "surface": "東京",
+        "reading": "とうきょう"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "京都",
+        "reading": "きょうと"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "ほう",
+        "reading": "ほう"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "静かです",
+        "reading": "しずかです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "東京",
+        "ruby": "とうきょう"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "京都",
+        "ruby": "きょうと"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "ほう"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "静",
+        "ruby": "しず"
+      },
+      {
+        "base": "かです"
+      }
+    ],
+    "audioPath": "/audio/d9b2ccf2ef0370c5.mp3"
+  },
+  {
+    "chinese": "日本料理比中国菜清淡",
+    "japanese": "中華より日本料理のほうがあっさりしています",
+    "tokens": [
+      {
+        "surface": "中華",
+        "reading": "ちゅうか"
+      },
+      {
+        "surface": "より",
+        "reading": "より"
+      },
+      {
+        "surface": "日本",
+        "reading": "にっぽん"
+      },
+      {
+        "surface": "料理",
+        "reading": "りょうり"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "ほう",
+        "reading": "ほう"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "あっさり",
+        "reading": "あっさり"
+      },
+      {
+        "surface": "しています",
+        "reading": "しています"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "中華",
+        "ruby": "ちゅうか"
+      },
+      {
+        "base": "より"
+      },
+      {
+        "base": "日本",
+        "ruby": "にっぽん"
+      },
+      {
+        "base": "料理",
+        "ruby": "りょうり"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "ほう"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "あっさり"
+      },
+      {
+        "base": "しています"
+      }
+    ],
+    "audioPath": "/audio/bfdbf59b7b7f69ef.mp3"
+  }
+]
