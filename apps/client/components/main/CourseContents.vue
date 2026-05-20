@@ -23,13 +23,13 @@
           v-for="(item, index) in filteredContentsList"
           :key="item.id"
           ref="itemRefs"
-          class="flex items-center justify-between rounded-lg bg-purple-100 p-4 transition-colors duration-300 hover:bg-purple-200 dark:bg-purple-700 dark:hover:bg-purple-600"
+          class="flex items-center justify-between rounded-lg bg-blue-900/20 p-4 transition-colors duration-300 hover:bg-blue-900/40 dark:bg-blue-900/60 dark:hover:bg-blue-900/80"
           @click="jumpTo(index, item)"
           :class="{ 'cursor-pointer': !item.isMastered, 'cursor-not-allowed': item.isMastered }"
         >
           <div class="group flex w-full flex-grow">
             <div class="mr-4 flex w-6 flex-shrink-0 flex-col items-center justify-center">
-              <span class="text-lg font-semibold text-purple-600 dark:text-purple-300">
+              <span class="text-lg font-semibold text-blue-500 dark:text-blue-200">
                 {{ index + 1 }}
               </span>
               <UIcon
@@ -40,12 +40,12 @@
             </div>
             <div class="flex-grow overflow-hidden">
               <div
-                class="truncate text-lg font-bold text-purple-800 group-hover:text-clip group-hover:whitespace-normal dark:text-white"
+                class="truncate text-lg font-bold text-blue-300 group-hover:text-clip group-hover:whitespace-normal dark:text-white"
               >
                 {{ item.japanese }}
               </div>
               <div
-                class="truncate text-lg text-purple-600 group-hover:text-clip group-hover:whitespace-normal dark:text-purple-300"
+                class="truncate text-lg text-blue-500 group-hover:text-clip group-hover:whitespace-normal dark:text-blue-200"
               >
                 {{ item.chinese }}
               </div>

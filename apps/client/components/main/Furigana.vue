@@ -3,7 +3,7 @@
     <span
       v-for="(seg, i) in segments"
       :key="i"
-      class="cursor-pointer p-1 hover:text-fuchsia-500"
+      class="cursor-pointer p-1 hover:text-blue-400"
       @click="emit('click-segment', seg.base)"
     >
       <ruby v-if="seg.ruby && showFurigana">

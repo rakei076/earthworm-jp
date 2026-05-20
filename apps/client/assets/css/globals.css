@@ -6,7 +6,6 @@
   font-family: "CustomFont";
   font-display: swap;
   src: url("../font/Nunito/Nunito-Bold.ttf") format("truetype");
-  /* 添加其他字体格式（可选） */
 }
 
 html,
@@ -14,8 +13,63 @@ body {
   height: 100%;
 }
 
+/* ============================================================
+   句楽部 / KuRakuBu design tokens
+   ----------------------------------------------------------
+   Dark-first, gray-on-gray surfaces with a single blue accent.
+   Matches the dashboard prototype the user supplied (Sokudan).
+   ============================================================ */
 :root {
+  /* Surfaces — neutral grays, dark theme is the default */
+  --bg-0: #0b0d12;
+  --bg-1: #11141b;
+  --bg-2: #161a23;
+  --bg-3: #1d222d;
+  --bg-card: #141821;
+  --border: #232936;
+  --border-soft: #1c212c;
+
+  /* Text */
+  --text-0: #f3f5f9;
+  --text-1: #c7ccd7;
+  --text-2: #8a92a3;
+  --text-3: #5a6273;
+
+  /* Accent — blue */
+  --accent: #3b82f6;
+  --accent-hover: #60a5fa;
+  --accent-strong: #2563eb;
+  --accent-soft: rgba(59, 130, 246, 0.12);
+  --accent-ring: rgba(59, 130, 246, 0.32);
+
+  /* Supporting hues used sparingly */
+  --teal: #4fd1c5;
+  --teal-soft: rgba(79, 209, 197, 0.14);
+  --gold: #f5b740;
+  --pink: #f06292;
+  --violet: #8b7fff;
+
+  --radius-s: 8px;
+  --radius-m: 12px;
+  --radius-l: 16px;
+  --radius-xl: 22px;
+  --shadow-card: 0 1px 0 rgba(255, 255, 255, 0.02) inset, 0 8px 24px -16px rgba(0, 0, 0, 0.4);
+
+  --font-jp: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "PingFang SC", system-ui,
+    sans-serif;
+  --font-mono: "JetBrains Mono", "SF Mono", ui-monospace, monospace;
+
   scrollbar-width: none;
+}
+
+body {
+  background: var(--bg-0);
+  color: var(--text-0);
+  font-family: var(--font-jp);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.01em;
 }
 
 @layer base {

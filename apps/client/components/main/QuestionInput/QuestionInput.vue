@@ -173,7 +173,7 @@ function getWordsClassNames(index: number) {
   const word = findWordById(index)!;
   // 当前单词激活 且 聚焦
   if (word.isActive && focusing.value) {
-    return "text-fuchsia-500 border-b-fuchsia-500";
+    return "text-blue-400 border-b-blue-400";
   }
 
   // 当前单词错误 且 聚焦

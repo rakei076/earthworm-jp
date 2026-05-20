@@ -53,7 +53,7 @@
           v-if="isAuthenticated()"
           class="pl-2 text-xs leading-loose text-gray-400 sm:pl-4 sm:text-sm lg:pl-14 lg:text-base"
         >
-          今天一共学习 <span class="text-purple-500">{{ formattedMinutes }}分钟</span> 啦！
+          今天一共学习 <span class="text-blue-400">{{ formattedMinutes }}分钟</span> 啦！
           <span v-if="totalMinutes >= 30">太强了，给自己来点掌声 😄</span>
         </p>
       </div>

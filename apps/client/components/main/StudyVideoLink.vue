@@ -2,7 +2,7 @@
   <NuxtLink
     v-if="video"
     target="_blank"
-    class="flex cursor-pointer items-center fill-current text-xl hover:text-fuchsia-500"
+    class="flex cursor-pointer items-center fill-current text-xl hover:text-blue-400"
     :href="video"
   >
     <UTooltip text="边看边练">

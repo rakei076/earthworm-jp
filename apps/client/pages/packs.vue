@@ -1,14 +1,25 @@
 <template>
-  <div class="dashboard">
-    <div class="row-2">
-      <DashboardCheckin />
-      <div class="stack">
-        <DashboardHeatmap />
-        <DashboardRecent :items="[]" />
-      </div>
+  <div class="packs">
+    <div class="head">
+      <div class="title">课程包</div>
+      <div class="count">{{ cards.length }} 个课程</div>
     </div>
-
-    <DashboardCoursesGrid :cards="cards" />
+    <div
+      v-if="loading"
+      class="loading"
+    >
+      加载中…
+    </div>
+    <div
+      v-else
+      class="grid"
+    >
+      <DashboardCourseCard
+        v-for="c in cards"
+        :key="c.href"
+        v-bind="c"
+      />
+    </div>
   </div>
 </template>
 
@@ -16,23 +27,11 @@
 import { computed, onMounted, ref } from "vue";
 
 import { fetchCoursePack, fetchCoursePacks } from "~/api/course-pack";
-import DashboardCheckin from "~/components/dashboard/Checkin.vue";
-import DashboardCoursesGrid from "~/components/dashboard/CoursesGrid.vue";
-import DashboardHeatmap from "~/components/dashboard/Heatmap.vue";
-import DashboardRecent from "~/components/dashboard/Recent.vue";
-
-type Card = {
-  href: string;
-  glyph: string;
-  level: string;
-  title: string;
-  meta: string[];
-  progress: number;
-  coverClass: string;
-};
+import DashboardCourseCard from "~/components/dashboard/CourseCard.vue";
 
 const packs = ref<Array<{ id: string; title: string; description: string }>>([]);
 const firstCourseIdByPack = ref<Record<string, string>>({});
+const loading = ref(true);
 
 const palette = [
   "cover-blue",
@@ -61,7 +60,7 @@ function levelFor(title: string): string {
   return "入门";
 }
 
-const cards = computed<Card[]>(() =>
+const cards = computed(() =>
   packs.value.map((p, i) => ({
     href: firstCourseIdByPack.value[p.id]
       ? `/game/${p.id}/${firstCourseIdByPack.value[p.id]}`
@@ -91,32 +90,42 @@ onMounted(async () => {
     );
     firstCourseIdByPack.value = Object.fromEntries(entries);
   } catch (err) {
-    console.warn("[dashboard] failed to load course packs", err);
+    console.warn("[packs] load failed", err);
+  } finally {
+    loading.value = false;
   }
 });
 </script>
 
 <style scoped>
-.dashboard {
+.packs {
   display: flex;
   flex-direction: column;
-  gap: 22px;
+  gap: 18px;
 }
-
-.row-2 {
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--text-0);
+}
+.count {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-3);
+}
+.loading {
+  text-align: center;
+  padding: 60px;
+  color: var(--text-3);
+}
+.grid {
   display: grid;
-  grid-template-columns: minmax(360px, 1fr) minmax(360px, 1fr);
-  gap: 18px;
-}
-@media (max-width: 900px) {
-  .row-2 {
-    grid-template-columns: 1fr;
-  }
-}
-
-.stack {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 14px;
 }
 </style>

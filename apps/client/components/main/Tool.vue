@@ -168,6 +168,6 @@ function useDoAgain() {
 
 <style scoped>
 .clickable-item {
-  @apply cursor-pointer select-none hover:text-fuchsia-500;
+  @apply cursor-pointer select-none hover:text-blue-400;
 }
 </style>
