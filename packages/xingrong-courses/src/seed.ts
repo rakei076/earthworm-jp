@@ -57,6 +57,26 @@ const PACK_METADATA: Record<string, PackMeta> = {
     description: "N5 范围内的较长句子（15+ 字）",
     order: 14,
   },
+  "jlpt-n4-01": {
+    title: "JLPT N4 · 进阶短句",
+    description: "含 N4 词汇的入门短句（7-9 字）",
+    order: 20,
+  },
+  "jlpt-n4-02": {
+    title: "JLPT N4 · 日常造句",
+    description: "N4 日常对话用句（10-12 字）",
+    order: 21,
+  },
+  "jlpt-n4-03": {
+    title: "JLPT N4 · 复合句型",
+    description: "条件、原因、并列从句（13-16 字）",
+    order: 22,
+  },
+  "jlpt-n4-04": {
+    title: "JLPT N4 · 进阶练习",
+    description: "N4 范围内的较长句子（17+ 字）",
+    order: 23,
+  },
 };
 
 const LESSON_SIZE_DEFAULT = 20;
@@ -79,7 +99,9 @@ function toChineseLessonName(n: number): string {
   await db.delete(coursePack);
 
   const coursesDir = path.resolve(__dirname, "../data/courses");
-  const files = fs.readdirSync(coursesDir).filter((f) => f.endsWith(".json") && !f.startsWith("_"));
+  const files = fs
+    .readdirSync(coursesDir)
+    .filter((f) => f.endsWith(".json") && !f.startsWith("_") && !f.startsWith("."));
 
   const sorted = files.slice().sort((a, b) => {
     const ka = path.parse(a).name;

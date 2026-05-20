@@ -1,0 +1,3818 @@
+[
+  {
+    "chinese": "請關燈。",
+    "japanese": "電気を消してください。",
+    "tokens": [
+      {
+        "surface": "電気",
+        "reading": "でんき"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "消してください",
+        "reading": "けしてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "電気",
+        "ruby": "でんき"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "消",
+        "ruby": "け"
+      },
+      {
+        "base": "してください"
+      }
+    ],
+    "audioPath": "/audio/c6501e76550c6538.mp3"
+  },
+  {
+    "chinese": "請幫我。",
+    "japanese": "私を手伝ってください。",
+    "tokens": [
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "手伝ってください",
+        "reading": "てつだってください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "手伝",
+        "ruby": "てつだ"
+      },
+      {
+        "base": "ってください"
+      }
+    ],
+    "audioPath": "/audio/384f676777427c99.mp3"
+  },
+  {
+    "chinese": "回答我。",
+    "japanese": "私の質問に答えなさい。",
+    "tokens": [
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "質問",
+        "reading": "しつもん"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "答えなさい",
+        "reading": "こたえなさい"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "質問",
+        "ruby": "しつもん"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "答",
+        "ruby": "こた"
+      },
+      {
+        "base": "えなさい"
+      }
+    ],
+    "audioPath": "/audio/100e50106b40d3ae.mp3"
+  },
+  {
+    "chinese": "她下了車。",
+    "japanese": "彼女は車から降りた。",
+    "tokens": [
+      {
+        "surface": "彼女",
+        "reading": "かのじょ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "車",
+        "reading": "くるま"
+      },
+      {
+        "surface": "から",
+        "reading": "から"
+      },
+      {
+        "surface": "降りた",
+        "reading": "おりた"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼女",
+        "ruby": "かのじょ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "車",
+        "ruby": "くるま"
+      },
+      {
+        "base": "から"
+      },
+      {
+        "base": "降",
+        "ruby": "お"
+      },
+      {
+        "base": "りた"
+      }
+    ],
+    "audioPath": "/audio/76239fe6e89a025d.mp3"
+  },
+  {
+    "chinese": "快來這裡。",
+    "japanese": "速くここに来なさい。",
+    "tokens": [
+      {
+        "surface": "速く",
+        "reading": "はやく"
+      },
+      {
+        "surface": "ここ",
+        "reading": "ここ"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "来なさい",
+        "reading": "きなさい"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "速",
+        "ruby": "はや"
+      },
+      {
+        "base": "く"
+      },
+      {
+        "base": "ここ"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "来",
+        "ruby": "き"
+      },
+      {
+        "base": "なさい"
+      }
+    ],
+    "audioPath": "/audio/433ac5f81ef13ddf.mp3"
+  },
+  {
+    "chinese": "赶快回家。",
+    "japanese": "早く家に帰りなさい。",
+    "tokens": [
+      {
+        "surface": "早く",
+        "reading": "はやく"
+      },
+      {
+        "surface": "家",
+        "reading": "いえ"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "帰りなさい",
+        "reading": "かえりなさい"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "早",
+        "ruby": "はや"
+      },
+      {
+        "base": "く"
+      },
+      {
+        "base": "家",
+        "ruby": "いえ"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "帰",
+        "ruby": "かえ"
+      },
+      {
+        "base": "りなさい"
+      }
+    ],
+    "audioPath": "/audio/d79eb26d076e089f.mp3"
+  },
+  {
+    "chinese": "不好意思。",
+    "japanese": "ちょっと失礼します。",
+    "tokens": [
+      {
+        "surface": "ちょっと",
+        "reading": "ちょっと"
+      },
+      {
+        "surface": "失礼",
+        "reading": "しつれい"
+      },
+      {
+        "surface": "します",
+        "reading": "します"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "ちょっと"
+      },
+      {
+        "base": "失礼",
+        "ruby": "しつれい"
+      },
+      {
+        "base": "します"
+      }
+    ],
+    "audioPath": "/audio/53f77f4fd1935464.mp3"
+  },
+  {
+    "chinese": "她開了門。",
+    "japanese": "彼女はドアを開けた。",
+    "tokens": [
+      {
+        "surface": "彼女",
+        "reading": "かのじょ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "ドア",
+        "reading": "どあ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "開けた",
+        "reading": "あけた"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼女",
+        "ruby": "かのじょ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "ドア"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "開",
+        "ruby": "あ"
+      },
+      {
+        "base": "けた"
+      }
+    ],
+    "audioPath": "/audio/29a1f5f3ebac9645.mp3"
+  },
+  {
+    "chinese": "他會開車。",
+    "japanese": "彼は車の運転ができる。",
+    "tokens": [
+      {
+        "surface": "彼",
+        "reading": "かれ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "車",
+        "reading": "くるま"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "運転",
+        "reading": "うんてん"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できる",
+        "reading": "できる"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼",
+        "ruby": "かれ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "車",
+        "ruby": "くるま"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "運転",
+        "ruby": "うんてん"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できる"
+      }
+    ],
+    "audioPath": "/audio/e906ccd929dea0ce.mp3"
+  },
+  {
+    "chinese": "好好学习。",
+    "japanese": "しっかり勉強しなさい。",
+    "tokens": [
+      {
+        "surface": "しっかり",
+        "reading": "しっかり"
+      },
+      {
+        "surface": "勉強",
+        "reading": "べんきょう"
+      },
+      {
+        "surface": "しなさい",
+        "reading": "しなさい"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "しっかり"
+      },
+      {
+        "base": "勉強",
+        "ruby": "べんきょう"
+      },
+      {
+        "base": "しなさい"
+      }
+    ],
+    "audioPath": "/audio/293c227e789b0c25.mp3"
+  },
+  {
+    "chinese": "我会开车。",
+    "japanese": "私は車を運転できます。",
+    "tokens": [
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "車",
+        "reading": "くるま"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "運転",
+        "reading": "うんてん"
+      },
+      {
+        "surface": "できます",
+        "reading": "できます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "車",
+        "ruby": "くるま"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "運転",
+        "ruby": "うんてん"
+      },
+      {
+        "base": "できます"
+      }
+    ],
+    "audioPath": "/audio/2055ab9a67fa1379.mp3"
+  },
+  {
+    "chinese": "他很生病。",
+    "japanese": "彼はとても具合が悪い。",
+    "tokens": [
+      {
+        "surface": "彼",
+        "reading": "かれ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "とても",
+        "reading": "とても"
+      },
+      {
+        "surface": "具合",
+        "reading": "ぐあい"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "悪い",
+        "reading": "わるい"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼",
+        "ruby": "かれ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "とても"
+      },
+      {
+        "base": "具合",
+        "ruby": "ぐあい"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "悪",
+        "ruby": "わる"
+      },
+      {
+        "base": "い"
+      }
+    ],
+    "audioPath": "/audio/7f89ca9a3cb8acd6.mp3"
+  },
+  {
+    "chinese": "坐我旁边。",
+    "japanese": "私のそばに座りなさい。",
+    "tokens": [
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "そば",
+        "reading": "そば"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "座りなさい",
+        "reading": "すわりなさい"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "そば"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "座",
+        "ruby": "すわ"
+      },
+      {
+        "base": "りなさい"
+      }
+    ],
+    "audioPath": "/audio/20ee0f34cc6c3506.mp3"
+  },
+  {
+    "chinese": "她會開車。",
+    "japanese": "彼女は車の運転ができる。",
+    "tokens": [
+      {
+        "surface": "彼女",
+        "reading": "かのじょ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "車",
+        "reading": "くるま"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "運転",
+        "reading": "うんてん"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "できる",
+        "reading": "できる"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼女",
+        "ruby": "かのじょ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "車",
+        "ruby": "くるま"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "運転",
+        "ruby": "うんてん"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "できる"
+      }
+    ],
+    "audioPath": "/audio/77a2b083bb100299.mp3"
+  },
+  {
+    "chinese": "请睁开眼睛。",
+    "japanese": "目を開けてください。",
+    "tokens": [
+      {
+        "surface": "目",
+        "reading": "め"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "開けてください",
+        "reading": "あけてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "目",
+        "ruby": "め"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "開",
+        "ruby": "あ"
+      },
+      {
+        "base": "けてください"
+      }
+    ],
+    "audioPath": "/audio/3c57f81b85be1bab.mp3"
+  },
+  {
+    "chinese": "不要打扰她。",
+    "japanese": "彼女の邪魔をするな。",
+    "tokens": [
+      {
+        "surface": "彼女",
+        "reading": "かのじょ"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "邪魔",
+        "reading": "じゃま"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "する",
+        "reading": "する"
+      },
+      {
+        "surface": "な",
+        "reading": "な"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼女",
+        "ruby": "かのじょ"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "邪魔",
+        "ruby": "じゃま"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "する"
+      },
+      {
+        "base": "な"
+      }
+    ],
+    "audioPath": "/audio/9f35edd65f7a58eb.mp3"
+  },
+  {
+    "chinese": "他明天会来。",
+    "japanese": "彼は明日来るだろう。",
+    "tokens": [
+      {
+        "surface": "彼",
+        "reading": "かれ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "明日",
+        "reading": "あした"
+      },
+      {
+        "surface": "来るだろう",
+        "reading": "くるだろう"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼",
+        "ruby": "かれ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "明日",
+        "ruby": "あした"
+      },
+      {
+        "base": "来",
+        "ruby": "く"
+      },
+      {
+        "base": "るだろう"
+      }
+    ],
+    "audioPath": "/audio/1cb12888524925f6.mp3"
+  },
+  {
+    "chinese": "请尽情享受。",
+    "japanese": "十分に楽しみなさい。",
+    "tokens": [
+      {
+        "surface": "十分",
+        "reading": "じゅうぶん"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "楽しみなさい",
+        "reading": "たのしみなさい"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "十分",
+        "ruby": "じゅうぶん"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "楽",
+        "ruby": "たの"
+      },
+      {
+        "base": "しみなさい"
+      }
+    ],
+    "audioPath": "/audio/e227eac0a5f3b47e.mp3"
+  },
+  {
+    "chinese": "我想她病了。",
+    "japanese": "彼女は病気だと思う。",
+    "tokens": [
+      {
+        "surface": "彼女",
+        "reading": "かのじょ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "病気だ",
+        "reading": "びょうきだ"
+      },
+      {
+        "surface": "と",
+        "reading": "と"
+      },
+      {
+        "surface": "思う",
+        "reading": "おもう"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼女",
+        "ruby": "かのじょ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "病気",
+        "ruby": "びょうき"
+      },
+      {
+        "base": "だ"
+      },
+      {
+        "base": "と"
+      },
+      {
+        "base": "思",
+        "ruby": "おも"
+      },
+      {
+        "base": "う"
+      }
+    ],
+    "audioPath": "/audio/ad2e28e53babbb6e.mp3"
+  },
+  {
+    "chinese": "他喜欢游泳。",
+    "japanese": "彼は水泳が好きです。",
+    "tokens": [
+      {
+        "surface": "彼",
+        "reading": "かれ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "水泳",
+        "reading": "すいえい"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "好きです",
+        "reading": "すきです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼",
+        "ruby": "かれ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "水泳",
+        "ruby": "すいえい"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "好",
+        "ruby": "す"
+      },
+      {
+        "base": "きです"
+      }
+    ],
+    "audioPath": "/audio/29906c1f7103d304.mp3"
+  },
+  {
+    "chinese": "他没有孩子。",
+    "japanese": "彼は子供がなかった。",
+    "tokens": [
+      {
+        "surface": "彼",
+        "reading": "かれ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "子供",
+        "reading": "こども"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "なかった",
+        "reading": "なかった"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼",
+        "ruby": "かれ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "子供",
+        "ruby": "こども"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "なかった"
+      }
+    ],
+    "audioPath": "/audio/9594a5dc6c556ff1.mp3"
+  },
+  {
+    "chinese": "这谁给你的？",
+    "japanese": "これ誰にもらったの？",
+    "tokens": [
+      {
+        "surface": "これ",
+        "reading": "これ"
+      },
+      {
+        "surface": "誰",
+        "reading": "だれ"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "もらった",
+        "reading": "もらった"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "これ"
+      },
+      {
+        "base": "誰",
+        "ruby": "だれ"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "もらった"
+      },
+      {
+        "base": "の"
+      }
+    ],
+    "audioPath": "/audio/eae98eddbddcce67.mp3"
+  },
+  {
+    "chinese": "那是她的车．",
+    "japanese": "あれは彼女の車です。",
+    "tokens": [
+      {
+        "surface": "あれ",
+        "reading": "あれ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "彼女",
+        "reading": "かのじょ"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "車です",
+        "reading": "くるまです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "あれ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "彼女",
+        "ruby": "かのじょ"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "車",
+        "ruby": "くるま"
+      },
+      {
+        "base": "です"
+      }
+    ],
+    "audioPath": "/audio/caefc8a54276d764.mp3"
+  },
+  {
+    "chinese": "她是我的菜。",
+    "japanese": "彼女は私のタイプだ。",
+    "tokens": [
+      {
+        "surface": "彼女",
+        "reading": "かのじょ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "タイプだ",
+        "reading": "たいぷだ"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼女",
+        "ruby": "かのじょ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "タイプだ"
+      }
+    ],
+    "audioPath": "/audio/7a35d808ded6b5fd.mp3"
+  },
+  {
+    "chinese": "在我前面走。",
+    "japanese": "僕の前を歩きなさい。",
+    "tokens": [
+      {
+        "surface": "僕",
+        "reading": "ぼく"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "前",
+        "reading": "まえ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "歩きなさい",
+        "reading": "あるきなさい"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "僕",
+        "ruby": "ぼく"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "前",
+        "ruby": "まえ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "歩",
+        "ruby": "ある"
+      },
+      {
+        "base": "きなさい"
+      }
+    ],
+    "audioPath": "/audio/a33ea268cd3a30c9.mp3"
+  },
+  {
+    "chinese": "打开收音机。",
+    "japanese": "ラジオをつけてくれ。",
+    "tokens": [
+      {
+        "surface": "ラジオ",
+        "reading": "らじお"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "つけてくれ",
+        "reading": "つけてくれ"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "ラジオ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "つけてくれ"
+      }
+    ],
+    "audioPath": "/audio/31c05afd54259e21.mp3"
+  },
+  {
+    "chinese": "他长得高吗？",
+    "japanese": "彼は背が高いですか。",
+    "tokens": [
+      {
+        "surface": "彼",
+        "reading": "かれ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "背",
+        "reading": "せ"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "高いです",
+        "reading": "たかいです"
+      },
+      {
+        "surface": "か",
+        "reading": "か"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼",
+        "ruby": "かれ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "背",
+        "ruby": "せ"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "高",
+        "ruby": "たか"
+      },
+      {
+        "base": "いです"
+      },
+      {
+        "base": "か"
+      }
+    ],
+    "audioPath": "/audio/39e1728512850094.mp3"
+  },
+  {
+    "chinese": "把他放进去。",
+    "japanese": "彼を中に入れなさい。",
+    "tokens": [
+      {
+        "surface": "彼",
+        "reading": "かれ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "中",
+        "reading": "なか"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "入れなさい",
+        "reading": "いれなさい"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼",
+        "ruby": "かれ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "中",
+        "ruby": "なか"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "入",
+        "ruby": "い"
+      },
+      {
+        "base": "れなさい"
+      }
+    ],
+    "audioPath": "/audio/a1c4a5f133d21999.mp3"
+  },
+  {
+    "chinese": "你打網球嗎？",
+    "japanese": "テニスをやりますか。",
+    "tokens": [
+      {
+        "surface": "テニス",
+        "reading": "てにす"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "やります",
+        "reading": "やります"
+      },
+      {
+        "surface": "か",
+        "reading": "か"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "テニス"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "やります"
+      },
+      {
+        "base": "か"
+      }
+    ],
+    "audioPath": "/audio/5478889d7f947562.mp3"
+  },
+  {
+    "chinese": "她買了雞肉。",
+    "japanese": "彼女は鶏肉を買った。",
+    "tokens": [
+      {
+        "surface": "彼女",
+        "reading": "かのじょ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "鶏肉",
+        "reading": "けいにく"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "買った",
+        "reading": "かった"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼女",
+        "ruby": "かのじょ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "鶏肉",
+        "ruby": "けいにく"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "買",
+        "ruby": "か"
+      },
+      {
+        "base": "った"
+      }
+    ],
+    "audioPath": "/audio/f7408ca46e28ca5e.mp3"
+  },
+  {
+    "chinese": "這是她的書。",
+    "japanese": "これは彼女の本です。",
+    "tokens": [
+      {
+        "surface": "これ",
+        "reading": "これ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "彼女",
+        "reading": "かのじょ"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "本です",
+        "reading": "ほんです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "これ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "彼女",
+        "ruby": "かのじょ"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "本",
+        "ruby": "ほん"
+      },
+      {
+        "base": "です"
+      }
+    ],
+    "audioPath": "/audio/823c6724b5a51362.mp3"
+  },
+  {
+    "chinese": "早上要早起。",
+    "japanese": "朝早く起きなさいよ。",
+    "tokens": [
+      {
+        "surface": "朝",
+        "reading": "あさ"
+      },
+      {
+        "surface": "早く",
+        "reading": "はやく"
+      },
+      {
+        "surface": "起きなさい",
+        "reading": "おきなさい"
+      },
+      {
+        "surface": "よ",
+        "reading": "よ"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "朝",
+        "ruby": "あさ"
+      },
+      {
+        "base": "早",
+        "ruby": "はや"
+      },
+      {
+        "base": "く"
+      },
+      {
+        "base": "起",
+        "ruby": "お"
+      },
+      {
+        "base": "きなさい"
+      },
+      {
+        "base": "よ"
+      }
+    ],
+    "audioPath": "/audio/0fd624ad3d746fcd.mp3"
+  },
+  {
+    "chinese": "他考過了嗎？",
+    "japanese": "彼、試験に通ったの？",
+    "tokens": [
+      {
+        "surface": "彼",
+        "reading": "かれ"
+      },
+      {
+        "surface": "試験",
+        "reading": "しけん"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "通った",
+        "reading": "とおった"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼",
+        "ruby": "かれ"
+      },
+      {
+        "base": "試験",
+        "ruby": "しけん"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "通",
+        "ruby": "とお"
+      },
+      {
+        "base": "った"
+      },
+      {
+        "base": "の"
+      }
+    ],
+    "audioPath": "/audio/cbbb9a0fafe0dd99.mp3"
+  },
+  {
+    "chinese": "看得清楚嗎？",
+    "japanese": "はっきり見えますか？",
+    "tokens": [
+      {
+        "surface": "はっきり",
+        "reading": "はっきり"
+      },
+      {
+        "surface": "見えます",
+        "reading": "みえます"
+      },
+      {
+        "surface": "か",
+        "reading": "か"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "はっきり"
+      },
+      {
+        "base": "見",
+        "ruby": "み"
+      },
+      {
+        "base": "えます"
+      },
+      {
+        "base": "か"
+      }
+    ],
+    "audioPath": "/audio/15f3f075af722ed1.mp3"
+  },
+  {
+    "chinese": "我步行上學。",
+    "japanese": "私は歩いて学校に通う。",
+    "tokens": [
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "歩いて",
+        "reading": "あるいて"
+      },
+      {
+        "surface": "学校",
+        "reading": "がっこう"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "通う",
+        "reading": "かよう"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "歩",
+        "ruby": "ある"
+      },
+      {
+        "base": "いて"
+      },
+      {
+        "base": "学校",
+        "ruby": "がっこう"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "通",
+        "ruby": "かよ"
+      },
+      {
+        "base": "う"
+      }
+    ],
+    "audioPath": "/audio/a634db1bdb0df54a.mp3"
+  },
+  {
+    "chinese": "我想学数学。",
+    "japanese": "私は数学を勉強したい。",
+    "tokens": [
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "数学",
+        "reading": "すうがく"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "勉強",
+        "reading": "べんきょう"
+      },
+      {
+        "surface": "したい",
+        "reading": "したい"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "数学",
+        "ruby": "すうがく"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "勉強",
+        "ruby": "べんきょう"
+      },
+      {
+        "base": "したい"
+      }
+    ],
+    "audioPath": "/audio/fd28d077f749839f.mp3"
+  },
+  {
+    "chinese": "我喜欢短发。",
+    "japanese": "私は短い髪が好きです。",
+    "tokens": [
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "短い",
+        "reading": "みじかい"
+      },
+      {
+        "surface": "髪",
+        "reading": "かみ"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "好きです",
+        "reading": "すきです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "短",
+        "ruby": "みじか"
+      },
+      {
+        "base": "い"
+      },
+      {
+        "base": "髪",
+        "ruby": "かみ"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "好",
+        "ruby": "す"
+      },
+      {
+        "base": "きです"
+      }
+    ],
+    "audioPath": "/audio/df76ba764187c740.mp3"
+  },
+  {
+    "chinese": "她去购物了。",
+    "japanese": "彼女は買い物に行った。",
+    "tokens": [
+      {
+        "surface": "彼女",
+        "reading": "かのじょ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "買い物",
+        "reading": "かいもの"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "行った",
+        "reading": "いった"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼女",
+        "ruby": "かのじょ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "買い物",
+        "ruby": "かいもの"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "行",
+        "ruby": "い"
+      },
+      {
+        "base": "った"
+      }
+    ],
+    "audioPath": "/audio/645b212924a26ffa.mp3"
+  },
+  {
+    "chinese": "你总是迟到。",
+    "japanese": "あなたはいつも遅れる。",
+    "tokens": [
+      {
+        "surface": "あなた",
+        "reading": "あなた"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "いつも",
+        "reading": "いつも"
+      },
+      {
+        "surface": "遅れる",
+        "reading": "おくれる"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "あなた"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "いつも"
+      },
+      {
+        "base": "遅",
+        "ruby": "おく"
+      },
+      {
+        "base": "れる"
+      }
+    ],
+    "audioPath": "/audio/a1371410a0b5f2ed.mp3"
+  },
+  {
+    "chinese": "我能幫你嗎？",
+    "japanese": "何か手伝いましょうか。",
+    "tokens": [
+      {
+        "surface": "何",
+        "reading": "なに"
+      },
+      {
+        "surface": "か",
+        "reading": "か"
+      },
+      {
+        "surface": "手伝いましょう",
+        "reading": "てつだいましょう"
+      },
+      {
+        "surface": "か",
+        "reading": "か"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "何",
+        "ruby": "なに"
+      },
+      {
+        "base": "か"
+      },
+      {
+        "base": "手伝",
+        "ruby": "てつだ"
+      },
+      {
+        "base": "いましょう"
+      },
+      {
+        "base": "か"
+      }
+    ],
+    "audioPath": "/audio/777961c3735d9e43.mp3"
+  },
+  {
+    "chinese": "她看了窗外。",
+    "japanese": "彼女は窓から外を見た。",
+    "tokens": [
+      {
+        "surface": "彼女",
+        "reading": "かのじょ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "窓",
+        "reading": "まど"
+      },
+      {
+        "surface": "から",
+        "reading": "から"
+      },
+      {
+        "surface": "外",
+        "reading": "そと"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "見た",
+        "reading": "みた"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼女",
+        "ruby": "かのじょ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "窓",
+        "ruby": "まど"
+      },
+      {
+        "base": "から"
+      },
+      {
+        "base": "外",
+        "ruby": "そと"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "見",
+        "ruby": "み"
+      },
+      {
+        "base": "た"
+      }
+    ],
+    "audioPath": "/audio/d4830388c48238cf.mp3"
+  },
+  {
+    "chinese": "请来我家吧。",
+    "japanese": "私の家に来てください。",
+    "tokens": [
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "家",
+        "reading": "いえ"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "来てください",
+        "reading": "きてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "家",
+        "ruby": "いえ"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "来",
+        "ruby": "き"
+      },
+      {
+        "base": "てください"
+      }
+    ],
+    "audioPath": "/audio/a34bb1ac5d7d5ab8.mp3"
+  },
+  {
+    "chinese": "他怕他老婆。",
+    "japanese": "彼は奥さんが怖かった。",
+    "tokens": [
+      {
+        "surface": "彼",
+        "reading": "かれ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "奥さん",
+        "reading": "おくさん"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "怖かった",
+        "reading": "こわかった"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼",
+        "ruby": "かれ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "奥",
+        "ruby": "おく"
+      },
+      {
+        "base": "さん"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "怖",
+        "ruby": "こわ"
+      },
+      {
+        "base": "かった"
+      }
+    ],
+    "audioPath": "/audio/930ea2fbb62ddaf3.mp3"
+  },
+  {
+    "chinese": "我觉得是你。",
+    "japanese": "これはあなただと思う。",
+    "tokens": [
+      {
+        "surface": "これ",
+        "reading": "これ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "あなただ",
+        "reading": "あなただ"
+      },
+      {
+        "surface": "と",
+        "reading": "と"
+      },
+      {
+        "surface": "思う",
+        "reading": "おもう"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "これ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "あなただ"
+      },
+      {
+        "base": "と"
+      },
+      {
+        "base": "思",
+        "ruby": "おも"
+      },
+      {
+        "base": "う"
+      }
+    ],
+    "audioPath": "/audio/c00bd79ed277ff90.mp3"
+  },
+  {
+    "chinese": "他忘了關燈。",
+    "japanese": "彼は電灯を消し忘れた。",
+    "tokens": [
+      {
+        "surface": "彼",
+        "reading": "かれ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "電灯",
+        "reading": "でんとう"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "消し",
+        "reading": "けし"
+      },
+      {
+        "surface": "忘れた",
+        "reading": "わすれた"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼",
+        "ruby": "かれ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "電灯",
+        "ruby": "でんとう"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "消",
+        "ruby": "け"
+      },
+      {
+        "base": "し"
+      },
+      {
+        "base": "忘",
+        "ruby": "わす"
+      },
+      {
+        "base": "れた"
+      }
+    ],
+    "audioPath": "/audio/794cbb814ad1dbc5.mp3"
+  },
+  {
+    "chinese": "请打开箱子。",
+    "japanese": "この箱を開けてください。",
+    "tokens": [
+      {
+        "surface": "この",
+        "reading": "この"
+      },
+      {
+        "surface": "箱",
+        "reading": "はこ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "開けてください",
+        "reading": "あけてください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "この"
+      },
+      {
+        "base": "箱",
+        "ruby": "はこ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "開",
+        "ruby": "あ"
+      },
+      {
+        "base": "けてください"
+      }
+    ],
+    "audioPath": "/audio/190fa850538cfaaa.mp3"
+  },
+  {
+    "chinese": "請幫我洗背。",
+    "japanese": "背中を洗ってくださいよ。",
+    "tokens": [
+      {
+        "surface": "背中",
+        "reading": "せなか"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "洗ってください",
+        "reading": "あらってください"
+      },
+      {
+        "surface": "よ",
+        "reading": "よ"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "背中",
+        "ruby": "せなか"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "洗",
+        "ruby": "あら"
+      },
+      {
+        "base": "ってください"
+      },
+      {
+        "base": "よ"
+      }
+    ],
+    "audioPath": "/audio/e68b9e53d1338058.mp3"
+  },
+  {
+    "chinese": "她看着那幅画。",
+    "japanese": "彼女は絵を見ました。",
+    "tokens": [
+      {
+        "surface": "彼女",
+        "reading": "かのじょ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "絵",
+        "reading": "え"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "見ました",
+        "reading": "みました"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼女",
+        "ruby": "かのじょ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "絵",
+        "ruby": "え"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "見",
+        "ruby": "み"
+      },
+      {
+        "base": "ました"
+      }
+    ],
+    "audioPath": "/audio/e91ae5d3f7d1fd93.mp3"
+  },
+  {
+    "chinese": "上学要迟到了。",
+    "japanese": "学校に遅れそうだね。",
+    "tokens": [
+      {
+        "surface": "学校",
+        "reading": "がっこう"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "遅れそうだ",
+        "reading": "おくれそうだ"
+      },
+      {
+        "surface": "ね",
+        "reading": "ね"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "学校",
+        "ruby": "がっこう"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "遅",
+        "ruby": "おく"
+      },
+      {
+        "base": "れそうだ"
+      },
+      {
+        "base": "ね"
+      }
+    ],
+    "audioPath": "/audio/d18403f92c46f680.mp3"
+  },
+  {
+    "chinese": "请打开收音机。",
+    "japanese": "ラジオをつけなさい。",
+    "tokens": [
+      {
+        "surface": "ラジオ",
+        "reading": "らじお"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "つけなさい",
+        "reading": "つけなさい"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "ラジオ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "つけなさい"
+      }
+    ],
+    "audioPath": "/audio/326ee2768ad44668.mp3"
+  },
+  {
+    "chinese": "別這樣的嘈吵。",
+    "japanese": "そんなに騒がないで。",
+    "tokens": [
+      {
+        "surface": "そんなに",
+        "reading": "そんなに"
+      },
+      {
+        "surface": "騒がないで",
+        "reading": "さわがないで"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "そんなに"
+      },
+      {
+        "base": "騒",
+        "ruby": "さわ"
+      },
+      {
+        "base": "がないで"
+      }
+    ],
+    "audioPath": "/audio/a8b7bd855582036a.mp3"
+  },
+  {
+    "chinese": "她很喜歡動物。",
+    "japanese": "彼女は動物が好きだ。",
+    "tokens": [
+      {
+        "surface": "彼女",
+        "reading": "かのじょ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "動物",
+        "reading": "どうぶつ"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "好きだ",
+        "reading": "すきだ"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼女",
+        "ruby": "かのじょ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "動物",
+        "ruby": "どうぶつ"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "好",
+        "ruby": "す"
+      },
+      {
+        "base": "きだ"
+      }
+    ],
+    "audioPath": "/audio/a17569faa150e595.mp3"
+  },
+  {
+    "chinese": "我是世界公民。",
+    "japanese": "私は世界市民である。",
+    "tokens": [
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "世界",
+        "reading": "せかい"
+      },
+      {
+        "surface": "市民である",
+        "reading": "しみんである"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "世界",
+        "ruby": "せかい"
+      },
+      {
+        "base": "市民",
+        "ruby": "しみん"
+      },
+      {
+        "base": "である"
+      }
+    ],
+    "audioPath": "/audio/70b12d62d463fada.mp3"
+  },
+  {
+    "chinese": "他去看牙医了。",
+    "japanese": "彼は歯医者に行った。",
+    "tokens": [
+      {
+        "surface": "彼",
+        "reading": "かれ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "歯医者",
+        "reading": "はいしゃ"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "行った",
+        "reading": "いった"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼",
+        "ruby": "かれ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "歯医者",
+        "ruby": "はいしゃ"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "行",
+        "ruby": "い"
+      },
+      {
+        "base": "った"
+      }
+    ],
+    "audioPath": "/audio/b07b50e2451a0706.mp3"
+  },
+  {
+    "chinese": "我每天上教堂。",
+    "japanese": "毎日教会へ行きます。",
+    "tokens": [
+      {
+        "surface": "毎日",
+        "reading": "まいにち"
+      },
+      {
+        "surface": "教会",
+        "reading": "きょうかい"
+      },
+      {
+        "surface": "へ",
+        "reading": "へ"
+      },
+      {
+        "surface": "行きます",
+        "reading": "いきます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "毎日",
+        "ruby": "まいにち"
+      },
+      {
+        "base": "教会",
+        "ruby": "きょうかい"
+      },
+      {
+        "base": "へ"
+      },
+      {
+        "base": "行",
+        "ruby": "い"
+      },
+      {
+        "base": "きます"
+      }
+    ],
+    "audioPath": "/audio/32bb20ec77f58686.mp3"
+  },
+  {
+    "chinese": "我想改变世界。",
+    "japanese": "私は世界を変えたい。",
+    "tokens": [
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "世界",
+        "reading": "せかい"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "変えたい",
+        "reading": "かえたい"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "世界",
+        "ruby": "せかい"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "変",
+        "ruby": "か"
+      },
+      {
+        "base": "えたい"
+      }
+    ],
+    "audioPath": "/audio/15299db5cb184302.mp3"
+  },
+  {
+    "chinese": "他比你大兩歲。",
+    "japanese": "彼は君の二つ上だよ。",
+    "tokens": [
+      {
+        "surface": "彼",
+        "reading": "かれ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "君",
+        "reading": "きみ"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "二つ上だ",
+        "reading": "ふたつじょうだ"
+      },
+      {
+        "surface": "よ",
+        "reading": "よ"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼",
+        "ruby": "かれ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "君",
+        "ruby": "きみ"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "二つ上",
+        "ruby": "ふたつじょう"
+      },
+      {
+        "base": "だ"
+      },
+      {
+        "base": "よ"
+      }
+    ],
+    "audioPath": "/audio/303c57f895260f97.mp3"
+  },
+  {
+    "chinese": "她会打开窗户。",
+    "japanese": "彼女は窓を開けます。",
+    "tokens": [
+      {
+        "surface": "彼女",
+        "reading": "かのじょ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "窓",
+        "reading": "まど"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "開けます",
+        "reading": "あけます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼女",
+        "ruby": "かのじょ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "窓",
+        "ruby": "まど"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "開",
+        "ruby": "あ"
+      },
+      {
+        "base": "けます"
+      }
+    ],
+    "audioPath": "/audio/b77fef853f481ec4.mp3"
+  },
+  {
+    "chinese": "您付了多少钱？",
+    "japanese": "いくら払いましたか？",
+    "tokens": [
+      {
+        "surface": "いくら",
+        "reading": "いくら"
+      },
+      {
+        "surface": "払いました",
+        "reading": "はらいました"
+      },
+      {
+        "surface": "か",
+        "reading": "か"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "いくら"
+      },
+      {
+        "base": "払",
+        "ruby": "はら"
+      },
+      {
+        "base": "いました"
+      },
+      {
+        "base": "か"
+      }
+    ],
+    "audioPath": "/audio/58dac93f5cadbf83.mp3"
+  },
+  {
+    "chinese": "他已经来了吗？",
+    "japanese": "彼はもう来ましたか。",
+    "tokens": [
+      {
+        "surface": "彼",
+        "reading": "かれ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "もう",
+        "reading": "もう"
+      },
+      {
+        "surface": "来ました",
+        "reading": "きました"
+      },
+      {
+        "surface": "か",
+        "reading": "か"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼",
+        "ruby": "かれ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "もう"
+      },
+      {
+        "base": "来",
+        "ruby": "き"
+      },
+      {
+        "base": "ました"
+      },
+      {
+        "base": "か"
+      }
+    ],
+    "audioPath": "/audio/c392ad4869e8a92e.mp3"
+  },
+  {
+    "chinese": "等到他回来吧。",
+    "japanese": "彼が戻るまで待とう。",
+    "tokens": [
+      {
+        "surface": "彼",
+        "reading": "かれ"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "戻る",
+        "reading": "もどる"
+      },
+      {
+        "surface": "まで",
+        "reading": "まで"
+      },
+      {
+        "surface": "待とう",
+        "reading": "まとう"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼",
+        "ruby": "かれ"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "戻",
+        "ruby": "もど"
+      },
+      {
+        "base": "る"
+      },
+      {
+        "base": "まで"
+      },
+      {
+        "base": "待",
+        "ruby": "ま"
+      },
+      {
+        "base": "とう"
+      }
+    ],
+    "audioPath": "/audio/4932245a6867ee29.mp3"
+  },
+  {
+    "chinese": "您准备好了吗？",
+    "japanese": "準備はできましたか？",
+    "tokens": [
+      {
+        "surface": "準備",
+        "reading": "じゅんび"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "できました",
+        "reading": "できました"
+      },
+      {
+        "surface": "か",
+        "reading": "か"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "準備",
+        "ruby": "じゅんび"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "できました"
+      },
+      {
+        "base": "か"
+      }
+    ],
+    "audioPath": "/audio/82983aaa0be390d6.mp3"
+  },
+  {
+    "chinese": "他没有房子住。",
+    "japanese": "彼には住む家もない。",
+    "tokens": [
+      {
+        "surface": "彼",
+        "reading": "かれ"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "住む",
+        "reading": "すむ"
+      },
+      {
+        "surface": "家",
+        "reading": "いえ"
+      },
+      {
+        "surface": "も",
+        "reading": "も"
+      },
+      {
+        "surface": "ない",
+        "reading": "ない"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼",
+        "ruby": "かれ"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "住",
+        "ruby": "す"
+      },
+      {
+        "base": "む"
+      },
+      {
+        "base": "家",
+        "ruby": "いえ"
+      },
+      {
+        "base": "も"
+      },
+      {
+        "base": "ない"
+      }
+    ],
+    "audioPath": "/audio/5431c90d67b8d648.mp3"
+  },
+  {
+    "chinese": "不要忘了熄火。",
+    "japanese": "火を消し忘れるなよ。",
+    "tokens": [
+      {
+        "surface": "火",
+        "reading": "ひ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "消し",
+        "reading": "けし"
+      },
+      {
+        "surface": "忘れる",
+        "reading": "わすれる"
+      },
+      {
+        "surface": "な",
+        "reading": "な"
+      },
+      {
+        "surface": "よ",
+        "reading": "よ"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "火",
+        "ruby": "ひ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "消",
+        "ruby": "け"
+      },
+      {
+        "base": "し"
+      },
+      {
+        "base": "忘",
+        "ruby": "わす"
+      },
+      {
+        "base": "れる"
+      },
+      {
+        "base": "な"
+      },
+      {
+        "base": "よ"
+      }
+    ],
+    "audioPath": "/audio/334fa6c3add35f63.mp3"
+  },
+  {
+    "chinese": "他是你的朋友。",
+    "japanese": "彼はあなたの友達だ。",
+    "tokens": [
+      {
+        "surface": "彼",
+        "reading": "かれ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "あなた",
+        "reading": "あなた"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "友達だ",
+        "reading": "ともだちだ"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼",
+        "ruby": "かれ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "あなた"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "友達",
+        "ruby": "ともだち"
+      },
+      {
+        "base": "だ"
+      }
+    ],
+    "audioPath": "/audio/9209518d1193b14d.mp3"
+  },
+  {
+    "chinese": "让我们开始吧。",
+    "japanese": "さあ、始めましょう。",
+    "tokens": [
+      {
+        "surface": "さあ",
+        "reading": "さあ"
+      },
+      {
+        "surface": "始めましょう",
+        "reading": "はじめましょう"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "さあ"
+      },
+      {
+        "base": "始",
+        "ruby": "はじ"
+      },
+      {
+        "base": "めましょう"
+      }
+    ],
+    "audioPath": "/audio/39c42e3b0eeb1dbc.mp3"
+  },
+  {
+    "chinese": "我看了他的書。",
+    "japanese": "彼の本を読みました。",
+    "tokens": [
+      {
+        "surface": "彼",
+        "reading": "かれ"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "本",
+        "reading": "ほん"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "読みました",
+        "reading": "よみました"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼",
+        "ruby": "かれ"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "本",
+        "ruby": "ほん"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "読",
+        "ruby": "よ"
+      },
+      {
+        "base": "みました"
+      }
+    ],
+    "audioPath": "/audio/8deb33f2619f7d91.mp3"
+  },
+  {
+    "chinese": "我经常做噩梦。",
+    "japanese": "よく悪い夢を見ます。",
+    "tokens": [
+      {
+        "surface": "よく",
+        "reading": "よく"
+      },
+      {
+        "surface": "悪い",
+        "reading": "わるい"
+      },
+      {
+        "surface": "夢",
+        "reading": "ゆめ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "見ます",
+        "reading": "みます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "よく"
+      },
+      {
+        "base": "悪",
+        "ruby": "わる"
+      },
+      {
+        "base": "い"
+      },
+      {
+        "base": "夢",
+        "ruby": "ゆめ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "見",
+        "ruby": "み"
+      },
+      {
+        "base": "ます"
+      }
+    ],
+    "audioPath": "/audio/957b172d8a302b3a.mp3"
+  },
+  {
+    "chinese": "你拿错钥匙了。",
+    "japanese": "君は違う鍵を取った。",
+    "tokens": [
+      {
+        "surface": "君",
+        "reading": "きみ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "違う",
+        "reading": "ちがう"
+      },
+      {
+        "surface": "鍵",
+        "reading": "かぎ"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "取った",
+        "reading": "とった"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "君",
+        "ruby": "きみ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "違",
+        "ruby": "ちが"
+      },
+      {
+        "base": "う"
+      },
+      {
+        "base": "鍵",
+        "ruby": "かぎ"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "取",
+        "ruby": "と"
+      },
+      {
+        "base": "った"
+      }
+    ],
+    "audioPath": "/audio/550b785ddc004e7c.mp3"
+  },
+  {
+    "chinese": "她不擅长说话。",
+    "japanese": "彼女は話が下手です。",
+    "tokens": [
+      {
+        "surface": "彼女",
+        "reading": "かのじょ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "話",
+        "reading": "はなし"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "下手です",
+        "reading": "へたです"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼女",
+        "ruby": "かのじょ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "話",
+        "ruby": "はなし"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "下手",
+        "ruby": "へた"
+      },
+      {
+        "base": "です"
+      }
+    ],
+    "audioPath": "/audio/fb73bd6e288cd196.mp3"
+  },
+  {
+    "chinese": "我觉得他会来。",
+    "japanese": "彼は来ると思います。",
+    "tokens": [
+      {
+        "surface": "彼",
+        "reading": "かれ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "来る",
+        "reading": "くる"
+      },
+      {
+        "surface": "と",
+        "reading": "と"
+      },
+      {
+        "surface": "思います",
+        "reading": "おもいます"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼",
+        "ruby": "かれ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "来",
+        "ruby": "く"
+      },
+      {
+        "base": "る"
+      },
+      {
+        "base": "と"
+      },
+      {
+        "base": "思",
+        "ruby": "おも"
+      },
+      {
+        "base": "います"
+      }
+    ],
+    "audioPath": "/audio/7a13cee10bcf5d4a.mp3"
+  },
+  {
+    "chinese": "他没有家可住。",
+    "japanese": "彼は住む家がなかった。",
+    "tokens": [
+      {
+        "surface": "彼",
+        "reading": "かれ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "住む",
+        "reading": "すむ"
+      },
+      {
+        "surface": "家",
+        "reading": "いえ"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "なかった",
+        "reading": "なかった"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼",
+        "ruby": "かれ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "住",
+        "ruby": "す"
+      },
+      {
+        "base": "む"
+      },
+      {
+        "base": "家",
+        "ruby": "いえ"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "なかった"
+      }
+    ],
+    "audioPath": "/audio/799bdef5d4386490.mp3"
+  },
+  {
+    "chinese": "婴儿开始哭了。",
+    "japanese": "赤ちゃんが泣き始めた。",
+    "tokens": [
+      {
+        "surface": "赤ちゃん",
+        "reading": "あかちゃん"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "泣き始めた",
+        "reading": "なきはじめた"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "赤",
+        "ruby": "あか"
+      },
+      {
+        "base": "ちゃん"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "泣き始",
+        "ruby": "なきはじ"
+      },
+      {
+        "base": "めた"
+      }
+    ],
+    "audioPath": "/audio/21d09a04ae029853.mp3"
+  },
+  {
+    "chinese": "她用不着工作。",
+    "japanese": "彼女が働く必要はない。",
+    "tokens": [
+      {
+        "surface": "彼女",
+        "reading": "かのじょ"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "働く",
+        "reading": "はたらく"
+      },
+      {
+        "surface": "必要",
+        "reading": "ひつよう"
+      },
+      {
+        "surface": "はない",
+        "reading": "はない"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼女",
+        "ruby": "かのじょ"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "働",
+        "ruby": "はたら"
+      },
+      {
+        "base": "く"
+      },
+      {
+        "base": "必要",
+        "ruby": "ひつよう"
+      },
+      {
+        "base": "はない"
+      }
+    ],
+    "audioPath": "/audio/8fa35a4439ea60c8.mp3"
+  },
+  {
+    "chinese": "她站在镜子前。",
+    "japanese": "彼女は鏡の前に立った。",
+    "tokens": [
+      {
+        "surface": "彼女",
+        "reading": "かのじょ"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "鏡",
+        "reading": "かがみ"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "前",
+        "reading": "まえ"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "立った",
+        "reading": "たった"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "彼女",
+        "ruby": "かのじょ"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "鏡",
+        "ruby": "かがみ"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "前",
+        "ruby": "まえ"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "立",
+        "ruby": "た"
+      },
+      {
+        "base": "った"
+      }
+    ],
+    "audioPath": "/audio/0a81072581249767.mp3"
+  },
+  {
+    "chinese": "我的右眼瞎了。",
+    "japanese": "私は右の目が見えない。",
+    "tokens": [
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "右",
+        "reading": "みぎ"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "目",
+        "reading": "め"
+      },
+      {
+        "surface": "が",
+        "reading": "が"
+      },
+      {
+        "surface": "見えない",
+        "reading": "みえない"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "右",
+        "ruby": "みぎ"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "目",
+        "ruby": "め"
+      },
+      {
+        "base": "が"
+      },
+      {
+        "base": "見",
+        "ruby": "み"
+      },
+      {
+        "base": "えない"
+      }
+    ],
+    "audioPath": "/audio/246229d7be12b148.mp3"
+  },
+  {
+    "chinese": "走左邊的道路。",
+    "japanese": "左の道を行って下さい。",
+    "tokens": [
+      {
+        "surface": "左",
+        "reading": "ひだり"
+      },
+      {
+        "surface": "の",
+        "reading": "の"
+      },
+      {
+        "surface": "道",
+        "reading": "みち"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "行って下さい",
+        "reading": "おこなってください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "左",
+        "ruby": "ひだり"
+      },
+      {
+        "base": "の"
+      },
+      {
+        "base": "道",
+        "ruby": "みち"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "行って下",
+        "ruby": "おこなってくだ"
+      },
+      {
+        "base": "さい"
+      }
+    ],
+    "audioPath": "/audio/9fef153191e0cda5.mp3"
+  },
+  {
+    "chinese": "請選擇一個人。",
+    "japanese": "一人を選んでください。",
+    "tokens": [
+      {
+        "surface": "一人",
+        "reading": "いちにん"
+      },
+      {
+        "surface": "を",
+        "reading": "を"
+      },
+      {
+        "surface": "選んでください",
+        "reading": "えらんでください"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "一人",
+        "ruby": "いちにん"
+      },
+      {
+        "base": "を"
+      },
+      {
+        "base": "選",
+        "ruby": "えら"
+      },
+      {
+        "base": "んでください"
+      }
+    ],
+    "audioPath": "/audio/8d893fcc7fd09deb.mp3"
+  },
+  {
+    "chinese": "你犯了个错误。",
+    "japanese": "あなたは間違えました。",
+    "tokens": [
+      {
+        "surface": "あなた",
+        "reading": "あなた"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "間違えました",
+        "reading": "まちがえました"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "あなた"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "間違",
+        "ruby": "まちが"
+      },
+      {
+        "base": "えました"
+      }
+    ],
+    "audioPath": "/audio/659c4efaa69d48d0.mp3"
+  },
+  {
+    "chinese": "猪肉不适合我。",
+    "japanese": "豚肉は私には合わない。",
+    "tokens": [
+      {
+        "surface": "豚肉",
+        "reading": "ぶたにく"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "私",
+        "reading": "わたし"
+      },
+      {
+        "surface": "に",
+        "reading": "に"
+      },
+      {
+        "surface": "は",
+        "reading": "は"
+      },
+      {
+        "surface": "合わない",
+        "reading": "あわない"
+      }
+    ],
+    "furigana": [
+      {
+        "base": "豚肉",
+        "ruby": "ぶたにく"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "私",
+        "ruby": "わたし"
+      },
+      {
+        "base": "に"
+      },
+      {
+        "base": "は"
+      },
+      {
+        "base": "合",
+        "ruby": "あ"
+      },
+      {
+        "base": "わない"
+      }
+    ],
+    "audioPath": "/audio/9fdf6dbd845d0bb8.mp3"
+  }
+]

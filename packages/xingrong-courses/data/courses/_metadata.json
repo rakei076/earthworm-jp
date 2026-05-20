@@ -1,34 +1,11 @@
 {
-  "packs": [
-    {
-      "file": "jlpt-n5-01.json",
-      "title": "JLPT N5 · 入门短句",
-      "description": "短而完整的陈述/疑问句（6-7 字）",
-      "order": 2
-    },
-    {
-      "file": "jlpt-n5-02.json",
-      "title": "JLPT N5 · 日常基础",
-      "description": "日常对话场景的入门句（8-9 字）",
-      "order": 3
-    },
-    {
-      "file": "jlpt-n5-03.json",
-      "title": "JLPT N5 · 简单造句",
-      "description": "增加助词和动词变化（10-11 字）",
-      "order": 4
-    },
-    {
-      "file": "jlpt-n5-04.json",
-      "title": "JLPT N5 · 复合句型",
-      "description": "包含从句、并列结构（12-14 字）",
-      "order": 5
-    },
-    {
-      "file": "jlpt-n5-05.json",
-      "title": "JLPT N5 · 进阶练习",
-      "description": "N5 范围内的较长句子（15-30 字）",
-      "order": 6
-    }
-  ]
+  "n5": {
+    "candidates": 599,
+    "packs": 5
+  },
+  "n4": {
+    "candidates": 859,
+    "packs": 4
+  },
+  "total_sentences": 783
 }

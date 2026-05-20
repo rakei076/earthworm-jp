@@ -79,20 +79,37 @@ pnpm dev:client        # Client → :3001
 
 打开 http://localhost:3001 选课包开始练。
 
-### 重新生成课程数据（可选）
+### 扩展课程内容
 
 ```bash
-# 1. 拉 Tatoeba 中日平行语料和 JLPT 词表（首次）
-pnpm -F @earthworm/xingrong-courses build:jlpt
-
-# 2. 用 Edge TTS 给每条新句子生成 MP3
 cd packages/xingrong-courses
+
+# ── A. Tatoeba 挖掘（自动筛 N5 / N4 句子） ──
+pnpm build:jlpt
+# 产出 data/courses/jlpt-n5-*.json + jlpt-n4-*.json
+
+# ── B. LLM 按 curriculum 生成（需要 Anthropic API key） ──
+export ANTHROPIC_API_KEY=sk-ant-...
+pnpm gen:llm n4-grammar           # 读 data/curriculum/n4-grammar.yaml
+# 产出 data/source/llm-<lesson>.yaml
+pnpm build:japanese               # 跑 kuromoji 把 source YAML → course JSON
+
+# ── C. 给所有新句子生成 MP3 + 写入 DB ──
 python3 -m venv .venv && .venv/bin/pip install edge-tts
 .venv/bin/python scripts/generate-audio.py
-
-# 3. 重新 seed
-pnpm db:upload
+# 在 src/seed.ts 的 PACK_METADATA 加上新 pack 的标题/描述/order
+cd ../.. && pnpm db:upload
 ```
+
+三条扩展路径：
+
+| 路径           | 适合                               | 输入                              | 输出                         |
+| -------------- | ---------------------------------- | --------------------------------- | ---------------------------- |
+| **build:jlpt** | 想要规模、对内容主题不挑           | Tatoeba 14k 句对 + JLPT 词表      | 数百句按长度分包             |
+| **gen:llm**    | 想要按语法点 / 主题 / 风格定向生成 | `data/curriculum/*.yaml` 课程规格 | 每个 lesson 一个 source YAML |
+| **手写**       | 教材精选、想百分百控制             | 直接编辑 `data/source/*.yaml`     | 同上                         |
+
+三种产物最后都会被 `build:japanese` / `generate-audio.py` / `db:upload` 统一处理。
 
 ---
 

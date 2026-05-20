@@ -87,7 +87,11 @@ async def process_file(json_path: Path, sem: asyncio.Semaphore) -> tuple[int, in
 
 async def main() -> None:
     AUDIO_OUT_DIR.mkdir(parents=True, exist_ok=True)
-    files = sorted(p for p in COURSES_DIR.glob("*.json") if not p.name.startswith("_"))
+    # Skip macOS AppleDouble (`._foo.json`) and the metadata index (`_metadata.json`).
+    files = sorted(
+        p for p in COURSES_DIR.glob("*.json")
+        if not p.name.startswith("_") and not p.name.startswith(".")
+    )
     print(f"Found {len(files)} course files. Writing MP3s to {AUDIO_OUT_DIR}")
     print(f"Voice: {VOICE}")
     print()

@@ -10,9 +10,11 @@
     "pdf:parse": "tsx src/parsePDF/index.ts",
     "build:japanese": "tsx scripts/build-japanese.ts",
     "build:jlpt": "tsx scripts/build-jlpt-packs.ts",
+    "gen:llm": "tsx scripts/generate-with-llm.ts",
     "test": "vitest"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.97.1",
     "@earthworm/db": "workspace:^",
     "@earthworm/schema": "workspace:^",
     "drizzle-orm": "^0.32.0",

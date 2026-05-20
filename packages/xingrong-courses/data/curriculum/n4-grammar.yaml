@@ -1,0 +1,87 @@
+# Curriculum spec for LLM-driven JLPT N4 generation.
+#
+# Each lesson becomes one source YAML in data/source/llm-<id>.yaml, which
+# build-japanese.ts can then turn into a course JSON.
+#
+# Tune `target_count` per lesson; lower counts mean cheaper API calls and
+# easier human review. Defaults to 40.
+#
+# `examples` are seeded into the prompt so the model matches our tone &
+# length. Keep them short and pristine — the model will imitate them.
+#
+# `voice` sets the politeness register. Common values:
+#   - "polite"   → -ます / -です forms, ~てください
+#   - "plain"    → casual short-form, ~て / ~た / 〜ない
+#   - "mixed"    → both; the model picks per sentence
+
+level: n4
+defaults:
+  voice: polite
+  min_chars: 7
+  max_chars: 16
+  target_count: 40
+
+lessons:
+  - id: te-form-request
+    title: "て-form · 请求"
+    grammar: "〜てください (polite request)"
+    description: "用「〜てください」礼貌请求他人做某事"
+    examples:
+      - { cn: "请坐", jp: "座ってください" }
+      - { cn: "请稍等", jp: "少し待ってください" }
+      - { cn: "请帮我", jp: "手伝ってください" }
+    target_count: 40
+
+  - id: te-form-progressive
+    title: "て-form · 进行 / 状态"
+    grammar: "〜ています (currently doing / state)"
+    description: "用「〜ています」表示动作正在进行或状态持续"
+    examples:
+      - { cn: "我在学日语", jp: "日本語を勉強しています" }
+      - { cn: "他在睡觉", jp: "彼は寝ています" }
+    target_count: 40
+
+  - id: must-do
+    title: "义务句型 · 必须做"
+    grammar: "〜なければなりません (must do)"
+    description: "用「〜なければなりません」表示必须做某事"
+    examples:
+      - { cn: "我必须去学校", jp: "学校に行かなければなりません" }
+      - { cn: "必须吃药", jp: "薬を飲まなければなりません" }
+    target_count: 30
+
+  - id: want-to
+    title: "愿望 · 想做"
+    grammar: "〜たい (want to do)"
+    description: "用「〜たい」表达自己的愿望"
+    examples:
+      - { cn: "我想喝水", jp: "水が飲みたい" }
+      - { cn: "我想去日本", jp: "日本に行きたい" }
+    target_count: 30
+
+  - id: can-do
+    title: "能力 · 会 / 能"
+    grammar: "〜ことができる (can do)"
+    description: "用「〜ことができる」表示能力或可能性"
+    examples:
+      - { cn: "我会说日语", jp: "日本語を話すことができます" }
+      - { cn: "他会开车", jp: "彼は車を運転することができます" }
+    target_count: 30
+
+  - id: comparison
+    title: "比较句"
+    grammar: "〜より / 〜のほうが"
+    description: "用「Aより Bのほうが〜」比较两个事物"
+    examples:
+      - { cn: "今天比昨天冷", jp: "今日は昨日より寒いです" }
+      - { cn: "猫比狗安静", jp: "犬より猫のほうが静かです" }
+    target_count: 30
+
+  - id: because
+    title: "原因 · 因为"
+    grammar: "〜から / 〜ので"
+    description: "用「〜から」「〜ので」表示原因或理由"
+    examples:
+      - { cn: "因为冷，所以穿外套", jp: "寒いから、コートを着ます" }
+      - { cn: "因为下雨，所以不去", jp: "雨が降っているので、行きません" }
+    target_count: 30

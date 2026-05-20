@@ -1,3 +1,20 @@
+/**
+ * Tokenize + furigana-ize raw {chinese, japanese} YAML sources.
+ *
+ * Looks at every *.yaml in `data/source/` and emits a matching JSON
+ * file into `data/courses/`. Filenames map straight across:
+ *   data/source/jp-minna-1.yaml   →   data/courses/jp-minna-1.json
+ *   data/source/llm-te-form.yaml  →   data/courses/llm-te-form.json
+ *
+ * Usage:
+ *   pnpm build:japanese            # process every yaml in data/source/
+ *   pnpm build:japanese minna-1    # process only data/source/minna-1.yaml
+ *
+ * Source YAML schema:
+ *   - chinese: "我是学生"
+ *     japanese: "私は学生です"
+ */
+
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -10,8 +27,8 @@ import { processSentence } from "./jp-tokenize";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-const SOURCE_FILE = path.resolve(__dirname, "../data/source/jp-minna-1.yaml");
-const OUTPUT_FILE = path.resolve(__dirname, "../data/courses/jp-minna-1.json");
+const SOURCE_DIR = path.resolve(__dirname, "../data/source");
+const OUTPUT_DIR = path.resolve(__dirname, "../data/courses");
 const DICT_PATH = path.resolve(__dirname, "../node_modules/kuromoji/dict");
 
 type SourceEntry = { chinese: string; japanese: string };
@@ -46,6 +63,23 @@ function buildStatement(
   };
 }
 
+function processSourceFile(
+  sourcePath: string,
+  tokenizer: kuromoji.Tokenizer<kuromoji.IpadicFeatures>,
+): { name: string; count: number; outFile: string } {
+  const name = path.basename(sourcePath, ".yaml");
+  const text = fs.readFileSync(sourcePath, "utf-8");
+  const entries = (yaml.load(text) as SourceEntry[]) || [];
+
+  const statements = entries
+    .filter((e) => e && typeof e.chinese === "string" && typeof e.japanese === "string")
+    .map((e) => buildStatement(e, tokenizer));
+
+  const outFile = path.join(OUTPUT_DIR, `${name}.json`);
+  fs.writeFileSync(outFile, JSON.stringify(statements, null, 2), "utf-8");
+  return { name, count: statements.length, outFile };
+}
+
 async function main() {
   if (!fs.existsSync(DICT_PATH)) {
     console.error(`kuromoji dictionary not found at ${DICT_PATH}`);
@@ -53,23 +87,27 @@ async function main() {
     process.exit(1);
   }
 
-  const raw = fs.readFileSync(SOURCE_FILE, "utf-8");
-  const entries = yaml.load(raw) as SourceEntry[];
+  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
-  console.log(`Building ${entries.length} statements from ${path.basename(SOURCE_FILE)}...`);
+  const filterArg = process.argv[2];
+  const sources = fs
+    .readdirSync(SOURCE_DIR)
+    .filter((f) => f.endsWith(".yaml") && !f.startsWith(".") && !f.startsWith("_"))
+    .filter((f) => !filterArg || path.basename(f, ".yaml") === filterArg)
+    .sort();
+
+  if (sources.length === 0) {
+    console.log(filterArg ? `No matching source: ${filterArg}` : "No YAML files in data/source/");
+    return;
+  }
 
   const tokenizer = await buildTokenizer();
-  const statements = entries.map((e) => buildStatement(e, tokenizer));
-
-  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(statements, null, 2), "utf-8");
-  console.log(`Wrote ${statements.length} statements to ${path.basename(OUTPUT_FILE)}`);
-
-  // Print preview of first 3 for sanity check
-  console.log("\nPreview:");
-  for (const s of statements.slice(0, 3)) {
-    console.log(`  ${s.chinese} → ${s.japanese}`);
-    console.log(`    tokens: ${s.tokens.map((t) => `${t.surface}(${t.reading})`).join(" / ")}`);
+  for (const f of sources) {
+    const { name, count, outFile } = processSourceFile(path.join(SOURCE_DIR, f), tokenizer);
+    console.log(`  ✓ ${name}: ${count} statements → ${path.basename(outFile)}`);
   }
+
+  console.log(`\nDone. ${sources.length} source file(s) processed.`);
 }
 
 main().catch((err) => {

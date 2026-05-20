@@ -44,11 +44,13 @@ const palette = [
 ];
 
 function glyphFor(title: string): string {
-  if (title.includes("入门")) return "あ";
-  if (title.includes("日常")) return "話";
-  if (title.includes("简单")) return "は";
-  if (title.includes("复合")) return "文";
-  if (title.includes("进阶")) return "級";
+  if (title.includes("入门短句")) return "あ";
+  if (title.includes("日常基础")) return "話";
+  if (title.includes("简单造句")) return "は";
+  if (title.includes("复合句型")) return "文";
+  if (title.includes("进阶练习")) return "級";
+  if (title.includes("进阶短句")) return "中";
+  if (title.includes("日常造句")) return "中";
   if (title.includes("大家")) return "本";
   const m = title.match(/[一-鿿぀-ヿ]/);
   return m ? m[0] : "句";
